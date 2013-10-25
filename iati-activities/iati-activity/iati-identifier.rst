@@ -3,8 +3,9 @@
 Notes
 ~~~~~
 
-| This is a globally unique identifier for this activity.
-|  This is a concatenation of the unique organisation identifier (for
+This is a globally unique identifier for this activity.
+
+This is a concatenation of the unique organisation identifier (for
 the reporting organisation) and the organisation's activity identifier.
 
 Example Usage
