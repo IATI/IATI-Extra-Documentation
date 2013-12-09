@@ -1,5 +1,3 @@
-
-
 Example Usage
 ~~~~~~~~~~~~~
 
@@ -7,7 +5,9 @@ This is a new element for version 1.03.
 
 This is a child element of contact-info
 
-**\*NEED EXAMPLE**\ \* **\*NEEDS CLARITY ON MULTI\_LANGUAGE USE**\ \*
+.. code-block:: xml
+
+    <job-title>Database Manager</job-title>
 
 Changelog
 ~~~~~~~~~
