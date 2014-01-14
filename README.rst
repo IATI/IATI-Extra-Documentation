@@ -6,3 +6,9 @@ Markup
 ^^^^^^
 
 The markup in this repository is restructured text, for more information see http://sphinx-doc.org/rest.html
+
+Built Documentation
+^^^^^^^^^^^^^^^^^^^
+
+The website documentation is built automatically for each commit in this repository, at http://dev.iatistandard.org/ssot/
+
