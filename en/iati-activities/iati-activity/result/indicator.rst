@@ -1,19 +1,17 @@
 
-
 Example Usage
 ~~~~~~~~~~~~~
 
 The Indicator element is contained within a result set, and also
 contains other elements.
 
-The type of measurement for the indicator value e.g. unit, percentage,
-NDP can be described:
+The type of measurement for the indicator value described.:
 
 .. code-block:: xml
 
     <result>
     ....
-        <indicator measure="NDP">
+        <indicator measure="1">
         ....
         </indicator>
     .....
@@ -28,7 +26,7 @@ If omitted 'true' is assumed.
 
     <result>
     ....
-        <indicator measure="NDP" ascending="true">
+        <indicator measure="1" ascending="true">
         ....
         </indicator>
     .....
