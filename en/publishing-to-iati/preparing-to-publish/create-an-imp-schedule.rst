@@ -1,6 +1,7 @@
 Purpose
 =======
 
+The Implementation Schedule is both an internal mapping tool to aid organisation in planning their implementation and ultimately provides a source of information to data users to better understand the data once published. The Implementation Schedule is a living document (hence the version control) which can be updated and added to at any time, to reflect changes or additions to the way an organisation is reporting. 
 
 
 
@@ -25,5 +26,32 @@ It is also important to differentiate what data will appear at the different lev
 
 
 
-Exclusions and Thresholds
-=========================
+Exclusions 
+==========
+
+IATI enables publishers to exclude certain information from their data. The requirement from IATI is that the policy of how those exclusions are made is made public, as part of the Implementation Schedule in order to provide context to those who are using the data. There is a specific section of the Implementation Schedule where an organisation can lay out their exclusion policy, and robust reasoning behind it.
+
+Reasons for needing to exclude data depend on each organisation but can vary from security concerns to the need to protect commercial information. However, it is often useful, when deciding on an organisation’s exclusion policy to focus on what elements of data can be published, with exclusions as a part of this.
+
+An interesting example of this way of thinking can be found in the guidance produced by BOND and a group of UK NGOs, outlining guidance for developing an Open Information Policy (PDF document). The Implementation Schedule includes for categories for exclusions: 
+a) Data is not applicable to the organisation 
+b) Data falls under a non-disclosure policy 
+c) Data is not currently captured and could only be captured at a prohibitive cost 
+d) Other (to be defined by the organisation) 
+
+Considerations when defining an exclusion/open information policy
+
+Does your organisation/government have any existing Freedom of Information laws or policies that may impact the IATI exclusion policy?
+Are there particular data fields where you would consistently have to remove data?
+Are there entire programmes/activities that would need to be excluded from your IATI data?
+
+
+
+
+Thresholds
+==========
+If applicable, organisations can establish thresholds in terms of the value of activities or transactions that they are publishing. For example, an organisation who works on large projects costing thousands of dollars, may wish only to publish projects over a particular value (for example $500).
+
+Similarly, if an organisation generally only makes or receives transactions over a particular value, they may wish to aggregate all transactions, in-coming or out-going that are under a particular value, per organisation, per publication period.
+
+As with exclusions, information on thresholds should be clearly published as part of the organisation’s implementation schedule in order to help users of the data understand the context it is being published in.
