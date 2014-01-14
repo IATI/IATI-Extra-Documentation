@@ -1,5 +1,4 @@
 
-
 Example Usage
 ~~~~~~~~~~~~~
 
@@ -8,8 +7,16 @@ describe whether it is an output, outcome, or impact indicator:
 
 .. code-block:: xml
 
-        <result type="output">
-        ....
+        <result type="1" aggregation-status="false">
+          <indicator ascending="true" measure="1">
+            <title>Number of community volunteers who successfully completed a volunteer training program</title>
+            <period> 
+              <period-start iso-date="2013-01-01"/> 
+              <period-end iso-date="2013-03-31"/> 
+              <target value="320"/> 
+              <actual value="359"/> 
+            </period> 
+          </indicator>
         </result>
 
 Additionally, a flag to indicate whether the data in this result set is
