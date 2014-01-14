@@ -1,34 +1,31 @@
-
-
 Example Usage
 ~~~~~~~~~~~~~
 
 The Indicator element is contained within a result set, and also
 contains other elements.
 
-The type of measurement for the indicator value e.g. unit, percentage,
-NDP can be described:
+The type of measurement for the indicator value described.:
 
 .. code-block:: xml
 
     <result>
     ....
-        <indicator measure="NDP">
+        <indicator measure="1">
         ....
         </indicator>
     .....
     </result>    
 
 Additionally, a flag to indicate whether the data in this indicator
-improves from small to large (ascending = “true”), or whether it is
-reversed and improves from large to small (ascending=“false”). Boolean.
-If omitted 'true' is assumed.
+improves from small to large (ascending = “1”), or whether it is
+reversed and improves from large to small (ascending=“0”). Boolean.
+If omitted, then '1' is assumed.
 
 .. code-block:: xml
 
     <result>
     ....
-        <indicator measure="NDP" ascending="true">
+        <indicator measure="1" ascending="0">
         ....
         </indicator>
     .....
