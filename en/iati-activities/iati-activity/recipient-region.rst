@@ -30,7 +30,7 @@ When multiple regions are declared, then the percentages should equal
     <recipient-region percentage="40" code="189">North of Sahara, regional</recipient-region>
     
 
-Additionally, a region vocabulary can also be declared in this element
+Additionally, a :doc:`region vocabulary </codelists/RegionVocabulary>` can also be declared in this element
 
 .. code-block:: xml
 
