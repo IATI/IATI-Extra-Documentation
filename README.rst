@@ -2,13 +2,39 @@ This is the repository contains additional documentation about the IATI Standard
 
 This repository is currently under development, and does not necessarily represent any current or future version of the IATI standard.
 
+Built Documentation
+^^^^^^^^^^^^^^^^^^^
+
+The website documentation is built automatically for each commit in this repository, at http://dev.iatistandard.org/ssot/
+
 Markup
 ^^^^^^
 
 The markup in this repository is restructured text, for more information see http://sphinx-doc.org/rest.html
 
-Built Documentation
-^^^^^^^^^^^^^^^^^^^
+Headings
+========
 
-The website documentation is built automatically for each commit in this repository, at http://dev.iatistandard.org/ssot/
+Headings are created by 'underlining' with one of the special characters e.g. ``^`` ``=`` and ``-``, e.g.::
+
+    Headings
+    ========
+
+The same character should be used for all headings of a given level. The level of a heading will be inferred automatically from the ordering in the document (ie. the first heading type found is level 1 etc.)
+
+Internal links
+==============
+
+Internal links can be created using the ``:doc:`` directive. e.g.::
+
+    Additionally, a :doc:`region vocabulary </codelists/RegionVocabulary>` can also be declared in this element
+
+Note that the file extension is absent.
+
+Spell Checking
+^^^^^^^^^^^^^^
+
+The default github editor does not have spell checking, as its syntax highlighting interferes. However, if you turn on Zen mode (full screen), you will get your browser's spell checking.
+
+.. image:: https://f.cloud.github.com/assets/296432/93884/91f64d16-6638-11e2-97d2-4c8f4cdbe4d2.png
 
