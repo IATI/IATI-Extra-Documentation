@@ -12,6 +12,8 @@ Markup
 
 The markup in this repository is restructured text, for more information see http://sphinx-doc.org/rest.html
 
+If you are creating a new file, please use the ``.rst`` extension, to let GitHub know the file is restructured text. You may need to create the file (and commit it), and edit again before GitHub will offer you the preview button (at the top of the editor), so you can see what your formatting will look like as you edit a file.
+
 Headings
 ========
 
