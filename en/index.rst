@@ -4,7 +4,7 @@ IATI
 .. toctree::
    :titlesonly:
 
-   getting-started
+   overview
    iati-activities 
    iati-organisations
    codelists
