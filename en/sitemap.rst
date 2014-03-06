@@ -5,7 +5,7 @@ Sitemap
    :titlesonly:
 
    overview
-   iati-activities 
-   iati-organisations
+   activities-standard
+   organisation-standard
    codelists
 
