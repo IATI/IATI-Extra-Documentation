@@ -7,4 +7,6 @@ This is an introductory guide to organisations who want to understand the differ
    :titlesonly:
    :glob:
 
-   getting-started/*
+   overview/*
+   publishing-to-iati/*/*
+
