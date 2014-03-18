@@ -22,4 +22,4 @@ Changelog
 ^^^^
 
 | New in 1.04
-| The location-class element was introduced in 1.04 and replaced the now deprecated location-type element. I
+| The location-class element was introduced in 1.04 and replaced the now deprecated location-type element.
