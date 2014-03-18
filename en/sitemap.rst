@@ -8,4 +8,5 @@ Sitemap
    activities-standard
    organisation-standard
    codelists
+   updates
 
