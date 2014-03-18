@@ -3,15 +3,20 @@
 Example Usage
 ~~~~~~~~~~~~~
 
-This example is for Oxfam, identified by GB-CHC-202918. A type
-International NGO (code 21) is declared.
+.. code-block:: xml
+
+        <reporting-org ref="unique-identifier-here" type="21">Organisation Name</reporting-org>
+
+This example declares that this reporting-org is a secondary publisher
 
 .. code-block:: xml
 
-        <reporting-org ref="GB-CHC-202918" type="21">Oxfam GB</reporting-org>
+        <reporting-org ref="another-unique-identifier-here" type="40" secondary-publisher="1" xml:lang="en">World Bank Group</reporting-org>
 
-This example declares The World Bank as the reporting-org
+Changelog
+~~~~~~~~~
 
-.. code-block:: xml
+1.04
+^^^^
 
-        <reporting-org ref="44000" type="40" xml:lang="en">World Bank Group</reporting-org>
+| The secondary-publisher was introduced in 1.04.
