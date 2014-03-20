@@ -1,7 +1,7 @@
 Example Usage
 ~~~~~~~~~~~~~
 
-When conditions are attached, they can be described using the ``ConditionType`` code list, along with a free text description: 
+When ``conditions`` are attached, they can be described using the ``ConditionType`` code list, along with a free text description: 
 
 .. code-block:: xml
 
@@ -9,7 +9,7 @@ When conditions are attached, they can be described using the ``ConditionType`` 
         <condition type="1">Condition text here.</condition>
     </conditions>
     
-From version 1.04, a language attribute can also be included
+From version 1.04, a ``language`` attribute can also be included
 
 .. code-block:: xml
 
