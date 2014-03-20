@@ -1,4 +1,3 @@
-
 Example Usage
 ~~~~~~~~~~~~~
 
@@ -10,7 +9,7 @@ Example that uses version 1.03, and was generated on 5th September 2013:
            ....
         </iati-activities>
 
-With the optional linked-data-default attribute, introduced in decimal upgrade 1.02
+With the optional ``linked-data-default`` attribute, introduced in decimal upgrade 1.02
 
 .. code-block:: xml
 
