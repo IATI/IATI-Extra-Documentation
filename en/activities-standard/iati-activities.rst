@@ -1,7 +1,7 @@
 Example Usage
 ~~~~~~~~~~~~~
 
-Example that uses version 1.03, and was generated on 5th September 2013:
+Example that uses ``version`` 1.03, and was generated on 5th September 2013:
 
 .. code-block:: xml
 
