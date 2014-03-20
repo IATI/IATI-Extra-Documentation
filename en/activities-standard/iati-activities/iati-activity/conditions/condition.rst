@@ -1,7 +1,7 @@
 Example Usage
 ~~~~~~~~~~~~~
 
-When ``conditions`` are attached, they can be described using the ``ConditionType`` code list, along with a free text description: 
+When conditions are attached, they can be described using the ``ConditionType`` code list, along with a free text description: 
 
 .. code-block:: xml
 
