@@ -9,7 +9,7 @@ When ``conditions`` are attached, they can be described using the ``ConditionTyp
         <condition type="1">Condition text here.</condition>
     </conditions>
     
-From version 1.04, a ``language`` attribute can also be included
+From version 1.04, a ``xml:lang`` attribute can also be included
 
 .. code-block:: xml
 
