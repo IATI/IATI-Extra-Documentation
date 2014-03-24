@@ -3,7 +3,7 @@
 Example Usage
 ~~~~~~~~~~~~~
 
-Below is a General description (type=“1”) of an activity in English.
+Below is a General description (type = ``1``) of an activity in English.
 
 It may be appropriate to repeat this description in other languages.
 

@@ -9,7 +9,7 @@ Example for the **Herat region of Afghanistan** - which has an ID of
 To find Herat on geonames.org you would create a link like this:
 http://www.geonames.org/1140026/
 
-The IATI gazeteer-ref for geonames is “GEO”, so the element would
+The IATI gazeteer-ref for geonames is ``GEO``, so the element would
 look like:
 
 .. code-block:: xml

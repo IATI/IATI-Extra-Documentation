@@ -17,9 +17,9 @@ The type of measurement for the indicator value described.:
     </result>    
 
 Additionally, a flag to indicate whether the data in this indicator
-improves from small to large (ascending = “1”), or whether it is
-reversed and improves from large to small (ascending=“0”). Boolean.
-If omitted, then '1' is assumed.
+improves from small to large (ascending = ``1``), or whether it is
+reversed and improves from large to small (ascending = ``0``). Boolean.
+If omitted, then ``1`` is assumed.
 
 .. code-block:: xml
 

@@ -38,10 +38,10 @@ Updated elements:
    attribute
 
 -  globally changed the @percentage attribute to allow decimals (e.g.
-   “55.5″ as well as “50″)
+   ``55.5`` as well as ``50``)
 
 -  globally changed the @currency attribute to allow decimals (e.g.
-   “99.99″ as well as “99″)
+   ``99.99`` as well as ``99``)
 
 -  added the
    optional \ `country-budget-item <http://iatistandard.org/activities-standard/country_budget_items/>`__ element
@@ -68,7 +68,7 @@ Organisation schema
    only change in line with the standard.
 
 -  globally changed the @currency attribute to allow decimals (e.g.
-   “99.99″ as well as “99″)
+   ``99.99`` as well as ``99``)
 
 Common schema
 ~~~~~~~~~~~~~
