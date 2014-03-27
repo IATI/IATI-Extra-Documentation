@@ -8,7 +8,7 @@ Example Usage
     <activity-description>A description that qualifies the activity taking place at the location</activity-description>
 
 The above assumes that English has previously been declared as the default language for this activity in the <iati-activity> element. 
-this element may be re-used to provide information in other languages.
+This element may be re-used to provide information in other languages.
 
 .. code-block:: xml
 
