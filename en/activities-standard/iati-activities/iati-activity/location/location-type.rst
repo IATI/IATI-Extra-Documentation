@@ -21,3 +21,12 @@ then this should be declared:
 .. code-block:: xml
 
     <location-type code="PPL" xml:lang-"fr">region peuplee</location-type>
+
+Changelog
+~~~~~~~~~
+
+1.04
+^^^^
+
+| Deprecated in 1.04
+| The location-type element was deprecated in 1.04. The location-class element should be used instead.
