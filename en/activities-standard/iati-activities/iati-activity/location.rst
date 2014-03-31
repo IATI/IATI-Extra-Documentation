@@ -11,8 +11,25 @@ The location element is used a contain various other elements
            ....
         </location>
 
-If more than one location is reported, percentage of activity commitment
-allocated to this location (if available).
+Example:
+
+.. code-block:: xml
+
+    <location ref="">
+      <name>Kandahar</name>
+      <location-reach code=""></location-reach>
+      <location-id code=""></location-id>
+      <description>West end of Kandahar-Kabul highway</description>
+      <activity-description xml:lang="fr">xxxxxx</activity-description>
+      <administrative code="xxxxxx" vocabulary="OSM" level="1">Kandahar Province, Afghanistan</administrative>
+      <point srsName="">
+        <coordinates>31.616944 65.716944</coordinates>
+      </point>
+    </location>
+    
+
+|The @percentage attribute has been deprecated as of 1.04. 
+|However, in 1.03, it was used if more than one location was reported to specify the percentage of activity commitment allocated to this location (if available).
 
 .. code-block:: xml
 
@@ -23,16 +40,6 @@ allocated to this location (if available).
            ....
         </location>
 
-Example:
-
-.. code-block:: xml
-
-    <location>
-          <name>Herat</name>
-          <coordinates latitude="34.341944400000003000" longitude="62.203055599999971000" precision="2" />
-          <location-type code="PPL" />
-          <administrative country="AF">Afghanistan, Herat, Injil</administrative>
-        </location>
 
 Changelog
 ~~~~~~~~~
