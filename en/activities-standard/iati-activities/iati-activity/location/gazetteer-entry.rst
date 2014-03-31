@@ -19,3 +19,13 @@ look like:
       <gazetteer-entry gazeteer-ref="GEO">1140026</gazetteer-entry>
       ....
     </location>
+
+
+Changelog
+~~~~~~~~~
+
+1.04
+^^^^
+
+| Deprecated in 1.04
+| The location/location-id element which identifies both gazetteer and administrative area vocabularies and codes should be used instead.
