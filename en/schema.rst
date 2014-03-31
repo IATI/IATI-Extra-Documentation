@@ -32,8 +32,8 @@ following components:
 -  `CHANGES.txt </downloads/CHANGES.txt>`__ -  A
    comprehensive change log.
 
-Overview tables of the :doc:`Activity Schema <activity-schema-table>` and
-of the :doc:`Organisation Schema <organisation-schema-table>` are also
+Overview tables of the :doc:`Activity Schema <activities-standard/overview-table>` and
+of the :doc:`Organisation Schema <organisation-standard/overview-table>` are also
 available.
 
 Previous schemas

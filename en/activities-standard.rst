@@ -23,18 +23,13 @@ An IATI activity can answer some or all of the following questions:
 
 Organisations publish IATI activities within an IATI XML Activity File. A file can detail one or many activities, and a organisation can publish one or many files. It is expected that these files are updated as activities progress, and are made available via the IATI Registry.
 
-Overview Tables
----------------
-
-* :doc:`Overview table of the Activity Schema <activity-schema-table>` (NB: does not contain side navigation).
-
-
-Fields
-------
+Contents
+--------
 
 .. toctree::
    :titlesonly:
    :glob:
 
+   activities-standard/overview-table
    activities-standard/*
 

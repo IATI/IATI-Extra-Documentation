@@ -18,18 +18,13 @@ The organisation standard helps organisations answer the following questions:
 * What are the organisation’s planned future budgets for aid given to recipient organisations?
 * Where are the organisation’s official public documents?
 
-Overview Tables
----------------
-
-* :doc:`Overview table of the Organisation Schema <organisation-schema-table>` (NB: does not contain side navigation).
-
-
-Fields
-------
+Contents
+--------
 
 .. toctree::
    :titlesonly:
    :glob:
 
+   organisation-standard/overview-table
    organisation-standard/*
 
