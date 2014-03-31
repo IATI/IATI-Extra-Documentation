@@ -14,3 +14,13 @@ location” (code 2):
           <location-type code="PPL" />
           <administrative country="AF">Afghanistan, Herat, Injil</administrative>
         </location>
+
+
+Changelog
+~~~~~~~~~
+
+1.04
+^^^^
+
+| Deprecated in 1.04
+| The location/coordinates element was deprecated in 1.04. Coordinates can now be specified in the location/point element instead.
