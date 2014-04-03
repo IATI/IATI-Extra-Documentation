@@ -1,9 +1,16 @@
-
 Example Usage
 ~~~~~~~~~~~~~
 
 .. code-block:: xml
 
+    <contact-info type="1">
+      <mailing-address>Transparency House, The Street, Town, City, Postcode</mailing-address>
+    </contact-info>
+    
+Within a full example:
+
+.. code-block:: xml
+    
     <contact-info type="1">
       <organisation>Agency A</organisation>
       <person-name>A. Example</person-name>
