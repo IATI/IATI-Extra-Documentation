@@ -1,4 +1,3 @@
-
 Example Usage
 ~~~~~~~~~~~~~
 
@@ -25,7 +24,7 @@ It may be appropriate to repeat this description in other languages.  In this ex
     <description type="1">General activity description text.  	Long description of the activity with no particular structure.</description>
     <description type="2">Objectives for the activity, for example from a logical framework.</description>
     <description type="3">Statement of groups targeted to benefit from the activity.</description>
-    <description type="1" xml:lang="fr" >Activité générale du texte de description. Description longue de l'activité sans structure particulière.</description>
+    <description type="1" xml:lang="fr" >Activité générale du texte de description. Longue description de l'activité sans structure particulière.</description>
     <description type="2" xml:lang="fr">Objectifs de l'activité, par exemple à partir d'un cadre logique.</description>
-    <description type="3" xml:lang="fr">Déclaration de groupes ciblés de bénéficier de l'activité.</description>
+    <description type="3" xml:lang="fr">Déclaration de groupes ciblés pour bénéficier de l'activité.</description>
 
