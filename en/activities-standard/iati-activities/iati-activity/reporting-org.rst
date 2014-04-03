@@ -1,4 +1,3 @@
-
 Example Usage
 ~~~~~~~~~~~~~
 
@@ -6,7 +5,7 @@ Example Usage
 
         <reporting-org ref="AA-AAA-123456789" type="21">Organisation Name</reporting-org>
 
-This example declares that this reporting-org is a secondary publisher
+This example declares that this ``reporting-org`` is a secondary publisher
 
 .. code-block:: xml
 
