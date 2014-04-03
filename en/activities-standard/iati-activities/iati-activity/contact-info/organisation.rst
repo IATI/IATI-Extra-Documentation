@@ -8,7 +8,6 @@ Example Usage
     </contact-info>
     
 Within a full example: 
-
 .. code-block:: xml
     
     <contact-info type="1">
