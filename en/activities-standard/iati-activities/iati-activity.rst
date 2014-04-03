@@ -25,7 +25,7 @@ This example includes the linked-data-uri attribute, introduced in the decimal u
 
 .. code-block:: xml
 
-     <iati-activity xml:lang="en" default-currency="USD" last-updated-datetime="2012-03-31T01:01:01" hierarchy="1" version="1.04" linked-data-uri="http://data.example.org/123456789">
+     <iati-activity default-currency="EUR" last-updated-datetime="2014-04-03T18:27:37" hierarchy="1" version="1.04" linked-data-uri="http://data.example.org/123456789">
            ....
      </iati-activity>
 
