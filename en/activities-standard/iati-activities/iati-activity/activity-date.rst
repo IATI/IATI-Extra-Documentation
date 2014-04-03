@@ -18,4 +18,4 @@ In some cases, not all dates are known, depending on the status of the activity.
     <activity-date iso-date="2015-12-31" type="end-actual">2015-12-31</activity-date>
     <activity-date iso-date="2015-12-31" type="end-planned">2015-12-31</activity-date>
         
-Note: a ``start-actual`` or ``end-actual`` with a date in the future, is not expected.
+Note: a ``start-actual`` or ``end-actual`` with a date in the "future", is not expected.
