@@ -1,8 +1,9 @@
 
-
 Example Usage
 ~~~~~~~~~~~~~
 
 .. code-block:: xml
 
-    <organisation>Department for International Development</organisation>
+    <contact-info type="1">
+      <organisation>Agency A</organisation>
+    </contact-info>
