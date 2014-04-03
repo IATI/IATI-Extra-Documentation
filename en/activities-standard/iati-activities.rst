@@ -1,11 +1,11 @@
 Example Usage
 ~~~~~~~~~~~~~
 
-Example that uses ``version`` 1.03, and was generated on 5th September 2013:
+Example generated on 3rd March 2014 and uses ``version`` 1.04:
 
 .. code-block:: xml
 
-        <iati-activities version="1.03" generated-datetime="2013-09-05T00:00:00">
+        <iati-activities generated-datetime="2014-04-03T18:27:37" version="1.04">
            ....
         </iati-activities>
 
