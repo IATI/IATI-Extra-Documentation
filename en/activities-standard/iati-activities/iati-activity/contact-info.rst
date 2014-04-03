@@ -1,4 +1,3 @@
-
 Example Usage
 ~~~~~~~~~~~~~
 
@@ -10,14 +9,14 @@ This element is a container for other sub elements:
            ....
         </contact-info>
 
-This example from DfID, contains all possible child elements: ``person-name``; ``job-title``; ``organisation``; ``mailing-address``; ``telephone``; ``email``; ``website``.
+Example containing all possible child elements: ``person-name``; ``job-title``; ``organisation``; ``mailing-address``; ``telephone``; ``email``; ``website``.
 
 .. code-block:: xml
 
     <contact-info type="1">
+      <organisation>Agency A</organisation>
       <person-name>A. Example</person-name>
       <job-title>Transparency Lead</job-title>
-      <organisation>Agency A</organisation>
       <mailing-address>Transparency House, The Street, Town, City, Postcode</mailing-address>
       <telephone>0044111222333444</telephone>
       <email>transparency@example.org</email>
