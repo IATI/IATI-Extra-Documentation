@@ -1,8 +1,7 @@
 Usage
 ~~~~~~~~~~~~~
 
-This example declares that the activity has a default language of English (``en``) and a default currency of Euros. It was last updated
-on the 3rd March 2014, and has a hierarchy value of 1.
+Activity last updated on 3rd March 2014, with a ``hierarchy`` value of 1. Default language of English (``en``) and a ``default-currency`` of Euros.
 
 .. code-block:: xml
 
@@ -13,7 +12,7 @@ on the 3rd March 2014, and has a hierarchy value of 1.
 Additional attributes
 ~~~~
 
-An IATI ``version`` can be declared. NB: This would already be within the ``iati-activities`` element, but can be used if the particular activity differs.
+An IATI ``version`` is included. 
 
 .. code-block:: xml
 
@@ -21,7 +20,7 @@ An IATI ``version`` can be declared. NB: This would already be within the ``iati
            ....
      </iati-activity>
 
-This example includes the linked-data-uri attribute, introduced in the decimal upgrade 1.02.  This can be used to override ``iati-activities/@linked-data-default``.
+Inclusion of ``linked-data-uri`` attribute, introduced in the decimal upgrade 1.02.
 
 .. code-block:: xml
 
