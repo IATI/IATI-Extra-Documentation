@@ -21,8 +21,6 @@ Within a full example:
       <website>http://www.example.org</website>
     </contact-info>
 
-    </contact-info>
-    
 
 Changelog
 ~~~~~~~~~
