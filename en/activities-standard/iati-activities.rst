@@ -13,7 +13,7 @@ With the optional ``linked-data-default`` attribute, introduced in decimal upgra
 
 .. code-block:: xml
 
-        <iati-activities version="1.02" generated-datetime="2013-09-05T00:00:00" linked-data-default="http://example.org/data/">
+        <iati-activities version="1.02" generated-datetime="2013-09-05T00:00:00" linked-data-default="http://data.example.org/">
            ....
         </iati-activities>
 
