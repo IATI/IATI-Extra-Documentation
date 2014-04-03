@@ -4,6 +4,14 @@ Example Usage
 .. code-block:: xml
 
     <contact-info type="1">
+      <email>transparency@example.org</email>
+    </contact-info>
+    
+Within a full example:
+
+.. code-block:: xml
+    
+    <contact-info type="1">
       <organisation>Agency A</organisation>
       <person-name>A. Example</person-name>
       <job-title>Transparency Lead</job-title>
