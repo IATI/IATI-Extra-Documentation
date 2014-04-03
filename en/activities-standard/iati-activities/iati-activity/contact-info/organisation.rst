@@ -7,7 +7,8 @@ Example Usage
       <organisation>Agency A</organisation>
     </contact-info>
     
-Within a full example: 
+Within a full example:
+
 .. code-block:: xml
     
     <contact-info type="1">
