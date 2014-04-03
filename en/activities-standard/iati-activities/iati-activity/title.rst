@@ -1,14 +1,13 @@
-
 Example Usage
 ~~~~~~~~~~~~~
 
-Example when default language has already been declared in the <iati-activity> element:
+Example when default language has already been declared in the ``iati-activity`` element:
 
 .. code-block:: xml
 
         <title>Activity title</title>
 
-If a default langage has NOT been declared in the <iati-activity> element, then a language must be specified
+If a default langage has NOT been declared in the ``iati-activity`` element, then a language must be specified
 
 .. code-block:: xml
 
