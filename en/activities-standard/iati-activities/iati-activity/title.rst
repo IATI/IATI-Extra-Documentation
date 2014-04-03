@@ -7,7 +7,7 @@ Example when default language has already been declared in the ``iati-activity``
 
         <title>Activity title</title>
 
-If a default langage has NOT been declared in the ``iati-activity`` element, then a language must be specified
+If a default langage has not been declared in the ``iati-activity`` element, then a language should be specified
 
 .. code-block:: xml
 
