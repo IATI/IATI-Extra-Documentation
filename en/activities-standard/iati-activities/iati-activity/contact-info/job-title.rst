@@ -1,9 +1,16 @@
 Example Usage
 ~~~~~~~~~~~~~
 
-
 .. code-block:: xml
 
+    <contact-info type="1">
+      <job-title>Transparency Lead</job-title>
+    </contact-info>
+    
+Within a full example:
+
+.. code-block:: xml
+    
     <contact-info type="1">
       <organisation>Agency A</organisation>
       <person-name>A. Example</person-name>
@@ -12,6 +19,8 @@ Example Usage
       <telephone>0044111222333444</telephone>
       <email>transparency@example.org</email>
       <website>http://www.example.org</website>
+    </contact-info>
+
     </contact-info>
     
 
