@@ -9,7 +9,7 @@ This element is a container for other sub elements:
            ....
         </contact-info>
 
-Example containing all possible child elements: ``organisation``;``person-name``;``job-title``; ``mailing-address``; ``telephone``; ``email``; ``website``.
+Example containing all possible child elements: ``organisation``;``person-name``;``job-title``;``mailing-address``; ``telephone``; ``email``; ``website``.
 
 .. code-block:: xml
 
