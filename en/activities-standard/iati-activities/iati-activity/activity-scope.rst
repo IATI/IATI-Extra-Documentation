@@ -1,11 +1,10 @@
 
-
 Example Usage
 ~~~~~~~~~~~~~
 
 .. code-block:: xml
 
-    <activity-scope code="1" xml:lang="en">Global</activity-scope>
+    <activity-scope code="3">Multi-national</activity-scope>
 
 Changelog
 ~~~~~~~~~
