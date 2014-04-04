@@ -1,8 +1,22 @@
-
-
 Example Usage
 ~~~~~~~~~~~~~
 
 .. code-block:: xml
 
-    <email>enquiry@dfid.gov.uk</email>
+    <contact-info type="1">
+      <email>transparency@example.org</email>
+    </contact-info>
+    
+Within a full example:
+
+.. code-block:: xml
+    
+    <contact-info type="1">
+      <organisation>Agency A</organisation>
+      <person-name>A. Example</person-name>
+      <job-title>Transparency Lead</job-title>
+      <mailing-address>Transparency House, The Street, Town, City, Postcode</mailing-address>
+      <telephone>0044111222333444</telephone>
+      <email>transparency@example.org</email>
+      <website>http://www.example.org</website>
+    </contact-info>

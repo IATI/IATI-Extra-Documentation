@@ -1,30 +1,24 @@
-
-
 Example Usage
 ~~~~~~~~~~~~~
 
-When default language has been declared in the <iati-activity> element
-then this will suffice:
+Example when default language has already been declared in the ``iati-activity`` element:
+
+.. code-block:: xml
+
+        <title>Activity title</title>
+
+If a default langage has not been declared in the ``iati-activity`` element, then a language should be specified
+
+.. code-block:: xml
+
+        <title xml:lang="en">Activity title</title>
+
+A title may be repeated in many languages. This example assumes a default language of English has been declared in ``iati-activies``.  A French and Spanish title are provided:
 
 .. code-block:: xml
 
         <title>Grant Performance Report</title>
+        <title xml:lang="fr">Titre de l'activité</title>
+        <title xml:lang="es">Título de la actividad</title>
 
-If a default langage has NOT been declared in the <iati-activity>
-element, then a language must be specified
-
-.. code-block:: xml
-
-        <title xml:lang="en">Grant Performance Report</title>
-
-A title may be repeated in many languages. This example assumes a
-default language of English has previously been declared:
-
-.. code-block:: xml
-
-        <title>Grant Performance Report</title>
-        <title xml:lang="es">Grant Informe sobre los resultados</title>
-        <title xml:lang="fr">Rapport sur le rendement de subvention</title>
-
-It is good practice to provide activity titles in the language(s) spoken
-in the country(ies) where the activity take place, or is aimed at.
+It is good practice to provide activity titles in the language(s) spoken in the country(ies) where the activity take place, or is aimed at.

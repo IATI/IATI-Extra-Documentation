@@ -1,33 +1,30 @@
-
-
-Example Usage
+Usage
 ~~~~~~~~~~~~~
 
-This example declares that the activity has a default language of
-English (en) and a default currency of US dollars. It was last updated
-on the 31st March 2012, and has a hierarchy value of 1.
+Activity last updated on 3rd March 2014, with a ``hierarchy`` value of 1. Default language of English (``en``) and a ``default-currency`` of Euros.
 
 .. code-block:: xml
 
-     <iati-activity xml:lang="en" default-currency="USD" last-updated-datetime="2012-03-31T01:01:01" hierarchy="1">
+     <iati-activity default-currency="EUR" last-updated-datetime="2014-04-03T18:27:37" hierarchy="1" xml:lang="en">
            ....
      </iati-activity>
 
-Additionally, a IATI version number can be declared. NB: This would
-already be within the <iati-activities> element, but could differ.
+Additional attributes
+~~~~
+
+An IATI ``version`` is included. 
 
 .. code-block:: xml
 
-     <iati-activity xml:lang="en" default-currency="USD" last-updated-datetime="2012-03-31T01:01:01" hierarchy="1" version="1.01">
+     <iati-activity default-currency="EUR" last-updated-datetime="2014-04-03T18:27:37" hierarchy="1" version="1.04">
            ....
      </iati-activity>
 
-Finally, this example, includes the linked-data-uri attribute,
-introduced in the decimal upgrade 1.02
+Inclusion of ``linked-data-uri`` attribute, introduced in the decimal upgrade 1.02.
 
 .. code-block:: xml
 
-     <iati-activity xml:lang="en" default-currency="USD" last-updated-datetime="2012-03-31T01:01:01" hierarchy="1" version="1.01" linked-data-uri="">
+     <iati-activity default-currency="EUR" last-updated-datetime="2014-04-03T18:27:37" hierarchy="1" version="1.04" linked-data-uri="http://data.example.org/123456789">
            ....
      </iati-activity>
 

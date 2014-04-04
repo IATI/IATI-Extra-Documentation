@@ -1,17 +1,15 @@
-
-
 Example Usage
 ~~~~~~~~~~~~~
 
 .. code-block:: xml
 
-        <reporting-org ref="unique-identifier-here" type="21">Organisation Name</reporting-org>
+        <reporting-org ref="AA-AAA-123456789" type="21">Organisation Name</reporting-org>
 
-This example declares that this reporting-org is a secondary publisher
+This example declares that this ``reporting-org`` is a secondary publisher
 
 .. code-block:: xml
 
-        <reporting-org ref="another-unique-identifier-here" type="40" secondary-publisher="1" xml:lang="en">World Bank Group</reporting-org>
+        <reporting-org ref="BB-BBB-123456789" type="40" secondary-publisher="1" xml:lang="en">Organisation Name</reporting-org>
 
 Changelog
 ~~~~~~~~~
