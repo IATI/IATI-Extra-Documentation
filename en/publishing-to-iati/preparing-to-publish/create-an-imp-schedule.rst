@@ -1,4 +1,4 @@
-Create an implementation schedule
+﻿Create an implementation schedule
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Purpose
@@ -13,7 +13,7 @@ The Implementation Schedule is both an internal mapping tool to aid organisation
 Document Download
 =================
 
-
+The document can be downloaded from here: 
 
 
 
