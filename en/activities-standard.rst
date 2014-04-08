@@ -30,6 +30,7 @@ Contents
    :titlesonly:
    :glob:
 
+   activities-standard/overview
    activities-standard/overview-table
-   activities-standard/*
+   activities-standard/iati-activities
 
