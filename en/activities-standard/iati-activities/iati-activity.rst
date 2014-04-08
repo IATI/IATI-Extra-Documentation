@@ -1,5 +1,5 @@
 Usage
-~~~~~~~~~~~~~
+~~~~~
 
 Activity last updated on 3rd March 2014, with a ``hierarchy`` value of 1. Default language of English (``en``) and a ``default-currency`` of Euros.
 
@@ -10,7 +10,7 @@ Activity last updated on 3rd March 2014, with a ``hierarchy`` value of 1. Defaul
      </iati-activity>
 
 Additional attributes
-~~~~
+~~~~~~~~~~~~~~~~~~~~~
 
 An IATI ``version`` is included. 
 
