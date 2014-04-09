@@ -59,12 +59,12 @@ Full example XML.
 			<period-end iso-date="2016-12-31">2016</period-end>
 			<value currency="USD" value-date="2016-01-01">35000000<value>
 		</recipient-country-budget>
-		<document-link format="vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
+		<document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
 			<category code="B01"/>
 			<language code="en"/>
 			<title>Annual Report 2013</title>
 		</document-link>
-		<document-link format="vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_fr.odt">
+		<document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_fr.odt">
 			<category code="B01"/>
 			<language code="fr"/>
 			<title>Rapport annuel 2013</title>

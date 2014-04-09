@@ -16,7 +16,7 @@ Additionally, a text description of the code can be provided:
 
 Full example:
 
-    <document-link format="vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_fr.odt">
+    <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_fr.odt">
       <category code="B01"/>
       <language code="fr"/>
       <title>Rapport annuel 2013</title>
