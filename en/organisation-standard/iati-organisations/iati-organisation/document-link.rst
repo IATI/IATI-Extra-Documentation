@@ -5,7 +5,7 @@ Please note that B type ``DocumentCategory`` codes are used within ``iati-organi
 
 .. code-block:: xml
 
-    <document-link format="application/odt" url="http:www.example.org/docs/report_en.odt">
+    <document-link format="vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
       <category code="B01"/>
 	  <language code="en"/>
       <title>Annual report 2013</title>
@@ -15,7 +15,7 @@ The ``language`` element can be used to declare the language of documents.
     
 .. code-block:: xml
  
-    <document-link format="application/odt" url="http:www.example.org/docs/report_fr.odt">
+    <document-link format="vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_fr.odt">
       <category code="B01"/>
       <language code="fr"/>
       <title>Rapport annuel 2013</title>
