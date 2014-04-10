@@ -30,4 +30,4 @@ Although many different kinds of ``format`` can be presented, it is recommended 
 Further guidance
 ----------------
 
-* :doc:`document-link organisation-standard/iati-organisations/iati-organisation/document-link/>`
+* :doc:`document-link </organisation-standard/iati-organisations/iati-organisation/document-link/>`
