@@ -1,12 +1,27 @@
 Example Usage
 ~~~~~~~~~~~~~
+Definition
+----------
+This page presents example XML for the IATI organisation standard
+
+Considerations
+--------------
+This is sample XML and not intended to reflect any real organisations or entities
+
+Extracts from this example are used throughout this documentation
+
+Further guidance
+----------------
+Access documentation on all the IATI organisation standard elements
+
 Full example XML.
 
 .. code-block:: xml
 
 <iati-organisations generated-datetime="2014-04-03T18:27:37" version="1.04">
 	<iati-organisation default-currency="EUR" last-updated-datetime="2014-04-03T18:27:37" xml:lang="en">
-		<name>Organisation name</name>
+		<reporting-org ref="AA-AAA-123456789" type="40">Organisation name</reporting-org>
+		<iati-identifier>AA-AAA-123456789</iati-identifier>
 		<name xml:lang="fr">Nom de l'organisme</name>
 		<total-budget>
 			<period-start iso-date="2014-01-01">2014</period-start>
