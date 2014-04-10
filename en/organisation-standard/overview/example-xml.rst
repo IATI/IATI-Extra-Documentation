@@ -10,10 +10,6 @@ This is sample XML and not intended to reflect any real organisations or entitie
 
 Extracts from this example are used throughout this documentation
 
-Further guidance
-----------------
-Access documentation on all the IATI organisation standard elements
-
 Full example XML.
 
 .. code-block:: xml
@@ -86,3 +82,12 @@ Full example XML.
 			</document-link>		
 		</iati-organisation>
 	</iati-organisations>
+
+Further guidance
+----------------
+
+.. toctree::
+   :titlesonly:
+   :glob:
+
+	organisation-standard/iati-organisations/*

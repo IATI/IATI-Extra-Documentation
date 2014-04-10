@@ -29,4 +29,9 @@ Although many different kinds of ``format`` can be presented, it is recommended 
 
 Further guidance
 ----------------
-*``document-link``
+
+.. toctree::
+   :titlesonly:
+   :glob:
+
+	organisation-standard/iati-organisations/iati-organisation/document-link/

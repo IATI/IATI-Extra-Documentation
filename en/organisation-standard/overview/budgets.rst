@@ -31,6 +31,11 @@ It is possible to report budget values in multiple currencies
 
 Further guidance
 ----------------
-*total-budget - 
-*recipient-org-budget
-*recipient-country-budget
+
+.. toctree::
+   :titlesonly:
+   :glob:
+
+	organisation-standard/iati-organisations/iati-organisation/total-budget/
+	organisation-standard/iati-organisations/iati-organisation/recipient-org-budget/
+	organisation-standard/iati-organisations/iati-organisation/recipient-country-budget/
