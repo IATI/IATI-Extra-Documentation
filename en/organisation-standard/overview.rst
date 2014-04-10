@@ -5,5 +5,9 @@ Overview
    :titlesonly:
    :glob:
 
-   overview/*
+   overview/organisation-file
+   overview/organisations
+   overview/budgets
+   overview/documents
+   overview/example-xml
 

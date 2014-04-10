@@ -1,5 +1,5 @@
-The IATI Organisation File
-==========================
+Organisation file
+=================
 
 Definition
 ----------

@@ -1,5 +1,6 @@
 Example Usage
-~~~~~~~~~~~~~
+=============
+
 Definition
 ----------
 This page presents example XML for the IATI organisation standard
