@@ -26,6 +26,7 @@ Contents
    :titlesonly:
    :glob:
 
+   organisation-standard/overview
    organisation-standard/overview-table
    organisation-standard/*
 
