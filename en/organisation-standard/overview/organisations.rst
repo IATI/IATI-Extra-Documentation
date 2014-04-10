@@ -29,7 +29,7 @@ Further guidance
 ----------------
 
 * :doc:`reporting-org </organisation-standard/iati-organisations/iati-organisation/reporting-org/>`
-* :doc:`iati-organisation </organisation-standard/iati-organisations/iati-organisation/iati-organisation/>`
+* :doc:`iati-organisation </organisation-standard/iati-organisations/iati-organisation/>`
 * :doc:`name </organisation-standard/iati-organisations/iati-organisation/name/>`
 * :doc:`recipient-org-budget </organisation-standard/iati-organisations/iati-organisation/recipient-org-budget/>`
    
