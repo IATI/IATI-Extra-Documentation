@@ -3,25 +3,28 @@ Budgets
 
 Definition
 ----------
-Within the IATI organisation standard three types of budgets can be declared.  These all relate to the specific ``iati-organisation`` being described:
+Within the IATI organisation standard three types of budgets can be declared.  
 
-*total-budget - 
-*recipient-org-budget
-*recipient-country-budget
+These all relate to the specific ``iati-organisation`` being described:
+
+* total-budget - 
+* recipient-org-budget
+* recipient-country-budget
 
 
 Considerations
 --------------
-IATI expects that budgets in the organisation standard are forward-looking
-It is recommended, where possible, that budgets are presented for the next three financial years
+IATI expects that budgets in the organisation standard are forward-looking.
 
-Financial years can be presented using the ``period-start`` and ``period-end`` dates
-
-It is expected that the financial years for ``iati-organisation`` would be described 
+It is recommended, where possible, that budgets are presented for the next three financial years.
 
 It is possible to report periods other than years, but this is not recommended.
 
-It is strongly recommended that the start and end of the reported financial years match those of the recipient country’s budgetary/planning cycle.
+Financial years can be presented using the ``period-start`` and ``period-end`` dates.
+
+It is expected that the financial years for ``iati-organisation`` would be described.
+
+It is strongly recommended that the ``period-start`` and ``period-end`` of the financial years described for any ``recipient-country-budget`` match the budgetary/planning cycle of the ``recipient-country``.
 
 It is possible to report budget values in multiple currencies
 

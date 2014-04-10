@@ -28,11 +28,14 @@ For each ``recipient-org`` multiple forward looking budgets can be recorded.
 Further guidance
 ----------------
 
-*``reporting-org``
-*``iati-organisation``
-*``iati-identifer`` 
-*``name``
-
-
+.. toctree::
+   :titlesonly:
+   :glob:
+   
+   organisation-standard/iati-organisations/iati-organisation/reporting-org/
+   organisation-standard/iati-organisations/iati-organisation/iati-organisation/
+   organisation-standard/iati-organisations/iati-organisation/name/
+   organisation-standard/iati-organisations/iati-organisation/recipient-org-budget/
+   
 
 
