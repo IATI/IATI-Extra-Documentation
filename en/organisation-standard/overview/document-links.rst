@@ -5,7 +5,7 @@ Definition
 ----------
 Within the IATI organisation standard any number of links to supporting documents can be declared.
 
-In the IATI organisations standard, documents that relate to the organisation/agency would be refered to.  Activity/project specific documents are published via the IATI activity standard.
+In the IATI organisations standard, documents that relate to the organisation/agency would be referred to.  Activity/project specific documents are published via the IATI activity standard.
 
 
 Considerations
@@ -16,7 +16,7 @@ The URL must resolve to a valid internet address that provides direct access to 
 
 Attention should be paid by the publisher to any links that become obsolete
 
-The same document can be presented in different languages via seperate ``document-link`` elements.
+The same document can be presented in different languages via separate ``document-link`` elements.
 
 For every document presented either a ``title`` or ``category`` is expected (or both)
 
