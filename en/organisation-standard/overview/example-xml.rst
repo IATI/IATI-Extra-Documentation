@@ -10,7 +10,7 @@ This is sample XML and not intended to reflect any real organisations or entitie
 
 Extracts from this example are used throughout this documentation
 
-Full example XML.
+This example file can also be :doc: `downloaded </organisation-standard-example.xml/>`
 
 .. code-block:: xml
 

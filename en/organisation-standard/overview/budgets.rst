@@ -7,9 +7,9 @@ Within the IATI organisation standard three types of budgets can be declared.
 
 These all relate to the specific ``iati-organisation`` being described:
 
-* total-budget - 
-* recipient-org-budget
-* recipient-country-budget
+* ``total-budget`` 
+* ``recipient-org-budget``
+* ``recipient-country-budget``
 
 
 Considerations
