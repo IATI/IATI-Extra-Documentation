@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-Activity last updated on 3rd March 2014. Default language of English (``en``) and a ``default-currency`` of Euros.
+Organisation last updated on 3rd March 2014. Default language of English (``en``) and a ``default-currency`` of Euros.
 
 .. code-block:: xml
 

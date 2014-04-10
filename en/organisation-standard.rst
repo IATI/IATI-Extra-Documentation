@@ -7,7 +7,7 @@ The **organisational standard** is designed for reporting the total **future bud
 
 The organisation standard is used to describe one or more organisations (such as donors, foundations, agencies, or NGOs) involved in the aid delivery chain. It is designed to report forward-looking aggregate budget information for the reported organisation’s, and planned **future budgets** to recipient institutions or countries.
 
-IATI publishers host this data in an orgnaisation file.  It is expected that every organisation publishing IATI data should include one organisation file, which is updated at least annually.
+IATI publishers host this data in an organisation file.  It is expected that every organisation publishing IATI data should include one organisation file, which is updated at least annually.
 
 Considerations
 --------------

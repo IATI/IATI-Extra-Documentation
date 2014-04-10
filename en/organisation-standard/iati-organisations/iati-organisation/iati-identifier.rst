@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example to illustrate the concatenation of Example Org reference (AA-AAA-123456789) and the organisation’s activity identifier (ABC123).  This Example Org would also be the ``reporting-org``
+Example organisation reference (AA-AAA-123456789).
 
 .. code-block:: xml
 

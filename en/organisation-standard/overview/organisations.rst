@@ -7,12 +7,12 @@ Within the IATI organisation standard three types of organisations can be declar
 
 * ``reporting-org`` - the organisation publishing the organisation file and associated data. 
 * ``iati-organisation`` - the organisation that the data is about
-* ``recipient-org`` - the organisation in reciept of budgets specificed in the data
+* ``recipient-org`` - the organisation in receipt of budgets specified in the data
 
 
 Considerations
 --------------
-In many cases, an organisation file will contain information from the perspectitive of a single ``iati-organisation``.  Most commonly, this will be the same as the ``reporting-org``
+In many cases, an organisation file will contain information from the perspective of a single ``iati-organisation``.  Most commonly, this will be the same as the ``reporting-org``
 
 However, it is possible for multiple ``iati-organisation`` to be reported.
 
