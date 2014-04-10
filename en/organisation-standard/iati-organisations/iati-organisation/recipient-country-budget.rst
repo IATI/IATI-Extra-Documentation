@@ -22,7 +22,3 @@ Example of ``recipient-country-budget`` in USD for a single country in 2014, 201
 			<period-end iso-date="2016-12-31">2016</period-end>
 			<value currency="USD" value-date="2016-01-01">35000000</value>
 		</recipient-country-budget>
-
-
-Changelog
-~~~~~~~~~

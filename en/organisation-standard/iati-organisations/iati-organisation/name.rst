@@ -11,6 +11,3 @@ The name of an organisation can be presented in languages other than the ``xml:l
         <name>Organisation name</name>
         <name xml:lang="fr">Nom de l'organisme</name>
 
-
-Changelog
-~~~~~~~~~
