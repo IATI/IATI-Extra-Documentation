@@ -86,8 +86,4 @@ Full example XML.
 Further guidance
 ----------------
 
-.. toctree::
-   :titlesonly:
-   :glob:
-
-	organisation-standard/iati-organisations/*
+* :doc:`IATI organisation standard - reference pages organisation-standard/iati-organisations/>`
