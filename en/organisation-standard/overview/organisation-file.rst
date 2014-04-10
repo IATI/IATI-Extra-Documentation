@@ -23,6 +23,5 @@ Ideally, this link would be to an organisation file on the publisher website or 
 Further guidance
 ----------------
 
-Read more guidance on publishing files to the IATI Registry
-
-Find out more about the contents of the organisation file
+* :doc:`The organisation standard </organisation-standard/overview>`
+* The IATI Registry
