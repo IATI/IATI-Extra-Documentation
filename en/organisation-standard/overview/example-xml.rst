@@ -11,7 +11,7 @@ This is sample XML and not intended to reflect any real organisations or entitie
 
 Extracts from this example are used throughout this documentation
 
-This example file can also be :doc:`downloaded </organisation-standard-example.xml/>`
+This example file can also be `downloaded <https://raw.githubusercontent.com/IATI/IATI-Extra-Documentation/version-1.04/en/organisation-standard/overview/organisation-standard-example.xml>`__.
 
 .. code-block:: xml
 
