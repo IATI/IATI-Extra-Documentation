@@ -11,6 +11,6 @@ These are intended aas initial overviews of the key aspects of the standard.  Fu
    overview/organisation-file
    overview/organisations
    overview/budgets
-   overview/documents
+   overview/document-links
    overview/example-xml
 
