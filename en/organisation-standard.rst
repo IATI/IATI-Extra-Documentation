@@ -24,9 +24,8 @@ Contents
 
 .. toctree::
    :titlesonly:
-   :glob:
+   :maxdepth: 1
 
    organisation-standard/overview
-   organisation-standard/overview-table
-   organisation-standard/*
+   organisation-standard/reference
 

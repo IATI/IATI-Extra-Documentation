@@ -28,8 +28,7 @@ Contents
 
 .. toctree::
    :titlesonly:
-   :glob:
+   :maxdepth: 1
 
-   activities-standard/overview-table
-   activities-standard/*
+   activities-standard/reference
 
