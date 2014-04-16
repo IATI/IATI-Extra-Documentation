@@ -12,7 +12,7 @@ An ``iati-activity`` can have several dates specified.  Those that relate to the
 * ``transaction-date`` - the date a specific transaction took place
 * ``value-date`` - providing the specific date for the value of a ``budget`` or ``transaction``, used for currency conversion purposes
 
-A time-sensetive declaration, that works in conjunction with these dates:
+A time-sensitive declaration, that works in conjunction with these dates:
 * ``activity-status`` - the stage at which the activity is currently at.
 
 Dates that relate to the publication of the data: 

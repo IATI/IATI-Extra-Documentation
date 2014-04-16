@@ -18,7 +18,7 @@ It is possible to link different ``iati-activity`` via one or multiple of:
 * ``related-activity`` can express activities that have parental or sibling linkages.
 * via ``transactions``, monies can be linked together, with a specific ``iati-activity`` being quoted.
 
-A publisher can set a default language and currency, that is then used throughout the ``iati-activity``.  This can be overriden in at any point however.
+A publisher can set a default language and currency, that is then used throughout the ``iati-activity``.  This can be overridden in at any point however.
 
 
 Further guidance

@@ -1,5 +1,5 @@
-Activity tite & description
-===========================
+Title & description
+===================
 
 Definition
 ----------
