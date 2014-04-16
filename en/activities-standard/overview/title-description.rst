@@ -17,7 +17,7 @@ A ``description`` can have different focal points, based on the ``DescriptionTyp
 
 Both the ``title`` and ``descriptions`` can be repeated for different languages.  
 
-When an ``iati-activity`` is implemented in a ``recipient-country`` where the language is different to that of the ``reporting-org``, it is recommended that country specific language(s) are provided.
+When an ``iati-activity`` is being implemented in a ``recipient-country`` where the official language is different to that of the ``reporting-org`` it is recommended that activity ``title`` and ``description`` are provided in all official ``reporting-org`` and ``recipient-country`` languages
 
 
 Further guidance
