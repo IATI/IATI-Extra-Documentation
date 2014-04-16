@@ -32,7 +32,7 @@ A ``reporting-org`` can declare their own , bia the "RO" (Reporting Org) ``Vocab
 
 Multiple or singular ``policy-marker`` can also be described.  Multiples should include a percentage split.
 
-The classifications of ``default-finance-type``, ``default-flow-type``, ``default-aid-type`` and``default-tied-status`` apply to the whole ``iati-activity``.  These can be overridden within a single ``transaction`` via using any of ``finance-type`` , ``flow-type`` , ``aid-type``,  and/or ``tied-status``
+The classifications of ``default-finance-type``, ``default-flow-type``, ``default-aid-type`` and``default-tied-status`` apply to the whole ``iati-activity``.  These can be overridden within a single ``transaction`` via using any of ``finance-type`` , ``flow-type`` , ``aid-type`` and/or ``tied-status``
 
 Further guidance
 ----------------

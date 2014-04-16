@@ -5,7 +5,7 @@ Definition
 ----------
 Within the **IATI activity standard** it is possible to express links between different ``iati-activity`` records.
 
-This 
+This can be acheived through two methods:
 
 * ``related-activity`` - another ``iati-activity`` that has relationship to the one being described.
 * ``transaction`` - ``provider-activity-id`` & ``receiver-activity-id`` - can be used to link funds from one ``iati-activity`` to another.
