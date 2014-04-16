@@ -9,4 +9,12 @@ These are intended aas initial overviews of the key aspects of the standard.  Fu
    :glob:
 
    overview/activity-file
+   overview/activities
+   overview/iati-identifier
+   overview/title-description
+   overview/dates
+   overview/organisations
+   overview/documents
+ 
+   
 
