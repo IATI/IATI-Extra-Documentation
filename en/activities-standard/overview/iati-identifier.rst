@@ -7,7 +7,7 @@ Within the **IATI activity standard**, the ``iati-identifier`` is the unique ref
 
 The ``iati-identifier`` is a concatenation of the ``reporting-org`` reference and the unique ``iati-activity`` identifier allocated by the ``reporting-org``.
 
-
+* ``other-identifier``
 
 Considerations
 --------------
