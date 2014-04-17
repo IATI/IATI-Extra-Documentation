@@ -7,6 +7,7 @@ The *organisation file* contains the data that relates to the **IATI organisatio
 
 It is an XML file, containing all the relevant fields for the publisher organisation.
 
+The **IATI organisation standard** allows publishers to report on information for multiple organisations: a government agency may report on behalf of other agencies; an INGO may report on behalf of its national associates; a private company may report on behalf of its subsidiaries.
 
 Considerations
 --------------
