@@ -12,7 +12,7 @@ Considerations
 --------------
 All documents should be presented as links in the form of URLs (eg: http://example.org/exampledocument.odt)
 
-The URL must resolve to a valid internet address that provides direct access to the document in question
+The URL must resolve to a valid internet address that provides direct access to the document in question.
 
 Attention should be paid by the publisher to any links that become obsolete
 
