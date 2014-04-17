@@ -20,6 +20,9 @@ It is recommended that no forward slashes (/) or spaces should be contained with
 
 Further guidance
 ----------------
-iati-identifier
-iati-activity
-reporting-org
+
+Reference pages:
+
+* :doc:`iati-identifier </activities-standard/iati-activities/iati-activity/iati-identifier/>`
+* :doc:`iati-activity </activities-standard/iati-activities/iati-activity/>`
+* :doc:`reporting-org </activities-standard/iati-activities/iati-activity/reporting-org/>`

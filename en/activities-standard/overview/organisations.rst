@@ -25,3 +25,11 @@ Should a ``provider-org`` or ``receiver-org`` within a ``transaction`` be the sa
 
 Further guidance
 ----------------
+
+Reference pages:
+
+* :doc:`reporting-org </activities-standard/iati-activities/iati-activity/reporting-org/>`
+* :doc:`participating-org </activities-standard/iati-activities/iati-activity/participating-org/>`
+
+* :doc:`transaction/provider-org </activities-standard/iati-activities/iati-activity/transaction/provider-org/>`
+* :doc:`transaction/receiver-org </activities-standard/iati-activities/iati-activity/transaction/receiver-org/>`

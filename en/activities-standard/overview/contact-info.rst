@@ -27,3 +27,15 @@ Careful attention should be paid to personal data being published.  Always inclu
 
 Further guidance
 ----------------
+
+Reference pages:
+
+* :doc:`contact-info </activities-standard/iati-activities/iati-activity/contact-info/>`
+
+* :doc:`person-name </activities-standard/iati-activities/iati-activity/contact-info/person-name/>`
+* :doc:`job-title </activities-standard/iati-activities/iati-activity/contact-info/job-title/>`
+* :doc:`organisation </activities-standard/iati-activities/iati-activity/contact-info/organisation/>`
+* :doc:`mailing-address </activities-standard/iati-activities/iati-activity/contact-info/mailing-address/>`
+* :doc:`telephone </activities-standard/iati-activities/iati-activity/contact-info/telephone/>`
+* :doc:`email </activities-standard/iati-activities/iati-activity/contact-info/email/>`
+* :doc:`website </activities-standard/iati-activities/iati-activity/contact-info/website/>`

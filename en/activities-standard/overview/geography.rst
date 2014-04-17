@@ -33,3 +33,10 @@ The ``activity-scope`` element should only be used once.  It must use a relevant
 
 Further guidance
 ----------------
+
+Reference pages:
+
+* :doc:`recipient-country </activities-standard/iati-activities/iati-activity/recipient-country/>`
+* :doc:`recipient-region </activities-standard/iati-activities/iati-activity/recipient-region/>`
+* :doc:`activity-scope </activities-standard/iati-activities/iati-activity/activity-scope/>`
+* :doc:`location </activities-standard/iati-activities/iati-activity/location/>`

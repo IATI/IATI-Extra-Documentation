@@ -3,23 +3,23 @@ Dates
 
 Definition
 ----------
-Within the **IATI activity standard** several types of dates can be specified.
+Within the **IATI activity standard** several types of dates relating can be specified.
 
-An ``iati-activity`` can have several dates specified.  Those that relate to the activity:
+An ``iati-activity`` can have several dates specified.  Those that relate to an ``iati-activity``:
 
 * ``activity-date`` - the planned and actual start and end dates of the activity
-* ``budget`` related dates, used to describe a period of time, such as a financial year
 * ``transaction-date`` - the date a specific transaction took place
-* ``value-date`` - providing the specific date for the value of a ``budget`` or ``transaction``, used for currency conversion purposes
+* ``value-date`` - providing the specific date for the value of a ``budget`` or ``transaction``  used for currency conversion purposes
+* ``period-start and ``period-end`` dates, used to describe a period of time in a ``budget`` , ``planned-disbursement`` or ``indicator`` 
 
-A time-sensitive declaration, that works in conjunction with these dates:
+A time-sensitive declaration, that works in conjunction with the ``activity-date``:
 
 * ``activity-status`` - the stage at which the activity is currently at.
 
 Dates that relate to the publication of the data: 
 
-* ``generated-datetime`` - a date/time stamp for when this file was generated. 
-* ``last-updated-datetime`` - the last date/time that the data for this specific activity was updated.
+* ``generated-datetime`` - a date/time stamp for when this *activity-file* was generated. 
+* ``last-updated-datetime`` - the last date/time that the data for the specific ''iati-activity`` was updated.
 
 Considerations
 --------------
@@ -54,5 +54,15 @@ The ``last-updated-datetime`` date must change whenever the value of any field w
 Further guidance
 ----------------
 
+Reference pages:
 
+* :doc:`activity-date </activities-standard/iati-activities/iati-activity/activity-date/>`
+* :doc:`activity-status </activities-standard/iati-activities/iati-activity/activity-status/>`
+
+* :doc:`transaction-date </activities-standard/iati-activities/iati-activity/transaction/transaction-date/>`
+* :doc:`budget/period-start </activities-standard/iati-activities/iati-activity/budget/period-start/>`
+* :doc:`budget/period-end </activities-standard/iati-activities/iati-activity/budget/period-end/>`
+
+* :doc:`iati-activities </activities-standard/iati-activities/>`
+* :doc:`iati-activity </activities-standard/iati-activities/iati-activity/>`
 

@@ -41,4 +41,10 @@ The ``activity-website`` should be a URL to a page or website that is specifical
 Further guidance
 ----------------
 
+Reference pages:
+
 * :doc:`document-link </activity-standard/iati-activities/iati-activity/document-link/>`
+* :doc:`activity-website/ </activities-standard/iati-activities/iati-activity/activity-website/>`
+
+* :doc:`iati-activities </activities-standard/iati-activities/>`
+* :doc:`iati-activity </activities-standard/iati-activities/iati-activity/>`

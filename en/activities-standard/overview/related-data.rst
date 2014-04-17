@@ -28,3 +28,10 @@ At the transaction level , it is recommended to connect funds through use of the
 
 Further guidance
 ----------------
+
+Reference pages:
+
+* :doc:`related-activity </activities-standard/iati-activities/iati-activity/related-activity/>`
+
+* :doc:`transaction/provider-org </activities-standard/iati-activities/iati-activity/transaction/provider-org/>`
+* :doc:`transaction/receiver-org </activities-standard/iati-activities/iati-activity/transaction/receiver-org/>`

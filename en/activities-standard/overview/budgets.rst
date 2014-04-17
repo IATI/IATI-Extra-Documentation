@@ -33,3 +33,21 @@ It is expected that budgets would be described from the ``reporting-org`` perspe
 
 Further guidance
 ----------------
+
+Reference pages:
+
+* :doc:`budget </activities-standard/iati-activities/iati-activity/budget/>`
+* :doc:`budget/period-end </activities-standard/iati-activities/iati-activity/budget/period-end/>`
+* :doc:`budget/period-start </activities-standard/iati-activities/iati-activity/budget/period-start/>`
+* :doc:`budget/value </activities-standard/iati-activities/iati-activity/budget/value/>`
+
+* :doc:`planned-disbursement </activities-standard/iati-activities/iati-activity/planned-disbursement/>`
+* :doc:`planned-disbursement/period-end </activities-standard/iati-activities/iati-activity/planned-disbursement/period-end/>`
+* :doc:`planned-disbursement/period-start </activities-standard/iati-activities/iati-activity/planned-disbursement/period-start/>`
+* :doc:`planned-disbursement/value </activities-standard/iati-activities/iati-activity/planned-disbursement/value/>`
+
+* :doc:`country-budget-items </activities-standard/iati-activities/iati-activity/country-budget-items/>`
+* :doc:`budget-item </activities-standard/iati-activities/iati-activity/country-budget-items/budget-item/>`
+* :doc:`description </activities-standard/iati-activities/iati-activity/country-budget-items/budget-item/description/>`
+
+* :doc:`capital-spend </activities-standard/iati-activities/iati-activity/capital-spend/>`

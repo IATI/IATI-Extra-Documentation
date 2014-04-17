@@ -25,5 +25,8 @@ Ideally, this link would be to an activity file(s) on the publisher website or o
 Further guidance
 ----------------
 
-* :doc:`The activity standard </activity-standard/overview>`
-* The IATI Registry
+Reference pages:
+
+* :doc:`summary-table </activities-standard/summary-table/>`
+* :doc:`iati-activities </activities-standard/iati-activities/>`
+* :doc:`iati-activity </activities-standard/iati-activities/iati-activity/>`
