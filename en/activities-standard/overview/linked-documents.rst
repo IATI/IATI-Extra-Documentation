@@ -30,9 +30,9 @@ For every document presented either a ``title`` or ``category`` is expected (or 
 
 For document ``category`` in the activity standard, it is expected that the ``DocumentCategory`` code would be have the A prefix
 
-Use of the ``format`` attribute help inform what to expect from the document
+Use the ``format`` attribute help inform what to expect from the document
 
-Although many different kinds of ``format`` can be presented, it is recommended to utilise the ones represented in the ``FileFormat`` codelist
+Use of the ``format`` must be accompanied by a code on the ``FileFormat`` codelist.
 
 The ``activity-website`` should be a URL to a page or website that is specifically about the ``iati-activity`` - not generic information.
 
