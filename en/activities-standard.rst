@@ -30,5 +30,6 @@ Contents
    :titlesonly:
    :maxdepth: 1
 
+   activities-standard/overview
    activities-standard/reference
 
