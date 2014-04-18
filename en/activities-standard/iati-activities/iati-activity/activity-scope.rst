@@ -1,6 +1,6 @@
-
 Example Usage
 ~~~~~~~~~~~~~
+Example of an ``iati-activity`` that has a Multi-national scope, using ``ActivityScope`` code 3
 
 .. code-block:: xml
 

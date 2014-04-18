@@ -1,5 +1,3 @@
-
-
 Example Usage
 ~~~~~~~~~~~~~
 
@@ -18,4 +16,4 @@ Changelog
 ^^^^
 
 | New in 1.03
-|  Added the optional fss element and its child elements
+|  Added the optional ``fss`` element and its child elements

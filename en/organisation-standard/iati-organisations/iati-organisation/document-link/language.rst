@@ -1,13 +1,13 @@
 Example Usage
 ~~~~~~~~~~~~~
-The code should be declared in any usage of this element:
+A ``Language`` code should be declared in any usage of the ``language`` element:
 
 .. code-block:: xml
 
         <language code="en"/>
         <language code="fr"/>
 
-Additionally, a text description of the code can be provided:
+Additionally, a text description of the ``Language`` code can be provided:
 
 .. code-block:: xml
 
@@ -29,7 +29,7 @@ Changelog
 1.02
 ^^^^
 
-Addition of a language element as a child of the document-link element:
+Addition of a ``language`` element as a child of the ``document-link`` element:
 document-link/language/text() (0..1) - The ISO 639 code for the language
 of the document
 

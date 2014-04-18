@@ -1,11 +1,12 @@
 Example Usage
 ~~~~~~~~~~~~~
+Example ``reporting-org`` with ``ref`` *AA-AAA-123456789* and ``OrganisationType`` code *21*:
 
 .. code-block:: xml
 
         <reporting-org ref="AA-AAA-123456789" type="21">Organisation Name</reporting-org>
 
-This example declares that this ``reporting-org`` is a secondary publisher
+This example declares that this ``reporting-org`` is a ``secondary-publisher`` through a boolean:
 
 .. code-block:: xml
 
@@ -17,4 +18,4 @@ Changelog
 1.04
 ^^^^
 
-| The secondary-publisher was introduced in 1.04.
+| The ``secondary-publisher`` was introduced in 1.04.

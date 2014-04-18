@@ -1,23 +1,19 @@
-
-
 Example Usage
 ~~~~~~~~~~~~~
-
-The code should be declared in any usage of this element:
+Example declaring just the ``FlowType`` code *10*:
 
 .. code-block:: xml
 
         <default-flow-type code="10"/>
 
-Additionally, a text description of the code can be provided:
+Additionally, a text description of the ``FlowType`` code can be provided:
 
 .. code-block:: xml
 
         <default-flow-type code="10">ODA</default-flow-type>
 
-Where this text description is in a language that differs from the
-default, then this should be declared accordingly:
+Where this description differs to the default language of the ``iati-activity``, then this should be declared using ``xml:lang``:
 
 .. code-block:: xml
 
-        <default-flow-type code="10" xml:lang="fr"> APD</default-flow-type>
+        <default-flow-type code="10" xml:lang="fr">APD</default-flow-type>

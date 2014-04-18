@@ -1,7 +1,8 @@
 Example Usage
 ~~~~~~~~~~~~~
+This element acts as a container for other sub elements.
 
-This element is a container for other sub elements:
+Exampkle ``contact-info`` that declares ``ContactType`` code *1*:
 
 .. code-block:: xml
 
