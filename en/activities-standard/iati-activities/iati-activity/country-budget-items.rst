@@ -1,14 +1,23 @@
-
-
 Example Usage
 ~~~~~~~~~~~~~
+The ``country-budget-items`` element acts as a container for other sub elements.
+
+Example ``country-budget-items`` that declares ``country-budget-items`` code *2* (Country Chart of Accounts):
 
 .. code-block:: xml
 
-    <country-budget-items vocabulary="XXX">
-        <budget-item code="XXX" percentage="100">
-           <description xml:lang="en">XXX</description>
-        </budget-item>
+    <country-budget-items vocabulary="2">
+		...
+    </country-budget-items>
+    
+Full example:
+
+.. code-block:: xml
+
+    <country-budget-items vocabulary="2">
+      <budget-item code="1.1.1">
+        <description>Description text</description>
+      </budget-item>
     </country-budget-items>
 
 Changelog

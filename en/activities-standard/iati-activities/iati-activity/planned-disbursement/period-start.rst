@@ -1,6 +1,5 @@
 Example Usage
 ~~~~~~~~~~~~~
-
 An ISO 8601 code for the ``period-start`` date of the reporting period (YYYY-MM-DD) is required:
 
 .. code-block:: xml

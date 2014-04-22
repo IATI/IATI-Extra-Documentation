@@ -1,6 +1,5 @@
 Example Usage
 ~~~~~~~~~~~~~
-
 Activity last updated on 3rd March 2014, with a ``hierarchy`` value of 1. Default language of English (``en``) and a ``default-currency`` of Euros.
 
 .. code-block:: xml

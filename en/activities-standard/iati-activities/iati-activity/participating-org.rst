@@ -1,6 +1,5 @@
 Example Usage
 ~~~~~~~~~~~~~
-
 Example that describes three ``participating-org`` using the ``OrganisationRole`` codes *Funding*, *Extending* and *Implementing*:
 
 .. code-block:: xml

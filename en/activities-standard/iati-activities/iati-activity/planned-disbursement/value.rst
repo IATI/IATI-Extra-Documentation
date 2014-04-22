@@ -1,6 +1,5 @@
 Example Usage
 ~~~~~~~~~~~~~
-
 A date of value for currency conversions must also be provided as ISO 8601 (YYYY-MM-DD):
 
 .. code-block:: xml

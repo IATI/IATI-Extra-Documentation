@@ -1,12 +1,18 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example of a ``actual`` value of *11*
+A ''comment'' for ''target'' can be declared as such:
 
 .. code-block:: xml
 
-					<actual value="11"/> 
+        <comment>Target comment text</comment>
 
-Full example: 
+Should the ``comment`` be in a language other than the default language declared in ``iati-activity``, then it should be described:
+
+.. code-block:: xml
+
+        <comment xml:lang="fr">Commentaire de texte de "target"</comment>
+
+Full example:
         
 .. code-block:: xml
 
@@ -20,9 +26,10 @@ Full example:
 				<period> 
 					<period-start iso-date="2013-01-01"/> 
 					<period-end iso-date="2013-03-31"/> 
-					<target value="10"/> 
-					<actual value="11"/> 
+					<target value="10">
+						<comment>Baseline comment text</comment> 
+					</target>
+					<actual value="11"/>
 				</period> 
 			</indicator>
 		</result>
-

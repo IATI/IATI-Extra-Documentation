@@ -1,7 +1,8 @@
 Example Usage
 ~~~~~~~~~~~~~
+When ``conditions`` are attached, they can be described using a free text description. 
 
-When conditions are attached, they can be described using a free text description. The type of condition should be specified, and should be a value from the relevant codelist.
+The ``ConditionType`` of a ``condition`` should be specified, and should be a value from the relevant ``ConditionType`` codelist.
 
 .. code-block:: xml
 

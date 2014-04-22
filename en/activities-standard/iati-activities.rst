@@ -1,6 +1,5 @@
 Example Usage
 ~~~~~~~~~~~~~
-
 Example generated on 3rd March 2014 and uses ``version`` 1.04:
 
 .. code-block:: xml

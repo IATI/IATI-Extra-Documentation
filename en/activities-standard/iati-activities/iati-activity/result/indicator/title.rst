@@ -1,12 +1,18 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example of a ``actual`` value of *11*
+A ''title'' for ''indicator'' can be declared as such:
 
 .. code-block:: xml
 
-					<actual value="11"/> 
+        <title>Indicator 1 title</title>
 
-Full example: 
+Should the ``title`` be in a language other than the default language declared in ``iati-activity``, then it should be described:
+
+.. code-block:: xml
+
+        <title xml:lang="fr">Indicator 1 title</title>
+
+Full example:
         
 .. code-block:: xml
 
@@ -25,4 +31,3 @@ Full example:
 				</period> 
 			</indicator>
 		</result>
-

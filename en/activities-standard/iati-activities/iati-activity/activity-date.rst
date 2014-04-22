@@ -1,6 +1,5 @@
 Example Usage
 ~~~~~~~~~~~~~
-
 Example of an ``iati-activity`` with one each of the four possible ``ActivityDateType``:
 
 .. code-block:: xml
