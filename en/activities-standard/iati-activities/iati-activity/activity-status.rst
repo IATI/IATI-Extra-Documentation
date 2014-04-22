@@ -3,8 +3,8 @@
 Example Usage
 ~~~~~~~~~~~~~
 
-This example declares that an activity has reached completion (code 3)
+This example declares that an ``iati-activity`` is in *Implementation*, using ``ActivityStatus`` code 2:
 
 .. code-block:: xml
 
-        <activity-status code="3">Completion</activity-status>
+        <activity-status code="2">Implementation</activity-status>

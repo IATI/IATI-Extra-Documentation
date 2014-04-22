@@ -1,24 +1,27 @@
-
-
 Example Usage
 ~~~~~~~~~~~~~
-
-This is a new element for version 1.02. Previously, this was an
-attribute.
-
-The code should be declared in any usage of this element:
+A ``Language`` code should be declared in any usage of the ``language`` element:
 
 .. code-block:: xml
 
-        <language code="en" />
-        <language code="fr" />
+        <language code="en"/>
+        <language code="fr"/>
 
-Additionally, a text description of the code can be provided:
+Additionally, a text description of the ``Language`` code can be provided:
 
 .. code-block:: xml
 
-        <language code="fr" xml:lang="en">French</language>
-        <language code="fr" xml:lang="fr">Francais</language>
+        <language code="en">English</language>
+        <language code="fr">Francais</language>
+
+Full example:
+
+    <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_fr.odt">
+      <category code="A01"/>
+      <language code="fr"/>
+      <title>Project rapport 2013</title>
+    </document-link>
+
 
 Changelog
 ~~~~~~~~~
@@ -26,7 +29,7 @@ Changelog
 1.02
 ^^^^
 
-Addition of a language element as a child of the document-link element:
+Addition of a ``language`` element as a child of the ``document-link`` element:
 document-link/language/text() (0..1) - The ISO 639 code for the language
 of the document
 

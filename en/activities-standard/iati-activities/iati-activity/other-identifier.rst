@@ -1,8 +1,7 @@
 Example Usage
 ~~~~~~~~~~~~~
 
-
-Example of an identifier which is declared as being owned by Agency A (ref AA-AAA-123456789):
+Example of an ``other-identifier`` declared as having owner-name`` *Agency A*, which has an ``owner-ref`` of *AA-AAA-123456789*:
 
 .. code-block:: xml
 

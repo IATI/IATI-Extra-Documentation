@@ -1,9 +1,6 @@
-
-
 Example Usage
 ~~~~~~~~~~~~~
-
-A code for the sector can be declared:
+Example ``sector`` with just the ``Sector`` code:
 
 .. code-block:: xml
 

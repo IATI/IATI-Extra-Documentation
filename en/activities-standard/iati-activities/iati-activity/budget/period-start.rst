@@ -1,15 +1,12 @@
 Example Usage
 ~~~~~~~~~~~~~
-The ``budget`` element acts as a container for other sub elements
 
-The attribute ``type`` should declare the relevant ``BudgetType`` code.  If omitted, then ``BudgetType`` *Original* (code 1) is assumed:
+An ISO 8601 code for the ``period-start`` date of the reporting period (YYYY-MM-DD) is required:
 
 .. code-block:: xml
 
-        <budget type="1">
-        ....
-        </budget>
-
+    <period-start iso-date="2014-01-01">Start of budget year 2014</period-start>
+    
 Full example:
 
 .. code-block:: xml

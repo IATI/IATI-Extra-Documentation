@@ -1,7 +1,6 @@
-
-
 Example Usage
 ~~~~~~~~~~~~~
+Example that declares that 88.8% of the ``iati-activity`` budget is for capital expenditure - using the ``percentage`` attribute:
 
 .. code-block:: xml
 

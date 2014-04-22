@@ -1,22 +1,18 @@
-
-
 Example Usage
 ~~~~~~~~~~~~~
-
-The code should be declared in any usage of this element:
+Example declaring just the ``AidType`` code *A02*:
 
 .. code-block:: xml
 
        <default-aid-type code="A02"/>
 
-Additionally, a text description of the code can be provided:
+Additionally, a text description of the ``AidType`` code can be provided:
 
 .. code-block:: xml
 
         <default-aid-type code="A02">Sector Budget Support</default-aid-type>
 
-Where this text description is in a language that differs from the
-default, then this should be declared accordingly:
+Where this description differs to the default language of the ``iati-activity``, then this should be declared using ``xml:lang``:
 
 .. code-block:: xml
 

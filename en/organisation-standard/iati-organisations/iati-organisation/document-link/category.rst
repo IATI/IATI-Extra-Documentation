@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-The code should be declared in any usage of this element:
+Example declaring just the ``DocumentCategory`` code *B01*:
 
 .. code-block:: xml
 

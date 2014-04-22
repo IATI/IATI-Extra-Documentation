@@ -1,15 +1,12 @@
 Example Usage
 ~~~~~~~~~~~~~
-The ``planned-disbursement`` element acts as a container for other sub elements:
 
-The attribute ``updated`` should declare the date the ``planned-disbursement`` was last changed:
+An ISO 8601 code for the ``period-start`` date of the reporting period (YYYY-MM-DD) is required:
 
 .. code-block:: xml
 
-		<planned-disbursement updated="2013-03-31">
-        ....
-		</planned-disbursement>
-
+		  <period-start iso-date="2013-03-31">2013-03-31</period-start>
+    
 Full example:
 
 .. code-block:: xml
