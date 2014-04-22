@@ -6,42 +6,39 @@ Example ``sector`` with just the ``Sector`` code:
 
     <sector code="13040"/>
 
-Additionally, a text description for the code can be provided:
+With a text description for the ``Sector``:
 
 .. code-block:: xml
 
     <sector code="13040">STD control including HIV/AIDS</sector>
 
-The vocabulary attribute can be used to declare which code reference
-list is in use. If this is omitted, then IATI assumes the DAC
-vocabulary.
+Should a description be used that is different to the default language set for the ``iati-activity``, then this can be declared as follows:
+
+.. code-block:: xml
+
+    <sector code="13040" xml:lang="en">STD control including HIV/AIDS</sector>
+    
+The ``vocabulary`` is used to declare which ``sector`` classification list is in use. If this is omitted, then IATI assumes the DAC
+``vocabulary``.
 
 .. code-block:: xml
 
     <sector vocabulary="WB" code="BC">Central government administration</sector>
 
-If the specific vocabulary in use is not on the vocabulary codelist,
-then the value of RO (Reporting Organisation) can be used:
+If a vocabulary is not on the ``Vocabulary`` codelist, then the value of *RO* (Reporting Organisation) should be declared:
 
 .. code-block:: xml
 
     <sector vocabulary="RO">Education</sector>
 
-When multiple sectors are in use in the same activity, then the
-percentage attribute should be used - the total of all percentages
-within the same activity should total 100.
+When multiple ``sector`` are declared, then the ``percentage`` values should sum to 100% for the specific ``iati-activity``:
 
 .. code-block:: xml
 
-    <sector code="13040" percentage="60">STD control including HIV/AIDS</sector>
-    <sector code="12220" percentage="40">Basic health care</sector>
+    <sector code="13040" percentage="60"/>
+    <sector code="12220" percentage="40"/>
 
-Should a description be used that is different to the default language
-set for the activity, then this should be declared as follows:
 
-.. code-block:: xml
-
-    <sector code="13040" xml:lang="en">STD control including HIV/AIDS</sector>
 
 Changelog
 ~~~~~~~~~
