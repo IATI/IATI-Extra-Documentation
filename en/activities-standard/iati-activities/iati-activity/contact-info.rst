@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 This element acts as a container for other sub elements.
 
-Exampkle ``contact-info`` that declares ``ContactType`` code *1*:
+Example ``contact-info`` that declares ``ContactType`` code *1*:
 
 .. code-block:: xml
 
