@@ -8,7 +8,7 @@ To download a codelist. Select your endpoint (see below) and then specify the co
 
 <endpoint><codelist name>.<extension (xml/json/csv)>
 
-Enpoints
+Endpoints
 ^^^^^^^^
 
 The codelists used in each version of the standard are derived from different endpoints as a result of the historical management of the codelist API. We are finally taking in house control of them here at IATI.
