@@ -11,7 +11,7 @@ The optional ``version`` of *1.04* is also stated:
 
 The ``iati-organisation`` element acts as a container for other sub-elements.  It is closed as follows:
 
-	.. literalinclude:: ../organisation-standard-example-1.04-annotated.xml
-		:language: xml
-		:start-after: <!--document-link ends-->	
-		:end-before: <!--iati-organisation ends-->
+.. literalinclude:: ../organisation-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--document-link ends-->	
+	:end-before: <!--iati-organisation ends-->

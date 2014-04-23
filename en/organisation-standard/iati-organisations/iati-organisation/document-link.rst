@@ -7,10 +7,10 @@ For each ``language`` a relevant ``title``, ``Language`` code and ``url`` is pro
 
 Note: ``DocumentCategory`` codes with the B prefix are recommended within the ``iati-organisation`` ``document-link`` element.
 
-	.. literalinclude:: ../../organisation-standard-example-1.04-annotated.xml
-		:language: xml
-		:start-after: <!--document-link starts-->
-		:end-before: <!--document-link ends-->
+.. literalinclude:: ../../organisation-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--document-link starts-->
+	:end-before: <!--document-link ends-->
 
 Changelog
 ~~~~~~~~~
