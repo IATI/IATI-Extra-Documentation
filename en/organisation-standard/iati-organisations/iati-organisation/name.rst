@@ -1,13 +1,10 @@
 Example Usage
 ~~~~~~~~~~~~~
-.. code-block:: xml
-
-        <name>Organisation name</name>
-
-The name of an organisation can be presented in languages other than the ``xml:lang`` declared in ``iati-organisations``
-
-.. code-block:: xml
-
-        <name>Organisation name</name>
-        <name xml:lang="fr">Nom de l'organisme</name>
-
+Example of ``name`` of an ``iati-organisation``
+This example also uses ``xml:lang`` to present the name in a language other than declared in ``iati-organisations``:
+        
+	.. literalinclude:: ../../organisation-standard-example-1.04-annotated.xml
+		:language: xml
+		:start-after: <!--name starts-->
+		:end-before: <!--name ends-->
+		
