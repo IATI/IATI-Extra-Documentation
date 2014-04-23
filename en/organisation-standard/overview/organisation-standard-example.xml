@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--This is example XML-->
+<!--This is example XML for the IATI organisation standard.  No reference to actual data or real organisations is intended.  See: http://dev.iatistandard.org/organisation-standard/-->
+<!--iati-organisations.  See: http://dev.iatistandard.org/organisation-standard/iati-organisations/-->
 <iati-organisations generated-datetime="2014-04-03T18:27:37" version="1.04">
+	<!--iati-organisation.  See: http://dev.iatistandard.org/organisation-standard/iati-organisations/iati-organisation/-->
 	<iati-organisation default-currency="EUR" last-updated-datetime="2014-04-03T18:27:37" xml:lang="en">
+		<!--reporting-org.  See: http://dev.iatistandard.org/organisation-standard/iati-organisations/iati-organisation/reporting-org/-->
 		<reporting-org ref="AA-AAA-123456789" type="40">Organisation name</reporting-org>
+		<!--iati-identifier.  See: http://dev.iatistandard.org/organisation-standard/iati-organisations/iati-organisation/iati-identifier/-->
 		<iati-identifier>AA-AAA-123456789</iati-identifier>
+		<!--name.  See: http://dev.iatistandard.org/organisation-standard/iati-organisations/iati-organisation/name/-->
 		<name>Organisation name</name>
 		<name xml:lang="fr">Nom de l'organisme</name>
+		<!--total-budget.  See: http://dev.iatistandard.org/organisation-standard/iati-organisations/iati-organisation/total-budget/-->
 		<total-budget>
 			<period-start iso-date="2014-01-01">2014</period-start>
 			<period-end iso-date="2014-12-31">2014</period-end>
@@ -21,6 +27,7 @@
 			<period-end iso-date="2016-12-31">2016</period-end>
 			<value currency="USD" value-date="2012-01-01">350000000</value>
 		</total-budget>
+		<!--recipient-org-budget.  See: http://dev.iatistandard.org/organisation-standard/iati-organisations/iati-organisation/recipient-org-budget/-->
 		<recipient-org-budget>
 		    <recipient-org ref="123">Example Recipient Organisation</recipient-org>
 			<period-start iso-date="2014-01-01">2014</period-start>
@@ -39,6 +46,7 @@
 			<period-end iso-date="2016-12-31">2016</period-end>
 			<value currency="USD" value-date="2016-01-01">3500000</value>
 		</recipient-org-budget>
+		<!--recipient-country-budget.  See: http://dev.iatistandard.org/organisation-standard/iati-organisations/iati-organisation/recipient-country-budget/-->
 		<recipient-country-budget>
 		    <recipient-country code="AA">Country Name</recipient-country>
 			<period-start iso-date="2014-01-01">2014</period-start>
@@ -57,6 +65,7 @@
 			<period-end iso-date="2016-12-31">2016</period-end>
 			<value currency="USD" value-date="2016-01-01">35000000</value>
 		</recipient-country-budget>
+		<!--document-link.  See: http://dev.iatistandard.org/organisation-standard/iati-organisations/iati-organisation/document-link/-->
 		<document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
 			<category code="B01"/>
 			<language code="en"/>
