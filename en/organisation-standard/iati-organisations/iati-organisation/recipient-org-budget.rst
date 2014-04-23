@@ -1,24 +1,12 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example of ``recipient-org-budget`` in USD for a single organisation in 2014, 2015 & 2016
-
-.. code-block:: xml
-
-		<recipient-org-budget>
-		    <recipient-org ref="123">Example Recipient Organisation</recipient-org>
-			<period-start iso-date="2014-01-01">2014</period-start>
-			<period-end iso-date="2014-12-31">2014</period-end>
-			<value currency="USD" value-date="2014-01-01">2500000</value>
-		</recipient-org-budget>
-		<recipient-org-budget>
-		    <recipient-org ref="123">Example Recipient Organisation</recipient-org>
-			<period-start iso-date="2015-01-01">2015</period-start>
-			<period-end iso-date="2015-12-31">2015</period-end>
-			<value currency="USD" value-date="2015-01-01">3000000</value>
-		</recipient-org-budget>
-		<recipient-org-budget>
-		    <recipient-org ref="123">Example Recipient Organisation</recipient-org>
-			<period-start iso-date="2016-01-01">2016</period-start>
-			<period-end iso-date="2016-12-31">2016</period-end>
-			<value currency="USD" value-date="2016-01-01">3500000</value>
-		</recipient-org-budget>
+Example of ``recipient-org-budget`` for a single ``recipient-org`` *123*.
+Periods are stated using ``period-start`` and ``period-end``, with dates in ISO 8601 format (YYYY-MM-DD).
+This example ``recipient-org-budget`` is reported for years *2014, *2015* and *2016*.
+The ``value`` example includes a ``currency`` of *USD* - which differs from that set as ``default-currency`` in ``iati-organisation``.
+The ``value-date`` is reported in ISO 8601 format (YYYY-MM-DD).
+		
+	.. literalinclude:: ../../organisation-standard-example-1.04-annotated.xml
+		:language: xml
+		:start-after: <!--recipient-org-budget starts-->
+		:end-before: <!--recipient-org-budget ends-->

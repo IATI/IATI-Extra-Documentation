@@ -1,20 +1,17 @@
 Example Usage
 ~~~~~~~~~~~~~
+Example of ``reporting-org`` with ``ref`` *AA-AAA-123456789* and using ``OrganisationType`` code *40*:
+The optional ``version`` of *1.04* is also stated:
 
-.. code-block:: xml
-
-        <reporting-org ref="AA-AAA-123456789" type="21">Organisation Name</reporting-org>
-
-This example declares that this ``reporting-org`` is a secondary publisher
-
-.. code-block:: xml
-
-        <reporting-org ref="BB-BBB-123456789" type="40" secondary-publisher="1" xml:lang="en">Organisation Name</reporting-org>
-
+	.. literalinclude:: ../../organisation-standard-example-1.04-annotated.xml
+		:language: xml
+		:start-after: <!--reporting-org starts-->
+		:end-before: <!--reporting-org ends-->
+		
 Changelog
 ~~~~~~~~~
 
 1.04
 ^^^^
 
-| The secondary-publisher was introduced in 1.04.
+| The ``secondary-publisher`` attribute was introduced in 1.04.

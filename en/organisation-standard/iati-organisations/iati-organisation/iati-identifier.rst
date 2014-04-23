@@ -1,7 +1,8 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example organisation reference (AA-AAA-123456789).
+Example ``iati-identifier`` *AA-AAA-123456789-ABC123*:
 
-.. code-block:: xml
-
-    <iati-identifier>AA-AAA-123456789-ABC123</iati-identifier>
+	.. literalinclude:: ../../organisation-standard-example-1.04-annotated.xml
+		:language: xml
+		:start-after: <!--iati-identifier starts-->
+		:end-before: <!--iati-identifier ends-->

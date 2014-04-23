@@ -1,15 +1,12 @@
 Example Usage
 ~~~~~~~~~~~~~
+Example usage of ``value`` in context of ``total-budget`` element:
 
-Example in context of a single ``total-budget`` element:
-
-.. code-block:: xml
-
-		<total-budget>
-			<period-start iso-date="2015-01-01">2015</period-start>
-			<period-end iso-date="2015-12-31">2015</period-end>
-			<value currency="USD" value-date="2013-01-01">300000000</value>
-		</total-budget>
+	.. literalinclude:: ../../../organisation-standard-example-1.04-annotated.xml
+		:language: xml
+		:start-after: <!--total-budget starts-->
+		:end-before: <!--total-budget ends-->
+		
 Changelog
 ~~~~~~~~~
 

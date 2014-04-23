@@ -1,13 +1,16 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example generated on 3rd March 2014 and uses ``version`` 1.04:
+Example of ``iati-organisations`` with ``generated-datetime`` of on 6th May 2014. 
+The ``version`` of *1.04* of the **IATI organisation standard** is stated:
 
-.. code-block:: xml
+	.. literalinclude:: organisation-standard-example-1.04-annotated.xml
+		:language: xml
+		:start-after: <!--iati-organisations starts-->
+		:end-before: <!--iati-organisation starts-->
 
-        <iati-organisations generated-datetime="2014-04-03T18:27:37" version="1.04">
-           ....
-        </iati-organisations>
+The ``iati-organisation`` element acts as a container for other sub-elements.  It is closed as follows:
 
-
-Changelog
-~~~~~~~~~
+	.. literalinclude:: organisation-standard-example-1.04-annotated.xml
+		:language: xml
+		:start-after: <!--iati-organisation ends-->	
+		:end-before: <!--iati-organisations ends-->
