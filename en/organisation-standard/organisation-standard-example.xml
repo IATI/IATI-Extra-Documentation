@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is example XML for the IATI organisation standard.  No reference to actual data or real organisations is intended-->
+<!--iati-organisations starts-->
+<iati-organisations generated-datetime="2014-05-06T10:15:37" version="1.04">
+	<!--iati-organisation starts-->
+	<iati-organisation default-currency="EUR" last-updated-datetime="2014-05-06T10:15:37" xml:lang="en" version="1.04">
+		<!--reporting-org starts-->
+		<reporting-org ref="AA-AAA-123456789" type="40">Organisation name</reporting-org>
+		<!--reporting-org ends-->
+		<!--iati-identifier starts-->
+		<iati-identifier>AA-AAA-123456789</iati-identifier>
+		<!--iati-identifier ends-->
+		<!--name element starts-->
+		<name>Organisation name</name>
+		<name xml:lang="fr">Nom de l'organisme</name>
+		<!--total-budget starts-->
+		<total-budget>
+			<period-start iso-date="2014-01-01">2014</period-start>
+			<period-end iso-date="2014-12-31">2014</period-end>
+			<value currency="USD" value-date="2012-01-01">250000000</value>
+		</total-budget>
+		<total-budget>
+			<period-start iso-date="2015-01-01">2015</period-start>
+			<period-end iso-date="2015-12-31">2015</period-end>
+			<value currency="USD" value-date="2013-01-01">300000000</value>
+		</total-budget>
+		<total-budget>
+			<period-start iso-date="2016-01-01">2016</period-start>
+			<period-end iso-date="2016-12-31">2016</period-end>
+			<value currency="USD" value-date="2012-01-01">350000000</value>
+		</total-budget>
+		<!--total-budget ends-->
+		<!--recipient-org-budget starts-->
+		<recipient-org-budget>
+		    <recipient-org ref="123">Example Recipient Organisation</recipient-org>
+			<period-start iso-date="2014-01-01">2014</period-start>
+			<period-end iso-date="2014-12-31">2014</period-end>
+			<value currency="USD" value-date="2014-01-01">2500000</value>
+		</recipient-org-budget>
+		<recipient-org-budget>
+		    <recipient-org ref="123">Example Recipient Organisation</recipient-org>
+			<period-start iso-date="2015-01-01">2015</period-start>
+			<period-end iso-date="2015-12-31">2015</period-end>
+			<value currency="USD" value-date="2015-01-01">3000000</value>
+		</recipient-org-budget>
+		<recipient-org-budget>
+		    <recipient-org ref="123">Example Recipient Organisation</recipient-org>
+			<period-start iso-date="2016-01-01">2016</period-start>
+			<period-end iso-date="2016-12-31">2016</period-end>
+			<value currency="USD" value-date="2016-01-01">3500000</value>
+		</recipient-org-budget>
+		<!--recipient-org-budget ends-->
+		<!--recipient-country-budget starts-->
+		<recipient-country-budget>
+		    <recipient-country code="AA">Country Name</recipient-country>
+			<period-start iso-date="2014-01-01">2014</period-start>
+			<period-end iso-date="2014-12-31">2014</period-end>
+			<value currency="USD" value-date="2014-01-01">25000000</value>
+		</recipient-country-budget>
+		<recipient-country-budget>
+		    <recipient-country code="AA">Country Name</recipient-country>
+			<period-start iso-date="2015-01-01">2015</period-start>
+			<period-end iso-date="2015-12-31">2015</period-end>
+			<value currency="USD" value-date="2015-01-01">30000000</value>
+		</recipient-country-budget>
+		<recipient-country-budget>
+		    <recipient-country code="AA">Country Name</recipient-country>
+			<period-start iso-date="2016-01-01">2016</period-start>
+			<period-end iso-date="2016-12-31">2016</period-end>
+			<value currency="USD" value-date="2016-01-01">35000000</value>
+		</recipient-country-budget>
+		<!--recipient-country-budget starts-->
+		<!--document-link starts-->
+		<document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
+			<category code="B01"/>
+			<language code="en"/>
+			<title>Annual Report 2013</title>
+		</document-link>
+		<document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_fr.odt">
+			<category code="B01"/>
+			<language code="fr"/>
+			<title>Rapport annuel 2013</title>
+		</document-link>
+		<!--document-link ends-->		
+	</iati-organisation>
+	<!--iati-organisation ends-->
+</iati-organisations>
+<!--iati-organisations ends-->
