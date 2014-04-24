@@ -7,7 +7,6 @@ The *activity file* contains the data that relates to the **IATI activity standa
 
 It is an XML file, containing all the relevant fields for the publisher organisation.
 
-
 Considerations
 --------------
 An IATI publisher should publish at least one activity file.
@@ -21,6 +20,7 @@ It must be valid XML.
 A link to the activity file(s) should be published on the IATI Registry.  
 Ideally, this link would be to an activity file(s) on the publisher website or open data portal.  However, third party tools are available to generate and host files on behalf of publishers.
 
+The *activity file* must have ``iati-activities`` as the root element - to contain all other elements.
 
 Further guidance
 ----------------
