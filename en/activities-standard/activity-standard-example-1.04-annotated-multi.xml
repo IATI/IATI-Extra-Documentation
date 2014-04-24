@@ -65,16 +65,19 @@
   <recipient-region code="123" percentage="50" vocabulary="1" />
   <!--recipient-region ends-->
   <!--location starts-->
-  <location ref="">
+  <location ref="AF-KAN">
    <name>Kandahar</name>
-   <location-reach code=""></location-reach>
-   <location-id code=""></location-id>
    <description>West end of Kandahar-Kabul highway</description>
-   <activity-description xml:lang="fr">xxxxxx</activity-description>
-   <administrative code="xxxxxx" vocabulary="OSM" level="1">Kandahar Province, Afghanistan</administrative>
+   <location-reach code="1" />
+   <location-id vocabulary="G1" code="1453782" />
+   <activity-description>A description that qualifies the activity taking place at the location</activity-description>
+   <administrative level="1" code="1453782" vocabulary="G1">Kandahar Province, Afghanistan</administrative>
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-   <coordinates>31.616944 65.716944</coordinates>
+    <pos>31.616944 65.716944</pos>
    </point>
+   <exactness code="1"/>
+   <location-class code="2"/>
+   <feature-designation code="PRNQ"/>
   </location>
   <!--location ends-->
   <!--sector starts-->
