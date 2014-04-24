@@ -5,7 +5,7 @@
  <!--iati-organisation starts-->
  <iati-organisation default-currency="EUR" last-updated-datetime="2014-05-06T10:15:37" xml:lang="en" version="1.04">
   <!--reporting-org starts-->
-  <reporting-org ref="AA-AAA-123456789" type="40">Organisation name</reporting-org>
+  <reporting-org ref="AA-AAA-123456789" type="40" secondary-reporter="0">Organisation name</reporting-org>
   <!--reporting-org ends-->
   <!--iati-identifier starts-->
   <iati-identifier>AA-AAA-123456789</iati-identifier>

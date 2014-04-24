@@ -6,7 +6,7 @@
   <!--iati-activity starts-->
  <iati-activity default-currency="EUR" last-updated-datetime="2014-05-06T10:15:37" hierarchy="1" version="1.04" linked-data-uri="http://data.example.org/123456789">
   <!--reporting-org starts-->
-  <reporting-org ref="BB-BBB-123456789" type="40" secondary-publisher="1" xml:lang="en">Organisation Name</reporting-org>
+  <reporting-org ref="BB-BBB-123456789" type="40" secondary-publisher="1">Organisation Name</reporting-org>
   <!--reporting-org ends-->
   <!--iati-identifier starts-->
   <iati-identifier>BB-BBB-123456789-ABC123</iati-identifier>
@@ -16,10 +16,10 @@
   <!--other-identifier ends-->
   <!--title starts-->
   <title>Activity title</title>
-  <!--title ends-->
-  <!--description starts-->
   <title xml:lang="fr">Titre de l'activité</title>
   <title xml:lang="es">Título de la actividad</title>
+  <!--title ends-->
+  <!--description starts-->
   <description type="1">General activity description text. Long description of the activity with no particular structure</description>
   <description type="2">Objectives for the activity, for example from a logical framework.</description>
   <description type="3">Statement of groups targeted to benefit from the activity.</description>
@@ -55,52 +55,47 @@
   <!--activity-scope starts-->
   <activity-scope code="3">Multi-national</activity-scope>
   <!--activity-scope ends-->
-  <!--recipient-country starts-->
   <!--Note: only country OR region has to be declared-->
-  <recipient-country code="AA" percentage="50">Country AA</recipient-country>
-  <recipient-country code="BB" percentage="50">Country BB</recipient-country>
+  <!--recipient-country starts-->
+  <recipient-country code="AF" percentage="50" />
+  <recipient-country code="AL" percentage="50" />
   <!--recipient-country ends-->
   <!--recipient-region starts-->
-  <recipient-region code="456" percentage="50" vocabulary="1">Region 2</recipient-region>
-  <recipient-region code="123" percentage="50" vocabulary="1">Region 1</recipient-region>
+  <recipient-region code="456" percentage="50" vocabulary="1" />
+  <recipient-region code="123" percentage="50" vocabulary="1" />
   <!--recipient-region ends-->
   <!--location starts-->
-  <location percentage="50">
-   <description>Description text</description>
-   <gazetteer-entry gazetteer-ref="OSM">Open Street Map</gazetteer-entry>
-   <coordinates latitude="1.0001" longitude="2.0001" precision="6" />
-   <location-type code="PPL">populated place</location-type>
-   <administrative country="AA" />
-   <name>Country A</name>
-  </location>
-  <location percentage="50">
-   <description>Description text</description>
-   <gazetteer-entry gazetteer-ref="OSM">Open Street Map</gazetteer-entry>
-   <coordinates latitude="1.0001" longitude="2.0001" precision="6" />
-   <location-type code="PPL">populated place</location-type>
-   <administrative country="BB" />
-   <name>Country B</name>
+  <location ref="">
+   <name>Kandahar</name>
+   <location-reach code=""></location-reach>
+   <location-id code=""></location-id>
+   <description>West end of Kandahar-Kabul highway</description>
+   <activity-description xml:lang="fr">xxxxxx</activity-description>
+   <administrative code="xxxxxx" vocabulary="OSM" level="1">Kandahar Province, Afghanistan</administrative>
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+   <coordinates>31.616944 65.716944</coordinates>
+   </point>
   </location>
   <!--location ends-->
   <!--sector starts-->
-  <sector code="222" percentage="50" vocabulary="DAC">Sector 2</sector>
-  <sector code="111" percentage="50" vocabulary="DAC">Sector 1</sector>
+  <sector code="222" percentage="50" vocabulary="DAC" />
+  <sector code="111" percentage="50" vocabulary="DAC" />
   <!--sector ends-->
   <!--country-budget-items starts-->
   <country-budget-items vocabulary="2">
-   <budget-item code="ABC" percentage="50">
+   <budget-item code="1.1.1" percentage="50">
      <description>Description text</description>
    </budget-item>
   </country-budget-items>
   <country-budget-items vocabulary="2">
-   <budget-item code="EFG" percentage="50">
+   <budget-item code="1.1.2" percentage="50">
     <description>Description text</description>
    </budget-item>
   </country-budget-items>
   <!--country-budget-items ends-->
   <!--policy-marker starts-->
-  <policy-marker code="01" significance="3" vocabulary="DAC">Policy Marker 1</policy-marker>
-  <policy-marker code="02" significance="3" vocabulary="DAC">Policy Marker 2</policy-marker>
+  <policy-marker code="01" significance="3" vocabulary="DAC" />
+  <policy-marker code="02" significance="3" vocabulary="DAC" />
   <!--policy-marker ends-->
   <!--collaboration-type starts-->
   <collaboration-type code="1">Bilateral</collaboration-type>
@@ -118,11 +113,6 @@
   <default-tied-status code="3">Partially tied</default-tied-status>
   <!--default-tied-status ends-->
   <!--budget starts-->
-  <budget type="1">
-   <period-start iso-date="2014-01-01">Start of budget year 2014</period-start>
-   <value currency="EUR" value-date="2014-01-01">3000</value>
-   <period-end iso-date="2014-12-31">End of budget year 2014</period-end>
-  </budget>
   <budget type="2">
    <period-start iso-date="2013-01-01">Start of budget year 2013</period-start>
    <value currency="EUR" value-date="2013-01-01">2001</value>
@@ -137,6 +127,11 @@
    <period-start iso-date="2013-01-01">Start of budget year 2013</period-start>
    <value currency="EUR" value-date="2013-01-01">2000</value>
    <period-end iso-date="2013-12-31">End of budget year 2013</period-end>
+  </budget>
+    <budget type="1">
+   <period-start iso-date="2014-01-01">Start of budget year 2014</period-start>
+   <value currency="EUR" value-date="2014-01-01">3000</value>
+   <period-end iso-date="2014-12-31">End of budget year 2014</period-end>
   </budget>
   <!--budget ends-->
   <!--planned-disbursement starts-->
@@ -157,7 +152,7 @@
   </planned-disbursement>
   <!--planned-disbursement ends-->
   <!--capital-spend starts-->
-  <capital-spend percentage="50.5" />
+  <capital-spend percentage="88.8" />
   <!--capital-spend ends-->
   <!--transaction starts-->
   <transaction ref="XYZ">
@@ -201,30 +196,36 @@
   </transaction>
   <!--transaction ends-->
   <!--document-link starts-->
-  <document-link format="application/odt" url="http:www.example.org/docs/evaluation.odt">
-   <category code="A07">Review of project performance and evaluation</category>
-   <language code="en">English</language>
-   <title>Project evaluation document</title>
+  <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
+   <category code="A01" />
+   <language code="en" />
+   <title>Project report 2013</title>
   </document-link>
-  <document-link format="application/odt" url="http:www.example.org/docs/project.odt">
-   <category code="A01">Pre- and post-project impact appraisal</category>
-   <language code="en">English</language>
-   <title>Project document</title>
+  <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_fr.odt">
+   <category code="A01" />
+   <language code="fr" />
+   <title>Project rapport 2013</title>
   </document-link>
   <!--document-link ends-->
   <!--activity-website starts-->
   <activity-website>http://www.example.com/en/activity/ABC123</activity-website>
   <!--activity-website ends-->
   <!--related-activity starts-->
-  <related-activity ref="AA-AAA-123456789-ABC" type="3">Related activity name</related-activity>
-  <related-activity ref="AA-AAA-123456789-6789" type="1">Related activity name</related-activity>
+  <related-activity ref="AA-AAA-123456789-6789" type="1" />
+  <related-activity ref="AA-AAA-123456789-XYZ" type="3" />
   <!--related-activity ends-->
   <!--conditions starts-->
   <conditions attached="1">
    <condition type="1">Conditions text</condition>
   </conditions>
   <conditions attached="1">
+   <condition xml:lang="fr" type="1">Conditions text ici</condition>
+  </conditions>  
+  <conditions attached="1">
    <condition type="2">Conditions text</condition>
+  </conditions>
+  <conditions attached="1">
+   <condition xml:lang="fr" type="2">Conditions text ici</condition>
   </conditions>
   <!--conditions ends-->
   <!--result starts-->
@@ -232,17 +233,30 @@
    <title>Result 1 title</title>
    <description>Result 1 description text</description>
    <indicator measure="1" ascending="1">
-     <title>Indicator 1 title</title>
-     <description>Indicator 1 description text</description>
-     <baseline year="2012" value="10">
-       <comment>Baseline comment text</comment>
-     </baseline>
-     <period>
-       <period-start iso-date="2013-01-01" />
-       <period-end iso-date="2013-03-31" />
-       <target value="10" />
-       <actual value="11" />
-     </period>
+    <title>Indicator 1 title</title>
+    <description>Indicator 1 description text</description>
+    <baseline year="2012" value="10"/>
+    <period> 
+     <period-start iso-date="2013-01-01"/> 
+     <period-end iso-date="2013-03-31"/>
+     <target value="10"/>
+     <actual value="11"/>
+    </period> 
+   </indicator>
+  </result>
+  <result type="1" aggregation-status="1">
+   <title>Result 2 title</title>
+   <description>Result 2 description text</description>
+   <indicator measure="1" ascending="1">
+    <title>Indicator 1 title</title>
+    <description>Indicator 1 description text</description>
+    <baseline year="2012" value="110"/>
+    <period>
+     <period-start iso-date="2013-01-01"/>
+     <period-end iso-date="2013-03-31"/>
+     <target value="110"/>
+     <actual value="111"/>
+    </period>
    </indicator>
   </result>
   <!--result ends-->
