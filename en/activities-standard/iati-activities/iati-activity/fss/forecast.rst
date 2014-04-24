@@ -4,7 +4,7 @@ Example usage of ``forecast`` in context of ``fss`` element.
 
 Example declares ``year`` as *2014*, with a ``value`` of *10000*:
 
-A date in ISO 8601 format (YYYY-MM-DD) is required for ``value-date`` date of the ``forecast`` period:
+A date in ISO 8601 format (YYYY-MM-DD) is required for ``value-date`` date of the ``forecast``:
 
 The ISO 4217 code for the ``currency`` in which the ``forecast`` is denominated should be declared using the ``Currency`` codelist, but only if different to ``default-currency`` in the ``iati-activity`` element.
 
