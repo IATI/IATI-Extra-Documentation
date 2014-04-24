@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 The ``transaction`` element acts as a container for other sub elements.
 
-At the ``transaction level, the attribute ``ref`` can be used to describe reference to this ``transaction`` in another system:
+At the ``transaction`` level, the attribute ``ref`` can be used to describe reference to this ``transaction`` in another system:
 
 .. code-block:: xml
 
@@ -17,7 +17,7 @@ Example:
 	:start-after: <!--min transaction starts-->
 	:end-before: <!--min transaction ends-->
 
-Full example with additional elements, some of which can override the value set in ``iati-activity``: 
+Full example with additional elements which can override the default value set in ``iati-activity``: 
 
 .. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
 	:language: xml
