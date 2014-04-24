@@ -1,6 +1,8 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``fss``:
+Example usage of ``fss`` element with ``extraction-date`` of *2014-05-06* and ``phaseout-year`` decalred as *2016*.
+
+A boolean declares that this ``fss`` example is a partner country priority.
 
 .. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
 	:language: xml
@@ -15,4 +17,4 @@ Changelog
 ^^^^
 
 | New in 1.03
-|  Added the optional ``fss`` element and its child elements
+| Added the optional ``fss`` element and its child elements
