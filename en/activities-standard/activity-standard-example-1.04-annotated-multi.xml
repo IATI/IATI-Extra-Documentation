@@ -155,6 +155,7 @@
   <capital-spend percentage="88.8" />
   <!--capital-spend ends-->
   <!--transaction starts-->
+  <!--transaction 1 starts-->
   <transaction ref="XYZ">
    <aid-type code="A01">General budget support</aid-type>
    <flow-type code="10">ODA</flow-type>
@@ -167,7 +168,9 @@
    <transaction-date iso-date="2012-01-31">2012-01-31</transaction-date>
    <transaction-type code="C">Commitment</transaction-type>
    <description>Description text</description>
+   <description xml:lang="fr">Description text</description>
   </transaction>
+  <!--transaction 1 ends-->
   <transaction ref="ABC">
    <aid-type code="A01">General budget support</aid-type>
    <flow-type code="10">ODA</flow-type>
@@ -260,24 +263,82 @@
    </indicator>
   </result>
   <!--result ends-->
+  <!--multi-lang result starts-->
+  <result type="1" aggregation-status="1">
+   <title>Result 1 title</title>
+   <title xml:lang="fr">Result 1 title</title>
+   <description>Result 1 description text</description>
+   <description xml:lang="fr">Result 1 description text</description>
+   <indicator measure="1" ascending="1">
+    <title>Indicator 1 title</title>
+    <title xml:lang="fr">Indicator 1 title</title>
+    <description>Indicator 1 description text</description>
+    <description xml:lang="fr">Indicator 1 description text</description>
+    <baseline year="2012" value="10">
+     <comment>Baseline comment text</comment>
+     <comment xml:lang="fr">Baseline comment text</comment> 
+    </baseline>
+    <period> 
+     <period-start iso-date="2013-01-01"/> 
+     <period-end iso-date="2013-03-31"/>
+     <target value="10">
+      <comment>Target comment text</comment>
+      <comment xml:lang="fr">Target comment text</comment> 
+     </target>
+     <actual value="11">
+      <comment>Actual comment text</comment>
+      <comment xml:lang="fr">Actual comment text</comment>     
+     </actual>
+    </period> 
+   </indicator>
+  </result>
+  <!--multi-lang result ends-->
+  <!--multi-indicator result starts-->
+  <result type="1" aggregation-status="1">
+   <title>Result 1 title</title>
+   <description>Result 1 description text</description>
+   <indicator measure="1" ascending="1">
+    <title>Indicator 1 title</title>
+    <description>Indicator 1 description text</description>
+    <baseline year="2012" value="10"/>
+    <period> 
+     <period-start iso-date="2013-01-01"/> 
+     <period-end iso-date="2013-03-31"/> 
+     <target value="10"/> 
+     <actual value="11"/> 
+    </period> 
+   </indicator>
+   <indicator measure="1" ascending="1">
+    <title>Indicator 2 title</title>
+    <description>Indicator 2 description text</description>
+    <baseline year="2012" value="10"/>
+    <period>
+	 <period-start iso-date="2013-04-01"/>
+	 <period-end iso-date="2013-06-30"/>
+	 <target value="11"/>
+	 <actual value="12"/> 
+	</period> 
+   </indicator>
+  </result>
+  <!--multi-indicator result ends-->
   <!--legacy-data starts-->
   <legacy-data iati-equivalent="transaction" name="cost" value="1000">Legacy</legacy-data>
   <!--legacy-data ends-->
   <!--fss starts-->
-  <fss extraction-date="2013-05-31" priority="true" phaseout-year="2016">
+  <fss extraction-date="2014-05-06" priority="1" phaseout-year="2016">
    <forecast year="2014" value-date="2013-07-03" currency="GBP">10000</forecast>
-   <forecast year="2015" currency="GBP">20000</forecast>
+   <forecast year="2015" currency="GBP" value-date="2013-07-03">20000</forecast>
   </fss>
   <!--fss ends-->
   <!--crs-add starts-->
   <crs-add>
-   <aidtype-flag code="XX" significance="true">XXX</aidtype-flag>
+   <aidtype-flag code="1" significance="1" />
    <loan-terms rate-1="4" rate-2="3">
-    <repayment-type code="1">Equal Principal Payments (EPP)</repayment-type>
-    <repayment-plan code="4">Quarterly</repayment-plan>
-     <commitment-date iso-date="2013-09-01"/>
-     <repayment-first-date iso-date="2014-01-01"/>
-     <repayment-final-date iso-date="2020-12-31"/>
+    <repayment-type code="1" />>
+    <repayment-plan code="4" />
+    <commitment-date iso-date="2013-09-01"/>
+    <repayment-first-date iso-date="2014-01-01" />
+    <repayment-final-date iso-date="2020-12-31" />
    </loan-terms>
    <loan-status year="2014" currency="GBP" value-date="2013-05-24">
      <interest-received>200000</interest-received>
