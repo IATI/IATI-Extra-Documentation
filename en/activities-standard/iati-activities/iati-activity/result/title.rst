@@ -1,33 +1,16 @@
 Example Usage
 ~~~~~~~~~~~~~
-A ''title'' for ''result'' can be declared as such:
+Example usage of ``title`` in context of ``result`` element.
 
-.. code-block:: xml
+.. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--result starts-->
+	:end-before: <!--result ends-->
 
-        <title>Result 1 title</title>
+It may be appropriate to repeat the ``title`` in other languages using ``xml:lang`` attribute.  
+In this example, the language *en* has been set in the ''iati-activity'' element:
 
-Should the ``comment`` be in a language other than the default language declared in ``iati-activity``, then it should be described:
-
-.. code-block:: xml
-
-        <title xml:lang="fr">Result 1 title</title>
-
-Full example:
-        
-.. code-block:: xml
-
-		<result type="1" aggregation-status="1">
-			<title>Result 1 title</title>
-			<description>Result 1 description text</description>
-			<indicator measure="1" ascending="1">
-				<title>Indicator 1 title</title>
-				<description>Indicator 1 description text</description>
-				<baseline year="2012" value="10"/>
-				<period> 
-					<period-start iso-date="2013-01-01"/> 
-					<period-end iso-date="2013-03-31"/> 
-					<target value="10"/> 
-					<actual value="11"/> 
-				</period> 
-			</indicator>
-		</result>
+.. literalinclude:: ../../../activity-standard-example-1.04-annotated-multi.xml
+	:language: xml
+	:start-after: <!--multi-lang result starts-->
+	:end-before: <!--multi-lang result ends-->
