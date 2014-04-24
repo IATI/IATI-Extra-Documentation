@@ -1,17 +1,14 @@
-
-
 Example Usage
 ~~~~~~~~~~~~~
+Example usage of ``repayment-type`` within ``loan-terms`` in context of ``crs-add`` element.
 
-.. code-block:: xml
+A ``LoanRepaymentType`` code *1* is declared:
 
-    <crs-add>
+.. literalinclude:: ../../../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--crs-add starts-->
+	:end-before: <!--crs-add ends-->
 
-      <loan-terms rate-1="" rate-2=""> 
-        <repayment-type code=""></repayment-type>
-      </loan-terms>
-     
-    </crs-add>
 
 Changelog
 ~~~~~~~~~
@@ -20,4 +17,4 @@ Changelog
 ^^^^
 
 | New in 1.03
-|  Added the optional crs-add element and its child elements
+| Added the optional ``crs-add`` element and its child elements

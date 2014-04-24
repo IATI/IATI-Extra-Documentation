@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``crs-add``:
+The ``crs-add`` element acts as a container for other elements.
 
 .. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
 	:language: xml
@@ -15,4 +15,4 @@ Changelog
 ^^^^
 
 | New in 1.03
-|  Added the optional crs-add element and its child elements
+| Added the optional ``crs-add`` element and its child elements
