@@ -2,23 +2,23 @@ Example Usage
 ~~~~~~~~~~~~~
 Example ``recipient-country`` with relevant ``Country`` code:
 
-.. code-block:: xml
+.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--recipient-country starts-->
+	:end-before: <!--recipient-country ends-->
 
-    <recipient-country code="CG"/>
+When multiple ``recipient-country`` are declared, then the ``percentage`` values should sum to 100% for the specific ``iati-activity``:
+
+.. literalinclude:: ../../activity-standard-example-1.04-annotated-multi.xml
+	:language: xml
+	:start-after: <!--recipient-country starts-->
+	:end-before: <!--recipient-country ends-->
 
 Additionally, the name of the ``Country`` can also be declared:
 
 .. code-block:: xml
 
-    <recipient-country code="CG">Democratic Republic of Congo</recipient-country>
-
-When multiple ``recipient-country`` are declared, then the ``percentage`` values should sum to 100% for the specific ``iati-activity``:
-
-.. code-block:: xml
-
-    <recipient-country code="CG" percentage="60"/>
-    <recipient-country code="AO" percentage="40"/>
-    
+    <recipient-country code="AF">Afghanistan</recipient-country>    
 
 Changelog
 ~~~~~~~~~

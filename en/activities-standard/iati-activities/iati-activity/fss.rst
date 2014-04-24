@@ -1,12 +1,11 @@
 Example Usage
 ~~~~~~~~~~~~~
+Example ``fss``:
 
-.. code-block:: xml
-
-    <fss extraction-date="2013-05-31" priority="true" phaseout-year="2016">
-        <forecast year="2014" value-date="2013-07-03" currency="GBP">10000</forecast>
-        <forecast year="2015" currency="GBP">20000</forecast>
-    </fss>
+.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--fss starts-->
+	:end-before: <!--fss ends-->
       
 
 Changelog

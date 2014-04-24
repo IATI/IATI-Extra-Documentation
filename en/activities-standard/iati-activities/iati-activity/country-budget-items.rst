@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 The ``country-budget-items`` element acts as a container for other sub elements.
 
-Example ``country-budget-items`` that declares ``country-budget-items`` code *2* (Country Chart of Accounts):
+Example ``country-budget-items`` that declares ``BudgetIdentifierVocabulary`` code *2* (Country Chart of Accounts):
 
 .. code-block:: xml
 
@@ -12,13 +12,11 @@ Example ``country-budget-items`` that declares ``country-budget-items`` code *2*
     
 Full example:
 
-.. code-block:: xml
+.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--country-budget-items starts-->
+	:end-before: <!--country-budget-items ends-->
 
-    <country-budget-items vocabulary="2">
-      <budget-item code="1.1.1">
-        <description>Description text</description>
-      </budget-item>
-    </country-budget-items>
 
 Changelog
 ~~~~~~~~~

@@ -1,7 +1,10 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example to illustrate the concatenation of the ``reporting-org`` identifier *AA-AAA-123456789* and the internal activity identifier *ABC123*:
+Example ``iati-identifier`` *AA-AAA-123456789-ABC123*:
 
-.. code-block:: xml
+Illustration the concatenation of the ``reporting-org`` identifier *AA-AAA-123456789* and the internal activity identifier *ABC123*:
 
-    <iati-identifier>AA-AAA-123456789-ABC123</iati-identifier>
+.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--iati-identifier starts-->
+	:end-before: <!--iati-identifier ends-->

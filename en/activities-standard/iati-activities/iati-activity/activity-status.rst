@@ -1,7 +1,8 @@
 Example Usage
 ~~~~~~~~~~~~~
-This example declares that an ``iati-activity`` is in *Implementation*, using ``ActivityStatus`` code 2:
+Example of an ``activity-status`` with ``ActivityStatus`` code *2* (Implementation):
 
-.. code-block:: xml
-
-        <activity-status code="2">Implementation</activity-status>
+.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--activity-status starts-->
+	:end-before: <!--activity-status ends-->

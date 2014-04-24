@@ -2,37 +2,21 @@ Example Usage
 ~~~~~~~~~~~~~
 This is a child element of ``country-budget-items``
 
-Example that declares ``BudgetIdentifier`` code *1.1.1* (Executive - executive) with a ``percentage`` of *80*
-.. code-block:: xml
+Example that declares ``BudgetIdentifier`` code *1.1.1* (Executive - executive):
 
-      <budget-item code="1.1.1" percentage="80">
-         <description xml:lang="en">XXX</description>
-      </budget-item>
+.. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--country-budget-items starts-->
+	:end-before: <!--country-budget-items ends-->
 
-When multiple ``budget-item`` are declared, then the ``percentage`` values should sum to 100% for the specific ``iati-activity``:
+When multiple ``budget-item`` are declared, then the ``percentage`` values should sum 100% for the specific ``iati-activity``:
 
-.. code-block:: xml
+.. literalinclude:: ../../../activity-standard-example-1.04-annotated-multi.xml
+	:language: xml
+	:start-after: <!--country-budget-items starts-->
+	:end-before: <!--country-budget-items ends-->
 
-    <country-budget-items vocabulary="2">
-      <budget-item code="1.1.1" percentage="80">
-        <description>Description text</description>
-      </budget-item>
-    </country-budget-items>
-    <country-budget-items vocabulary="2">
-      <budget-item code="1.1.2" percentage="20">
-        <description>Description text</description>
-      </budget-item>
-    </country-budget-items>
 
-Full example:
-
-.. code-block:: xml
-
-    <country-budget-items vocabulary="2">
-      <budget-item code="1.1.1"/>
-        <description>Description text</description>
-      </budget-item>
-    </country-budget-items>
 
 Changelog
 ~~~~~~~~~
