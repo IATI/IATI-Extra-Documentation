@@ -5,7 +5,7 @@ The ``DocumentCategory`` is declared as *B01*.
 In this example, the ``document-link`` is provided in two ``language``
 For each ``language`` a relevant ``title``, ``Language`` code and ``url`` is provided:
 
-Note: ``DocumentCategory`` codes with the B prefix are recommended within the ``iati-organisation`` ``document-link`` element.
+Note: ``DocumentCategory`` codes with the *B* ``DocumentCategory-category`` prefix are recommended within the **IATI organisation standard**  ``document-link`` element.
 
 .. literalinclude:: ../../organisation-standard-example-1.04-annotated.xml
 	:language: xml

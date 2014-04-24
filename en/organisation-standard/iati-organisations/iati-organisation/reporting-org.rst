@@ -1,7 +1,7 @@
 Example Usage
 ~~~~~~~~~~~~~
 Example of ``reporting-org`` with ``ref`` *AA-AAA-123456789* and using ``OrganisationType`` code *40*:
-The optional ``version`` of *1.04* is also stated:
+The optional ``secondary-publisher`` bolean is included, for illustration:
 
 .. literalinclude:: ../../organisation-standard-example-1.04-annotated.xml
 	:language: xml
