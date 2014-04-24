@@ -16,6 +16,6 @@ All Codelists
    :glob:
    :titlesonly:
 
-   codelists/code-list-api
+   codelists/codelist-api
    codelists/*
 
