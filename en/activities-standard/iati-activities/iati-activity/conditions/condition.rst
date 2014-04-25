@@ -1,22 +1,19 @@
 Example Usage
 ~~~~~~~~~~~~~
-When ``conditions`` are attached, they can be described using a free text description. 
+Example ``condition`` attached, with ``ConditionType`` code *1* (Policy):
 
-The ``ConditionType`` of a ``condition`` should be specified, and should be a value from the relevant ``ConditionType`` codelist.
+.. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--conditions starts-->
+	:end-before: <!--conditions ends-->
 
-.. code-block:: xml
+From version 1.04, the schema allows the ``xml:lang`` attribute to also be included in the sub-element ``condition``
+Example of an ``iati-activity`` with two ``conditions``, declared in the the default language and also *fr*:
 
-    <conditions attached="1">
-        <condition type="1">Condition text here.</condition>
-    </conditions>
-    
-From version 1.04, the schema now allows the ``xml:lang`` attribute to also be included
-
-.. code-block:: xml
-
-    <conditions attached="1">
-        <condition type="1" xml:lang="fr">Condition texte ici.</condition>
-    </conditions>
+.. literalinclude:: ../../../activity-standard-example-1.04-annotated-multi.xml	
+	:language: xml
+	:start-after: <!--conditions starts-->
+	:end-before: <!--conditions ends-->
 
 Changelog
 ~~~~~~~~~

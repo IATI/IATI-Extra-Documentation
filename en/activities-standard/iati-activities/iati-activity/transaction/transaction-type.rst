@@ -1,37 +1,24 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example of ``transaction-type`` declaring just ``TransactionType`` code *IF* (Incoming Funds)
+Example usage of ``transaction-type`` in context of ``transaction`` element.
 
-.. code-block:: xml
+Example declares ``TransactionType`` code *IF* (Incoming Funds)
 
-        <transaction-type code="IF">Incoming Funds</transaction-type>
+.. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--min transaction starts-->
+	:end-before: <!--min transaction ends-->
 
-Additionally, a text description of the ``TransactionType`` code can be provided:
+Full example with additional elements which can override the default value set in ``iati-activity``: 
 
-.. code-block:: xml
-
-        <transaction-type code="IF">Incoming Funds</transaction-type>
-
-Where this text description is in a language that differs from the default, then this should be declared accordingly:
-
-.. code-block:: xml
-
-        <transaction-type code="IF" xml:lang="en">Incoming Funds</transaction-type>
-        
-Full example:
-
-.. code-block:: xml
+.. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--full transaction starts-->
+	:end-before: <!--full transaction ends-->
     
-    <transaction ref="1234">
-      <transaction-date iso-date="2012-01-01">2012-01-01</transaction-date>
-      <transaction-type code="IF">Incoming Funds</transaction-type>
-      <value currency="EUR" value-date="2012-01-01">1000</value>   
-      <description>Transaction description text</description>
-      <provider-org provider-activity-id="BB-BBB-123456789-1234AA" ref="BB-BBB-123456789">Agency B</provider-org>
-      <receiver-org receiver-activity-id="AA-AAA-123456789-1234" ref="AA-AAA-123456789">Agency A</receiver-org>
-      <aid-type code="A01">General budget support</aid-type>
-      <flow-type code="10">ODA</flow-type>
-      <disbursement-channel code="1">Money is disbursed through central Ministry of Finance or Treasury</disbursement-channel>
-      <finance-type code="110">Aid grant excluding debt reorganisation</finance-type>
-      <tied-status code="3">Partially tied</tied-status>
-    </transaction>
+An ``iati-activity`` can have multiple ``transaction`` elements, with different ``TransactionType`` codes:
+
+.. literalinclude:: ../../../activity-standard-example-1.04-annotated-multi.xml
+	:language: xml
+	:start-after: <!--transaction starts-->
+	:end-before: <!--transaction ends-->

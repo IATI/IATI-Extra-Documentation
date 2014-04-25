@@ -1,8 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example usage of ``transaction-date`` in context of ``transaction`` element.
-
-An ISO 8601 code for the ``transaction-date`` date of the reporting period (YYYY-MM-DD) is required:
+Example usage of ``description`` in context of ``transaction`` element.
 
 .. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
 	:language: xml
@@ -15,3 +13,12 @@ Full example with additional elements which can override the default value set i
 	:language: xml
 	:start-after: <!--full transaction starts-->
 	:end-before: <!--full transaction ends-->
+	
+It may be appropriate to repeat the ``description`` in other languages using ``xml:lang`` attribute.  
+In this example, the language *en* has been set in the ''iati-activity'' element:
+
+.. literalinclude:: ../../../activity-standard-example-1.04-annotated-multi.xml
+	:language: xml
+	:start-after: <!--transaction 1 starts-->
+	:end-before: <!--transaction 1 ends-->
+

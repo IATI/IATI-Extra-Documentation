@@ -1,21 +1,21 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example generated on 3rd March 2014 and uses ``version`` 1.04:
+Example of ``iati-activities`` with ``generated-datetime`` of on 6th May 2014. 
+The ``version`` of *1.04* of the **IATI activity standard** is stated.
+The optional ``linked-data-default`` is also included
 
-.. code-block:: xml
+.. literalinclude:: activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--iati-activities starts-->
+	:end-before: <!--iati-activity starts-->
 
-        <iati-activities generated-datetime="2014-04-03T18:27:37" version="1.04">
-           ....
-        </iati-activities>
+The ``iati-organisation`` element acts as a container for other sub-elements.  It is closed as follows:
 
-With the optional ``linked-data-default`` attribute, introduced in decimal upgrade 1.02
-
-.. code-block:: xml
-
-        <iati-activities generated-datetime="2014-04-03T18:27:37" version="1.04" linked-data-default="http://data.example.org/">
-           ....
-        </iati-activities>
-
+.. literalinclude:: activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--iati-activity ends-->	
+	:end-before: <!--iati-activities ends-->
+	
 Changelog
 ~~~~~~~~~
 

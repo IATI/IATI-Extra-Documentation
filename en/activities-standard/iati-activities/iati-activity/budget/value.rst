@@ -1,22 +1,15 @@
 Example Usage
 ~~~~~~~~~~~~~
-A date of value for currency conversions must also be provided as ISO 8601 (YYYY-MM-DD):
+Example usage of ``value`` in context of ``budget`` element.
 
-.. code-block:: xml
-
-		<value currency="EUR" value-date="2014-01-01">3000</value>
-
-Full example:
-
-.. code-block:: xml
-
-		<budget type="1">
-		  <period-start iso-date="2014-01-01">Start of budget year 2014</period-start>
-		  <value currency="EUR" value-date="2014-01-01">3000</value>
-		  <period-end iso-date="2014-12-31">End of budget year 2014</period-end>
-		</budget>
+A ``value-date`` for currency conversions must be provided in ISO 8601 format (YYYY-MM-DD).
 
 The ISO 4217 code for the ``currency`` in which the ``budget`` is denominated should be declared using the ``Currency`` codelist, but only if different to ``default-currency`` in the ``iati-activity`` element.
+
+.. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--budget starts-->
+	:end-before: <!--budget ends-->
 
 
 Changelog

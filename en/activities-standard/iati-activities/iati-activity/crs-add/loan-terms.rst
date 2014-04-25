@@ -1,17 +1,16 @@
-
-
 Example Usage
 ~~~~~~~~~~~~~
+The ``loan-terms`` element acts as a container for other elements.
 
-.. code-block:: xml
+Example usage of ``loan-terms`` in context of ``crs-add`` element.
 
-    <crs-add>
+Example declares ``rate-1`` and ``rate-2`` values of *4* and *3*.
 
-      <loan-terms rate-1="" rate-2=""> 
-        ... 
-      </loan-terms>
-     
-    </crs-add>
+.. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--crs-add starts-->
+	:end-before: <!--crs-add ends-->
+
 
 Changelog
 ~~~~~~~~~
@@ -20,4 +19,4 @@ Changelog
 ^^^^
 
 | New in 1.03
-|  Added the optional crs-add element and its child elements
+| Added the optional ``crs-add`` element and its child elements

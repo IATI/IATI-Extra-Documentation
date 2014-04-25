@@ -2,15 +2,21 @@ Example Usage
 ~~~~~~~~~~~~~
 Example ``reporting-org`` with ``ref`` *AA-AAA-123456789* and ``OrganisationType`` code *21*:
 
-.. code-block:: xml
+.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--reporting-org starts-->
+	:end-before: <!--reporting-org ends-->
 
-        <reporting-org ref="AA-AAA-123456789" type="21">Organisation Name</reporting-org>
+Example ``reporting-org`` that declares it is a ``secondary-publisher`` through a boolean:
 
-This example declares that this ``reporting-org`` is a ``secondary-publisher`` through a boolean:
+.. literalinclude:: ../../activity-standard-example-1.04-annotated-multi.xml
+	:language: xml
+	:start-after: <!--reporting-org starts-->
+	:end-before: <!--reporting-org ends-->
+        
 
-.. code-block:: xml
+	
 
-        <reporting-org ref="BB-BBB-123456789" type="40" secondary-publisher="1" xml:lang="en">Organisation Name</reporting-org>
 
 Changelog
 ~~~~~~~~~

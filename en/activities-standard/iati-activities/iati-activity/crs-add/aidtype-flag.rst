@@ -1,15 +1,14 @@
-
-
 Example Usage
 ~~~~~~~~~~~~~
+Example usage of ``aidtype-flag`` in context of ``crs-add`` element.
 
-.. code-block:: xml
+Example declares ``AidTypeFlag`` code *1* and ``significance`` through optional boolean.
 
-    <crs-add>
+.. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--crs-add starts-->
+	:end-before: <!--crs-add ends-->
 
-      <aidtype-flag code="" significance=""> </aidtype-flag>
-     
-    </crs-add>
 
 Changelog
 ~~~~~~~~~
@@ -18,4 +17,5 @@ Changelog
 ^^^^
 
 | New in 1.03
-|  Added the optional crs-add element and its child elements
+| Added the optional ``crs-add`` element and its child elements
+
