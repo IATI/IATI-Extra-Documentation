@@ -13,8 +13,9 @@ Changelog
 
 1.04
 ^^^^
-|The @ref attribute was introduced to provide a cross reference that a publisher can use to link back to their own internal system.
-|The @percentage attribute was deemed unworkable and deprecated in 1.04
+
+| The @ref attribute was introduced to provide a cross reference that a publisher can use to link back to their own internal system.
+| The @percentage attribute was deemed unworkable and deprecated in 1.04
 
 
 1.03
