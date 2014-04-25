@@ -1,26 +1,18 @@
 Example Usage
 ~~~~~~~~~~~~~
-A ``Language`` code should be declared in any usage of the ``language`` element:
+Example ``language``, using ``Language`` codes *en* (English):
 
-.. code-block:: xml
+.. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--document-link starts-->
+	:end-before: <!--document-link ends-->
 
-        <language code="en"/>
-        <language code="fr"/>
+In this example, the ``document-link`` is provided in two ``language``, with the relevant ``Language`` codes:
 
-Additionally, a text description of the ``Language`` code can be provided:
-
-.. code-block:: xml
-
-        <language code="en">English</language>
-        <language code="fr">Francais</language>
-
-Full example:
-
-    <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_fr.odt">
-      <category code="A01"/>
-      <language code="fr"/>
-      <title>Project rapport 2013</title>
-    </document-link>
+.. literalinclude:: ../../../activity-standard-example-1.04-annotated-multi.xml
+	:language: xml
+	:start-after: <!--document-link starts-->
+	:end-before: <!--document-link ends-->
 
 
 Changelog

@@ -1,23 +1,25 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``related-activity`` with ``RelatedActivityType`` code *1* and ``ref`` for another ``iati-activity``: *GB-1-105838*:
+Example ``related-activity`` with ``RelatedActivityType`` code *1* and ``ref`` for another ``iati-activity``: *AA-AAA-123456789-6789*:
 
-.. code-block:: xml
+.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--related-activity starts-->
+	:end-before: <!--related-activity ends-->
 
-       <related-activity type="1" ref="GB-1-105838"/>
+Multiple ``related-activity`` can be declared:
 
+.. literalinclude:: ../../activity-standard-example-1.04-annotated-multi.xml
+	:language: xml
+	:start-after: <!--related-activity starts-->
+	:end-before: <!--related-activity ends-->
+	
 Additionally, a text title of the specific related ``iati-activity`` can be provided:
 
 .. code-block:: xml
 
-        <related-activity type="1" ref="GB-1-105838">Trade Sector Programme</related-activity>
+        <related-activity ref="AA-AAA-123456789-ABC" type="3">Related activity name</related-activity>
 
-Where this text is in a language that differs from the default set in ``iati-activity``, then this should be declared accordingly using ``xml:lang`` attribute.  In this example, the language *en* is set in the ''iati-activity'' elenment::
 
-.. code-block:: xml
+  
 
-  <iati-activity default-currency="EUR" last-updated-datetime="2014-04-03T18:27:37" xml:lang="en">
-	...
-        <related-activity type="1" ref="GB-1-105838" xml:lang="fr">Programme du secteur commercial</related-activity>
-	...
-  </iati-activity>

@@ -1,10 +1,11 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example of an ``iati-activity`` that has a Multi-national scope, using ``ActivityScope`` code 3
+Example of an ``activity-scope`` with ``ActivityScope`` code *3* (Multi-national):
 
-.. code-block:: xml
-
-    <activity-scope code="3">Multi-national</activity-scope>
+.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--activity-scope starts-->
+	:end-before: <!--activity-scope ends-->
 
 Changelog
 ~~~~~~~~~

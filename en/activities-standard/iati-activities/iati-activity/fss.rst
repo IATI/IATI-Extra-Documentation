@@ -1,12 +1,13 @@
 Example Usage
 ~~~~~~~~~~~~~
+Example usage of ``fss`` element with ``extraction-date`` of *2014-05-06* and ``phaseout-year`` decalred as *2016*.
 
-.. code-block:: xml
+A boolean declares that this ``fss`` example is a partner country priority.
 
-    <fss extraction-date="2013-05-31" priority="true" phaseout-year="2016">
-        <forecast year="2014" value-date="2013-07-03" currency="GBP">10000</forecast>
-        <forecast year="2015" currency="GBP">20000</forecast>
-    </fss>
+.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--fss starts-->
+	:end-before: <!--fss ends-->
       
 
 Changelog
@@ -16,4 +17,4 @@ Changelog
 ^^^^
 
 | New in 1.03
-|  Added the optional ``fss`` element and its child elements
+| Added the optional ``fss`` element and its child elements

@@ -1,17 +1,20 @@
-
-
 Example Usage
 ~~~~~~~~~~~~~
+The ``loan-status`` element acts as a container for other elements.
 
-.. code-block:: xml
+Example usage of ``loan-status`` in context of ``crs-add`` element.
 
-    <crs-add>
+Example declares ``year`` as *2014*.
 
-      <loan-status year="" currency="" value-date=""> 
-        ... 
-      </loan-status>
-     
-    </crs-add>
+A date in ISO 8601 format (YYYY-MM-DD) is required for ``value-date`` date of the reporting ``period``:
+
+The ISO 4217 code for the ``currency`` in which the ``loan-status`` is denominated should be declared using the ``Currency`` codelist, but only if different to ``default-currency`` in the ``iati-activity`` element.
+
+.. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--crs-add starts-->
+	:end-before: <!--crs-add ends-->
+
 
 Changelog
 ~~~~~~~~~
@@ -20,4 +23,4 @@ Changelog
 ^^^^
 
 | New in 1.03
-|  Added the optional crs-add element and its child elements
+| Added the optional ``crs-add`` element and its child elements

@@ -1,17 +1,10 @@
 Example Usage
 ~~~~~~~~~~~~~
-An ISO 8601 code for the ``period-end`` date of the reporting period (YYYY-MM-DD) is required:
+Example usage of ``period-end`` in context of ``budget`` element.
 
-.. code-block:: xml
+A date in ISO 8601 format (YYYY-MM-DD) for the ``period-end`` date of the reporting period (YYYY-MM-DD) is required:
 
-    <period-end iso-date="2014-12-31">End of budget year 2014</period-end>
-    
-Full example:
-
-.. code-block:: xml
-
-		<budget type="1">
-		  <period-start iso-date="2014-01-01">Start of budget year 2014</period-start>
-		  <value currency="EUR" value-date="2014-01-01">3000</value>
-		  <period-end iso-date="2014-12-31">End of budget year 2014</period-end>
-		</budget>
+.. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--budget starts-->
+	:end-before: <!--budget ends-->

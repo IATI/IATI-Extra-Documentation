@@ -2,26 +2,23 @@ Example Usage
 ~~~~~~~~~~~~~
 The ``conditions`` element acts as a container for other sub elements. 
 
-It is declared through a boolean value (*0*=no, *1!=yes) stating whether there are ``conditions`` attached to the ``iati-activity``:
-
-For when no conditions are attached to the ``iati-activity``:
+Example of no ``conditions`` attached to the ``iati-activity`` :
 
 .. code-block:: xml
 
-    <conditions attached="0"/>
+     <conditions attached="0"/>
 
-For when conditions are attached to the ``iati-activity``
+Example of ``conditions`` attached to the ``iati-activity``, expressed through the bolean *1*:
 
-.. code-block:: xml
+.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--conditions starts-->
+	:end-before: <!--conditions ends-->
 
-    <conditions attached="1">
-    ...
-    </conditions>
+From version 1.04, the schema allows the ``xml:lang`` attribute to also be included in the sub-element ``condition``
+Example of an ``iati-activity`` with two ``conditions``, declared in the the default language and also *fr*:
 
-Full example of ``conditions`` attached:
-
-.. code-block:: xml
-
-    <conditions attached="1">
-      <condition type="1">Conditions text</condition>
-    </conditions>
+.. literalinclude:: ../../activity-standard-example-1.04-annotated-multi.xml	
+	:language: xml
+	:start-after: <!--conditions starts-->
+	:end-before: <!--conditions ends-->

@@ -1,37 +1,12 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example declaring just the ``FlowType`` code *100*:
+Example usage of ``flow-type`` in context of ``transaction`` element.
 
-.. code-block:: xml
+Example declaring the ``FlowType`` code *100*:
 
-        <flow-type code="10"/>
+The ``flow-type`` elements can override the ``default-flow-type`` value set in ``iati-activity``: 
 
-Additionally, a text description of the ``FlowType`` code can be provided:
-
-.. code-block:: xml
-
-        <flow-type code="10">ODA</flow-type>
-
-Where this description differs to the default language of the ``iati-activity``, then this should be declared using ``xml:lang``:
-
-.. code-block:: xml
-
-        <flow-type code="10" xml:lang="fr">APD</flow-type>
-        
-Full example:
-
-.. code-block:: xml
-    
-    <transaction ref="1234">
-      <transaction-date iso-date="2012-01-01">2012-01-01</transaction-date>
-      <transaction-type code="IF">Incoming Funds</transaction-type>
-      <value currency="EUR" value-date="2012-01-01">1000</value>   
-      <description>Transaction description text</description>
-      <provider-org provider-activity-id="BB-BBB-123456789-1234AA" ref="BB-BBB-123456789">Agency B</provider-org>
-      <receiver-org receiver-activity-id="AA-AAA-123456789-1234" ref="AA-AAA-123456789">Agency A</receiver-org>
-      <aid-type code="A01">General budget support</aid-type>
-      <flow-type code="10">ODA</flow-type>
-      <disbursement-channel code="1">Money is disbursed through central Ministry of Finance or Treasury</disbursement-channel>
-      <finance-type code="110">Aid grant excluding debt reorganisation</finance-type>
-      <tied-status code="3">Partially tied</tied-status>
-    </transaction>
+.. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--full transaction starts-->
+	:end-before: <!--full transaction ends-->

@@ -1,41 +1,22 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example of an annual report link. 
-Note: ``DocumentCategory`` codes with the A prefix are recommended within ``iati-activity`` ``document-link`` elements.
+Example ``document-link`` with ``FileFormat`` *application/vnd.oasis.opendocument.text*.
+The ``DocumentCategory`` is declared as *A01*.
 
-.. code-block:: xml
+.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--document-link starts-->
+	:end-before: <!--document-link ends-->
 
-    <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
-      <category code="A01"/>
-	  <language code="en"/>
-      <title>Project report 2013</title>
-    </document-link>
+In this example, the ``document-link`` is provided in two ``language``
+For each ``language`` a relevant ``title``, ``Language`` code and ``url`` is provided:
 
-The ``language`` element can be used to declare the language of documents.  
-    
-.. code-block:: xml
- 
-    <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_fr.odt">
-      <category code="A01"/>
-      <language code="fr"/>
-      <title>Project rapport 2013</title>
-    </document-link>
+.. literalinclude:: ../../activity-standard-example-1.04-annotated-multi.xml
+	:language: xml
+	:start-after: <!--document-link starts-->
+	:end-before: <!--document-link ends-->
 
-Note: the same ``document-link`` element can be repeated for different ``language``:
-
-.. code-block:: xml
-  
-    <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
-      <category code="A01"/>
-	  <language code="en"/>
-      <title>Project report 2013</title>
-    </document-link>
-    <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_fr.odt">
-      <category code="A01"/>
-      <language code="fr"/>
-      <title>Project rapport 2013</title>
-    </document-link>
-
+Note: ``DocumentCategory`` codes with the *A* ``DocumentCategory-category`` prefix are recommended within the **IATI activity standard** ``document-link`` element.
 
 Changelog
 ~~~~~~~~~

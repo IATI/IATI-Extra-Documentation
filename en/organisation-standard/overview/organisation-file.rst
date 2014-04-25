@@ -20,6 +20,7 @@ It must be valid XML.
 A link to the organisation file should be published on the IATI Registry.  
 Ideally, this link would be to an organisation file on the publisher website or open data portal.  However, third party tools are available to generate and host files on behalf of publishers.
 
+The *organisation file* must have ``iati-organisations`` as the root element - to contain all other elements.
 
 Further guidance
 ----------------

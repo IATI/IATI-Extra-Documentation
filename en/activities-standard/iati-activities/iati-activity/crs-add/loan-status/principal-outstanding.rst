@@ -1,17 +1,12 @@
-
-
 Example Usage
 ~~~~~~~~~~~~~
+Example usage of ``principle-outstanding`` within ``loan-status`` in context of ``crs-add`` element.
 
-.. code-block:: xml
+.. literalinclude:: ../../../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--crs-add starts-->
+	:end-before: <!--crs-add ends-->
 
-    <crs-add>
-
-      <loan-status year="" currency="" value-date=""> 
-        <principal-outstanding>111.11</principal-outstanding> 
-      </loan-status>
-     
-    </crs-add>
 
 Changelog
 ~~~~~~~~~
@@ -20,4 +15,4 @@ Changelog
 ^^^^
 
 | New in 1.03
-|  Added the optional crs-add element and its child elements
+| Added the optional ``crs-add`` element and its child elements
