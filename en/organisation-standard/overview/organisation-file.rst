@@ -5,22 +5,25 @@ Definition
 ----------
 The *organisation file* contains the data that relates to the **IATI organisation standard**.
 
-It is an XML file, containing all the relevant fields for the publisher organisation.
+| It is an XML file, containing all the relevant **IATI organisation standard** fields for the publishing organisation.
 
-The **IATI organisation standard** allows publishers to report on information for multiple organisations: a government agency may report on behalf of other agencies; an INGO may report on behalf of its national associates; a private company may report on behalf of its subsidiaries.
+| The **IATI organisation standard** allows publishers to report on information for multiple organisations: a government agency may report on behalf of other agencies; an INGO may report on behalf of its national associates; a private company may report on behalf of its subsidiaries.
 
 Considerations
 --------------
-An IATI publisher should publish one organisation file.
+When producing the *organisation file*  in the **IATI organisation standard** the following should be considered:
 
-It should be updated at least annually.
+* An IATI publisher should publish one *organisation file*.
 
-It must be valid XML.
+* It should be updated at least annually.
 
-A link to the organisation file should be published on the IATI Registry.  
-Ideally, this link would be to an organisation file on the publisher website or open data portal.  However, third party tools are available to generate and host files on behalf of publishers.
+* It must be valid XML.
 
-The *organisation file* must have ``iati-organisations`` as the root element - to contain all other elements.
+* A link to the organisation file should be published on the **IATI Registry**.  
+
+* Ideally, this link would be to an *organisation file* on the publisher website or open data portal.  However, third party tools are available to generate and host files on behalf of publishers.
+
+* The *organisation file* must have ``iati-organisations`` as the root element - to contain all other elements.
 
 Further guidance
 ----------------

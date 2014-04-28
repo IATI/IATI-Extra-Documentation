@@ -3,26 +3,28 @@ Organisations
 
 Definition
 ----------
-Within the IATI organisation standard three types of organisations can be declared:
+Within the **IATI organisation standard** three types of *organisations* can be declared:
 
-* ``reporting-org`` - the organisation publishing the organisation file and associated data. 
+* ``reporting-org`` - the organisation publishing the data help within the *organisation file*. 
 * ``iati-organisation`` - the organisation that the data is about
-* ``recipient-org`` - the organisation in receipt of budgets specified in the data
+* ``recipient-org`` - the organisation in receipt of budgets specified in ``recipient-org-budget``
 
 
 Considerations
 --------------
-In many cases, an organisation file will contain information from the perspective of a single ``iati-organisation``.  Most commonly, this will be the same as the ``reporting-org``
+When declaring various *organisations* in the **IATI organisation standard** the following should be considered:
 
-However, it is possible for multiple ``iati-organisation`` to be reported.
+* In many cases, an *organisation file* will contain information from the perspective of a single ``iati-organisation``.  Most commonly, this will be the same as the ``reporting-org``
 
-``reporting-org`` and ``iati-organisation`` should include reference to their associated unique identifier - 
+* However, it is possible for multiple ``iati-organisation`` to be described in a single *organisation file*.
 
-An ``iati-organisation`` can also include a ``name`` element - free text title of the organisation
+* ``reporting-org`` and ``iati-organisation`` should include reference to their associated unique identifier - ``ref``
 
-Single or multiple ``recipient-org`` entries can be recorded.  
+* An ``iati-organisation`` can also include a ``name`` element - free text title of the organisation
 
-For each ``recipient-org`` multiple forward looking budgets can be recorded.
+* Single or multiple ``recipient-org`` entries can be recorded.  
+
+* For each ``recipient-org`` multiple forward looking ``recipient-org-budget`` can be recorded.
 
 
 Further guidance
