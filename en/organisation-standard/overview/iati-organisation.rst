@@ -14,14 +14,17 @@ Within the **IATI organisation standard**. the ``iati-organisation`` is the buil
 
 Considerations
 --------------
-When declaring an *iati-organisation* using the **IATI organisation standard** the following should be considered:
+When using the **IATI organisation standard** to declare an *iati-organisation*, the following should be considered:
 
 * Every ``iati-organisation`` must use a globally unique ``iati-identifier``
 
 * A publisher can set a default language and ``default-currency``, that is then used throughout the ``iati-activity``.  This can be overridden in subsequent elements however.
 
+* The ``last-updated-datetime`` date must change whenever the value of any field within the associated ``iati-organisation`` changes.
+
 * The ``name`` can be repeated for different languages.  
 
+* The free-text instance of ``name`` should avoid use of text in CAPITALS, where possible. 
 
 Further guidance
 ----------------
