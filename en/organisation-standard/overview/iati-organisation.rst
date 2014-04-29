@@ -1,0 +1,35 @@
+IATI Organisation
+=================
+
+Definition
+----------
+Within the **IATI organisation standard**. the ``iati-organisation`` is the building block to describe organisations.
+
+| An ``iati-organisation`` represents a distinct grouping of information that reports various facts about an organisation.
+
+| A human-readable title and description for an ``iati-organisation`` can be provided using:
+
+* ``name`` - a human-readable name of the organisation.
+
+
+Considerations
+--------------
+When declaring an *iati-organisation* using the **IATI organisation standard** the following should be considered:
+
+* Every ``iati-organisation`` must use a globally unique ``iati-identifier``
+
+* A publisher can set a default language and ``default-currency``, that is then used throughout the ``iati-activity``.  This can be overridden in subsequent elements however.
+
+* The ``name`` can be repeated for different languages.  
+
+
+Further guidance
+----------------
+
+Reference pages:
+
+* Organisation identifiers
+* :doc:`iati-identifier </activities-standard/iati-activities/iati-activity/iati-identifier/>`
+* :doc:`iati-activity </activities-standard/iati-activities/iati-activity/>`
+* :doc:`title </activities-standard/iati-activities/iati-activity/title/>`
+* :doc:`description </activities-standard/iati-activities/iati-activity/description/>`
