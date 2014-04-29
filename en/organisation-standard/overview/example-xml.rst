@@ -7,7 +7,7 @@ This page presents *example usage XML* for the **IATI organisation standard**.
 
 Considerations
 --------------
-This is a sample XML and not intended to reflect any real organisations or entities.
+This is a *example usage XML* and not intended to reflect any real organisations or entities.
 
 Extracts from this example are used throughout this documentation.
 
