@@ -21,7 +21,7 @@ When producing the *activity file*  using the **IATI activity standard** the fol
 
 * Any *activity file* must have ``iati-activities`` as the root element - to contain all other elements.
 
-* Across a set of *activity files* published by a single organisation, individual ``iati-activity``, identied via a unique ``iati-identifier``, should not be duplicated.
+* Across a set of *activity files* published by a single organisation, individual ``iati-activity``, referenced via a unique ``iati-identifier``, should not be duplicated.
 
 * A link to the activity file(s) should be published on the **IATI Registry**.
   
