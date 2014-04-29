@@ -5,7 +5,7 @@ Definition
 ----------
 Within the **IATI organisation standard**, the ``iati-identifier`` is the unique reference for an ``iati-organisation``
 
-
+| The ``iati-identifier`` in the **IATI organisation standard** is not the same as the ``iati-identifier`` in the **IATI activity standard**
 
 Considerations
 --------------
@@ -17,7 +17,11 @@ When declaring an *iati-identifier* in the **IATI organisation standard** the fo
 
 * It is recommended that no forward slashes (/) or spaces should be contained within the ``iati-identifier``
 
-* The ``iati-identifier`` in the **IATI organisation standard** is not the same as the ``iati-identifier`` in the **IATI activity standard**
+* It is recommended to avoid spaces and non-ascii characters.  
+
+* For example:
+
+** ``AA-AAA-123456789`` is preferable to ``AA-AAA 123456789``.
 
 
 Further guidance
