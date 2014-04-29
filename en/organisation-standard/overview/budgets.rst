@@ -3,30 +3,34 @@ Budgets
 
 Definition
 ----------
-Within the IATI organisation standard three types of budgets can be declared.  
+Within the **IATI organisation standard** three types of *budgets* can be declared.  
 
 These all relate to the specific ``iati-organisation`` being described:
 
-* ``total-budget`` 
-* ``recipient-org-budget``
-* ``recipient-country-budget``
+* ``total-budget`` - total annual planned budget of the ``iati-organisation``.
+* ``recipient-org-budget`` - budget for disbursements to another organisation.
+* ``recipient-country-budget`` -  budget for each country in which the ``iati-organisation`` operates.
 
 
 Considerations
 --------------
-IATI expects that budgets in the organisation standard are forward-looking.
+When declaring various *budgets* in the **IATI organisation standard** the following should be considered:
 
-It is recommended, where possible, that budgets are presented for the next three financial years.
+* It is recommended that budgets in the **IATI organisation standard** are forward-looking.
 
-It is possible to report periods other than years, but this is not recommended.
+* It is recommended, where possible, that budgets are presented for the next three financial years.
 
-Financial years can be presented using the ``period-start`` and ``period-end`` dates.
+* It is possible to report periods other than financial years, but this is not recommended.
 
-It is expected that the financial years for ``iati-organisation`` would be described.
+* Financial years are presented using the ``period-start`` and ``period-end`` dates.
 
-It is strongly recommended that the ``period-start`` and ``period-end`` of the financial years described for any ``recipient-country-budget`` match the budgetary/planning cycle of the ``recipient-country``.
+* It is expected that financial years appropriate to the relevant ``iati-organisation`` would be described.
 
-It is possible to report budget values in multiple currencies
+* It is strongly recommended that the ``period-start`` and ``period-end`` of the financial years described for any ``recipient-country-budget`` match the budgetary/planning cycle of the ``recipient-country``.
+
+* It is possible to report budget values in multiple ``currency``
+
+* The ``default-currency`` can be set in the ``iati-organisaton`` element.  Should subsequent budgets be in the same ``currency`` then there is no need to restate.
 
 
 Further guidance

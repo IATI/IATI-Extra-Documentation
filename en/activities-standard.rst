@@ -1,11 +1,13 @@
 The IATI Activities Standard
 ============================
 
-The activity standard is designed for reporting the details of individual aid activities. An activity is defined by the reporting organisation – depending on who is reporting, it might be a large programme, a small project or another logical grouping of work and resources.
+The **IATI activity standard** is designed for reporting the details of individual aid activities. 
 
-The activity standard is the most widely used part of IATI. A reporting organisation will typically produce one IATI activity file per country or geographical region.
+An activity is defined by the reporting organisation.  Depending on who is reporting, it might be a large programme, a small project or another logical grouping of work and resources.
 
-The standard supports around forty different fields, referenced by standard codelists, and designed to capture information about many different kinds of aid activities.
+The activity standard is the most widely used part of IATI.  The activity standard supports around forty different fields, referenced by standard codelists, and designed to capture information about many different kinds of aid activities.
+
+Organisations publish IATI activities within an IATI XML Activity File. A file can detail one or many activities, and a organisation can publish one or many files. It is expected that these files are updated as activities progress, and are made available via the IATI Registry. A reporting organisation will typically produce one IATI activity file per country or geographical region.
 
 What information is inside an IATI activity?
 --------------------------------------------
@@ -21,7 +23,7 @@ An IATI activity can answer some or all of the following questions:
 * What are the activity’s financial details, including transactions over time?
 * What are the expected and actual results?
 
-Organisations publish IATI activities within an IATI XML Activity File. A file can detail one or many activities, and a organisation can publish one or many files. It is expected that these files are updated as activities progress, and are made available via the IATI Registry.
+
 
 Contents
 --------
