@@ -10,7 +10,7 @@ Within the **IATI organisation standard** any number of links to relevant *docum
 
 Considerations
 --------------
-When using the **IATI organisation standard** to declare *documents*,  the following should be considered:
+When using the **IATI organisation standard** to declare *documents*, the following should be considered:
 
 * In the **IATI organisation standard**, documents that relate to the organisation/agency would be linked to.  ``iati-activity`` specific documents are published via the **IATI activity standard**.
 

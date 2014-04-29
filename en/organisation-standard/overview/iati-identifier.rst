@@ -9,7 +9,7 @@ Within the **IATI organisation standard**, the ``iati-identifier`` is the unique
 
 Considerations
 --------------
-When declaring an *iati-identifier* in the **IATI organisation standard** the following should be considered:
+When using the **IATI organisation standard** to declare an *iati-identifier*, the following should be considered:
 
 * The ``iati-identifier`` must be unique for every ``iati-organisation``. 
 

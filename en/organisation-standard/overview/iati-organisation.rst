@@ -20,7 +20,7 @@ When using the **IATI organisation standard** to declare an *iati-organisation*,
 
 * A publisher can set a default language and ``default-currency``, that is then used throughout the ``iati-activity``.  This can be overridden in subsequent elements however.
 
-* The ``last-updated-datetime`` date must change whenever the value of any field within the associated ``iati-organisation`` changes.
+* The ``last-updated-datetime`` date must change whenever the value of any field within the associated ``iati-organisation`` are updated.
 
 * The ``name`` can be repeated for different languages.  
 

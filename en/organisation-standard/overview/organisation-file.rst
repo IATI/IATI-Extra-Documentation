@@ -11,7 +11,7 @@ The *organisation file* contains the data that relates to the **IATI organisatio
 
 Considerations
 --------------
-When producing the *organisation file*  using the **IATI organisation standard** the following should be considered:
+When using the **IATI organisation standard** to produce the *organisation file*, the following should be considered:
 
 * An IATI publisher should publish one *organisation file*.
 
@@ -22,6 +22,8 @@ When producing the *organisation file*  using the **IATI organisation standard**
 * It must be valid XML.
 
 * The *organisation file* must have ``iati-organisations`` as the root element - to contain all other elements.
+
+* The ``generated-datetime`` attribute of ``iati-organisations`` - a date/time stamp for when this *activity-file* was generated - is highly recommended.
 
 * A link to the organisation file should be published on the **IATI Registry**.  
 
