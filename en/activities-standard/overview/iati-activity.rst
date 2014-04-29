@@ -15,7 +15,7 @@ Within the **IATI activity standard**. the ``iati-activity`` is the building blo
 
 Considerations
 --------------
-When declaring an *iati-activity* using the **IATI activity standard** the following should be considered:
+When using the **IATI activity standard** to declare an *iati-identifier*, the following should be considered:
 
 * Every ``iati-activity`` must have a globally unique ``iati-identifier``
 
@@ -23,9 +23,13 @@ When declaring an *iati-activity* using the **IATI activity standard** the follo
 
 * A publisher can set a default language and ``default-currency``, that is then used throughout the ``iati-activity``.  This can be overridden in subsequent elements however.
 
+* The ``last-updated-datetime`` date must change whenever the value of any field within the associated ``iati-activity`` changes.
+
 * It is recommended that the ``title`` should be concise and jargon-free
 
 * A ``description`` can have different focal points, by using the appropriate ``DescriptionType`` codelist
+
+* The free-text instances of ``title`` and ``description`` should avoid use of text in CAPITALS, where possible. 
 
 * Both the ``title`` and ``descriptions`` can be repeated for different languages.  
 
