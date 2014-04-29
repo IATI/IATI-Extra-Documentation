@@ -18,7 +18,7 @@ Within the **IATI activity standard** any number of links to supporting document
 
 Considerations
 --------------
-When using the **IATI activity standard** to declare *documents*,  the following should be considered:
+When using the **IATI activity standard** to declare *documents*, the following should be considered:
 
 * In the **IATI activity standard**, documents that relate to the specific ``iati-activity`` would be linked to.  Organisation/agency specific documents are published via the **IATI organisation standard**.
 

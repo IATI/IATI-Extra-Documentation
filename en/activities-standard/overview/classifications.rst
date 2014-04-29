@@ -3,7 +3,7 @@ Classifications
 
 Definition
 ----------
-Within the **IATI activity standard** it is expected that classifications information is provided for any ``iati-activity``
+Within the **IATI activity standard** it is expected that *classifications* information is provided for any ``iati-activity``
 
 Namely:
 
@@ -18,21 +18,25 @@ Additionally, the following classifications enable the publication of various co
 * ``default-aid-type``
 * ``default-tied-status``
 
+
 Considerations
 --------------
-An ``iati-activity`` can have singlular or multiple ``sector`` 
+When using the **IATI activity standard** to declare *documents*, the following should be considered:
 
-When multiple ``sector`` are described, then a percentage should be declared for each.  This should sum to 100%.
+* An ``iati-activity`` can have singlular or multiple ``sector`` 
 
-A ``vocabulary`` can be declared when describing a ``sector``.  This should be on the ``Vocabulary`` codelist
+* When multiple ``sector`` are described, then a ``percentage`` should be declared for each.  This should sum to 100% for each ``iati-activity``.
 
-If no ``vocabulary`` is declared, then the DAC codelist is assumed
+* A ``vocabulary`` can be declared when describing a ``sector``.  This should be on the ``Vocabulary`` codelist.
 
-A ``reporting-org`` can declare their own , bia the "RO" (Reporting Org) ``Vocabulary`` code.
+* If no ``vocabulary`` is declared, then the *DAC* codelist is assumed.
 
-Multiple or singular ``policy-marker`` can also be described.  Multiples should include a percentage split.
+* A ``reporting-org`` can declare their own ```vocabulary``, via using the *RO* (Reporting Org) ``Vocabulary`` code.
 
-The classifications of ``default-finance-type``, ``default-flow-type``, ``default-aid-type`` and``default-tied-status`` apply to the whole ``iati-activity``.  These can be overridden within a single ``transaction`` via using any of ``finance-type`` , ``flow-type`` , ``aid-type`` and/or ``tied-status``
+* Multiple or singular ``policy-marker`` can also be described.  Unlike ``sector``, a percentage is not required.
+
+* The classifications of ``default-finance-type``, ``default-flow-type``, ``default-aid-type`` and``default-tied-status`` apply to the whole ``iati-activity``.  These can be overridden within a single ``transaction`` via using any of ``finance-type`` , ``flow-type`` , ``aid-type`` and/or ``tied-status``.
+
 
 Further guidance
 ----------------

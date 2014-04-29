@@ -9,7 +9,7 @@ Within the **IATI activity standard** there are three ways to describe the *geog
 * ``recipient-region`` - geopolitical region (above the country level) that will benefit from the ``iati-activity``.
 * ``location`` - a geographical location of the ``iati-activity``.
 
-In addition, the following can also be utilised:
+| In addition, the following can also be utilised:
 
 * ``activity-scope`` - to classify the geographic coverage of the the ``iati-activity``.
 

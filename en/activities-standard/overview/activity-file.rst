@@ -9,7 +9,7 @@ The *activity file* contains the data that relates to the **IATI activity standa
 
 Considerations
 --------------
-When producing the *activity file*  using the **IATI activity standard** the following should be considered:
+When using the **IATI activity standard** to produce an *iati-identifier*, the following should be considered:
 
 * An IATI publisher should publish at least one activity file.
 
@@ -20,6 +20,10 @@ When producing the *activity file*  using the **IATI activity standard** the fol
 * It must be valid XML.
 
 * Any *activity file* must have ``iati-activities`` as the root element - to contain all other elements.
+
+* The ``generated-datetime`` attribute of ``iati-activities`` - a date/time stamp for when the *activity-file* was generated - is highly recommended. 
+
+* The ``generated-datetime`` is declared at the ``iati-activities`` level.  Is not necessarily the same as the ``last-updated-datetime`` for the individual ``iati-activity`` records within it.
 
 * Across a set of *activity files* published by a single organisation, individual ``iati-activity``, referenced via a unique ``iati-identifier``, should not be duplicated.
 

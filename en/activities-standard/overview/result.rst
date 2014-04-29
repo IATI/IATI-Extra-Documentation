@@ -11,7 +11,7 @@ The **IATI activity standard** enables the publishing of information on measurab
  
 Considerations
 --------------
-When using the **IATI activity standard** to declare *result*,  the following should be considered:
+When using the **IATI activity standard** to declare *result*, the following should be considered:
 
 * Any ``iati-activity can have either one or multiple ``result``.
 

@@ -12,7 +12,7 @@ Within the **IATI activity standard**, the ``iati-identifier`` is the unique ref
 
 Considerations
 --------------
-When declaring an *iati-identifier* in the **IATI activity standard** the following should be considered:
+When using the **IATI activity standard** to declare an *iati-identifier*, the following should be considered:
 
 * The ``iati-identifier`` must be unique for every ``iati-activity`` within the complete dataset published. 
 

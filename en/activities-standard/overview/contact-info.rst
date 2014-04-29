@@ -17,7 +17,7 @@ The **IATI activity standard** enables ``contact info`` to be included for any `
 
 Considerations
 --------------
-When using the **IATI activity standard** to declare *contact info*,  the following should be considered:
+When using the **IATI activity standard** to declare *contact info*, the following should be considered:
 
 * Any ``contact-info`` should include at least one of the available fields.
 

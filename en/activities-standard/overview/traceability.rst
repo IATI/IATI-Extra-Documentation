@@ -13,7 +13,7 @@ Within the **IATI activity standard** it is possible to express relations betwee
 
 Considerations
 --------------
-When using the **IATI activity standard** to declare *traceability*,  the following should be considered:
+When using the **IATI activity standard** to declare *traceability*, the following should be considered:
 
 * A ``related-activity`` can be one published by any ``reporting-org`` - it does not have to be from the same publisher.
 

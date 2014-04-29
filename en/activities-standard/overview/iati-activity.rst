@@ -23,7 +23,7 @@ When using the **IATI activity standard** to declare an *iati-identifier*, the f
 
 * A publisher can set a default language and ``default-currency``, that is then used throughout the ``iati-activity``.  This can be overridden in subsequent elements however.
 
-* The ``last-updated-datetime`` date must change whenever the value of any field within the associated ``iati-activity`` changes.
+* The ``last-updated-datetime`` date must change whenever the value of any field within the associated ``iati-activity`` is updated.
 
 * It is recommended that the ``title`` should be concise and jargon-free
 
