@@ -1,5 +1,4 @@
 
-
 Example Usage
 ~~~~~~~~~~~~~
 
@@ -11,7 +10,7 @@ Example:
       ...
       
       <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-        <coordinates>31.616944 65.716944</coordinates>
+        <pos>31.616944 65.716944</pos>
       </point>
       
       ...
