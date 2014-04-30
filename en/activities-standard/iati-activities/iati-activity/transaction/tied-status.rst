@@ -10,3 +10,4 @@ The ``tied-status`` elements can override the ``default-tied-status`` value set 
 	:language: xml
 	:start-after: <!--full transaction starts-->
 	:end-before: <!--full transaction ends-->
+	:emphasize-lines: 12

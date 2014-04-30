@@ -160,45 +160,46 @@
   <!--transaction starts-->
   <!--transaction 1 starts-->
   <transaction ref="XYZ">
-   <aid-type code="A01">General budget support</aid-type>
-   <flow-type code="10">ODA</flow-type>
-   <provider-org provider-activity-id="BB-BBB-123456789-1234" ref="BB-BBB-123456789">Agency B</provider-org>
-   <receiver-org receiver-activity-id="CC-CCC-123456789-1234" ref="CC-CCC-123456789">Agency C</receiver-org>
-   <disbursement-channel code="1">Money is disbursed through central Ministry of Finance or Treasury</disbursement-channel>
-   <value currency="EUR" value-date="2012-01-31">1000</value>
-   <finance-type code="110">Aid grant excluding debt reorganisation</finance-type>
-   <tied-status code="3">Partially tied</tied-status>
    <transaction-date iso-date="2012-01-31">2012-01-31</transaction-date>
    <transaction-type code="C">Commitment</transaction-type>
+   <value currency="EUR" value-date="2012-01-31">1000</value>
    <description>Description text</description>
-   <description xml:lang="fr">Description text</description>
-  </transaction>
-  <!--transaction 1 ends-->
-  <transaction ref="ABC">
-   <aid-type code="A01">General budget support</aid-type>
-   <flow-type code="10">ODA</flow-type>
+   <description xml:lang="fr">Description text</description>   
    <provider-org provider-activity-id="BB-BBB-123456789-1234" ref="BB-BBB-123456789">Agency B</provider-org>
    <receiver-org receiver-activity-id="CC-CCC-123456789-1234" ref="CC-CCC-123456789">Agency C</receiver-org>
    <disbursement-channel code="1">Money is disbursed through central Ministry of Finance or Treasury</disbursement-channel>
-   <value currency="EUR" value-date="2012-01-01">1000</value>
+   <flow-type code="10">ODA</flow-type>
    <finance-type code="110">Aid grant excluding debt reorganisation</finance-type>
+   <aid-type code="A01">General budget support</aid-type>
    <tied-status code="3">Partially tied</tied-status>
+  </transaction>
+  <!--transaction 1 ends-->
+  <!--transaction starts-->
+  <transaction ref="ABC">
    <transaction-date iso-date="2012-01-01">2012-01-01</transaction-date>
    <transaction-type code="C">Commitment</transaction-type>
+   <value currency="EUR" value-date="2012-01-01">1000</value>
    <description>Description text</description>
+   <provider-org provider-activity-id="BB-BBB-123456789-1234" ref="BB-BBB-123456789">Agency B</provider-org>
+   <receiver-org receiver-activity-id="CC-CCC-123456789-1234" ref="CC-CCC-123456789">Agency C</receiver-org>
+   <disbursement-channel code="1">Money is disbursed through central Ministry of Finance or Treasury</disbursement-channel>
+   <flow-type code="10">ODA</flow-type>
+   <finance-type code="110">Aid grant excluding debt reorganisation</finance-type>
+   <aid-type code="A01">General budget support</aid-type>   
+   <tied-status code="3">Partially tied</tied-status>
   </transaction>
   <transaction ref="1234">
-   <aid-type code="A01">General budget support</aid-type>
-   <flow-type code="10">ODA</flow-type>
+   <transaction-date iso-date="2012-01-01">2012-01-01</transaction-date>
+   <transaction-type code="IF">Incoming Funds</transaction-type>
+   <value currency="EUR" value-date="2012-01-01">1000</value>
+   <description>Description text</description>
    <provider-org provider-activity-id="BB-BBB-123456789-1234AA" ref="BB-BBB-123456789">Agency B</provider-org>
    <receiver-org receiver-activity-id="AA-AAA-123456789-1234" ref="AA-AAA-123456789">Agency A</receiver-org>
    <disbursement-channel code="1">Money is disbursed through central Ministry of Finance or Treasury</disbursement-channel>
-   <value currency="EUR" value-date="2012-01-01">1000</value>
+   <flow-type code="10">ODA</flow-type>
    <finance-type code="110">Aid grant excluding debt reorganisation</finance-type>
+   <aid-type code="A01">General budget support</aid-type>
    <tied-status code="3">Partially tied</tied-status>
-   <transaction-date iso-date="2012-01-01">2012-01-01</transaction-date>
-   <transaction-type code="IF">Incoming Funds</transaction-type>
-   <description>Description text</description>
   </transaction>
   <!--transaction ends-->
   <!--document-link starts-->

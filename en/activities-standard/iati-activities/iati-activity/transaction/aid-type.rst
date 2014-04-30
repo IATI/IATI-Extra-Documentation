@@ -10,3 +10,4 @@ The ``aid-type`` elements can override the ``default-aid-type`` value set in ``i
 	:language: xml
 	:start-after: <!--full transaction starts-->
 	:end-before: <!--full transaction ends-->
+	:emphasize-lines: 11

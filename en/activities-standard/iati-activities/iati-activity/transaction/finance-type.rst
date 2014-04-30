@@ -10,3 +10,4 @@ The ``finance-type`` elements can override the ``default-finance-type`` value se
 	:language: xml
 	:start-after: <!--full transaction starts-->
 	:end-before: <!--full transaction ends-->
+	:emphasize-lines: 10

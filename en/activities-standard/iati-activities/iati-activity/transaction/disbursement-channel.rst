@@ -8,6 +8,7 @@ Example declaring the ``DisbursementChannel`` code *1*:
 	:language: xml
 	:start-after: <!--min transaction starts-->
 	:end-before: <!--min transaction ends-->
+	:emphasize-lines: 8
 
 Full example with additional elements which can override the default value set in ``iati-activity``: 
 
@@ -15,3 +16,4 @@ Full example with additional elements which can override the default value set i
 	:language: xml
 	:start-after: <!--full transaction starts-->
 	:end-before: <!--full transaction ends-->
+	:emphasize-lines: 8

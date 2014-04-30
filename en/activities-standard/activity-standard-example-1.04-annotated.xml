@@ -136,9 +136,9 @@
    <provider-org provider-activity-id="BB-BBB-123456789-1234AA" ref="BB-BBB-123456789">Agency B</provider-org>
    <receiver-org receiver-activity-id="AA-AAA-123456789-1234" ref="AA-AAA-123456789">Agency A</receiver-org>
    <disbursement-channel code="1">Money is disbursed through central Ministry of Finance or Treasury</disbursement-channel>
-   <aid-type code="A01">General budget support</aid-type>
    <flow-type code="10">ODA</flow-type>
    <finance-type code="110">Aid grant excluding debt reorganisation</finance-type>
+   <aid-type code="A01">General budget support</aid-type>   
    <tied-status code="3">Partially tied</tied-status>
   </transaction>
   <!--full transaction ends-->
