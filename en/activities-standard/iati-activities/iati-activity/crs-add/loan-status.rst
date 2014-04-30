@@ -14,6 +14,7 @@ The ISO 4217 code for the ``currency`` in which the ``loan-status`` is denominat
 	:language: xml
 	:start-after: <!--crs-add starts-->
 	:end-before: <!--crs-add ends-->
+	:emphasize-lines: 10, 15
 
 
 Changelog

@@ -8,7 +8,7 @@ A ``LoanRepaymentPeriod`` code *4* is declared:
 	:language: xml
 	:start-after: <!--crs-add starts-->
 	:end-before: <!--crs-add ends-->
-
+	:emphasize-lines: 5
 
 Changelog
 ~~~~~~~~~
