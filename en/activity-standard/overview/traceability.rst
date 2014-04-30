@@ -34,7 +34,7 @@ Further guidance
 
 Reference pages:
 
-* :doc:`related-activity </activities-standard/iati-activities/iati-activity/related-activity/>`
+* :doc:`related-activity </activity-standard/iati-activities/iati-activity/related-activity/>`
 
-* :doc:`transaction/provider-org </activities-standard/iati-activities/iati-activity/transaction/provider-org/>`
-* :doc:`transaction/receiver-org </activities-standard/iati-activities/iati-activity/transaction/receiver-org/>`
+* :doc:`transaction/provider-org </activity-standard/iati-activities/iati-activity/transaction/provider-org/>`
+* :doc:`transaction/receiver-org </activity-standard/iati-activities/iati-activity/transaction/receiver-org/>`

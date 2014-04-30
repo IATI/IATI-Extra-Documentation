@@ -36,4 +36,4 @@ Further guidance
 
 Reference pages:
 
-* :doc:`related-activity </activities-standard/iati-activities/iati-activity/result/>`
+* :doc:`related-activity </activity-standard/iati-activities/iati-activity/result/>`

@@ -43,10 +43,10 @@ Further guidance
 
 Reference pages:
 
-* :doc:`sector </activities-standard/iati-activities/iati-activity/sector/>`
-* :doc:`policy-marker </activities-standard/iati-activities/iati-activity/policy-marker/>`
-* :doc:`default-flow-type </activities-standard/iati-activities/iati-activity/default-flow-type/>`
-* :doc:`default-finance-type </activities-standard/iati-activities/iati-activity/default-finance-type/>`
-* :doc:`collaboration-type </activities-standard/iati-activities/iati-activity/collaboration-type/>`
-* :doc:`default-aid-type </activities-standard/iati-activities/iati-activity/default-aid-type/>`
-* :doc:`default-tied-status </activities-standard/iati-activities/iati-activity/default-tied-status/>`
+* :doc:`sector </activity-standard/iati-activities/iati-activity/sector/>`
+* :doc:`policy-marker </activity-standard/iati-activities/iati-activity/policy-marker/>`
+* :doc:`default-flow-type </activity-standard/iati-activities/iati-activity/default-flow-type/>`
+* :doc:`default-finance-type </activity-standard/iati-activities/iati-activity/default-finance-type/>`
+* :doc:`collaboration-type </activity-standard/iati-activities/iati-activity/collaboration-type/>`
+* :doc:`default-aid-type </activity-standard/iati-activities/iati-activity/default-aid-type/>`
+* :doc:`default-tied-status </activity-standard/iati-activities/iati-activity/default-tied-status/>`

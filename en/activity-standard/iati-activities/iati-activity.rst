@@ -31,4 +31,4 @@ Introduced the ``linked-data-uri`` attribute on iati-activity element
 See previous version on the IATI Standard
 `wiki <http://wiki.iatistandard.org/standard/documentation/1.0/iati-activity>`__
 and
-`website <http://iatistandard.org/101/activities-standard/container-elements/record-header/>`__
+`website <http://iatistandard.org/101/activity-standard/container-elements/record-header/>`__

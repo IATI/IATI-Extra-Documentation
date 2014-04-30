@@ -1,6 +1,6 @@
 This is the repository contains additional documentation about the IATI Standard, and is part of IATI Standard Single Source of Truth (SSOT). For more detailed information about the SSOT, please see https://github.com/IATI/IATI-Standard-SSOT/blob/master/meta-docs/index.rst 
 
-Whilst this is the single source for the documentation, it is probably easier to read it integrated into the website, e.g. at http://dev.iatistandard.org/activities-standard/
+Whilst this is the single source for the documentation, it is probably easier to read it integrated into the website, e.g. at http://dev.iatistandard.org/activity-standard/
 
 This repository is currently under development, and does not necessarily represent any current or future version of the IATI standard.
 

@@ -49,7 +49,7 @@ Further guidance
 Reference pages:
 
 * :doc:`document-link </activity-standard/iati-activities/iati-activity/document-link/>`
-* :doc:`activity-website/ </activities-standard/iati-activities/iati-activity/activity-website/>`
+* :doc:`activity-website/ </activity-standard/iati-activities/iati-activity/activity-website/>`
 
-* :doc:`iati-activities </activities-standard/iati-activities/>`
-* :doc:`iati-activity </activities-standard/iati-activities/iati-activity/>`
+* :doc:`iati-activities </activity-standard/iati-activities/>`
+* :doc:`iati-activity </activity-standard/iati-activities/iati-activity/>`

@@ -48,17 +48,17 @@ Further guidance
 
 Reference pages:
 
-* :doc:`transaction </activities-standard/iati-activities/iati-activity/transaction/>`
-* :doc:`transaction-type </activities-standard/iati-activities/iati-activity/transaction/transaction-type/>`
+* :doc:`transaction </activity-standard/iati-activities/iati-activity/transaction/>`
+* :doc:`transaction-type </activity-standard/iati-activities/iati-activity/transaction/transaction-type/>`
 
-* :doc:`value </activities-standard/iati-activities/iati-activity/transaction/value/>`
-* :doc:`transaction-date </activities-standard/iati-activities/iati-activity/transaction/transaction-date/>`
-* :doc:`provider-org </activities-standard/iati-activities/iati-activity/transaction/provider-org/>`
-* :doc:`receiver-org </activities-standard/iati-activities/iati-activity/transaction/receiver-org/>`
-* :doc:`description </activities-standard/iati-activities/iati-activity/transaction/description/>`
+* :doc:`value </activity-standard/iati-activities/iati-activity/transaction/value/>`
+* :doc:`transaction-date </activity-standard/iati-activities/iati-activity/transaction/transaction-date/>`
+* :doc:`provider-org </activity-standard/iati-activities/iati-activity/transaction/provider-org/>`
+* :doc:`receiver-org </activity-standard/iati-activities/iati-activity/transaction/receiver-org/>`
+* :doc:`description </activity-standard/iati-activities/iati-activity/transaction/description/>`
 
-* :doc:`finance-type </activities-standard/iati-activities/iati-activity/transaction/finance-type/>`
-* :doc:`disbursement-channel </activities-standard/iati-activities/iati-activity/transaction/disbursement-channel/>`
-* :doc:`flow-type </activities-standard/iati-activities/iati-activity/transaction/flow-type/>`
-* :doc:`aid-type </activities-standard/iati-activities/iati-activity/transaction/aid-type/>`
-* :doc:`tied-status </activities-standard/iati-activities/iati-activity/transaction/tied-status/>`
+* :doc:`finance-type </activity-standard/iati-activities/iati-activity/transaction/finance-type/>`
+* :doc:`disbursement-channel </activity-standard/iati-activities/iati-activity/transaction/disbursement-channel/>`
+* :doc:`flow-type </activity-standard/iati-activities/iati-activity/transaction/flow-type/>`
+* :doc:`aid-type </activity-standard/iati-activities/iati-activity/transaction/aid-type/>`
+* :doc:`tied-status </activity-standard/iati-activities/iati-activity/transaction/tied-status/>`

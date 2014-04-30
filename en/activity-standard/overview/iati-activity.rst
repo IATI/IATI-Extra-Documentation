@@ -40,7 +40,7 @@ Further guidance
 
 Reference pages:
 
-* :doc:`iati-identifier </activities-standard/iati-activities/iati-activity/iati-identifier/>`
-* :doc:`iati-activity </activities-standard/iati-activities/iati-activity/>`
-* :doc:`title </activities-standard/iati-activities/iati-activity/title/>`
-* :doc:`description </activities-standard/iati-activities/iati-activity/description/>`
+* :doc:`iati-identifier </activity-standard/iati-activities/iati-activity/iati-identifier/>`
+* :doc:`iati-activity </activity-standard/iati-activities/iati-activity/>`
+* :doc:`title </activity-standard/iati-activities/iati-activity/title/>`
+* :doc:`description </activity-standard/iati-activities/iati-activity/description/>`

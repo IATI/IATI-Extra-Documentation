@@ -4,7 +4,7 @@ These overview pages provide initial guidance and information about the **IATI a
 
 These are intended as initial overview of the key aspects of the **IATI activity standard**.
 
-Further guidance, examples and details can be found in the :doc:`reference <activities-standard/reference/>` section.
+Further guidance, examples and details can be found in the :doc:`reference <activity-standard/reference/>` section.
 
 .. toctree::
    :titlesonly:

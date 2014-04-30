@@ -4,7 +4,7 @@ Sitemap
 .. toctree::
    :titlesonly:
 
-   activities-standard
+   activity-standard
    organisation-standard
    codelists
    schema

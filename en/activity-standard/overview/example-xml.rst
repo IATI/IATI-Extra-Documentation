@@ -20,8 +20,8 @@ Comments markup is optional and intended to supplement the documentation:
 
 There are two *example usage XML* files:
 
-* *Example usage XML* file: `download <https://raw.githubusercontent.com/IATI/IATI-Extra-Documentation/version-1.04/en/activities-standard/activity-standard-example-1.04-annotated.xml>`__.
-* *Example usage XML* - with multiple values: `download <https://raw.githubusercontent.com/IATI/IATI-Extra-Documentation/version-1.04/en/activities-standard/activity-standard-example-1.04-annotated-multi.xml>`__.
+* *Example usage XML* file: `download <https://raw.githubusercontent.com/IATI/IATI-Extra-Documentation/version-1.04/en/activity-standard/activity-standard-example-1.04-annotated.xml>`__.
+* *Example usage XML* - with multiple values: `download <https://raw.githubusercontent.com/IATI/IATI-Extra-Documentation/version-1.04/en/activity-standard/activity-standard-example-1.04-annotated-multi.xml>`__.
 
 *Example usage XML* file: 
 

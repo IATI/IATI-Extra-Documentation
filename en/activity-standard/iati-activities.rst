@@ -30,4 +30,4 @@ Introduced the ``linked-data-default`` attribute on ``iati-activities`` element
 See previous version on the IATI Standard
 `wiki <http://wiki.iatistandard.org/standard/documentation/1.0/iati-activities>`__
 and
-`website <http://iatistandard.org/101/activities-standard/container-elements/file-header/>`__
+`website <http://iatistandard.org/101/activity-standard/container-elements/file-header/>`__

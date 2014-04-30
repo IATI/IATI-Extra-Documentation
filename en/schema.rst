@@ -32,7 +32,7 @@ following components:
 -  `CHANGES.txt <downloads/CHANGES.txt>`__ -  A
    comprehensive change log.
 
-Summary tables of the :doc:`Activity Schema <activities-standard/summary-table>` and
+Summary tables of the :doc:`Activity Schema <activity-standard/summary-table>` and
 of the :doc:`Organisation Schema <organisation-standard/summary-table>` are also
 available.
 

@@ -1,5 +1,5 @@
-The IATI Activities Standard
-============================
+The IATI Activity Standard
+==========================
 
 Definition
 ----------
@@ -38,6 +38,6 @@ Contents
    :titlesonly:
    :maxdepth: 1
 
-   activities-standard/overview
-   activities-standard/reference
+   activity-standard/overview
+   activity-standard/reference
 

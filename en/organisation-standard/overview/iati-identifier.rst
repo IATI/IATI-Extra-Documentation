@@ -30,6 +30,6 @@ Further guidance
 Reference pages:
 
 * Organisation Identifiers
-* :doc:`iati-identifier </activities-standard/iati-activities/iati-activity/iati-identifier/>`
-* :doc:`iati-activity </activities-standard/iati-activities/iati-activity/>`
-* :doc:`reporting-org </activities-standard/iati-activities/iati-activity/reporting-org/>`
+* :doc:`iati-identifier </activity-standard/iati-activities/iati-activity/iati-identifier/>`
+* :doc:`iati-activity </activity-standard/iati-activities/iati-activity/>`
+* :doc:`reporting-org </activity-standard/iati-activities/iati-activity/reporting-org/>`

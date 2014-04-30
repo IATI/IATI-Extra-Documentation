@@ -43,6 +43,6 @@ Further guidance
 
 Reference pages:
 
-* :doc:`summary-table </activities-standard/summary-table/>`
-* :doc:`iati-activities </activities-standard/iati-activities/>`
-* :doc:`iati-activity </activities-standard/iati-activities/iati-activity/>`
+* :doc:`summary-table </activity-standard/summary-table/>`
+* :doc:`iati-activities </activity-standard/iati-activities/>`
+* :doc:`iati-activity </activity-standard/iati-activities/iati-activity/>`
