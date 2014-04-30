@@ -10,6 +10,7 @@ The ISO 4217 code for the ``currency`` in which the ``budget`` is denominated sh
 	:language: xml
 	:start-after: <!--budget starts-->
 	:end-before: <!--budget ends-->
+	:emphasize-lines: 4
 
 
 Changelog

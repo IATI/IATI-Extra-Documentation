@@ -11,6 +11,7 @@ Example ``budget`` for a single year:
 	:language: xml
 	:start-after: <!--budget starts-->
 	:end-before: <!--budget ends-->
+	:emphasize-lines: 1, 5
 
 Example ``budget`` over multiple years:
 
@@ -18,3 +19,4 @@ Example ``budget`` over multiple years:
 	:language: xml
 	:start-after: <!--budget starts-->
 	:end-before: <!--budget ends-->
+	:emphasize-lines: 1, 5, 6, 10, 11, 15, 16, 20
