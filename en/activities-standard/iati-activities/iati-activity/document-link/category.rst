@@ -6,4 +6,4 @@ Example declaring just the ``DocumentCategory`` code *A01*:
 	:language: xml
 	:start-after: <!--document-link starts-->
 	:end-before: <!--document-link ends-->
-
+	:emphasize-lines: 2
