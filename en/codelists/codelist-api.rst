@@ -63,7 +63,7 @@ As this work progressed, it became evident that for the codelists to work in tha
  * they don't include the element name as a tag name
  * all have language information described the same way as IATI XML. 
 
-2. There is also a codelist schema that all the source XML validates against - https://github.com/IATI/IATI-Codelists/blob/master/codelist.xsd.
+2. There is also a codelist schema that all the source XML validates against - https://github.com/IATI/IATI-Codelists/blob/version-1.04/codelist.xsd.
 
 3. Finally, more metadata, including a description, is now included in the codesists.
 
