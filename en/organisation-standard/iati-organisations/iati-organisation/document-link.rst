@@ -11,7 +11,8 @@ Note: ``DocumentCategory`` codes with the *B* ``DocumentCategory-category`` pref
 	:language: xml
 	:start-after: <!--document-link starts-->
 	:end-before: <!--document-link ends-->
-
+	:emphasize-lines: 1, 5, 6, 10
+	
 Changelog
 ~~~~~~~~~
 

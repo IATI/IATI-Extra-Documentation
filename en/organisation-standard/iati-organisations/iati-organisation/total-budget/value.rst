@@ -10,7 +10,8 @@ The ISO 4217 code for the ``currency`` in which the ``total-budget`` is denomina
 	:language: xml
 	:start-after: <!--total-budget starts-->
 	:end-before: <!--total-budget ends-->
-		
+	:emphasize-lines: 3, 8, 13
+			
 Changelog
 ~~~~~~~~~
 

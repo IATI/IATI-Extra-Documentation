@@ -10,3 +10,4 @@ The ``value-date`` is reported in ISO 8601 format (YYYY-MM-DD).
 	:language: xml
 	:start-after: <!--recipient-country-budget starts-->
 	:end-before: <!--recipient-country-budget ends-->
+	:emphasize-lines: 1, 6, 7, 12, 13, 18
