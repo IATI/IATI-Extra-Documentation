@@ -18,6 +18,8 @@ In managing the codelists we make a distinction between 'embedded' and
 'non-embedded' codelists. In addition, we may refer to these lists as
 either 'complete' or 'incomplete'.
 
+.. _embedded_codelist:
+
 Embedded Codelists
 ------------------
 
@@ -44,6 +46,8 @@ https://github.com/IATI/IATI-Codelists/
    onwards) will always track the corresponding branch.
 -  During an upgrade to the standard, the new version a new branch is
    created for development.
+
+.. _non_embedded_codelist:
 
 Non-Embedded Codelist
 ---------------------
