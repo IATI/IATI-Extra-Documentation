@@ -9,8 +9,8 @@ Codes for fields such as :doc:`organisation type <codelist/OrganisationType>` (e
 
 The codes use existing authority lists where possible and build on codes published by the ISO, OECD DAC, COFOG and Guidestar.
 
-All Codelists
--------------
+General Information about Codelists
+-----------------------------------
 
 .. toctree::
    :glob:
@@ -18,5 +18,13 @@ All Codelists
 
    codelists/codelist-management
    codelists/codelist-api
+
+All Codelists
+-------------
+
+.. toctree::
+   :glob:
+   :titlesonly:
+
    codelists/*
 
