@@ -6,6 +6,7 @@ Example ``job-title`` within ``contact-info`` containing all possible child elem
 	:language: xml
 	:start-after: <!--contact-info starts-->
 	:end-before: <!--contact-info ends-->
+	:emphasize-lines: 4
 
 
 Changelog

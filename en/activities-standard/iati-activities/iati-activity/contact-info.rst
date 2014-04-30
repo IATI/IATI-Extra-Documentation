@@ -16,6 +16,7 @@ Example ``contact-info`` containing all possible child elements: ``organisation`
 	:language: xml
 	:start-after: <!--contact-info starts-->
 	:end-before: <!--contact-info ends-->
+	:emphasize-lines: 1, 9
 
 Changelog
 ~~~~~~~~~
