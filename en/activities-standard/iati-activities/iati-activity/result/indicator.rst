@@ -14,6 +14,7 @@ This example also declares that the data is ``ascending``, via a boolean:
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
+	:emphasize-lines: 4, 20
 
 
 The ``indicator`` element can be repeated within any ``result`` element:
@@ -22,5 +23,6 @@ The ``indicator`` element can be repeated within any ``result`` element:
 	:language: xml
 	:start-after: <!--multi-indicator result starts-->
 	:end-before: <!--multi-indicator result ends-->
+	:emphasize-lines: 4, 14, 15, 25
 		
 		

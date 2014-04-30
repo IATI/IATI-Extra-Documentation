@@ -14,6 +14,7 @@ Example ``result`` that uses ``ResultType`` code *1* (Output).  This ``result`` 
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
+	:emphasize-lines: 1, 21
 
 
 The ``result`` element can be repeated within any ``iati-activity``:
@@ -22,4 +23,4 @@ The ``result`` element can be repeated within any ``iati-activity``:
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-
+	:emphasize-lines: 1, 15, 16, 30

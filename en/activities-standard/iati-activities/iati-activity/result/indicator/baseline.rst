@@ -8,3 +8,4 @@ Example declares ``year`` as *2012*, with a ``value`` of *10*:
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
+	:emphasize-lines: 7, 9

@@ -6,6 +6,7 @@ Example usage of ''comment'' for ''baseline'':
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
+	:emphasize-lines: 8
 	
 It may be appropriate to repeat the ``comment`` in other languages using ``xml:lang`` attribute.  
 In this example, the language *en* has been set in the ''iati-activity'' element:
@@ -14,3 +15,4 @@ In this example, the language *en* has been set in the ''iati-activity'' element
 	:language: xml
 	:start-after: <!--multi-lang result starts-->
 	:end-before: <!--multi-lang result ends-->
+	:emphasize-lines: 12, 13
