@@ -14,6 +14,7 @@ Example of ``conditions`` attached to the ``iati-activity``, expressed through t
 	:language: xml
 	:start-after: <!--conditions starts-->
 	:end-before: <!--conditions ends-->
+	:emphasize-lines: 1, 3
 
 From version 1.04, the schema allows the ``xml:lang`` attribute to also be included in the sub-element ``condition``
 Example of an ``iati-activity`` with two ``conditions``, declared in the the default language and also *fr*:
@@ -22,3 +23,4 @@ Example of an ``iati-activity`` with two ``conditions``, declared in the the def
 	:language: xml
 	:start-after: <!--conditions starts-->
 	:end-before: <!--conditions ends-->
+	:emphasize-lines: 1, 3, 4, 6, 7, 9, 10, 12
