@@ -6,6 +6,7 @@ The ``location`` element is used a contain various other elements
 	:language: xml
 	:start-after: <!--location starts-->
 	:end-before: <!--location ends-->
+	:emphasize-lines: 1, 14
 
 
 Changelog
