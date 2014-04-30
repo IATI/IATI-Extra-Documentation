@@ -1,28 +1,34 @@
 The IATI Activities Standard
 ============================
 
+Definition
+----------
 The **IATI activity standard** is designed for reporting the details of individual aid activities. 
 
-An activity is defined by the reporting organisation.  Depending on who is reporting, it might be a large programme, a small project or another logical grouping of work and resources.
+| An activity is defined by the reporting organisation.  Depending on who is reporting, it might be a large programme, a small project or another logical grouping of work and resources.
 
-The activity standard is the most widely used part of IATI.  The activity standard supports around forty different fields, referenced by standard codelists, and designed to capture information about many different kinds of aid activities.
+| The **IATI activity standard** is the most widely used part of IATI.  The activity standard supports around forty different fields, referenced by standard codelists, and designed to capture information about many different kinds of aid activities.
 
-Organisations publish IATI activities within an IATI XML Activity File. A file can detail one or many activities, and a organisation can publish one or many files. It is expected that these files are updated as activities progress, and are made available via the IATI Registry. A reporting organisation will typically produce one IATI activity file per country or geographical region.
+| Organisations publish this data in an :doc:`activity file </organisation-standard/overview/activity-file/>`.  It is expected that every organisation publishing IATI data should include one *actvity file*, which is updated at least annually.
 
-What information is inside an IATI activity?
---------------------------------------------
+| A *actvity file* can detail one or many activities, and a organisation can publish one or many files.
 
-An IATI activity can answer some or all of the following questions:
 
-* What is the name and description of the activity?
-* Who is involved, and what is their role?
-* Where is the activity geographically?
-* When is/did the activity taking place?
-* What documents help us find out more?
-* How is the activity classified and categorised?
-* What are the activity’s financial details, including transactions over time?
-* What are the expected and actual results?
+Considerations
+--------------
+When declaring information using the **IATI activity standard** the following should be considered:
 
+* What is the :ref:`name, description </activity-standard/overview/activity/>` and :ref:`identifier </activity-standard/overview/iati-identifier/>` of the activity?
+* What :ref:`dates </activity-standard/overview/dates/>` help describe the timeframe of the activity?
+* Which :ref:`organisations </activity-standard/overview/organisations/>` are involved, and what is their role?
+* Where is the activity :ref:`geographically </activity-standard/overview/geography/>`?
+* How is the activity :ref:`classified </activity-standard/overview/classifications/>`?
+* What are the activity’s financial details, including :ref:`budgets </activity-standard/overview/budgets/>` and :ref:`transactions </activity-standard/overview/transactions/>` over time?
+* What are the expected and actual :ref:`results </activity-standard/overview/result/>`?
+* How is the activity :ref:`linked </activity-standard/overview/related-data/>` to other activities?
+* What public :ref:`documents </activity-standard/overview/linked-documents/>` help us find out more?
+* Can any Creditor Reporting System and/or Forward Survey Spending :ref:`data be included </activity-standard/overview/crs-fss/>`?
+* What are the designated :ref:`contact details </activity-standard/overview/contact-info/>` for the activity?
 
 
 Contents

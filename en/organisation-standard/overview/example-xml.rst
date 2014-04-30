@@ -7,11 +7,20 @@ This page presents *example usage XML* for the **IATI organisation standard**.
 
 Considerations
 --------------
-This is a sample XML and not intended to reflect any real organisations or entities.
+This is a *example usage XML* and not intended to reflect any real organisations or entities.
 
 Extracts from this example are used throughout this documentation.
 
-This example file can also be `downloaded <https://raw.githubusercontent.com/IATI/IATI-Extra-Documentation/version-1.04/en/organisation-standard/organisation-standard-example-1.04-annotated.xml>`__.
+Comments markup is optional and intended to supplement the documentation:
+
+.. literalinclude:: ../organisation-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <iati-identifier>AA-AAA-123456789</iati-identifier>
+	:end-before: <name>Organisation name</name>
+
+This example file can also be `downloaded. <https://raw.githubusercontent.com/IATI/IATI-Extra-Documentation/version-1.04/en/organisation-standard/organisation-standard-example-1.04-annotated.xml>`__.
+
+Full XML example usage of the **IATI organisation standard**:
 
 .. literalinclude:: ../organisation-standard-example-1.04-annotated.xml
 	:language: xml

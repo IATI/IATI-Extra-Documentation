@@ -12,17 +12,19 @@ Within the **IATI organisation standard** three types of *organisations* can be 
 
 Considerations
 --------------
-When declaring various *organisations* in the **IATI organisation standard** the following should be considered:
+When using the **IATI organisation standard** to declare *organisations*, the following should be considered:
 
 * In many cases, an *organisation file* will contain information from the perspective of a single ``iati-organisation``.  Most commonly, this will be the same as the ``reporting-org``
 
 * However, it is possible for multiple ``iati-organisation`` to be described in a single *organisation file*.
 
-* ``reporting-org`` and ``iati-organisation`` should include reference to their associated unique identifier - ``ref``
+* ``reporting-org`` and ``iati-organisation`` should include reference to their associated unique ``iati-identifier``
+
+* For ``reporting-org``, inclusion of the ``OrganisationType`` code is recommended.
 
 * An ``iati-organisation`` can also include a ``name`` element - free text title of the organisation
 
-* Single or multiple ``recipient-org`` entries can be recorded.  
+* Single or multiple ``recipient-org`` entries can be recorded.
 
 * For each ``recipient-org`` multiple forward looking ``recipient-org-budget`` can be recorded.
 

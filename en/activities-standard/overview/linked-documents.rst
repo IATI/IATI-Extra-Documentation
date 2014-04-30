@@ -5,37 +5,42 @@ Definition
 ----------
 Within the **IATI activity standard** any number of links to supporting documents can be declared.
 
-In the **IATI activity standard**, documents that relate to the specific activity would be referred to.  Organisation/agency specific documents are published via the IATI activity standard.
+| In the **IATI activity standard**, documents that relate to the specific activity would be referred to.  Organisation/agency specific documents are published via the IATI activity standard.
 
-The main element for this is:
+| The main element for this is:
 
-* ``document-link`` - providing a categorised link to an external document.
+* ``document-link`` - a categorized link to an external document.
 
-Additionally, the following also enable the links to external resources:
+| Additionally, the following also enable the links from the ``iati-activity`` to external resources:
 
 * ``activity-website``  - a website that provides more information about the specific ``iati-activity``
-* linked data - declaring the path at which information on this activity is available as linked-date
+* linked data - declaring the path at which information on the specific ``iati-activity`` is available as linked-data
 
 Considerations
 --------------
-All documents should be presented as links in the form of URLs (eg: http://example.org/exampledocument.odt)
+When using the **IATI activity standard** to declare *documents*, the following should be considered:
 
-The URL must resolve to a valid internet address that provides direct access to the document in question
+* In the **IATI activity standard**, documents that relate to the specific ``iati-activity`` would be linked to.  Organisation/agency specific documents are published via the **IATI organisation standard**.
 
-Attention should be paid by the publisher to any links that become obsolete
+* All ``document-link`` should be presented as in the form of URLs (eg: http://example.org/exampledocument.odt)
 
-The same document can be presented in different languages via separate ``document-link`` elements.
+* The URL must resolve to a valid internet address that provides direct access to the document in question.
 
-For every document presented either a ``title`` or ``category`` is expected (or both)
+* Attention should be paid by the publisher to any links that become obsolete.
 
-For document ``category`` in the activity standard, it is expected that the ``DocumentCategory`` code would be have the A prefix
+* The same document can be presented in different languages via separate ``document-link`` elements.
 
-Use the ``format`` attribute help inform what to expect from the document
+* For every document presented either a ``title`` or ``category`` is expected (or both).
 
-Use of the ``format`` must be accompanied by a code on the ``FileFormat`` codelist.
+* The free-text instances of ``title`` should avoid use of text in CAPITALS, where possible.
 
-The ``activity-website`` should be a URL to a page or website that is specifically about the ``iati-activity`` - not generic information.
+* For document ``category`` in the **IATI organisation standard**, it is expected that the ``DocumentCategory`` code would be have the B prefix.
 
+* Using the ``format`` attribute helps inform what to expect from the document.
+
+* Use of the ``format`` must be accompanied by a code on the ``FileFormat`` codelist.
+
+* The ``activity-website`` should be a URL to a page or website that is specifically about the ``iati-activity`` - not generic information (eg: http://www.example.com/en/activity/ABC123).
 
 
 Further guidance
