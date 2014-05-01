@@ -8,7 +8,7 @@
     "budget": [ "budget", "planned-disbursement", "country-budget-items", "capital-spend" ],
     "transaction": [ "transaction" ],
     "result": [ "result" ],
-    "traceability": [ "transaction/provider-org", "transaction/reciever-org" ],
+    "traceability": [ "transaction/provider-org", "transaction/receiver-org" ],
     "linked-documents": [ "document-link", "activity-website" ],
     "crs-fss": [ "fss", "crs-add" ],
     "contact-info": [ "contact-info" ]
