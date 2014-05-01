@@ -8,3 +8,4 @@ Example usage of ``target`` value of *10*
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
+	:emphasize-lines: 13, 15

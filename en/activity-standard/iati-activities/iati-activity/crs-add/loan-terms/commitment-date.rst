@@ -8,7 +8,7 @@ A date in ISO 8601 format (YYYY-MM-DD) is required for ``commitment-date`` date:
 	:language: xml
 	:start-after: <!--crs-add starts-->
 	:end-before: <!--crs-add ends-->
-
+	:emphasize-lines: 6
 
 Changelog
 ~~~~~~~~~

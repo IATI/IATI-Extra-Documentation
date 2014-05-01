@@ -16,6 +16,7 @@ Full example:
 	:language: xml
 	:start-after: <!--country-budget-items starts-->
 	:end-before: <!--country-budget-items ends-->
+	:emphasize-lines: 1, 5
 
 
 Changelog

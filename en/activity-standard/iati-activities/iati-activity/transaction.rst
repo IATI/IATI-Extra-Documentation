@@ -16,6 +16,7 @@ Example:
 	:language: xml
 	:start-after: <!--min transaction starts-->
 	:end-before: <!--min transaction ends-->
+	:emphasize-lines: 1, 9
 
 Full example with additional elements which can override the default value set in ``iati-activity``: 
 
@@ -23,10 +24,12 @@ Full example with additional elements which can override the default value set i
 	:language: xml
 	:start-after: <!--full transaction starts-->
 	:end-before: <!--full transaction ends-->
-    
+	:emphasize-lines: 1, 13
+	    
 An ``iati-activity`` can have multiple ``transaction`` elements:
 
 .. literalinclude:: ../../activity-standard-example-1.04-annotated-multi.xml
 	:language: xml
 	:start-after: <!--transaction starts-->
 	:end-before: <!--transaction ends-->
+	:emphasize-lines: 1, 13, 14, 26

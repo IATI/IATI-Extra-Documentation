@@ -8,7 +8,7 @@ A ``LoanRepaymentType`` code *1* is declared:
 	:language: xml
 	:start-after: <!--crs-add starts-->
 	:end-before: <!--crs-add ends-->
-
+	:emphasize-lines: 4
 
 Changelog
 ~~~~~~~~~

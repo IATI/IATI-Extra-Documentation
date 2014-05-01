@@ -6,6 +6,7 @@ Example ``language``, using ``Language`` codes *en* (English):
 	:language: xml
 	:start-after: <!--document-link starts-->
 	:end-before: <!--document-link ends-->
+	:emphasize-lines: 3
 
 In this example, the ``document-link`` is provided in two ``language``, with the relevant ``Language`` codes:
 
@@ -13,6 +14,7 @@ In this example, the ``document-link`` is provided in two ``language``, with the
 	:language: xml
 	:start-after: <!--document-link starts-->
 	:end-before: <!--document-link ends-->
+	:emphasize-lines: 3, 8
 
 
 Changelog

@@ -8,3 +8,4 @@ A date in ISO 8601 format (YYYY-MM-DD) for the ``period-start`` date of the repo
 	:language: xml
 	:start-after: <!--planned-disbursement starts-->
 	:end-before: <!--planned-disbursement ends-->
+	:emphasize-lines: 2

@@ -12,13 +12,15 @@ The ISO 4217 code for the ``currency`` in which the ``forecast`` is denominated 
 	:language: xml
 	:start-after: <!--fss starts-->
 	:end-before: <!--fss ends-->
+	:emphasize-lines: 2
 
 Example of multiple ``forecast`` elements:
 
 .. literalinclude:: ../../../activity-standard-example-1.04-annotated-multi.xml
 	:language: xml
 	:start-after: <!--fss starts-->
-	:end-before: <!--fss ends-->      
+	:end-before: <!--fss ends-->    
+	:emphasize-lines: 2, 3  
 
 Changelog
 ~~~~~~~~~

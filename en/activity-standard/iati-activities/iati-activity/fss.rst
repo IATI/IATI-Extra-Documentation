@@ -8,6 +8,7 @@ A boolean declares that this ``fss`` example is a partner country priority.
 	:language: xml
 	:start-after: <!--fss starts-->
 	:end-before: <!--fss ends-->
+	:emphasize-lines: 1, 3
       
 
 Changelog

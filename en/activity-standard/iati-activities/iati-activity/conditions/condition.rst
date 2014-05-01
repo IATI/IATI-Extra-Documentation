@@ -6,7 +6,8 @@ Example ``condition`` attached, with ``ConditionType`` code *1* (Policy):
 	:language: xml
 	:start-after: <!--conditions starts-->
 	:end-before: <!--conditions ends-->
-
+	:emphasize-lines: 2
+	
 From version 1.04, the schema allows the ``xml:lang`` attribute to also be included in the sub-element ``condition``
 Example of an ``iati-activity`` with two ``conditions``, declared in the the default language and also *fr*:
 
@@ -14,6 +15,7 @@ Example of an ``iati-activity`` with two ``conditions``, declared in the the def
 	:language: xml
 	:start-after: <!--conditions starts-->
 	:end-before: <!--conditions ends-->
+	:emphasize-lines: 2, 5, 8, 11
 
 Changelog
 ~~~~~~~~~

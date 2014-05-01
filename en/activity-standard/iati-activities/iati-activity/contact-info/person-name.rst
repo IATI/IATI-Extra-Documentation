@@ -6,3 +6,4 @@ Example ``person-name`` within ``contact-info`` containing all possible child el
 	:language: xml
 	:start-after: <!--contact-info starts-->
 	:end-before: <!--contact-info ends-->
+	:emphasize-lines: 3

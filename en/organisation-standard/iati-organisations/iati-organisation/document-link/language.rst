@@ -6,7 +6,8 @@ Example usage of ``language`` in context of ``document-link`` element:
 	:language: xml
 	:start-after: <!--document-link starts-->
 	:end-before: <!--document-link ends-->
-
+	:emphasize-lines: 3, 8
+	
 Changelog
 ~~~~~~~~~
 

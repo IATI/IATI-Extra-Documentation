@@ -8,4 +8,5 @@ Example of a ``actual`` value of *11*
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
+	:emphasize-lines: 16, 18
 

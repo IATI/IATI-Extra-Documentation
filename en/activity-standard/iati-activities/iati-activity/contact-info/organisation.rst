@@ -6,3 +6,4 @@ Example ``organisation`` within ``contact-info`` containing all possible child e
 	:language: xml
 	:start-after: <!--contact-info starts-->
 	:end-before: <!--contact-info ends-->
+	:emphasize-lines: 2

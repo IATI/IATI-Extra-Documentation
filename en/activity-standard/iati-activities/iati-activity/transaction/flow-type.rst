@@ -10,3 +10,4 @@ The ``flow-type`` elements can override the ``default-flow-type`` value set in `
 	:language: xml
 	:start-after: <!--full transaction starts-->
 	:end-before: <!--full transaction ends-->
+	:emphasize-lines: 9

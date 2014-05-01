@@ -8,4 +8,5 @@ A date in ISO 8601 format (YYYY-MM-DD) is required for the ``period-start`` and 
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
+	:emphasize-lines: 10, 19
 

@@ -10,6 +10,7 @@ Example declares ``rate-1`` and ``rate-2`` values of *4* and *3*.
 	:language: xml
 	:start-after: <!--crs-add starts-->
 	:end-before: <!--crs-add ends-->
+	:emphasize-lines: 3, 9
 
 
 Changelog
