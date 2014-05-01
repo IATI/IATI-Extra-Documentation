@@ -16,5 +16,4 @@ Further guidance, examples and specific details can be found in the :doc:`refere
    overview/iati-identifier
    overview/budgets
    overview/document-links
-   overview/example-xml
 

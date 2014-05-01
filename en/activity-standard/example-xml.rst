@@ -1,5 +1,5 @@
-Example Usage
-=============
+Example Usage XML
+=================
 
 Definition
 ----------
@@ -13,7 +13,7 @@ Extracts from these example files are used throughout this documentation.
 
 Comments markup is optional and intended to supplement the documentation:
 
-.. literalinclude:: ../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: activity-standard-example-1.04-annotated.xml
 	:language: xml
 	:start-after: <reporting-org ref="AA-AAA-123456789" type="21">Organisation Name</reporting-org>
 	:end-before: <iati-identifier>AA-AAA-123456789-ABC123</iati-identifier>
@@ -25,14 +25,14 @@ There are two *example usage XML* files:
 
 *Example usage XML* file: 
 
-.. literalinclude:: ../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: activity-standard-example-1.04-annotated.xml
 	:language: xml
 	:start-after: <!--iati-activities starts-->
 	:end-before: <!--iati-activities ends-->
 
 *Example usage XML* - with multiple values:
 
-.. literalinclude:: ../activity-standard-example-1.04-annotated-multi.xml
+.. literalinclude:: activity-standard-example-1.04-annotated-multi.xml
 	:language: xml
 	:start-after: <!--iati-activities starts-->
 	:end-before: <!--iati-activities ends-->

@@ -24,7 +24,6 @@ Further guidance, examples and details can be found in the :doc:`reference <acti
    overview/linked-documents
    overview/crs-fss
    overview/contact-info
-   overview/example-xml
  
    
 
