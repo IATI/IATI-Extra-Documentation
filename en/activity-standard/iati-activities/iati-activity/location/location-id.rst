@@ -1,4 +1,3 @@
-
 Example Usage
 ~~~~~~~~~~~~~
 
@@ -6,9 +5,9 @@ If the G2 vocabulary (Open Street Map) is used the code value should be of the f
 
 The OSM element will be a node, way or relation. Examples:
 
-    node/1234567
-    way/1234567
-    relation/1234567
+* node/1234567
+* way/1234567
+* relation/1234567
 
 .. code-block:: xml
 
