@@ -21,6 +21,11 @@ When multiple ``budget-item`` are declared, then the ``percentage`` values shoul
 Changelog
 ~~~~~~~~~
 
+1.04
+^^^^
+
+The @percentage attribute had been erroneously set to be required in the schema on it's introduction in 1.03. This has now been set to 'optional' in the schema.
+
 1.03
 ^^^^
 
