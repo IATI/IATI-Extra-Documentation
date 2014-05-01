@@ -1,5 +1,6 @@
 Organisation Identifiers
 ========================
+
 The **IATI standard** allows for the recording of information on all *organisations* that participate in any part of the lifecycle of an aid activity: inter alia donors, beneficiaries, extending and implementing agencies.
 
 Crucial to this, is a common process through which to identify and declare identifiers for these organisations.
