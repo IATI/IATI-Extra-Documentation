@@ -1,11 +1,18 @@
-
-
 Example Usage
 ~~~~~~~~~~~~~
 
+If the G2 vocabulary (Open Street Map) is used the code value should be of the form <OSM element>/<OSM identifier>
+
+The OSM element will be a node, way or relation. Examples:
+
+* node/1234567
+* way/1234567
+* relation/1234567
+
 .. code-block:: xml
 
-    <location-id vocabulary="G2" code="25524229" />
+
+    <location-id vocabulary="G2" code="node/25524229" />
 
 
 Changelog
