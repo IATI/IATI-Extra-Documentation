@@ -1,11 +1,11 @@
-Traceability
+Related Data
 ============
 
 Definition
 ----------
-Within the **IATI activity standard** it is possible to express relations between ``iati-activity`` records, across different publishers / ``reporting-org``.  This is referred to as *traceability*.
+Within the **IATI activity standard** it is possible to express relations between ``iati-activity`` records, across different publishers / ``reporting-org``.
 
-| This can be acheived through two methods:
+| This can be described through two methods:
 
 * ``related-activity`` - another ``iati-activity`` that has relationship to the one being described.
 * ``transaction`` - ``provider-activity-id`` & ``receiver-activity-id`` - can be used to link funds from one ``iati-activity`` to another.
