@@ -15,16 +15,10 @@ Considerations
 When using the **IATI activity standard** to declare *organisations*, the following should be considered:
 
 * In many cases, an activity file will contain information from the perspective of a single organisation.  Most commonly, this will be the same as the ``reporting-org``
-
 * It is also expected that this organisation would be cited as a ``participating-org``, along with their associated role(s). 
-
 * It is possible for multiple ``participating-org`` to be reported within a single activity.  
-
 * Multiple ``participating-org`` with the same ``OrganisationRole`` code are also feasible.
-
 * For ``reporting-org`` and ``participating-org`` inclusion of the ``OrganisationType`` code is recommended.
- 
 * In all cases, when describing an organisation, reference to their associated unique identifier should be included.
-
 * Should a ``provider-org`` or ``receiver-org`` within a ``transaction`` be the same as the ``reporting-org`` it is not expected that they are declared, but recommended.
 
