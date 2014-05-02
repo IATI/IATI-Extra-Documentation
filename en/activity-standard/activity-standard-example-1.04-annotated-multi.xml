@@ -91,11 +91,13 @@
   <country-budget-items vocabulary="2">
    <budget-item code="1.1.1" percentage="50">
      <description>Description text</description>
+     <description xml:lang="fr">Texte de description</description>
    </budget-item>
   </country-budget-items>
   <country-budget-items vocabulary="2">
    <budget-item code="1.1.2" percentage="50">
     <description>Description text</description>
+    <description xml:lang="fr">Texte de description</description>
    </budget-item>
   </country-budget-items>
   <!--country-budget-items ends-->
@@ -183,6 +185,7 @@
    <transaction-type code="C">Commitment</transaction-type>
    <value currency="EUR" value-date="2012-01-01">1000</value>
    <description>Description text</description>
+   <description xml:lang="fr">Texte de description</description>
    <provider-org provider-activity-id="BB-BBB-123456789-1234" ref="BB-BBB-123456789">Agency B</provider-org>
    <receiver-org receiver-activity-id="CC-CCC-123456789-1234" ref="CC-CCC-123456789">Agency C</receiver-org>
    <disbursement-channel code="1">Money is disbursed through central Ministry of Finance or Treasury</disbursement-channel>
@@ -196,6 +199,7 @@
    <transaction-type code="IF">Incoming Funds</transaction-type>
    <value currency="EUR" value-date="2012-01-01">1000</value>
    <description>Description text</description>
+   <description xml:lang="fr">Texte de description</description>
    <provider-org provider-activity-id="BB-BBB-123456789-1234AA" ref="BB-BBB-123456789">Agency B</provider-org>
    <receiver-org receiver-activity-id="AA-AAA-123456789-1234" ref="AA-AAA-123456789">Agency A</receiver-org>
    <disbursement-channel code="1">Money is disbursed through central Ministry of Finance or Treasury</disbursement-channel>
@@ -227,9 +231,9 @@
   <!--conditions starts-->
   <conditions attached="1">
    <condition type="1">Conditions text</condition>
-   <condition xml:lang="fr" type="1">Conditions text ici</condition>
+   <condition xml:lang="fr" type="1">Conditions texte</condition>
    <condition type="2">Conditions text</condition>
-   <condition xml:lang="fr" type="2">Conditions text ici</condition>
+   <condition xml:lang="fr" type="2">Conditions texte</condition>
   </conditions>
   <!--conditions ends-->
   <!--result starts-->
@@ -267,28 +271,28 @@
   <!--multi-lang result starts-->
   <result type="1" aggregation-status="1">
    <title>Result 1 title</title>
-   <title xml:lang="fr">Result 1 title</title>
+   <title xml:lang="fr">Result 1 titre</title>
    <description>Result 1 description text</description>
-   <description xml:lang="fr">Result 1 description text</description>
+   <description xml:lang="fr">Result 1 texte de description</description>
    <indicator measure="1" ascending="1">
     <title>Indicator 1 title</title>
-    <title xml:lang="fr">Indicator 1 title</title>
+    <title xml:lang="fr">Indicator 1 titre</title>
     <description>Indicator 1 description text</description>
-    <description xml:lang="fr">Indicator 1 description text</description>
+    <description xml:lang="fr">Indicator 1 texte de description</description>
     <baseline year="2012" value="10">
      <comment>Baseline comment text</comment>
-     <comment xml:lang="fr">Baseline comment text</comment> 
+     <comment xml:lang="fr">Baseline comment texte</comment> 
     </baseline>
     <period> 
      <period-start iso-date="2013-01-01"/> 
      <period-end iso-date="2013-03-31"/>
      <target value="10">
       <comment>Target comment text</comment>
-      <comment xml:lang="fr">Target comment text</comment> 
+      <comment xml:lang="fr">Target comment texte</comment> 
      </target>
      <actual value="11">
       <comment>Actual comment text</comment>
-      <comment xml:lang="fr">Actual comment text</comment>     
+      <comment xml:lang="fr">Actual comment texte</comment>     
      </actual>
     </period> 
    </indicator>
