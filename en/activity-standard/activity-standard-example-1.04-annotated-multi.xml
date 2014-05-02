@@ -227,14 +227,8 @@
   <!--conditions starts-->
   <conditions attached="1">
    <condition type="1">Conditions text</condition>
-  </conditions>
-  <conditions attached="1">
    <condition xml:lang="fr" type="1">Conditions text ici</condition>
-  </conditions>  
-  <conditions attached="1">
    <condition type="2">Conditions text</condition>
-  </conditions>
-  <conditions attached="1">
    <condition xml:lang="fr" type="2">Conditions text ici</condition>
   </conditions>
   <!--conditions ends-->
