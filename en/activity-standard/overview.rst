@@ -2,8 +2,6 @@ Overview
 ========
 These overview pages provide initial guidance and information about the **IATI activity standard**.
 
-These are intended as initial overview of the key aspects of the **IATI activity standard**.
-
 Further guidance, examples and details can be found in the :doc:`reference <activity-standard/reference/>` section.
 
 .. toctree::
@@ -20,7 +18,7 @@ Further guidance, examples and details can be found in the :doc:`reference <acti
    overview/budgets
    overview/transactions
    overview/result
-   overview/traceability
+   overview/related-data
    overview/linked-documents
    overview/crs-fss
    overview/contact-info

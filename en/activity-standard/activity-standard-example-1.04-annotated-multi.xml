@@ -68,11 +68,11 @@
   <location ref="AF-KAN">
    <location-id vocabulary="G1" code="1453782" />
    <name>Location name</name>
-   <name xml:lang="fr">Nom</name>   
+   <name xml:lang="fr">Emplacement du nom</name>   
    <description>Location description</description>
-   <description xml:lang="fr">Location description</description>
+   <description xml:lang="fr">Description de l'emplacement</description>
    <activity-description>A description that qualifies the activity taking place at the location</activity-description>
-   <activity-description xml:lang="fr">Une description qui qualifie l'activité aura lieu à l'endroit</activity-description>
+   <activity-description xml:lang="fr">Une description qui qualifie l'activité ayant lieu à cet emplacement</activity-description>
    <administrative level="1" code="1453782" vocabulary="G1" />
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>31.616944 65.716944</pos>
@@ -227,14 +227,8 @@
   <!--conditions starts-->
   <conditions attached="1">
    <condition type="1">Conditions text</condition>
-  </conditions>
-  <conditions attached="1">
    <condition xml:lang="fr" type="1">Conditions text ici</condition>
-  </conditions>  
-  <conditions attached="1">
    <condition type="2">Conditions text</condition>
-  </conditions>
-  <conditions attached="1">
    <condition xml:lang="fr" type="2">Conditions text ici</condition>
   </conditions>
   <!--conditions ends-->
