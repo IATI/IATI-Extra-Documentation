@@ -32,8 +32,3 @@ When using the **IATI organisation standard** to declare *documents*, the follow
 
 * Use of the ``format`` must be accompanied by a code on the ``FileFormat`` codelist.
 
-
-Further guidance
-----------------
-
-* :doc:`document-link </organisation-standard/iati-organisations/iati-organisation/document-link/>`

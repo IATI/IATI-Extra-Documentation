@@ -32,10 +32,3 @@ When using the **IATI organisation standard** to declare *budgets*, the followin
 
 * The ``default-currency`` can be set in the ``iati-organisaton`` element.  Should subsequent budgets be in the same ``currency`` then there is no need to restate.
 
-
-Further guidance
-----------------
-
-* :doc:`total-budget </organisation-standard/iati-organisations/iati-organisation/total-budget/>`
-* :doc:`recipient-org-budget </organisation-standard/iati-organisations/iati-organisation/recipient-org-budget/>`
-* :doc:`recipient-country-budget </organisation-standard/iati-organisations/iati-organisation/recipient-country-budget/>`

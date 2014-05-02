@@ -23,13 +23,3 @@ When using the **IATI organisation standard** to declare an *iati-identifier*, t
 
 ** ``AA-AAA-123456789`` is preferable to ``AA-AAA 123456789``.
 
-
-Further guidance
-----------------
-
-Reference pages:
-
-* Organisation Identifiers
-* :doc:`iati-identifier </activity-standard/iati-activities/iati-activity/iati-identifier/>`
-* :doc:`iati-activity </activity-standard/iati-activities/iati-activity/>`
-* :doc:`reporting-org </activity-standard/iati-activities/iati-activity/reporting-org/>`

@@ -26,13 +26,3 @@ When using the **IATI organisation standard** to declare an *iati-organisation*,
 
 * The free-text instance of ``name`` should avoid use of text in CAPITALS, where possible. 
 
-Further guidance
-----------------
-
-Reference pages:
-
-* Organisation identifiers
-* :doc:`iati-identifier </activity-standard/iati-activities/iati-activity/iati-identifier/>`
-* :doc:`iati-activity </activity-standard/iati-activities/iati-activity/>`
-* :doc:`title </activity-standard/iati-activities/iati-activity/title/>`
-* :doc:`description </activity-standard/iati-activities/iati-activity/description/>`

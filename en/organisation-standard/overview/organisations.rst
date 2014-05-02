@@ -28,14 +28,6 @@ When using the **IATI organisation standard** to declare *organisations*, the fo
 
 * For each ``recipient-org`` multiple forward looking ``recipient-org-budget`` can be recorded.
 
-
-Further guidance
-----------------
-
-* :doc:`reporting-org </organisation-standard/iati-organisations/iati-organisation/reporting-org/>`
-* :doc:`iati-organisation </organisation-standard/iati-organisations/iati-organisation/>`
-* :doc:`name </organisation-standard/iati-organisations/iati-organisation/name/>`
-* :doc:`recipient-org-budget </organisation-standard/iati-organisations/iati-organisation/recipient-org-budget/>`
    
 
 

@@ -35,9 +35,3 @@ When using the **IATI organisation standard** to produce the *organisation file*
 
 ** ``http://example.org/files/iatidata/iatiorganisation.xml`` is preferable to ``http://example.org/files/iati data/IATI Organisation.xml``.
 
-
-Further guidance
-----------------
-
-* :doc:`The organisation standard </organisation-standard/overview>`
-* The IATI Registry
