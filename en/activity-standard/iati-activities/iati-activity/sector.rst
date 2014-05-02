@@ -22,18 +22,6 @@ If a vocabulary is not on the ``Vocabulary`` codelist, then the value of *RO* (R
 
     <sector vocabulary="RO">Education</sector>
     
-With a text description for the ``Sector``:
-
-.. code-block:: xml
-
-    <sector code="13040">STD control including HIV/AIDS</sector>
-
-Should a description be used that is different to the default language set for the ``iati-activity``, then this can be declared as follows:
-
-.. code-block:: xml
-
-    <sector code="13040" xml:lang="en">STD control including HIV/AIDS</sector>
-
 
 
 Changelog
