@@ -271,12 +271,12 @@
   <!--multi-lang result starts-->
   <result type="1" aggregation-status="1">
    <title>Result 1 title</title>
-   <title xml:lang="fr">Result 1 title</title>
+   <title xml:lang="fr">Result 1 titre</title>
    <description>Result 1 description text</description>
    <description xml:lang="fr">Result 1 texte de description</description>
    <indicator measure="1" ascending="1">
     <title>Indicator 1 title</title>
-    <title xml:lang="fr">Indicator 1 title</title>
+    <title xml:lang="fr">Indicator 1 titre</title>
     <description>Indicator 1 description text</description>
     <description xml:lang="fr">Indicator 1 texte de description</description>
     <baseline year="2012" value="10">
