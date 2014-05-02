@@ -1,16 +1,12 @@
-
-
 Example Usage
 ~~~~~~~~~~~~~
+*NB: this element is deprecated in version 1.04*
 
-Example for the **Herat region of Afghanistan** - which has an ID of
-**1140026** on `geonames.org <http://www.geonames.org/>`__.
+Example for the **Herat region of Afghanistan** - which has an ID of **1140026** on `geonames.org <http://www.geonames.org/>`__.
 
-To find Herat on geonames.org you would create a link like this:
-http://www.geonames.org/1140026/
+To find Herat on geonames.org you would create a link like this: http://www.geonames.org/1140026/
 
-The IATI gazeteer-ref for geonames is ``GEO``, so the element would
-look like:
+The IATI gazeteer-ref for geonames is ``GEO``, so the element would look like:
 
 .. code-block:: xml
 

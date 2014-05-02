@@ -1,12 +1,12 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example usage of ``description`` within context of ``location``:
+Example usage of ``pos``, a part of the ``point`` element within context of ``location``.
 
 .. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
 	:language: xml
 	:start-after: <!--location starts-->
 	:end-before: <!--location ends-->
-	:emphasize-lines: 3
+	:emphasize-lines: 13
 
 Changelog
 ~~~~~~~~~
@@ -14,4 +14,5 @@ Changelog
 1.04
 ^^^^
 
-| The documentation in the schema has changed from "A human-readable description of the location (not the activity)." 
+| Introduced in 1.04 to align the geocoding standard with Geographic Markup Language (GML)
+

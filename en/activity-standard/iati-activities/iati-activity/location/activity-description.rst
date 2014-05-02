@@ -1,18 +1,22 @@
-
-
 Example Usage
 ~~~~~~~~~~~~~
+Example usage of ``activity-description`` within context of ``location``:
 
-.. code-block:: xml
+.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--location starts-->
+	:end-before: <!--location ends-->
+	:emphasize-lines: 3
 
-    <activity-description>A description that qualifies the activity taking place at the location</activity-description>
 
-The above assumes that English has previously been declared as the default language for this activity in the <iati-activity> element. 
-This element may be re-used to provide information in other languages.
+It may be appropriate to repeat the ``activity-description`` in other languages using additional ``language`` elements. In this example, the language en has been set in the ‘’iati-activity’’ element:
 
-.. code-block:: xml
+.. literalinclude:: ../../activity-standard-example-1.04-annotated-multi.xml
+	:language: xml
+	:start-after: <!--location starts-->
+	:end-before: <!--location ends-->
+	:emphasize-lines: 4
 
-    <activity-description xml:lang="fr">une description qui qualifie l'activité aura lieu à l'endroit</activity-description>
 
 Changelog
 ~~~~~~~~~

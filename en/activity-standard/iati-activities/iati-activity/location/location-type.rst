@@ -1,7 +1,6 @@
-
-
 Example Usage
 ~~~~~~~~~~~~~
+*NB: this element is deprecated in version 1.04*
 
 Just the code can be declared
 

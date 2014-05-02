@@ -1,15 +1,14 @@
-
-
 Example Usage
 ~~~~~~~~~~~~~
+Example usage of ``exactness`` within context of ``location``
 
-.. code-block:: xml
+| This example declares a ``GeographicExactness`` code *1* (Exact):
 
-    <location>
-      ....
-      <exactness code="1"/>
-      ....
-    </location>
+.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--location starts-->
+	:end-before: <!--location ends-->
+	:emphasize-lines: 11
 
 
 Changelog

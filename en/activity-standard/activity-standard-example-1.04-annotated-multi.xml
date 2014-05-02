@@ -68,6 +68,7 @@
   <location ref="AF-KAN">
    <name>Kandahar</name>
    <description>West end of Kandahar-Kabul highway</description>
+   <activity-description xml:lang="fr">une description qui qualifie l'activité aura lieu à l'endroit</activity-description>
    <location-reach code="1" />
    <location-id vocabulary="G1" code="1453782" />
    <activity-description>A description that qualifies the activity taking place at the location</activity-description>

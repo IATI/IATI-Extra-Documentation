@@ -71,6 +71,13 @@
    <feature-designation code="PRNQ"/>
   </location>
   <!--location ends-->
+  <location>
+      <name>Herat</name>
+      <coordinates latitude="34.341944400000003000" longitude="62.203055599999971000" precision="2" />
+ <gazetteer-entry gazeteer-ref="GEO">1140026</gazetteer-entry>
+      <location-type code="PPL" />
+      <administrative country="AF">Afghanistan, Herat, Injil</administrative>
+    </location>
   <!--sector starts-->
   <sector code="111" vocabulary="DAC" />
   <!--sector ends-->

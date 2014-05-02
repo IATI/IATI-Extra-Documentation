@@ -1,22 +1,15 @@
-
 Example Usage
 ~~~~~~~~~~~~~
+Example usage of ``point`` within context of ``location``
 
-Example:
+| NOTE: The @srsName currently should always be http://www.opengis.net/def/crs/EPSG/0/4326
 
-.. code-block:: xml
+.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--location starts-->
+	:end-before: <!--location ends-->
+	:emphasize-lines: 13
 
-    <location ref="">
-      ...
-      
-      <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
-        <pos>31.616944 65.716944</pos>
-      </point>
-      
-      ...
-    </location>
-
-NOTE: The @srsName currently should always be http://www.opengis.net/def/crs/EPSG/0/4326
 
 Changelog
 ~~~~~~~~~
