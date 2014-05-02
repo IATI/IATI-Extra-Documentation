@@ -2,8 +2,6 @@ Overview
 ========
 These overview pages provide initial guidance and information about the **IATI organisation standard**.
 
-These are intended as initial overview of the key aspects of the **IATI organisation standard**.  
-
 Further guidance, examples and specific details can be found in the :doc:`reference </organisation-standard/iati-organisations/>` section.
 
 .. toctree::
