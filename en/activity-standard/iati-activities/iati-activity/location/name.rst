@@ -1,18 +1,18 @@
-
-
 Example Usage
 ~~~~~~~~~~~~~
+Example usage of ``name`` within context of ``location``:
 
-The name of the location being used can be declared as such:
+.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--location starts-->
+	:end-before: <!--location ends-->
+	:emphasize-lines: 3
 
-.. code-block:: xml
 
-    <name>Ivory Coast</name>
+It may be appropriate to repeat the ``name`` in other languages using additional ``name`` elements. In this example, the language en has been set in the ‘’iati-activity’’ element:
 
-It is also good practice to declare this name in the language of the
-country where the project is being implemented, particularly if this
-differs from the default language of the activity:
-
-.. code-block:: xml
-
-    <name xml:lang-"fr">Côte d'Ivoire</name>
+.. literalinclude:: ../../activity-standard-example-1.04-annotated-multi.xml
+	:language: xml
+	:start-after: <!--location starts-->
+	:end-before: <!--location ends-->
+	:emphasize-lines: 4

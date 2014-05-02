@@ -1,15 +1,15 @@
-
-
 Example Usage
 ~~~~~~~~~~~~~
+Example usage of ``feature-designation`` within context of ``location``
 
-.. code-block:: xml
+| This example declares a ``LocationType`` code *ADMF* (administrative facility):
 
-    <location>
-      ....
-      <feature-designation code="PRNQ"/>
-      ....
-    </location>
+.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--location starts-->
+	:end-before: <!--location ends-->
+	:emphasize-lines: 13
+
 
 
 Changelog

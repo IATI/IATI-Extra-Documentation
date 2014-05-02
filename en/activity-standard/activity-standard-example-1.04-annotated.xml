@@ -57,20 +57,27 @@
   <!--recipient-region ends-->
   <!--location starts-->
   <location ref="AF-KAN">
-   <name>Kandahar</name>
-   <description>West end of Kandahar-Kabul highway</description>
-   <location-reach code="1" />
    <location-id vocabulary="G1" code="1453782" />
+   <name>Location name</name>
+   <description>Location description</description>
    <activity-description>A description that qualifies the activity taking place at the location</activity-description>
-   <administrative level="1" code="1453782" vocabulary="G1">Kandahar Province, Afghanistan</administrative>
+   <administrative level="1" code="1453782" vocabulary="G1" />
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>31.616944 65.716944</pos>
    </point>
    <exactness code="1"/>
+   <location-reach code="1" />
    <location-class code="2"/>
    <feature-designation code="PRNQ"/>
   </location>
   <!--location ends-->
+  <location>
+      <name>Herat</name>
+      <coordinates latitude="34.341944400000003000" longitude="62.203055599999971000" precision="2" />
+ <gazetteer-entry gazeteer-ref="GEO">1140026</gazetteer-entry>
+      <location-type code="PPL" />
+      <administrative country="AF">Afghanistan, Herat, Injil</administrative>
+    </location>
   <!--sector starts-->
   <sector code="111" vocabulary="DAC" />
   <!--sector ends-->

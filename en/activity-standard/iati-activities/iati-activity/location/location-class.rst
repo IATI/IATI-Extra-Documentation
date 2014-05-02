@@ -1,19 +1,14 @@
-
-
 Example Usage
 ~~~~~~~~~~~~~
+Example usage of ``location-class`` within context of ``location``
 
-Just the code can be declared
+| This example declares a ``GeographicLocationClass`` code *2* (Populated Place):
 
-.. code-block:: xml
-
-    <location-class code="1"/>
-
-Additionally the name of this code can be stated
-
-.. code-block:: xml
-
-    <location-class code="1">Administrative Region</location-class>
+.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+	:language: xml
+	:start-after: <!--location starts-->
+	:end-before: <!--location ends-->
+	:emphasize-lines: 12
 
 Changelog
 ~~~~~~~~~
