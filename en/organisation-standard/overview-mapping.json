@@ -1,6 +1,6 @@
 {
     "organisation-file": [ "iati-organisations" ],
-    "iati-organisation": [ "iati-organisations/iati-organisation", "description" ],
+    "iati-organisation": [ "iati-organisations/iati-organisation", "name" ],
     "organisations": [ "reporting-org", "name" ],
     "iati-identifier": [ "iati-identifier" ],
     "budgets": [ "total-budget", "recipient-org-budget", "recipient-country-budget" ]
