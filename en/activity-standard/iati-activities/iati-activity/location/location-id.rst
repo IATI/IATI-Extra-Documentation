@@ -8,7 +8,7 @@ Example usage of ``location-id`` within context of ``location``.
 	:language: xml
 	:start-after: <!--location starts-->
 	:end-before: <!--location ends-->
-	:emphasize-lines: 5
+	:emphasize-lines: 2
 	
 If the G2 vocabulary (Open Street Map) is used the code value should be of the form <OSM element>/<OSM identifier>
 

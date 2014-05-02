@@ -6,7 +6,7 @@ Example usage of ``activity-description`` within context of ``location``:
 	:language: xml
 	:start-after: <!--location starts-->
 	:end-before: <!--location ends-->
-	:emphasize-lines: 3
+	:emphasize-lines: 5
 
 
 It may be appropriate to repeat the ``activity-description`` in other languages using additional ``language`` elements. In this example, the language en has been set in the ‘’iati-activity’’ element:
@@ -15,7 +15,7 @@ It may be appropriate to repeat the ``activity-description`` in other languages 
 	:language: xml
 	:start-after: <!--location starts-->
 	:end-before: <!--location ends-->
-	:emphasize-lines: 4
+	:emphasize-lines: 6
 
 
 Changelog

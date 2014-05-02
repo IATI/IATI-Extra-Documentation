@@ -8,7 +8,7 @@ Example usage of ``location-reach`` within context of ``location``
 	:language: xml
 	:start-after: <!--location starts-->
 	:end-before: <!--location ends-->
-	:emphasize-lines: 13
+	:emphasize-lines: 11
 
 
 

@@ -6,7 +6,7 @@ Example usage of ``pos``, a part of the ``point`` element within context of ``lo
 	:language: xml
 	:start-after: <!--location starts-->
 	:end-before: <!--location ends-->
-	:emphasize-lines: 13
+	:emphasize-lines: 8
 
 Changelog
 ~~~~~~~~~

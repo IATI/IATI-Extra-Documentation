@@ -8,7 +8,7 @@ Example usage of ``exactness`` within context of ``location``
 	:language: xml
 	:start-after: <!--location starts-->
 	:end-before: <!--location ends-->
-	:emphasize-lines: 11
+	:emphasize-lines: 10
 
 
 Changelog
