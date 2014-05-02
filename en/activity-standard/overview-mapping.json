@@ -1,5 +1,5 @@
 {
-    "activity-file": [ "iati-activities", "iati-activity/iati-activity" ],
+    "activity-file": [ "iati-activities", "iati-activities/iati-activity" ],
     "iati-identifier": [ "iati-identifier" ],
     "dates": [ "activity-date", "activity-status", "transaction-date", "budget/period-start", "budget/period-end" ],
     "organisations": [ "reporting-org", "participating-org", "transaction/provider-org", "transaction/reciever-org" ],
