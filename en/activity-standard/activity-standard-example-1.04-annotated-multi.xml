@@ -53,7 +53,7 @@
   <participating-org ref="AA-AAA-123456789" role="Implementing" type="21">Agency A</participating-org>
   <!--participating-org ends-->
   <!--activity-scope starts-->
-  <activity-scope code="3">Multi-national</activity-scope>
+  <activity-scope code="3" />
   <!--activity-scope ends-->
   <!--Note: only country OR region has to be declared-->
   <!--recipient-country starts-->
@@ -106,19 +106,19 @@
   <policy-marker code="02" significance="3" vocabulary="DAC" />
   <!--policy-marker ends-->
   <!--collaboration-type starts-->
-  <collaboration-type code="1">Bilateral</collaboration-type>
+  <collaboration-type code="1" />
   <!--collaboration-type ends-->
   <!--default-finance-type starts-->
-  <default-finance-type code="110">Aid grant excluding debt reorganisation</default-finance-type>
+  <default-finance-type code="110" />
   <!--default-finance-type ends-->
   <!--default-flow-type starts-->
-  <default-flow-type code="10">ODA</default-flow-type>
+  <default-flow-type code="10" />
   <!--default-flow-type ends-->
   <!--default-aid-type starts-->
-  <default-aid-type code="A01">General budget support</default-aid-type>
+  <default-aid-type code="A01" />
   <!--default-aid-type ends-->
   <!--default-tied-status starts-->
-  <default-tied-status code="3">Partially tied</default-tied-status>
+  <default-tied-status code="3" />
   <!--default-tied-status ends-->
   <!--budget starts-->
   <budget type="2">
@@ -144,18 +144,18 @@
   <!--budget ends-->
   <!--planned-disbursement starts-->
   <planned-disbursement updated="2012-03-31">
-   <period-end iso-date="2012-03-31">2012-03-31</period-end>
-   <period-start iso-date="2012-03-31">2012-03-31</period-start>
+   <period-end iso-date="2012-03-31" />
+   <period-start iso-date="2012-03-31" />
    <value currency="EUR" value-date="2012-03-31">1000</value>
   </planned-disbursement>
   <planned-disbursement updated="2013-03-31">
-   <period-end iso-date="2013-03-31">2013-03-31</period-end>
-   <period-start iso-date="2013-03-31">2013-03-31</period-start>
+   <period-end iso-date="2013-03-31" />
+   <period-start iso-date="2013-03-31" />
    <value currency="EUR" value-date="2013-03-31">2000</value>
   </planned-disbursement>
   <planned-disbursement updated="2014-03-31">
-   <period-end iso-date="2014-03-31">2014-03-31</period-end>
-   <period-start iso-date="2014-03-31">2014-03-31</period-start>
+   <period-end iso-date="2014-03-31" />
+   <period-start iso-date="2014-03-31" />
    <value currency="EUR" value-date="2014-03-31">3000</value>
   </planned-disbursement>
   <!--planned-disbursement ends-->
@@ -166,47 +166,47 @@
   <!--transaction 1 starts-->
   <transaction ref="XYZ">
    <transaction-date iso-date="2012-01-31">2012-01-31</transaction-date>
-   <transaction-type code="C">Commitment</transaction-type>
+   <transaction-type code="C" />
    <value currency="EUR" value-date="2012-01-31">1000</value>
    <description>Description text</description>
    <description xml:lang="fr">Description text</description>   
    <provider-org provider-activity-id="BB-BBB-123456789-1234" ref="BB-BBB-123456789">Agency B</provider-org>
    <receiver-org receiver-activity-id="CC-CCC-123456789-1234" ref="CC-CCC-123456789">Agency C</receiver-org>
-   <disbursement-channel code="1">Money is disbursed through central Ministry of Finance or Treasury</disbursement-channel>
-   <flow-type code="10">ODA</flow-type>
-   <finance-type code="110">Aid grant excluding debt reorganisation</finance-type>
-   <aid-type code="A01">General budget support</aid-type>
-   <tied-status code="3">Partially tied</tied-status>
+   <disbursement-channel code="1" />
+   <flow-type code="10" />
+   <finance-type code="110" />
+   <aid-type code="A01" />
+   <tied-status code="3" />
   </transaction>
   <!--transaction 1 ends-->
   <!--transaction starts-->
   <transaction ref="ABC">
    <transaction-date iso-date="2012-01-01">2012-01-01</transaction-date>
-   <transaction-type code="C">Commitment</transaction-type>
+   <transaction-type code="C" />
    <value currency="EUR" value-date="2012-01-01">1000</value>
    <description>Description text</description>
    <description xml:lang="fr">Texte de description</description>
    <provider-org provider-activity-id="BB-BBB-123456789-1234" ref="BB-BBB-123456789">Agency B</provider-org>
    <receiver-org receiver-activity-id="CC-CCC-123456789-1234" ref="CC-CCC-123456789">Agency C</receiver-org>
-   <disbursement-channel code="1">Money is disbursed through central Ministry of Finance or Treasury</disbursement-channel>
-   <flow-type code="10">ODA</flow-type>
-   <finance-type code="110">Aid grant excluding debt reorganisation</finance-type>
-   <aid-type code="A01">General budget support</aid-type>   
-   <tied-status code="3">Partially tied</tied-status>
+   <disbursement-channel code="1" />
+   <flow-type code="10" />
+   <finance-type code="110" />
+   <aid-type code="A01" />   
+   <tied-status code="3" />
   </transaction>
   <transaction ref="1234">
    <transaction-date iso-date="2012-01-01">2012-01-01</transaction-date>
-   <transaction-type code="IF">Incoming Funds</transaction-type>
+   <transaction-type code="IF" />
    <value currency="EUR" value-date="2012-01-01">1000</value>
    <description>Description text</description>
    <description xml:lang="fr">Texte de description</description>
    <provider-org provider-activity-id="BB-BBB-123456789-1234AA" ref="BB-BBB-123456789">Agency B</provider-org>
    <receiver-org receiver-activity-id="AA-AAA-123456789-1234" ref="AA-AAA-123456789">Agency A</receiver-org>
-   <disbursement-channel code="1">Money is disbursed through central Ministry of Finance or Treasury</disbursement-channel>
-   <flow-type code="10">ODA</flow-type>
-   <finance-type code="110">Aid grant excluding debt reorganisation</finance-type>
-   <aid-type code="A01">General budget support</aid-type>
-   <tied-status code="3">Partially tied</tied-status>
+   <disbursement-channel code="1" />
+   <flow-type code="10" />
+   <finance-type code="110" />
+   <aid-type code="A01" />
+   <tied-status code="3" />
   </transaction>
   <!--transaction ends-->
   <!--document-link starts-->
@@ -218,7 +218,7 @@
   <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_fr.odt">
    <category code="A01" />
    <language code="fr" />
-   <title>Project rapport 2013</title>
+   <title>Rapport de projet 2013</title>
   </document-link>
   <!--document-link ends-->
   <!--activity-website starts-->
