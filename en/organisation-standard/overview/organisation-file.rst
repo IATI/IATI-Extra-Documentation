@@ -5,9 +5,9 @@ Definition
 ----------
 The *organisation file* contains the data defined by the **IATI organisation standard**.
 
-| It is an XML file, containing the relevant **IATI organisation standard** fields for the publishing organisation.
+It is an XML file, containing the relevant **IATI organisation standard** fields for the publishing organisation.
 
-| The **IATI organisation standard** allows publishers to report on information for multiple organisations: a government agency may report on behalf of other agencies; an INGO may report on behalf of its national associates; a private company may report on behalf of its subsidiaries.
+The **IATI organisation standard** allows publishers to report on information for multiple organisations: a government agency may report on behalf of other agencies; an INGO may report on behalf of its national associates; a private company may report on behalf of its subsidiaries.
 
 
 Considerations

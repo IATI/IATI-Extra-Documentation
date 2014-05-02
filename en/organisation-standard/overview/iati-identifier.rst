@@ -5,7 +5,7 @@ Definition
 ----------
 Within the **IATI organisation standard**, the ``iati-identifier`` is the unique reference for an ``iati-organisation``
 
-| The ``iati-identifier`` in the **IATI organisation standard** is not the same as the ``iati-identifier`` in the **IATI activity standard**
+The ``iati-identifier`` in the **IATI organisation standard** is not the same as the ``iati-identifier`` in the **IATI activity standard**
 
 
 Considerations

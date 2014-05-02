@@ -5,7 +5,7 @@ Definition
 ----------
 Within the **IATI organisation standard** three types of *budgets* can be declared.  
 
-| These all relate to the specific ``iati-organisation`` being described:
+These all relate to the specific ``iati-organisation`` being described:
 
 * ``total-budget`` - total annual planned budget of the ``iati-organisation``.
 * ``recipient-org-budget`` - budget for disbursements to another organisation.

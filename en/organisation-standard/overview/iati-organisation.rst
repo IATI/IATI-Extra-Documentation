@@ -5,9 +5,9 @@ Definition
 ----------
 Within the **IATI organisation standard**. the ``iati-organisation`` is the building block to describe organisations.
 
-| An ``iati-organisation`` represents a distinct grouping of information that reports various facts about an organisation.
+An ``iati-organisation`` represents a distinct grouping of information that reports various facts about an organisation.
 
-| A human-readable title and description for an ``iati-organisation`` can be provided using:
+A human-readable title and description for an ``iati-organisation`` can be provided using:
 
 * ``name`` - a human-readable name of the organisation.
 

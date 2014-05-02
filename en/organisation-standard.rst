@@ -5,11 +5,12 @@ Definition
 ----------
 The **IATI organisational standard** is used to describe one or more organisations involved in the aid delivery chain. 
 
-| It is designed to report *forward-looking aggregate budget* information for the reported organisations, and planned future budgets to recipient institutions or countries.
+It is designed to report *forward-looking aggregate budget* information for the reported organisations, and planned future budgets to recipient institutions or countries.
 
-| The **IATI organisational standard** is also used to report links to relevant public documents. 
+The **IATI organisational standard** is also used to report links to relevant public documents. 
 
-| Organisations publish this data in an :doc:`organisation file </organisation-standard/overview/organisation-file/>`.  It is expected that every organisation publishing IATI data should include one *organisation file*, which is updated at least annually.
+Organisations publish this data in an :doc:`organisation file </organisation-standard/overview/organisation-file/>`.  It is expected that every organisation publishing IATI data should include one *organisation file*, which is updated at least annually.
+
 
 Considerations
 --------------
