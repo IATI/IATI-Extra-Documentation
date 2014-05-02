@@ -32,24 +32,3 @@ When using the **IATI activity standard** to declare *budgets*, the following sh
 
 * It is expected that budgets would be described from the ``reporting-org`` perspective. 
 
-
-Further guidance
-----------------
-
-Reference pages:
-
-* :doc:`budget </activity-standard/iati-activities/iati-activity/budget/>`
-* :doc:`budget/period-end </activity-standard/iati-activities/iati-activity/budget/period-end/>`
-* :doc:`budget/period-start </activity-standard/iati-activities/iati-activity/budget/period-start/>`
-* :doc:`budget/value </activity-standard/iati-activities/iati-activity/budget/value/>`
-
-* :doc:`planned-disbursement </activity-standard/iati-activities/iati-activity/planned-disbursement/>`
-* :doc:`planned-disbursement/period-end </activity-standard/iati-activities/iati-activity/planned-disbursement/period-end/>`
-* :doc:`planned-disbursement/period-start </activity-standard/iati-activities/iati-activity/planned-disbursement/period-start/>`
-* :doc:`planned-disbursement/value </activity-standard/iati-activities/iati-activity/planned-disbursement/value/>`
-
-* :doc:`country-budget-items </activity-standard/iati-activities/iati-activity/country-budget-items/>`
-* :doc:`budget-item </activity-standard/iati-activities/iati-activity/country-budget-items/budget-item/>`
-* :doc:`description </activity-standard/iati-activities/iati-activity/country-budget-items/budget-item/description/>`
-
-* :doc:`capital-spend </activity-standard/iati-activities/iati-activity/capital-spend/>`

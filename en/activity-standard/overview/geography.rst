@@ -35,12 +35,3 @@ When using the **IATI activity standard** to describe *geography*, the following
 
 * The ``activity-scope`` element should only be used once.  It must use a relevant ``ActivityScope`` code.
 
-Further guidance
-----------------
-
-Reference pages:
-
-* :doc:`recipient-country </activity-standard/iati-activities/iati-activity/recipient-country/>`
-* :doc:`recipient-region </activity-standard/iati-activities/iati-activity/recipient-region/>`
-* :doc:`activity-scope </activity-standard/iati-activities/iati-activity/activity-scope/>`
-* :doc:`location </activity-standard/iati-activities/iati-activity/location/>`

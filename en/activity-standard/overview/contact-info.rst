@@ -31,18 +31,3 @@ When using the **IATI activity standard** to declare *contact info*, the followi
 
 * The free-text instances of ``organisation``, ``person-name``, ``job-title`` and ``mailing-address`` should avoid use of text in CAPITALS, where possible. 
 
-
-Further guidance
-----------------
-
-Reference pages:
-
-* :doc:`contact-info </activity-standard/iati-activities/iati-activity/contact-info/>`
-
-* :doc:`person-name </activity-standard/iati-activities/iati-activity/contact-info/person-name/>`
-* :doc:`job-title </activity-standard/iati-activities/iati-activity/contact-info/job-title/>`
-* :doc:`organisation </activity-standard/iati-activities/iati-activity/contact-info/organisation/>`
-* :doc:`mailing-address </activity-standard/iati-activities/iati-activity/contact-info/mailing-address/>`
-* :doc:`telephone </activity-standard/iati-activities/iati-activity/contact-info/telephone/>`
-* :doc:`email </activity-standard/iati-activities/iati-activity/contact-info/email/>`
-* :doc:`website </activity-standard/iati-activities/iati-activity/contact-info/website/>`

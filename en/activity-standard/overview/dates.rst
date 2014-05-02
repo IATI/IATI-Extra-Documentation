@@ -42,18 +42,3 @@ When using the **IATI organisation standard** to declare *dates*, the following 
 * When the ``activity-status`` reaches ``ActivityStatus`` codes *3*, *4* or *5* then it is recommended that an ``end-actual`` date is added.
 
 
-Further guidance
-----------------
-
-Reference pages:
-
-* :doc:`activity-date </activity-standard/iati-activities/iati-activity/activity-date/>`
-* :doc:`activity-status </activity-standard/iati-activities/iati-activity/activity-status/>`
-
-* :doc:`transaction-date </activity-standard/iati-activities/iati-activity/transaction/transaction-date/>`
-* :doc:`budget/period-start </activity-standard/iati-activities/iati-activity/budget/period-start/>`
-* :doc:`budget/period-end </activity-standard/iati-activities/iati-activity/budget/period-end/>`
-
-* :doc:`iati-activities </activity-standard/iati-activities/>`
-* :doc:`iati-activity </activity-standard/iati-activities/iati-activity/>`
-

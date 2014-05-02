@@ -36,13 +36,3 @@ When using the **IATI activity standard** to produce an *iati-identifier*, the f
 ** ``iatiactivity.xml`` is preferable to ``IATI Activity.xml``.  
 
 ** ``http://example.org/files/iatidata/iatiactivity.xml`` is preferable to ``http://example.org/files/iati data/IATI Activity.xml``.
-
-
-Further guidance
-----------------
-
-Reference pages:
-
-* :doc:`summary-table </activity-standard/summary-table/>`
-* :doc:`iati-activities </activity-standard/iati-activities/>`
-* :doc:`iati-activity </activity-standard/iati-activities/iati-activity/>`

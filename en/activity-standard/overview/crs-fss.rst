@@ -11,10 +11,3 @@ Within the **IATI activity standard** it is possible to describe items specific 
 Considerations
 --------------
 
-Further guidance
-----------------
-
-Reference pages:
-
-* :doc:`fss </activity-standard/iati-activities/iati-activity/fss/>`
-* :doc:`crs-add </activity-standard/iati-activities/iati-activity/crs-add/>`

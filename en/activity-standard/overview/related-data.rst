@@ -27,14 +27,3 @@ When using the **IATI activity standard** to declare *traceability*, the followi
 
 	* When a *Disbursement* or *Commitment* is being described, use the ``receiver-activity-id`` reference to declare the immediate destination of the funds, using the relevant ``iati-identifier`` of the ``iati-activity``, if published by the ``receiver-org``
 
-
-
-Further guidance
-----------------
-
-Reference pages:
-
-* :doc:`related-activity </activity-standard/iati-activities/iati-activity/related-activity/>`
-
-* :doc:`transaction/provider-org </activity-standard/iati-activities/iati-activity/transaction/provider-org/>`
-* :doc:`transaction/receiver-org </activity-standard/iati-activities/iati-activity/transaction/receiver-org/>`

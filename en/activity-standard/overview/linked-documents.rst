@@ -42,14 +42,3 @@ When using the **IATI activity standard** to declare *documents*, the following 
 
 * The ``activity-website`` should be a URL to a page or website that is specifically about the ``iati-activity`` - not generic information (eg: http://www.example.com/en/activity/ABC123).
 
-
-Further guidance
-----------------
-
-Reference pages:
-
-* :doc:`document-link </activity-standard/iati-activities/iati-activity/document-link/>`
-* :doc:`activity-website/ </activity-standard/iati-activities/iati-activity/activity-website/>`
-
-* :doc:`iati-activities </activity-standard/iati-activities/>`
-* :doc:`iati-activity </activity-standard/iati-activities/iati-activity/>`

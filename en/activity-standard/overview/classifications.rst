@@ -37,16 +37,3 @@ When using the **IATI activity standard** to declare *documents*, the following 
 
 * The classifications of ``default-finance-type``, ``default-flow-type``, ``default-aid-type`` and``default-tied-status`` apply to the whole ``iati-activity``.  These can be overridden within a single ``transaction`` via using any of ``finance-type`` , ``flow-type`` , ``aid-type`` and/or ``tied-status``.
 
-
-Further guidance
-----------------
-
-Reference pages:
-
-* :doc:`sector </activity-standard/iati-activities/iati-activity/sector/>`
-* :doc:`policy-marker </activity-standard/iati-activities/iati-activity/policy-marker/>`
-* :doc:`default-flow-type </activity-standard/iati-activities/iati-activity/default-flow-type/>`
-* :doc:`default-finance-type </activity-standard/iati-activities/iati-activity/default-finance-type/>`
-* :doc:`collaboration-type </activity-standard/iati-activities/iati-activity/collaboration-type/>`
-* :doc:`default-aid-type </activity-standard/iati-activities/iati-activity/default-aid-type/>`
-* :doc:`default-tied-status </activity-standard/iati-activities/iati-activity/default-tied-status/>`

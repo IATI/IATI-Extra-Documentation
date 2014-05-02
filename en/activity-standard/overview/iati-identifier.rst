@@ -26,13 +26,3 @@ When using the **IATI activity standard** to declare an *iati-identifier*, the f
 
 ** ``AA-AAA-123456789-ABC123`` is preferable to ``AA-AAA-123456789-ABC 123``.
 
-
-Further guidance
-----------------
-
-Reference pages:
-
-* Organisation Identifiers
-* :doc:`iati-identifier </activity-standard/iati-activities/iati-activity/iati-identifier/>`
-* :doc:`iati-activity </activity-standard/iati-activities/iati-activity/>`
-* :doc:`reporting-org </activity-standard/iati-activities/iati-activity/reporting-org/>`

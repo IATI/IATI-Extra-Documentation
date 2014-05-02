@@ -30,10 +30,4 @@ When using the **IATI activity standard** to declare *result*, the following sho
 * The free-text instances of ``title``, ``description`` and ``comment`` can be repeated for multiple languages, using ``xml:lang``.
 
 * The free-text instances of ``title``, ``description`` and ``comment`` should avoid use of text in CAPITALS, where possible. 
- 
-Further guidance
-----------------
 
-Reference pages:
-
-* :doc:`related-activity </activity-standard/iati-activities/iati-activity/result/>`

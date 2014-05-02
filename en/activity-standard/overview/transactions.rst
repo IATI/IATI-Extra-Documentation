@@ -42,23 +42,3 @@ When using the **IATI activity standard** to declare *transaction*, the followin
 
 * Where possible, it is recommended that a ``transaction`` includes the ``provider-activity-id`` and/or ``receiver-activity-id`` to refernce the ``iati-activity`` from which funds flow from/to.
 
-
-Further guidance
-----------------
-
-Reference pages:
-
-* :doc:`transaction </activity-standard/iati-activities/iati-activity/transaction/>`
-* :doc:`transaction-type </activity-standard/iati-activities/iati-activity/transaction/transaction-type/>`
-
-* :doc:`value </activity-standard/iati-activities/iati-activity/transaction/value/>`
-* :doc:`transaction-date </activity-standard/iati-activities/iati-activity/transaction/transaction-date/>`
-* :doc:`provider-org </activity-standard/iati-activities/iati-activity/transaction/provider-org/>`
-* :doc:`receiver-org </activity-standard/iati-activities/iati-activity/transaction/receiver-org/>`
-* :doc:`description </activity-standard/iati-activities/iati-activity/transaction/description/>`
-
-* :doc:`finance-type </activity-standard/iati-activities/iati-activity/transaction/finance-type/>`
-* :doc:`disbursement-channel </activity-standard/iati-activities/iati-activity/transaction/disbursement-channel/>`
-* :doc:`flow-type </activity-standard/iati-activities/iati-activity/transaction/flow-type/>`
-* :doc:`aid-type </activity-standard/iati-activities/iati-activity/transaction/aid-type/>`
-* :doc:`tied-status </activity-standard/iati-activities/iati-activity/transaction/tied-status/>`

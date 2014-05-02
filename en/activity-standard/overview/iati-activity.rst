@@ -35,12 +35,3 @@ When using the **IATI activity standard** to declare an *iati-identifier*, the f
 
 * When an ``iati-activity`` is being implemented in a ``recipient-country`` where the official language is different to that of the ``reporting-org`` it is recommended that activity ``title`` and ``description`` are provided in all official ``reporting-org`` and ``recipient-country`` languages
 
-Further guidance
-----------------
-
-Reference pages:
-
-* :doc:`iati-identifier </activity-standard/iati-activities/iati-activity/iati-identifier/>`
-* :doc:`iati-activity </activity-standard/iati-activities/iati-activity/>`
-* :doc:`title </activity-standard/iati-activities/iati-activity/title/>`
-* :doc:`description </activity-standard/iati-activities/iati-activity/description/>`
