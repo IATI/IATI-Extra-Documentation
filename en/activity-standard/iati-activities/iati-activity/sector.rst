@@ -16,7 +16,7 @@ When multiple ``sector`` are declared, then the ``percentage`` values should sum
     
 The ``vocabulary`` is used to declare which ``sector`` classification list is in use. If this is omitted, then IATI assumes the DAC.
 
-If a vocabulary is not on the ``Vocabulary`` codelist, then the value of *RO* (Reporting Organisation) should be declared:
+If a vocabulary is not on the ``Vocabulary`` codelist, then the value of *RO* (Reporting Organisation) should be declared.  Exceptionally, the text/name for the code should also be include.
 
 .. code-block:: xml
 
