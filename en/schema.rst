@@ -40,7 +40,7 @@ Previous schemas
 ~~~~~~~~~~~~~~~~
 
 -  `Version 1.03 of IATI
-   Standard <http://iatistandard.org/schema/>`__
+   Standard <http://iatistandard.org/103/schema/>`__
 
 -  `Version 1.02 of IATI
    Standard <http://iatistandard.org/102/schema/>`__
