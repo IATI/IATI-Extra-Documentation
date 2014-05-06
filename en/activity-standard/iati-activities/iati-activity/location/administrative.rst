@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 Example usage of ``administrative`` within context of ``location``:
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
 	:language: xml
 	:start-after: <!--location starts-->
 	:end-before: <!--location ends-->

@@ -9,7 +9,7 @@ To download a codelist. Select your endpoint (see below) and then specify the co
 <endpoint><codelist name>.<extension (xml/json/csv)>
 
 Endpoints
-^^^^^^^^
+^^^^^^^^^
 
 The codelists used in each version of the standard are derived from different endpoints as a result of the historical management of the codelist API. We are finally taking in house control of them here at IATI.
 
@@ -20,13 +20,14 @@ Therefore anyone relying on the services at:
 
 is strongly advised to migrate to the new endpoints given below. 
 
-| v1.01 of the standard - uses datadev - change to http://codelists102.archive.iatistandard.org/data/
-| v1.02 of the standard - uses datadev - change to - http://codelists102.archive.iatistandard.org/data/
-| v1.03 of the standard - uses data - change to - http://codelists103.archive.iatistandard.org/data/
+* v1.01 of the standard - uses datadev - change to http://codelists102.archive.iatistandard.org/data/
+* v1.02 of the standard - uses datadev - change to - http://codelists102.archive.iatistandard.org/data/
+* v1.03 of the standard - uses data - change to - http://codelists103.archive.iatistandard.org/data/
 
 Codelists in Version 1.04 of the standard
 -----------------------------------------
-| v1.04 of the standard - use either:
+
+v1.04 of the standard - use either:
 
   * http://iatistandard.org/codelists/downloads/clv1/, or
   * Http://iatistandard.org/codelists/downloads/clv2/

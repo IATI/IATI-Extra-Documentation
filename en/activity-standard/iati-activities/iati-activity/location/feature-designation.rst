@@ -4,7 +4,7 @@ Example usage of ``feature-designation`` within context of ``location``
 
 | This example declares a ``LocationType`` code *ADMF* (administrative facility):
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
 	:language: xml
 	:start-after: <!--location starts-->
 	:end-before: <!--location ends-->

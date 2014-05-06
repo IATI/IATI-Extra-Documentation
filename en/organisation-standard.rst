@@ -16,11 +16,11 @@ Considerations
 --------------
 When declaring information using the **IATI organisation standard** the following should be considered:
 
-* Who are the :ref:`Organisations </organisation-standard/overview/organisations/>` involved, what are they named and identified as?
-* What are the organisation’s planned future annual total :ref:`budgets </organisation-standard/overview/budgets/>`?
-* What are the organisation’s planned future :ref:`budgets </organisation-standard/overview/budgets/>` for aid given to recipient countries?
-* What are the organisation’s planned future :ref:`budgets </organisation-standard/overview/budgets/>` for aid given to recipient organisations?
-* Where are the organisation’s official public :ref:`documents </organisation-standard/overview/documents/>`?
+* Who are the :doc:`Organisations </organisation-standard/overview/organisations/>` involved, what are they named and identified as?
+* What are the organisation’s planned future annual total :doc:`budgets </organisation-standard/overview/budgets/>`?
+* What are the organisation’s planned future :doc:`budgets </organisation-standard/overview/budgets/>` for aid given to recipient countries?
+* What are the organisation’s planned future :doc:`budgets </organisation-standard/overview/budgets/>` for aid given to recipient organisations?
+* Where are the organisation’s official public :doc:`documents </organisation-standard/overview/documents/>`?
 
 Contents
 --------

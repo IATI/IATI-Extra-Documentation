@@ -4,7 +4,7 @@ Example usage of ``location-class`` within context of ``location``
 
 | This example declares a ``GeographicLocationClass`` code *2* (Populated Place):
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
 	:language: xml
 	:start-after: <!--location starts-->
 	:end-before: <!--location ends-->

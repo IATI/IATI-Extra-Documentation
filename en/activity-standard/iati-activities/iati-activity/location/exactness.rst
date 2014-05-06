@@ -4,7 +4,7 @@ Example usage of ``exactness`` within context of ``location``
 
 | This example declares a ``GeographicExactness`` code *1* (Exact):
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
 	:language: xml
 	:start-after: <!--location starts-->
 	:end-before: <!--location ends-->

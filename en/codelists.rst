@@ -5,7 +5,7 @@ The **IATI codelists** are key to making IATI activity and organisation data fro
 
 The IATI codelists ensure activity and organisation information is **comparable between different publishers**.
 
-Codes for fields such as :doc:`organisation type <codelist/OrganisationType>` (e.g. 23 = Regional NGO; 60 = Foundation; or 70 = Private Sector) ensure that different publishers have unambiguous, comparable definitions they can use when describing aid activities.
+Codes for fields such as :doc:`organisation type </codelists/OrganisationType>` (e.g. 23 = Regional NGO; 60 = Foundation; or 70 = Private Sector) ensure that different publishers have unambiguous, comparable definitions they can use when describing aid activities.
 
 The codes use existing authority lists where possible and build on codes published by the ISO, OECD DAC, COFOG and Guidestar.
 
