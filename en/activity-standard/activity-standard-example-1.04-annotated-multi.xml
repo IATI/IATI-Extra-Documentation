@@ -28,7 +28,7 @@
   <description type="3" xml:lang="fr">Déclaration de groupes ciblés pour bénéficier de l'activité.</description>
   <!--description ends-->
   <!--activity-status starts-->
-  <activity-status code="2">Implementation</activity-status>
+  <activity-status code="2" />
   <!--activity-status ends-->
   <!--activity-date starts-->
   <activity-date iso-date="2012-04-15" type="start-planned" />
