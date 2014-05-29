@@ -66,15 +66,28 @@ https://github.com/IATI/IATI-Codelists-NonEmbedded
 -  Releases would be tagged in line with standard, but the minor changes
    will be available on the master branch of this repository.
 
-The process for accepting changes to non-embedded lists is not
-formalised but will involve
+Updates to Non-embedded Codelists
 
--  IATI Technical Team need to be informed of a change
--  The team will assess the change and decide if further consultation is
-   needed.
--  Once agreement for the change is agreed, the change can be
-   implemented.
--  Notification of a change will be made.
+The IATI Technical Team hold regular team meetings once a week. Any changes that have come to the attention to the team will be discussed at that meeting. The IATI Technical Lead has the ultimate responsibility for decisions taken.
+
+Potential changes may come to the team via:
+-  Personal requests/Support tickets
+-  Email notifications
+-  Announcements from the source organisations
+-  Automatic detection of changes to external sources compared with our own lists.
+
+If a decision has been made to make a change to a non-embedded list the `IATI Technical Google Group <https://groups.google.com/forum/#!forum/iati-technical>`__ will be notified (within 1 working day) about the change that is to be made, and the date that the change will take effect. (usually within 7 calendar days). At this point people have the right to disagree. Discussion should take place via the `IATI Technical Google Group <https://groups.google.com/forum/#!forum/iati-technical>`__. Unresolved matters can be taken to the following team meeting.
+
+In most circumstances the decision to alter these codelists is straight forward. In rare cases, the team may decide to seek further clarification, or to consult further on whether or not to adopt a change. If so, a timetable outining the process and timescales will be issued.
+
+A summary of all changes to all non-emebedded codelists will be published on the IATI Standard Website. They can also be found via the list of commits to the GitHub repository
+
+Special Cases
+
+File Format
+The IATI Technical Team will use it's judgement to assess the importance of a change to the file format list and whether or not an announcement is required. i.e. the list may alter to stay inline with the external source, but announcements will not necessarily be made.
+Organisation Registration Agency
+Because there is a need to add registration agencies quickly, so that people can do thier work, and because we anticipate many additions that will not be of interest to most people, we will add values to this list without making announcements. Values to be added will be agreed at the weekly team meeting.
 
 Complete vs Incomplete Codelists
 --------------------------------
