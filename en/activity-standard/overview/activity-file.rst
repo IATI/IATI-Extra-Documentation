@@ -15,7 +15,8 @@ When using the **IATI activity standard** to produce an *iati-identifier*, the f
 * An IATI publisher should publish at least one activity file.
 * An activity file should contain at least one ``iati-activity``
 * It should be updated at least annually.
-* It must be valid XML.
+* It must be *well-formed XML*.
+* It must validate against the relevant version of the **IATI activity schema**
 * Any *activity file* must have ``iati-activities`` as the root element - to contain all other elements.
 * The ``generated-datetime`` attribute of ``iati-activities`` - a date/time stamp for when the *activity-file* was generated - is highly recommended. 
 * The ``generated-datetime`` is declared at the ``iati-activities`` level.  Is not necessarily the same as the ``last-updated-datetime`` for the individual ``iati-activity`` records within it.
@@ -25,3 +26,10 @@ When using the **IATI activity standard** to produce an *iati-identifier*, the f
 * When creating the *activity file* it is recommended to avoid spaces and non-ascii characters in file names and urls.  For example:
 	* ``iatiactivity.xml`` is preferable to ``IATI Activity.xml``.  
 	* ``http://example.org/files/iatidata/iatiactivity.xml`` is preferable to ``http://example.org/files/iati data/IATI Activity.xml``.
+
+
+Further Guidance 
+----------------
+* For *well-formed XML* tests, see the `W3C XML Validator <http://www.w3schools.com/xml/xml_validator.asp>`_
+
+* The `IATI Validator <http://validator.iatistandard.org/>`_ tests data against the relevant version of the **IATI organisation schema**.
