@@ -22,3 +22,7 @@ When using the **IATI activity standard** to declare *organisations*, the follow
 * In all cases, when describing an organisation, reference to their associated unique identifier should be included.
 * Should a ``provider-org`` or ``receiver-org`` within a ``transaction`` be the same as the ``reporting-org`` it is not expected that they are declared, but recommended.
 
+
+Further Guidance 
+----------------
+Please also consider and refer to the :doc:`Organisation Identifiers guidance <../../organisation-identifiers>` when constructing an appropriate identifier.
