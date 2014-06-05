@@ -83,6 +83,15 @@
    <title>Rapport annuel 2013</title>
   </document-link>
   <!--document-link ends-->
+  <!--multi-cat-document-link starts-->
+  <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
+   <category code="B01" />
+   <category code="B02" />
+   <category code="B03" />
+   <language code="en" />
+   <title>Annual Report 2013</title>
+  </document-link>
+  <!--multi-cat-document-link ends-->
  </iati-organisation>
  <!--iati-organisation ends-->
 </iati-organisations>
