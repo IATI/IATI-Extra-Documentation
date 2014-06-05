@@ -8,6 +8,7 @@ Further guidance, examples and details can be found in the :doc:`reference </act
    :titlesonly:
    :glob:
 
+   summary-table
    overview/activity-file
    overview/iati-activity
    overview/iati-identifier
@@ -23,6 +24,7 @@ Further guidance, examples and details can be found in the :doc:`reference </act
    overview/crs-fss
    overview/conditions
    overview/contact-info
+   example-xml
  
    
 

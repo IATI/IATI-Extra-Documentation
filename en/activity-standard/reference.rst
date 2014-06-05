@@ -9,7 +9,5 @@ Contents
 .. toctree::
    :titlesonly:
 
-   summary-table
-   example-xml
    iati-activities
 
