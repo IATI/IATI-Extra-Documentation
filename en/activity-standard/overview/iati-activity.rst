@@ -19,6 +19,7 @@ When using the **IATI activity standard** to declare an *iati-identifier*, the f
 
 * Every ``iati-activity`` must have a globally unique ``iati-identifier``
 * Publishers can decide on how best to structure and segment their organisation data around ``iati-activity``
+* Publishers can decide to utilise the ``hierarchy`` attribute to represent subdivision of units of aid.
 * A publisher can set a default language and ``default-currency``, that is then used throughout the ``iati-activity``.  This can be overridden in subsequent elements however.
 * The ``last-updated-datetime`` date must change whenever the value of any field within the associated ``iati-activity`` is updated.
 * It is recommended that the ``title`` should be concise and jargon-free
