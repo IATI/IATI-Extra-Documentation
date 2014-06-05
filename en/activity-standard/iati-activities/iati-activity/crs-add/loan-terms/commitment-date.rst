@@ -4,7 +4,7 @@ Example usage of ``commitment-date`` within ``loan-terms`` in context of ``crs-a
 
 A date in ISO 8601 format (YYYY-MM-DD) is required for ``commitment-date`` date:
 
-.. literalinclude:: ../../../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--crs-add starts-->
 	:end-before: <!--crs-add ends-->

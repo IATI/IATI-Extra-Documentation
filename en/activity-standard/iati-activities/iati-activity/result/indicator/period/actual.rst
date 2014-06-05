@@ -4,7 +4,7 @@ Example usage of ``actual`` within ``period``, in context of an ``indicator`` in
 
 Example of a ``actual`` value of *11*
 
-.. literalinclude:: ../../../../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->

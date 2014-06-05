@@ -10,14 +10,14 @@ An optional ``version`` of *1.04* is also stated.
 
 The optional attribute ``linked-data-uri`` (introduced in the decimal upgrade 1.02) is also included:
 
-.. literalinclude:: ../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--iati-activity starts-->
 	:end-before: <!--reporting-org starts-->
 
 The ``iati-activity`` element acts as a container for other sub-elements.  It is closed as follows:
 
-.. literalinclude:: ../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--crs-add ends-->	
 	:end-before: <!--iati-activity ends-->

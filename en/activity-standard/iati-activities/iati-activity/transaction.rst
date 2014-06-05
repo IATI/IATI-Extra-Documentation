@@ -12,7 +12,7 @@ At the ``transaction`` level, the attribute ``ref`` can be used to describe refe
 
 Example:
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--min transaction starts-->
 	:end-before: <!--min transaction ends-->
@@ -20,7 +20,7 @@ Example:
 
 Full example with additional elements which can override the default value set in ``iati-activity``: 
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--full transaction starts-->
 	:end-before: <!--full transaction ends-->
@@ -28,7 +28,7 @@ Full example with additional elements which can override the default value set i
 	    
 An ``iati-activity`` can have multiple ``transaction`` elements:
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated-multi.xml
+.. literalinclude:: ../../activity-standard-example-annotated-multi.xml
 	:language: xml
 	:start-after: <!--transaction starts-->
 	:end-before: <!--transaction ends-->

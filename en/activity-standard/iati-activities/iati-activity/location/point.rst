@@ -4,7 +4,7 @@ Example usage of ``point`` within context of ``location``
 
 | NOTE: The @srsName currently should always be http://www.opengis.net/def/crs/EPSG/0/4326
 
-.. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--location starts-->
 	:end-before: <!--location ends-->

@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 Example ``capital-spend`` that uses ``percentage to state *88.8%* of the ``iati-activity`` budget is for capital expenditure:
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--capital-spend starts-->
 	:end-before: <!--capital-spend ends-->

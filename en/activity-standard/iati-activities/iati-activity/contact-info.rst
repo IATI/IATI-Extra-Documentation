@@ -12,7 +12,7 @@ Example ``contact-info`` that declares ``ContactType`` code *1*:
 
 Example ``contact-info`` containing all possible child elements: ``organisation`` ; ``person-name`` ; ``job-title`` ; ``mailing-address`` ; ``telephone`` ; ``email`` ; ``website``
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--contact-info starts-->
 	:end-before: <!--contact-info ends-->

@@ -2,14 +2,14 @@ Example Usage
 ~~~~~~~~~~~~~
 Example ``sector`` with the ``Sector`` code:
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--sector starts-->
 	:end-before: <!--sector ends-->
 
 When multiple ``sector`` are declared, then the ``percentage`` values should sum to 100% for the specific ``iati-activity``:
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated-multi.xml
+.. literalinclude:: ../../activity-standard-example-annotated-multi.xml
 	:language: xml
 	:start-after: <!--sector starts-->
 	:end-before: <!--sector ends-->

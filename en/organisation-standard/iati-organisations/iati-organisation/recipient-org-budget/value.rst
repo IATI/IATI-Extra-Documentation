@@ -6,7 +6,7 @@ A ``value-date`` for currency conversions must be provided in ISO 8601 format (Y
 
 The ISO 4217 code for the ``currency`` in which the ``recipient-org-budget`` is denominated should be declared using the ``Currency`` codelist, but only if different to ``default-currency`` in the ``iati-organisation`` element.
 
-.. literalinclude:: ../../../organisation-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../../organisation-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--recipient-org-budget starts-->
 	:end-before: <!--recipient-org-budget ends-->

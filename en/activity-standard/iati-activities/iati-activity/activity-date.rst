@@ -4,14 +4,14 @@ Example of an ``iati-activity`` with one each of the four possible ``ActivityDat
 
 A date in ISO 8601 format (YYYY-MM-DD) is required:
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated-multi.xml
+.. literalinclude:: ../../activity-standard-example-annotated-multi.xml
 	:language: xml
 	:start-after: <!--activity-date starts-->	
 	:end-before: <!--activity-date ends-->
 
 In some cases, not all ``ActivityDateType`` can be declared, depending on the ``activity-status`` of the ``iati-activity``:    
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--activity-date starts-->
 	:end-before: <!--activity-date ends-->

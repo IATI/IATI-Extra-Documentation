@@ -10,7 +10,7 @@ Example ``indicator`` with the ``IndicatorMeasure`` code of *1* (Unit).
 
 This example also declares that the data is ``ascending``, via a boolean:
 
-.. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
@@ -19,7 +19,7 @@ This example also declares that the data is ``ascending``, via a boolean:
 
 The ``indicator`` element can be repeated within any ``result`` element:
 
-.. literalinclude:: ../../../activity-standard-example-1.04-annotated-multi.xml
+.. literalinclude:: ../../../activity-standard-example-annotated-multi.xml
 	:language: xml
 	:start-after: <!--multi-indicator result starts-->
 	:end-before: <!--multi-indicator result ends-->

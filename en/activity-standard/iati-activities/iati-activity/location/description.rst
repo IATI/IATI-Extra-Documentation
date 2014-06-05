@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 Example usage of ``description`` within context of ``location``:
 
-.. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--location starts-->
 	:end-before: <!--location ends-->
@@ -10,7 +10,7 @@ Example usage of ``description`` within context of ``location``:
 	
 It may be appropriate to repeat the ``description`` in other languages using additional ``description`` elements. In this example, the language en has been set in the ‘’iati-activity’’ element:
 
-.. literalinclude:: ../../../activity-standard-example-1.04-annotated-multi.xml
+.. literalinclude:: ../../../activity-standard-example-annotated-multi.xml
 	:language: xml
 	:start-after: <!--location starts-->
 	:end-before: <!--location ends-->

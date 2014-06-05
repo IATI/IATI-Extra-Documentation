@@ -6,14 +6,14 @@ The ``version`` of *1.04* of the **IATI activity standard** is stated.
 
 The optional ``linked-data-default`` is also included
 
-.. literalinclude:: activity-standard-example-1.04-annotated.xml
+.. literalinclude:: activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--iati-activities starts-->
 	:end-before: <!--iati-activity starts-->
 
 The ``iati-activities`` element acts as a container for other sub-elements.  It is closed as follows:
 
-.. literalinclude:: activity-standard-example-1.04-annotated.xml
+.. literalinclude:: activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--iati-activity ends-->	
 	:end-before: <!--iati-activities ends-->

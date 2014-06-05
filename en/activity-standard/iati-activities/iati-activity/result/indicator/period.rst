@@ -4,7 +4,7 @@ Example usage of ``period`` in context of an ``indicator`` in a ``result`` eleme
 
 A date in ISO 8601 format (YYYY-MM-DD) is required for the ``period-start`` and ``period-end`` dates of the reporting ``period``:
 
-.. literalinclude:: ../../../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->

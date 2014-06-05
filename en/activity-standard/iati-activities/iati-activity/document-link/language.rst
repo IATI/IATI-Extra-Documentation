@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 Example ``language``, using ``Language`` codes *en* (English):
 
-.. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--document-link starts-->
 	:end-before: <!--document-link ends-->
@@ -10,7 +10,7 @@ Example ``language``, using ``Language`` codes *en* (English):
 
 In this example, the ``document-link`` is provided in two ``language``, with the relevant ``Language`` codes:
 
-.. literalinclude:: ../../../activity-standard-example-1.04-annotated-multi.xml
+.. literalinclude:: ../../../activity-standard-example-annotated-multi.xml
 	:language: xml
 	:start-after: <!--document-link starts-->
 	:end-before: <!--document-link ends-->

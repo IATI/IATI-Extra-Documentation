@@ -2,14 +2,14 @@ Example Usage
 ~~~~~~~~~~~~~
 Example ``related-activity`` with ``RelatedActivityType`` code *1* and ``ref`` for another ``iati-activity``: *AA-AAA-123456789-6789*:
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--related-activity starts-->
 	:end-before: <!--related-activity ends-->
 
 Multiple ``related-activity`` can be declared:
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated-multi.xml
+.. literalinclude:: ../../activity-standard-example-annotated-multi.xml
 	:language: xml
 	:start-after: <!--related-activity starts-->
 	:end-before: <!--related-activity ends-->

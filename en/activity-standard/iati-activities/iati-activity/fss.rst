@@ -4,7 +4,7 @@ Example usage of ``fss`` element with ``extraction-date`` of *2014-05-06* and ``
 
 A boolean declares that this ``fss`` example is a partner country priority.
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--fss starts-->
 	:end-before: <!--fss ends-->

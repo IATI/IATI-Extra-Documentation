@@ -6,7 +6,7 @@ This example ``recipient-org-budget`` is reported for years *2014, *2015* and *2
 The ``value`` example includes a ``currency`` of *USD* - which differs from that set as ``default-currency`` in ``iati-organisation``.
 The ``value-date`` is reported in ISO 8601 format (YYYY-MM-DD).
 		
-.. literalinclude:: ../../organisation-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../organisation-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--recipient-org-budget starts-->
 	:end-before: <!--recipient-org-budget ends-->

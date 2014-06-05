@@ -7,7 +7,7 @@ If omitted, then ``BudgetType`` *Original* (code 1) is assumed:
 
 Example ``budget`` for a single year:
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--budget starts-->
 	:end-before: <!--budget ends-->
@@ -15,7 +15,7 @@ Example ``budget`` for a single year:
 
 Example ``budget`` over multiple years:
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated-multi.xml
+.. literalinclude:: ../../activity-standard-example-annotated-multi.xml
 	:language: xml
 	:start-after: <!--budget starts-->
 	:end-before: <!--budget ends-->

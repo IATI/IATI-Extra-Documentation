@@ -10,7 +10,7 @@ Example ``result`` that uses ``ResultType`` code *1* (Output).  This ``result`` 
 			...
         </result>
  
-.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
@@ -19,7 +19,7 @@ Example ``result`` that uses ``ResultType`` code *1* (Output).  This ``result`` 
 
 The ``result`` element can be repeated within any ``iati-activity``:
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated-multi.xml
+.. literalinclude:: ../../activity-standard-example-annotated-multi.xml
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
