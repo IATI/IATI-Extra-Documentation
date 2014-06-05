@@ -22,6 +22,9 @@ When using the **IATI organisation standard** to declare *organisations*, the fo
 * Single or multiple ``recipient-org`` entries can be recorded.
 * For each ``recipient-org`` multiple forward looking ``recipient-org-budget`` can be recorded.
 
-   
+
+Further Guidance 
+----------------
+Please also consider and refer to the :doc:`Organisation Identifiers guidance <../../organisation-identifiers>` when constructing an appropriate identifier.   
 
 

@@ -11,5 +11,6 @@
     "related-data": [ "transaction/provider-org", "transaction/receiver-org" ],
     "linked-documents": [ "document-link", "activity-website" ],
     "crs-fss": [ "fss", "crs-add" ],
+    "conditions": [ "conditions", "conditions/condition" ],
     "contact-info": [ "contact-info" ]
 }

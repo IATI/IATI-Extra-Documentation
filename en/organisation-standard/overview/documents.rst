@@ -20,6 +20,7 @@ When using the **IATI organisation standard** to declare *documents*, the follow
 * For every document presented either a ``title`` or ``category`` is expected (or both).
 * The free-text instances of ``title`` should avoid use of text in CAPITALS, where possible.
 * For document ``category`` in the **IATI organisation standard**, it is expected that the ``DocumentCategory`` code would be have the B prefix.
+* ``DocumentCategory`` code A documents should only be reported if there is a good reason for the document not to be linked to a specific ``iati-activity``.
 * Using the ``format`` attribute helps inform what to expect from the document.
 * Use of the ``format`` must be accompanied by a code on the ``FileFormat`` codelist.
 

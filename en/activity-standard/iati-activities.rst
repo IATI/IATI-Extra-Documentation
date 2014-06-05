@@ -1,7 +1,9 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example of ``iati-activities`` with ``generated-datetime`` of on 6th May 2014. 
+Example of ``iati-activities`` with ``generated-datetime`` of on 6th May 2014.
+ 
 The ``version`` of *1.04* of the **IATI activity standard** is stated.
+
 The optional ``linked-data-default`` is also included
 
 .. literalinclude:: activity-standard-example-1.04-annotated.xml
@@ -9,7 +11,7 @@ The optional ``linked-data-default`` is also included
 	:start-after: <!--iati-activities starts-->
 	:end-before: <!--iati-activity starts-->
 
-The ``iati-organisation`` element acts as a container for other sub-elements.  It is closed as follows:
+The ``iati-activities`` element acts as a container for other sub-elements.  It is closed as follows:
 
 .. literalinclude:: activity-standard-example-1.04-annotated.xml
 	:language: xml
