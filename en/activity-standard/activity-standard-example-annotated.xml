@@ -101,8 +101,8 @@
   <!--default-tied-status ends-->
   <!--budget starts-->
   <budget type="1">
-   <period-start iso-date="2014-01-01">Start of budget year 2014</period-start>
-   <period-end iso-date="2014-12-31">End of budget year 2014</period-end>
+   <period-start iso-date="2014-01-01" />
+   <period-end iso-date="2014-12-31" />
    <value currency="EUR" value-date="2014-01-01">3000</value>
   </budget>
   <!--budget ends-->
