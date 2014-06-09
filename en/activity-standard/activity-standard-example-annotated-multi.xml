@@ -34,7 +34,7 @@
   <activity-date iso-date="2012-04-15" type="start-planned" />
   <activity-date iso-date="2012-04-28" type="start-actual" />
   <activity-date iso-date="2015-12-31" type="end-planned" />
-  <activity-date iso-date="2015-12-31" type="end-actual" />
+  <activity-date iso-date="2015-12-31" type="end-actual">Closing date of project</activity-date>
   <!--activity-date ends-->
   <!--contact-info starts-->
   <contact-info type="1">
@@ -120,23 +120,23 @@
   <!--default-tied-status ends-->
   <!--budget starts-->
   <budget type="2">
-   <period-start iso-date="2013-01-01">Start of budget year 2013</period-start>
-   <period-end iso-date="2013-12-31">End of budget year 2013</period-end>
-   <value currency="EUR" value-date="2013-01-01">2001</value>  
+   <period-start iso-date="2013-01-01" />
+   <period-end iso-date="2013-12-31"/>
+   <value currency="EUR" value-date="2013-01-01">2500</value>  
   </budget>
   <budget type="1">
-   <period-start iso-date="2012-01-01">Start of budget year 2012</period-start>
-   <period-end iso-date="2012-12-31">End of budget year 2012</period-end>
+   <period-start iso-date="2012-01-01" />
+   <period-end iso-date="2012-12-31" />
    <value currency="EUR" value-date="2012-01-01">1000</value>
   </budget>
   <budget type="1">
-   <period-start iso-date="2013-01-01">Start of budget year 2013</period-start>
-   <period-end iso-date="2013-12-31">End of budget year 2013</period-end>
+   <period-start iso-date="2013-01-01" />
+   <period-end iso-date="2013-12-31" />
    <value currency="EUR" value-date="2013-01-01">2000</value>
   </budget>
   <budget type="1">
-   <period-start iso-date="2014-01-01">Start of budget year 2014</period-start>
-   <period-end iso-date="2014-12-31">End of budget year 2014</period-end>
+   <period-start iso-date="2014-01-01" />
+   <period-end iso-date="2014-12-31" />
    <value currency="EUR" value-date="2014-01-01">3000</value>
   </budget>
   <!--budget ends-->
@@ -163,7 +163,7 @@
   <!--transaction starts-->
   <!--transaction 1 starts-->
   <transaction ref="XYZ">
-   <transaction-date iso-date="2012-01-31">2012-01-31</transaction-date>
+   <transaction-date iso-date="2012-01-31" />
    <transaction-type code="C" />
    <value currency="EUR" value-date="2012-01-31">1000</value>
    <description>Description text</description>
@@ -179,7 +179,7 @@
   <!--transaction 1 ends-->
   <!--transaction starts-->
   <transaction ref="ABC">
-   <transaction-date iso-date="2012-01-01">2012-01-01</transaction-date>
+   <transaction-date iso-date="2012-01-01" />
    <transaction-type code="C" />
    <value currency="EUR" value-date="2012-01-01">1000</value>
    <description>Description text</description>
@@ -193,7 +193,7 @@
    <tied-status code="3" />
   </transaction>
   <transaction ref="1234">
-   <transaction-date iso-date="2012-01-01">2012-01-01</transaction-date>
+   <transaction-date iso-date="2012-01-01" />
    <transaction-type code="IF" />
    <value currency="EUR" value-date="2012-01-01">1000</value>
    <description>Description text</description>
