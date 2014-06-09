@@ -22,9 +22,10 @@ Considerations
 When using the **IATI activity standard** to declare *budgets*, the following should be considered:
 
 * It is recommended that budgets are presented in financial years.
+* It is expected that the financial years for ``reporting-org`` are described.
 * It is possible to report periods other than years, but this is not recommended.
 * Financial periods can be presented using the ``period-start`` and ``period-end`` dates.
-* It is expected that the financial years for ``reporting-org`` are described.
+* For ``planned-dibursement`` it is valid to only report the ``period-start`` as a single date.
 * It is possible to report budget values in multiple currencies, overriding the default currency set in ``iati-activity``
 * It is expected that budgets would be described from the ``reporting-org`` perspective. 
 
