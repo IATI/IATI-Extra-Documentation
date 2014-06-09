@@ -129,7 +129,7 @@
   <!--min transaction ends-->
   <!--full transaction starts-->
   <transaction ref="1234">
-   <transaction-date iso-date="2012-01-01">2012-01-01</transaction-date>
+   <transaction-date iso-date="2012-01-01" />
    <transaction-type code="IF" />
    <value currency="EUR" value-date="2012-01-01">1000</value>   
    <description>Transaction description text</description>
