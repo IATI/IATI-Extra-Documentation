@@ -9,7 +9,9 @@ A date in ISO 8601 format (YYYY-MM-DD) is required:
 	:start-after: <!--activity-date starts-->	
 	:end-before: <!--activity-date ends-->
 
-In some cases, not all ``ActivityDateType`` can be declared, depending on the ``activity-status`` of the ``iati-activity``:    
+In some cases, not all ``ActivityDateType`` can be declared, depending on the ``activity-status`` of the ``iati-activity``
+
+In this example, free text has been included with the ``end-actual`` element.  This is entirely optional, and best applied when such text can add additional clarification to the ``activity-date``:    
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml

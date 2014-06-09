@@ -34,7 +34,7 @@
   <activity-date iso-date="2012-04-15" type="start-planned" />
   <activity-date iso-date="2012-04-28" type="start-actual" />
   <activity-date iso-date="2015-12-31" type="end-planned" />
-  <activity-date iso-date="2015-12-31" type="end-actual" />
+  <activity-date iso-date="2015-12-31" type="end-actual">Closing date of project</activity-date>
   <!--activity-date ends-->
   <!--contact-info starts-->
   <contact-info type="1">
