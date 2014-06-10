@@ -209,6 +209,9 @@
    </loan-status>
   </crs-add>
   <!--crs-add ends-->
+  <!--legacy-data starts-->
+  <legacy-data name="Project Status" value="7" iati-equivalent="activity-status"/>
+  <!--legacy-data ends-->
  </iati-activity>
   <!--iati-activity ends-->	
 </iati-activities>
