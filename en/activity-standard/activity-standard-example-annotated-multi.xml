@@ -141,20 +141,17 @@
   </budget>
   <!--budget ends-->
   <!--planned-disbursement starts-->
-  <planned-disbursement updated="2012-03-31">
-   <period-end iso-date="2012-03-31" />
-   <period-start iso-date="2012-03-31" />
-   <value currency="EUR" value-date="2012-03-31">1000</value>
+  <planned-disbursement updated="2012-04-01" />
+   <period-start iso-date="2012-04-01">Planned disbursement for financial year 2012/13</period-start>
+   <value currency="EUR" value-date="2012-04-01">1000</value>
   </planned-disbursement>
-  <planned-disbursement updated="2013-03-31">
-   <period-end iso-date="2013-03-31" />
-   <period-start iso-date="2013-03-31" />
-   <value currency="EUR" value-date="2013-03-31">2000</value>
+  <planned-disbursement updated="2013-04-01">
+   <period-start iso-date="2013-04-01">Planned disbursement for financial year 2013/14</period-start>
+   <value currency="EUR" value-date="2013-04-01">2000</value>
   </planned-disbursement>
-  <planned-disbursement updated="2014-03-31">
-   <period-end iso-date="2014-03-31" />
-   <period-start iso-date="2014-03-31" />
-   <value currency="EUR" value-date="2014-03-31">3000</value>
+  <planned-disbursement updated="2014-04-01">
+   <period-start iso-date="2014-04-01">Planned disbursement for financial year 2014/15</period-start>
+   <value currency="EUR" value-date="2014-04-01">3000</value>
   </planned-disbursement>
   <!--planned-disbursement ends-->
   <!--capital-spend starts-->

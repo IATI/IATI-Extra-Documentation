@@ -107,10 +107,10 @@
   </budget>
   <!--budget ends-->
   <!--planned-disbursement starts-->
-  <planned-disbursement updated="2014-03-31">
-   <period-end iso-date="2014-03-31" />
-   <period-start iso-date="2014-03-31" />
-   <value currency="EUR" value-date="2014-03-31">3000</value>
+  <planned-disbursement updated="2014-01-01">
+   <period-start iso-date="2014-01-01" />
+   <period-end iso-date="2014-12-31" />
+   <value currency="EUR" value-date="2014-01-01">3000</value>
   </planned-disbursement>
   <!--planned-disbursement ends-->
   <!--capital-spend starts-->
@@ -209,6 +209,9 @@
    </loan-status>
   </crs-add>
   <!--crs-add ends-->
+  <!--legacy-data starts-->
+  <legacy-data name="Project Status" value="7" iati-equivalent="activity-status"/>
+  <!--legacy-data ends-->
  </iati-activity>
   <!--iati-activity ends-->	
 </iati-activities>
