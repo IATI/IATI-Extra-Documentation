@@ -21,7 +21,7 @@ Considerations
 --------------
 * The **Publishing Expectations** detail the mechanisms that organisations publishing IATI data are expected to follow.
 
-* The **Organisation** and **Activity** Standards outline the data fields that can be published.
+* The Organisation and Activity **Standards** outline the data fields that can be published.
 
 * The **Codelists** provide lists of values that can be utilised within the Standard.
  
