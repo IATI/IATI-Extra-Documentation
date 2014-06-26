@@ -210,12 +210,23 @@
    <language code="en" />
    <title>Project report 2013</title>
   </document-link>
-  <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_fr.odt">
-   <category code="A01" />
-   <language code="fr" />
-   <title>Rapport de projet 2013</title>
-  </document-link>
   <!--document-link ends-->
+  <!--document-link-lang starts-->
+  <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
+   <category code="A01" />
+   <language code="en" />
+   <title>Project report 2013</title>
+   <title xml:lang="fr">Rapport de projet 2013</title>   
+  </document-link>  
+  <!--document-link-lang ends-->    
+  <!--document-link-language starts-->
+  <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_fr.odt">
+   <category code="B01" />
+   <language code="fr" />
+   <title>Project report 2013</title>
+   <title xml:lang="fr">Rapport de projet 2013</title>
+  </document-link>
+  <!--document-link-language ends-->
   <!--multi-cat-document-link starts-->
   <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
    <category code="A01" />
