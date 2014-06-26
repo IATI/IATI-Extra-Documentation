@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example usage of ``category`` in context of ``document-link`` element:
+| Example usage of ``category`` in context of ``document-link`` element:
 
 .. literalinclude:: ../../../organisation-standard-example-annotated.xml
 	:language: xml
@@ -8,7 +8,7 @@ Example usage of ``category`` in context of ``document-link`` element:
 	:end-before: <!--document-link ends-->
 	:emphasize-lines: 2, 7
 	
-Example declaring multiple ``DocumentCategory`` codes for the same ``document-link``:
+| Example declaring multiple ``DocumentCategory`` codes for the same ``document-link``:
 
 .. literalinclude:: ../../../organisation-standard-example-annotated.xml
 	:language: xml

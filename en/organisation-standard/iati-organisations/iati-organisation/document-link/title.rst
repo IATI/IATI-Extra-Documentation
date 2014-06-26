@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example usage of ``title`` in context of ``document-link`` element:
+| Example usage of ``title`` in context of ``document-link`` element:
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
