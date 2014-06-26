@@ -29,4 +29,5 @@ When using the **IATI activity standard** to declare *budgets*, the following sh
 * For ``planned-dibursement`` it is valid to only report the ``period-start`` as a single date.
 * It is possible to report budget values in multiple currencies, overriding the default currency set in ``iati-activity``
 * It is expected that budgets would be described from the ``reporting-org`` perspective. 
+* When declaring a ``value-date`` for any budget, this date must be in the past.
 
