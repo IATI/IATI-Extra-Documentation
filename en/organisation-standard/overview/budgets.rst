@@ -18,6 +18,7 @@ When using the **IATI organisation standard** to declare *budgets*, the followin
 
 * It is recommended that budgets in the **IATI organisation standard** are forward-looking.
 * It is recommended, where possible, that budgets are presented for the next three financial years.
+* When presenting multiple budgets, then the relevant ``budget`` element should be repeated accordingly.
 * It is possible to report periods other than financial years, but this is not recommended.
 * Financial periods are presented using the ``period-start`` and ``period-end`` dates.
 * It is expected that financial years appropriate to the relevant ``iati-organisation`` would be described.

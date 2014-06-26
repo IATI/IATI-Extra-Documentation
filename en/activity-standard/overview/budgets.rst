@@ -22,6 +22,7 @@ Considerations
 When using the **IATI activity standard** to declare *budgets*, the following should be considered:
 
 * It is recommended that budgets are presented in financial years.
+* When presenting multiple budgets, then the ``budget`` element should be repeated accordingly.
 * It is expected that the financial years for ``reporting-org`` are described.
 * It is possible to report periods other than years, but this is not recommended.
 * Financial periods can be presented using the ``period-start`` and ``period-end`` dates.
