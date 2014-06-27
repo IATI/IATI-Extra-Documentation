@@ -13,7 +13,7 @@ If a default langage has not been declared in the ``iati-activity`` element, the
 
         <title xml:lang="en">Activity title</title>
 
-It may be appropriate to repeat the ``title`` in other languages using ``xml:lang`` attribute.  In this example, the language *en* has been set in the ''iati-activity'' elenment:
+It may be appropriate to repeat the ``title`` in other languages using ``xml:lang`` attribute.  In this example, the language *en* has been set in the ''iati-activity'' element:
 
 .. literalinclude:: ../../activity-standard-example-annotated-multi.xml
 	:language: xml

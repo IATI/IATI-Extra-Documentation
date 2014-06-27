@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example declaring the ``DocumentCategory`` code *A01*:
+| Example declaring the ``DocumentCategory`` code *A01*:
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
@@ -8,7 +8,7 @@ Example declaring the ``DocumentCategory`` code *A01*:
 	:end-before: <!--document-link ends-->
 	:emphasize-lines: 2
 
-Example declaring multiple ``DocumentCategory`` codes for the same ``document-link``:
+| Example declaring multiple ``DocumentCategory`` codes for the same ``document-link``:
 
 .. literalinclude:: ../../../activity-standard-example-annotated-multi.xml
 	:language: xml

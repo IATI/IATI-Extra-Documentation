@@ -18,17 +18,17 @@
   <total-budget>
    <period-start iso-date="2014-01-01" />
    <period-end iso-date="2014-12-31" />
-   <value currency="USD" value-date="2012-01-01">250000000</value>
+   <value currency="USD" value-date="2014-01-01">250000000</value>
   </total-budget>
   <total-budget>
    <period-start iso-date="2015-01-01" />
    <period-end iso-date="2015-12-31" />
-   <value currency="USD" value-date="2013-01-01">300000000</value>
+   <value currency="USD" value-date="2014-01-01">300000000</value>
   </total-budget>
   <total-budget>
    <period-start iso-date="2016-01-01" />
    <period-end iso-date="2016-12-31" />
-   <value currency="USD" value-date="2012-01-01">350000000</value>
+   <value currency="USD" value-date="2014-01-01">350000000</value>
   </total-budget>
   <!--total-budget ends-->
   <!--recipient-org-budget starts-->
@@ -48,7 +48,7 @@
    <recipient-org ref="123">Example Recipient Organisation</recipient-org>
    <period-start iso-date="2016-01-01" />
    <period-end iso-date="2016-12-31" />
-   <value currency="USD" value-date="2016-01-01">3500000</value>
+   <value currency="USD" value-date="2014-01-01">3500000</value>
   </recipient-org-budget>
   <!--recipient-org-budget ends-->
   <!--recipient-country-budget starts-->
@@ -62,13 +62,13 @@
    <recipient-country code="AA">Country Name</recipient-country>
    <period-start iso-date="2015-01-01" />
    <period-end iso-date="2015-12-31" />
-   <value currency="USD" value-date="2015-01-01">30000000</value>
+   <value currency="USD" value-date="2014-01-01">30000000</value>
   </recipient-country-budget>
   <recipient-country-budget>
    <recipient-country code="AA">Country Name</recipient-country>
    <period-start iso-date="2016-01-01" />
    <period-end iso-date="2016-12-31" />
-   <value currency="USD" value-date="2016-01-01">35000000</value>
+   <value currency="USD" value-date="2014-01-01">35000000</value>
   </recipient-country-budget>
   <!--recipient-country-budget ends-->
   <!--document-link starts-->
@@ -77,12 +77,23 @@
    <language code="en" />
    <title>Annual Report 2013</title>
   </document-link>
+  <!--document-link ends-->
+  <!--document-link-language starts-->
   <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_fr.odt">
    <category code="B01" />
    <language code="fr" />
-   <title>Rapport annuel 2013</title>
+   <title>Annual Report 2013</title>
+   <title xml:lang="fr">Rapport annuel 2013</title>
   </document-link>
-  <!--document-link ends-->
+  <!--document-link-language ends-->  
+  <!--document-link-lang starts-->
+  <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
+   <category code="B01" />
+   <language code="en" />
+   <title>Annual Report 2013</title>
+   <title xml:lang="fr">Rapport annuel 2013</title>
+  </document-link>
+  <!--document-link-lang ends-->
   <!--multi-cat-document-link starts-->
   <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
    <category code="B01" />
