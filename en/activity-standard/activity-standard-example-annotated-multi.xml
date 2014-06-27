@@ -6,7 +6,7 @@
   <!--iati-activity starts-->
  <iati-activity default-currency="EUR" last-updated-datetime="2014-05-06T10:15:37" hierarchy="1" version="1.04" linked-data-uri="http://data.example.org/123456789">
   <!--reporting-org starts-->
-  <reporting-org ref="BB-BBB-123456789" type="40" secondary-publisher="1">Organisation Name</reporting-org>
+  <reporting-org ref="BB-BBB-123456789" type="40" secondary-reporter="1">Organisation Name</reporting-org>
   <!--reporting-org ends-->
   <!--iati-identifier starts-->
   <iati-identifier>BB-BBB-123456789-ABC123</iati-identifier>
@@ -141,7 +141,7 @@
   </budget>
   <!--budget ends-->
   <!--planned-disbursement starts-->
-  <planned-disbursement updated="2012-04-01" />
+  <planned-disbursement updated="2012-04-01">
    <period-start iso-date="2012-04-01">Planned disbursement for financial year 2012/13</period-start>
    <value currency="EUR" value-date="2012-04-01">1000</value>
   </planned-disbursement>
@@ -354,7 +354,7 @@
   <crs-add>
    <aidtype-flag code="1" significance="1" />
    <loan-terms rate-1="4" rate-2="3">
-    <repayment-type code="1" />>
+    <repayment-type code="1" />
     <repayment-plan code="4" />
     <commitment-date iso-date="2013-09-01"/>
     <repayment-first-date iso-date="2014-01-01" />
