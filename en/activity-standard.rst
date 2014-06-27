@@ -1,5 +1,5 @@
-The IATI Activity Standard
-==========================
+Activity Standard
+=================
 
 Definition
 ----------

@@ -1,5 +1,5 @@
-The IATI Organisation Standard
-==============================
+Organisation Standard
+=====================
 
 Definition
 ----------
