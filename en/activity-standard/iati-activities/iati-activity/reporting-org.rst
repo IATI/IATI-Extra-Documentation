@@ -7,7 +7,7 @@ Example ``reporting-org`` with ``ref`` *AA-AAA-123456789* and ``OrganisationType
 	:start-after: <!--reporting-org starts-->
 	:end-before: <!--reporting-org ends-->
 
-Example ``reporting-org`` that declares it is a ``secondary-publisher`` through a boolean:
+Example ``reporting-org`` that declares it is a ``secondary-reporter`` through a boolean:
 
 .. literalinclude:: ../../activity-standard-example-annotated-multi.xml
 	:language: xml
