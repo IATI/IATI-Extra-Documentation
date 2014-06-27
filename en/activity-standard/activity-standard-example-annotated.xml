@@ -195,7 +195,7 @@
   <crs-add>
    <aidtype-flag code="1" significance="1" />
    <loan-terms rate-1="4" rate-2="3">
-    <repayment-type code="1" />>
+    <repayment-type code="1" />
     <repayment-plan code="4" />
     <commitment-date iso-date="2013-09-01"/>
     <repayment-first-date iso-date="2014-01-01" />
