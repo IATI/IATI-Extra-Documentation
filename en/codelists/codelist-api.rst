@@ -24,6 +24,8 @@ is strongly advised to migrate to the new endpoints given below.
 * v1.02 of the standard - uses datadev - change to - http://codelists102.archive.iatistandard.org/data/
 * v1.03 of the standard - uses data - change to - http://codelists103.archive.iatistandard.org/data/
 
+.. _codelist_api_1.04:
+
 Codelists in Version 1.04 of the standard
 -----------------------------------------
 
