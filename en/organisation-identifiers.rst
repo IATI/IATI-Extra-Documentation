@@ -35,7 +35,7 @@ Identifier strings consist of two components:
 #. The **namespace code** - a code that creates and maintains a given organisational identifier registry
 #. The **base identifier** – re-use of an existing identifier from that namespace/registry
 
-(1) and (2) are separated by a dash ``-``.
+1 and 2 are separated by a dash ``-``.
 
 The namespace code (1) may contain a dash ``-``.
 
