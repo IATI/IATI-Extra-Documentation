@@ -4,14 +4,14 @@ Activity Standard
 Definition
 ----------
 
-The **IATI activity standard** is designed for reporting the details of individual aid activities. 
+The **IATI activity standard** is designed for reporting the details of individual development cooperation activities/projects. 
 An activity is defined by the reporting organisation.  Depending on who is reporting, it might be a large programme, a small project or another logical grouping of work and resources.
 
-The **IATI activity standard** is the most widely used part of IATI.  The activity standard supports around forty different fields, referenced by standard codelists, and designed to capture information about many different kinds of aid activities.
+| The **IATI activity standard** is the most widely used part of IATI.  The activity standard supports around forty different fields, referenced by standard codelists, and designed to capture information about many different kinds of aid activities.
 
-Organisations publish this data in an :doc:`activity file </activity-standard/overview/activity-file/>`.  It is expected that every organisation publishing IATI data should include one *actvity file*, which is updated at least annually.
+| Organisations publish this data in an :doc:`activity file </activity-standard/overview/activity-file/>`.  It is expected that every organisation publishing IATI data should include one *actvity file*, which is updated at least annually.
 
-A *actvity file* can detail one or many activities, and a organisation can publish one or many files.
+| A *actvity file* can detail one or many activities, and a organisation can publish one or many files.
 
 
 Considerations
@@ -39,5 +39,5 @@ Contents
    :maxdepth: 1
 
    activity-standard/overview
-   activity-standard/reference
+   activity-standard/elements
 
