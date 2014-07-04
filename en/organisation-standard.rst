@@ -3,7 +3,7 @@ Organisation Standard
 
 Definition
 ----------
-The **IATI organisational standard** is used to describe one or more organisations involved in the aid delivery chain. 
+The **IATI organisational standard** is used to describe one or more organisations involved in any stage development cooperation (funding, implementing etc.).
 
 It is designed to report *forward-looking aggregate budget* information for the reported organisations, and planned future budgets to recipient institutions or countries.
 
@@ -30,5 +30,5 @@ Contents
    :maxdepth: 1
 
    organisation-standard/overview
-   organisation-standard/reference
+   organisation-standard/elements
 
