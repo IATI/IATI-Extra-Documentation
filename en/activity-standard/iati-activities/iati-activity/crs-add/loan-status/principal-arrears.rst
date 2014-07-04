@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 Example usage of ``principle-arrears`` within ``loan-status`` in context of ``crs-add`` element.
 
-.. literalinclude:: ../../../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--crs-add starts-->
 	:end-before: <!--crs-add ends-->

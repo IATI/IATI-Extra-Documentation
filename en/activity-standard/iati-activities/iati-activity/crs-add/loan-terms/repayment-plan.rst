@@ -4,7 +4,7 @@ Example usage of ``repayment-plan`` within ``loan-terms`` in context of ``crs-ad
 
 A ``LoanRepaymentPeriod`` code *4* is declared:
 
-.. literalinclude:: ../../../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--crs-add starts-->
 	:end-before: <!--crs-add ends-->

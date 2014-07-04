@@ -22,7 +22,7 @@
   <description type="3">Statement of groups targeted to benefit from the activity.</description>
   <!--description ends-->
   <!--activity-status starts-->
-  <activity-status code="2">Implementation</activity-status>
+  <activity-status code="2" />
   <!--activity-status ends-->
   <!--activity-date starts-->
   <activity-date iso-date="2012-04-15" type="start-planned" />
@@ -46,7 +46,7 @@
   <participating-org ref="AA-AAA-123456789" role="Implementing" type="21">Agency A</participating-org>
   <!--participating-org ends-->
   <!--activity-scope starts-->
-  <activity-scope code="3">Multi-national</activity-scope>
+  <activity-scope code="3" />
   <!--activity-scope ends-->
   <!--Note: only country OR region has to be declared-->
   <!--recipient-country starts-->
@@ -71,13 +71,6 @@
    <feature-designation code="PRNQ"/>
   </location>
   <!--location ends-->
-  <location>
-      <name>Herat</name>
-      <coordinates latitude="34.341944400000003000" longitude="62.203055599999971000" precision="2" />
- <gazetteer-entry gazeteer-ref="GEO">1140026</gazetteer-entry>
-      <location-type code="PPL" />
-      <administrative country="AF">Afghanistan, Herat, Injil</administrative>
-    </location>
   <!--sector starts-->
   <sector code="111" vocabulary="DAC" />
   <!--sector ends-->
@@ -108,16 +101,16 @@
   <!--default-tied-status ends-->
   <!--budget starts-->
   <budget type="1">
-   <period-start iso-date="2014-01-01">Start of budget year 2014</period-start>
-   <period-end iso-date="2014-12-31">End of budget year 2014</period-end>
+   <period-start iso-date="2014-01-01" />
+   <period-end iso-date="2014-12-31" />
    <value currency="EUR" value-date="2014-01-01">3000</value>
   </budget>
   <!--budget ends-->
   <!--planned-disbursement starts-->
-  <planned-disbursement updated="2014-03-31">
-   <period-end iso-date="2014-03-31">2014-03-31</period-end>
-   <period-start iso-date="2014-03-31">2014-03-31</period-start>
-   <value currency="EUR" value-date="2014-03-31">3000</value>
+  <planned-disbursement updated="2014-01-01">
+   <period-start iso-date="2014-01-01" />
+   <period-end iso-date="2014-12-31" />
+   <value currency="EUR" value-date="2014-01-01">3000</value>
   </planned-disbursement>
   <!--planned-disbursement ends-->
   <!--capital-spend starts-->
@@ -126,7 +119,7 @@
   <!--min transaction starts-->
   <transaction ref="1234">
    <transaction-date iso-date="2012-01-01">2012-01-01</transaction-date>
-   <transaction-type code="IF">Incoming Funds</transaction-type>
+   <transaction-type code="IF" />
    <value currency="EUR" value-date="2012-01-01">1000</value>   
    <description>Transaction description text</description>
    <provider-org provider-activity-id="BB-BBB-123456789-1234AA" ref="BB-BBB-123456789">Agency B</provider-org>
@@ -136,17 +129,17 @@
   <!--min transaction ends-->
   <!--full transaction starts-->
   <transaction ref="1234">
-   <transaction-date iso-date="2012-01-01">2012-01-01</transaction-date>
-   <transaction-type code="IF">Incoming Funds</transaction-type>
+   <transaction-date iso-date="2012-01-01" />
+   <transaction-type code="IF" />
    <value currency="EUR" value-date="2012-01-01">1000</value>   
    <description>Transaction description text</description>
    <provider-org provider-activity-id="BB-BBB-123456789-1234AA" ref="BB-BBB-123456789">Agency B</provider-org>
    <receiver-org receiver-activity-id="AA-AAA-123456789-1234" ref="AA-AAA-123456789">Agency A</receiver-org>
-   <disbursement-channel code="1">Money is disbursed through central Ministry of Finance or Treasury</disbursement-channel>
-   <flow-type code="10">ODA</flow-type>
-   <finance-type code="110">Aid grant excluding debt reorganisation</finance-type>
-   <aid-type code="A01">General budget support</aid-type>   
-   <tied-status code="3">Partially tied</tied-status>
+   <disbursement-channel code="1" />
+   <flow-type code="10" />
+   <finance-type code="110" />
+   <aid-type code="A01" />   
+   <tied-status code="3" />
   </transaction>
   <!--full transaction ends-->
   <!--document-link starts-->
@@ -202,7 +195,7 @@
   <crs-add>
    <aidtype-flag code="1" significance="1" />
    <loan-terms rate-1="4" rate-2="3">
-    <repayment-type code="1" />>
+    <repayment-type code="1" />
     <repayment-plan code="4" />
     <commitment-date iso-date="2013-09-01"/>
     <repayment-first-date iso-date="2014-01-01" />
@@ -216,6 +209,9 @@
    </loan-status>
   </crs-add>
   <!--crs-add ends-->
+  <!--legacy-data starts-->
+  <legacy-data name="Project Status" value="7" iati-equivalent="activity-status"/>
+  <!--legacy-data ends-->
  </iati-activity>
   <!--iati-activity ends-->	
 </iati-activities>

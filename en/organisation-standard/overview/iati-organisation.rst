@@ -22,3 +22,6 @@ When using the **IATI organisation standard** to declare an *iati-organisation*,
 * The ``name`` can be repeated for different languages.  
 * The free-text instance of ``name`` should avoid use of text in CAPITALS, where possible. 
 
+Further Guidance 
+----------------
+Please also consider and refer to the :doc:`Organisation Identifiers guidance <../../organisation-identifiers>` when constructing an appropriate identifier.

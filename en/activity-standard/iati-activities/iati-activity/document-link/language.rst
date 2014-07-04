@@ -1,20 +1,22 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``language``, using ``Language`` codes *en* (English):
+| Example usage of ``language`` in context of ``document-link`` element.
+| NB: This specifies the language of the document being linked to.
 
-.. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--document-link starts-->
 	:end-before: <!--document-link ends-->
 	:emphasize-lines: 3
 
-In this example, the ``document-link`` is provided in two ``language``, with the relevant ``Language`` codes:
+| It may be appropriate to repeat the ``document-link`` element if the document is available in other languages:
+| Note: This specifies the language of the document being linked to.  In this example, the ``title`` element still uses ``xml:lang`` to declare the title in two languages.
 
-.. literalinclude:: ../../../activity-standard-example-1.04-annotated-multi.xml
+.. literalinclude:: ../../../activity-standard-example-annotated-multi.xml
 	:language: xml
-	:start-after: <!--document-link starts-->
-	:end-before: <!--document-link ends-->
-	:emphasize-lines: 3, 8
+	:start-after: <!--document-link-language starts-->
+	:end-before: <!--document-link-language ends-->
+	:emphasize-lines: 3
 
 
 Changelog

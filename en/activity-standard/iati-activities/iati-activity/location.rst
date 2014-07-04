@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 The ``location`` element is used a contain various other elements
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--location starts-->
 	:end-before: <!--location ends-->

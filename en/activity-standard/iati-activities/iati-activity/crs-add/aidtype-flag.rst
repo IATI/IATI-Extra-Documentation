@@ -4,7 +4,7 @@ Example usage of ``aidtype-flag`` in context of ``crs-add`` element.
 
 Example declares ``AidTypeFlag`` code *1* and ``significance`` through optional boolean.
 
-.. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--crs-add starts-->
 	:end-before: <!--crs-add ends-->

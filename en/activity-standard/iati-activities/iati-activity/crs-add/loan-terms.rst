@@ -6,7 +6,7 @@ Example usage of ``loan-terms`` in context of ``crs-add`` element.
 
 Example declares ``rate-1`` and ``rate-2`` values of *4* and *3*.
 
-.. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--crs-add starts-->
 	:end-before: <!--crs-add ends-->

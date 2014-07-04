@@ -1,9 +1,7 @@
-IATI Schema
-===========
-
-The IATI standard consists of a number of schema, the main ones being
-Organisation and Activity, supplemented by the Registry Record which
-provides a common format for the reporting of metadata to the IATI
+Schema
+======
+| The **IATI standard** consists of a number of schema, the main ones being *Organisation* and *Activity*.
+| These are supplemented by the Registry Record which provides a common format for the reporting of metadata to the IATI
 Registry.
 
 Current Schemas

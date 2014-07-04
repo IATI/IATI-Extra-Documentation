@@ -8,7 +8,7 @@ A date in ISO 8601 format (YYYY-MM-DD) is required for ``value-date`` date of th
 
 The ISO 4217 code for the ``currency`` in which the ``forecast`` is denominated should be declared using the ``Currency`` codelist, but only if different to ``default-currency`` in the ``iati-activity`` element.
 
-.. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--fss starts-->
 	:end-before: <!--fss ends-->
@@ -16,7 +16,7 @@ The ISO 4217 code for the ``currency`` in which the ``forecast`` is denominated 
 
 Example of multiple ``forecast`` elements:
 
-.. literalinclude:: ../../../activity-standard-example-1.04-annotated-multi.xml
+.. literalinclude:: ../../../activity-standard-example-annotated-multi.xml
 	:language: xml
 	:start-after: <!--fss starts-->
 	:end-before: <!--fss ends-->    

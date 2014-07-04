@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 Example title for an ``iati-activity``:
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--title starts-->
 	:end-before: <!--title ends-->
@@ -13,9 +13,9 @@ If a default langage has not been declared in the ``iati-activity`` element, the
 
         <title xml:lang="en">Activity title</title>
 
-It may be appropriate to repeat the ``title`` in other languages using ``xml:lang`` attribute.  In this example, the language *en* has been set in the ''iati-activity'' elenment:
+It may be appropriate to repeat the ``title`` in other languages using ``xml:lang`` attribute.  In this example, the language *en* has been set in the ''iati-activity'' element:
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated-multi.xml
+.. literalinclude:: ../../activity-standard-example-annotated-multi.xml
 	:language: xml
 	:start-after: <!--title starts-->
 	:end-before: <!--title ends-->

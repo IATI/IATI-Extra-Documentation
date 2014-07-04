@@ -12,7 +12,7 @@ Example ``country-budget-items`` that declares ``BudgetIdentifierVocabulary`` co
     
 Full example:
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--country-budget-items starts-->
 	:end-before: <!--country-budget-items ends-->

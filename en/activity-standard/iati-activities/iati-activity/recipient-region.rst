@@ -3,14 +3,14 @@ Example Usage
 Example ``recipient-region`` with relevant ``Region`` code.
 The optional ``RegionVocabulary`` is also be declared
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--recipient-region starts-->
 	:end-before: <!--recipient-region ends-->
 
 When multiple ``recipient-region`` are declared, then the ``percentage`` values should sum to 100% for the specific ``iati-activity``:
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated-multi.xml
+.. literalinclude:: ../../activity-standard-example-annotated-multi.xml
 	:language: xml
 	:start-after: <!--recipient-region starts-->
 	:end-before: <!--recipient-region ends-->

@@ -6,7 +6,7 @@ A ``value-date`` for currency conversions must be provided in ISO 8601 format (Y
 
 The ISO 4217 code for the ``currency`` in which the ``transaction`` is denominated should be declared using the ``Currency`` codelist, but only if different to ``default-currency`` in the ``iati-activity`` element.
 
-.. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--min transaction starts-->
 	:end-before: <!--min transaction ends-->
@@ -14,7 +14,7 @@ The ISO 4217 code for the ``currency`` in which the ``transaction`` is denominat
 
 Full example with additional elements which can override the default value set in ``iati-activity``: 
 
-.. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--full transaction starts-->
 	:end-before: <!--full transaction ends-->

@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 Example of an ``activity-scope`` with ``ActivityScope`` code *3* (Multi-national):
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--activity-scope starts-->
 	:end-before: <!--activity-scope ends-->

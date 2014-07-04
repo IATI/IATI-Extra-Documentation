@@ -19,7 +19,7 @@ then this should be declared:
 
 .. code-block:: xml
 
-    <location-type code="PPL" xml:lang-"fr">region peuplee</location-type>
+    <location-type code="PPL" xml:lang="fr">region peuplee</location-type>
 
 Changelog
 ~~~~~~~~~

@@ -1,24 +1,18 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``document-link`` with ``FileFormat`` *application/vnd.oasis.opendocument.text*.
-The ``DocumentCategory`` is declared as *A01*.
+| Example ``document-link`` with ``FileFormat`` *application/vnd.oasis.opendocument.text*.
+| The ``DocumentCategory`` is declared as *A01*.
+| 
+| Note: ``DocumentCategory`` codes with the *A* ``DocumentCategory-category`` prefix are recommended within the **IATI activity standard** ``document-link`` element.
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--document-link starts-->
 	:end-before: <!--document-link ends-->
 	:emphasize-lines: 1, 5	
 
-In this example, the ``document-link`` is provided in two ``language``
-For each ``language`` a relevant ``title``, ``Language`` code and ``url`` is provided:
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated-multi.xml
-	:language: xml
-	:start-after: <!--document-link starts-->
-	:end-before: <!--document-link ends-->
-	:emphasize-lines: 1, 5, 6, 10	
 
-Note: ``DocumentCategory`` codes with the *A* ``DocumentCategory-category`` prefix are recommended within the **IATI activity standard** ``document-link`` element.
 
 Changelog
 ~~~~~~~~~

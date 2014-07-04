@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--This is example XML for the IATI activity standard.  No reference to actual data or real organisations is intended-->
+<!--iati-activities starts-->
+<!--iati-activities starts-->
+<iati-activities generated-datetime="2014-05-06T10:15:37" version="1.04" linked-data-default="http://data.example.org/">
+  <!--iati-activity starts-->
+ <iati-activity default-currency="EUR" last-updated-datetime="2014-05-06T10:15:37" hierarchy="1" version="1.04" linked-data-uri="http://data.example.org/123456789">
+  <!--reporting-org starts-->
+  <reporting-org ref="BB-BBB-123456789" type="40" secondary-reporter="1">Organisation Name</reporting-org>
+  <!--reporting-org ends-->
+  <!--iati-identifier starts-->
+  <iati-identifier>BB-BBB-123456789-ABC123</iati-identifier>
+  <!--iati-identifier ends-->
+  <!--other-identifier starts-->
+  <other-identifier owner-name="Agency A" owner-ref="AA-AAA-123456789">ABC123-XYZ</other-identifier>
+  <!--other-identifier ends-->
+  <!--title starts-->
+  <title>Activity title</title>
+  <title xml:lang="fr">Titre de l'activité</title>
+  <title xml:lang="es">Título de la actividad</title>
+  <!--title ends-->
+  <!--description starts-->
+  <description type="1">General activity description text. Long description of the activity with no particular structure</description>
+  <description type="2">Objectives for the activity, for example from a logical framework.</description>
+  <description type="3">Statement of groups targeted to benefit from the activity.</description>
+  <description type="1" xml:lang="fr">Activité générale du texte de description. Longue description de l'activité sans structure particulière.</description>
+  <description type="2" xml:lang="fr">Objectifs de l'activité, par exemple à partir d'un cadre logique.</description>
+  <description type="3" xml:lang="fr">Déclaration de groupes ciblés pour bénéficier de l'activité.</description>
+  <!--description ends-->
+  <!--activity-status starts-->
+  <activity-status code="2" />
+  <!--activity-status ends-->
+  <!--activity-date starts-->
+  <activity-date iso-date="2012-04-15" type="start-planned" />
+  <activity-date iso-date="2012-04-28" type="start-actual" />
+  <activity-date iso-date="2015-12-31" type="end-planned" />
+  <activity-date iso-date="2015-12-31" type="end-actual">Closing date of project</activity-date>
+  <!--activity-date ends-->
+  <!--contact-info starts-->
+  <contact-info type="1">
+   <organisation>Agency A</organisation>
+   <person-name>A. Example</person-name>
+   <job-title>Transparency Lead</job-title>
+   <mailing-address>Transparency House, The Street, Town, City, Postcode</mailing-address>
+   <telephone>0044111222333444</telephone>
+   <email>transparency@example.org</email>
+   <website>http://www.example.org</website>
+  </contact-info>
+  <!--contact-info ends-->
+  <!--participating-org starts-->
+  <participating-org ref="BB-BBB-123456789" role="Funding" type="40">Agency B</participating-org>
+  <participating-org ref="CC-CCC-123456789" role="Extending" type="10">Agency C</participating-org>
+  <participating-org ref="AA-AAA-123456789" role="Implementing" type="21">Agency A</participating-org>
+  <!--participating-org ends-->
+  <!--activity-scope starts-->
+  <activity-scope code="3" />
+  <!--activity-scope ends-->
+  <!--Note: only country OR region has to be declared-->
+  <!--recipient-country starts-->
+  <recipient-country code="AF" percentage="50" />
+  <recipient-country code="AL" percentage="50" />
+  <!--recipient-country ends-->
+  <!--recipient-region starts-->
+  <recipient-region code="456" percentage="50" vocabulary="1" />
+  <recipient-region code="123" percentage="50" vocabulary="1" />
+  <!--recipient-region ends-->
+  <!--location starts-->
+  <location ref="AF-KAN">
+   <location-id vocabulary="G1" code="1453782" />
+   <name>Location name</name>
+   <name xml:lang="fr">Emplacement du nom</name>   
+   <description>Location description</description>
+   <description xml:lang="fr">Description de l'emplacement</description>
+   <activity-description>A description that qualifies the activity taking place at the location</activity-description>
+   <activity-description xml:lang="fr">Une description qui qualifie l'activité ayant lieu à cet emplacement</activity-description>
+   <administrative level="1" code="1453782" vocabulary="G1" />
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>31.616944 65.716944</pos>
+   </point>
+   <exactness code="1"/>
+   <location-reach code="1" />
+   <location-class code="2"/>
+   <feature-designation code="PRNQ"/>
+  </location>
+  <!--location ends-->
+  <!--sector starts-->
+  <sector code="222" percentage="50" vocabulary="DAC" />
+  <sector code="111" percentage="50" vocabulary="DAC" />
+  <!--sector ends-->
+  <!--country-budget-items starts-->
+  <country-budget-items vocabulary="2">
+   <budget-item code="1.1.1" percentage="50">
+     <description>Description text</description>
+     <description xml:lang="fr">Texte de description</description>
+   </budget-item>
+   <budget-item code="1.1.2" percentage="50">
+    <description>Description text</description>
+    <description xml:lang="fr">Texte de description</description>
+   </budget-item>
+  </country-budget-items>
+  <!--country-budget-items ends-->
+  <!--policy-marker starts-->
+  <policy-marker code="01" significance="3" vocabulary="DAC" />
+  <policy-marker code="02" significance="3" vocabulary="DAC" />
+  <!--policy-marker ends-->
+  <!--collaboration-type starts-->
+  <collaboration-type code="1" />
+  <!--collaboration-type ends-->
+  <!--default-finance-type starts-->
+  <default-finance-type code="110" />
+  <!--default-finance-type ends-->
+  <!--default-flow-type starts-->
+  <default-flow-type code="10" />
+  <!--default-flow-type ends-->
+  <!--default-aid-type starts-->
+  <default-aid-type code="A01" />
+  <!--default-aid-type ends-->
+  <!--default-tied-status starts-->
+  <default-tied-status code="3" />
+  <!--default-tied-status ends-->
+  <!--budget starts-->
+  <budget type="1">
+   <period-start iso-date="2012-01-01" />
+   <period-end iso-date="2012-12-31" />
+   <value currency="EUR" value-date="2012-01-01">1000</value>
+  </budget>
+  <budget type="1">
+   <period-start iso-date="2013-01-01" />
+   <period-end iso-date="2013-12-31" />
+   <value currency="EUR" value-date="2013-01-01">2000</value>
+  </budget>
+  <budget type="2">
+   <period-start iso-date="2013-01-01" />
+   <period-end iso-date="2013-12-31"/>
+   <value currency="EUR" value-date="2013-01-01">2500</value>  
+  </budget>
+  <budget type="1">
+   <period-start iso-date="2014-01-01" />
+   <period-end iso-date="2014-12-31" />
+   <value currency="EUR" value-date="2014-01-01">3000</value>
+  </budget>
+  <!--budget ends-->
+  <!--planned-disbursement starts-->
+  <planned-disbursement updated="2012-04-01">
+   <period-start iso-date="2012-04-01">Planned disbursement for financial year 2012/13</period-start>
+   <value currency="EUR" value-date="2012-04-01">1000</value>
+  </planned-disbursement>
+  <planned-disbursement updated="2013-04-01">
+   <period-start iso-date="2013-04-01">Planned disbursement for financial year 2013/14</period-start>
+   <value currency="EUR" value-date="2013-04-01">2000</value>
+  </planned-disbursement>
+  <planned-disbursement updated="2014-04-01">
+   <period-start iso-date="2014-04-01">Planned disbursement for financial year 2014/15</period-start>
+   <value currency="EUR" value-date="2014-04-01">3000</value>
+  </planned-disbursement>
+  <!--planned-disbursement ends-->
+  <!--capital-spend starts-->
+  <capital-spend percentage="88.8" />
+  <!--capital-spend ends-->
+  <!--transaction starts-->
+  <!--transaction 1 starts-->
+  <transaction ref="XYZ">
+   <transaction-date iso-date="2012-01-31" />
+   <transaction-type code="C" />
+   <value currency="EUR" value-date="2012-01-31">1000</value>
+   <description>Description text</description>
+   <description xml:lang="fr">Description text</description>   
+   <provider-org provider-activity-id="BB-BBB-123456789-1234" ref="BB-BBB-123456789">Agency B</provider-org>
+   <receiver-org receiver-activity-id="CC-CCC-123456789-1234" ref="CC-CCC-123456789">Agency C</receiver-org>
+   <disbursement-channel code="1" />
+   <flow-type code="10" />
+   <finance-type code="110" />
+   <aid-type code="A01" />
+   <tied-status code="3" />
+  </transaction>
+  <!--transaction 1 ends-->
+  <!--transaction starts-->
+  <transaction ref="ABC">
+   <transaction-date iso-date="2012-01-01" />
+   <transaction-type code="C" />
+   <value currency="EUR" value-date="2012-01-01">1000</value>
+   <description>Description text</description>
+   <description xml:lang="fr">Texte de description</description>
+   <provider-org provider-activity-id="BB-BBB-123456789-1234" ref="BB-BBB-123456789">Agency B</provider-org>
+   <receiver-org receiver-activity-id="CC-CCC-123456789-1234" ref="CC-CCC-123456789">Agency C</receiver-org>
+   <disbursement-channel code="1" />
+   <flow-type code="10" />
+   <finance-type code="110" />
+   <aid-type code="A01" />   
+   <tied-status code="3" />
+  </transaction>
+  <transaction ref="1234">
+   <transaction-date iso-date="2012-01-01" />
+   <transaction-type code="IF" />
+   <value currency="EUR" value-date="2012-01-01">1000</value>
+   <description>Description text</description>
+   <description xml:lang="fr">Texte de description</description>
+   <provider-org provider-activity-id="BB-BBB-123456789-1234AA" ref="BB-BBB-123456789">Agency B</provider-org>
+   <receiver-org receiver-activity-id="AA-AAA-123456789-1234" ref="AA-AAA-123456789">Agency A</receiver-org>
+   <disbursement-channel code="1" />
+   <flow-type code="10" />
+   <finance-type code="110" />
+   <aid-type code="A01" />
+   <tied-status code="3" />
+  </transaction>
+  <!--transaction ends-->
+  <!--document-link starts-->
+  <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
+   <category code="A01" />
+   <language code="en" />
+   <title>Project report 2013</title>
+  </document-link>
+  <!--document-link ends-->
+  <!--document-link-lang starts-->
+  <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
+   <category code="A01" />
+   <language code="en" />
+   <title>Project report 2013</title>
+   <title xml:lang="fr">Rapport de projet 2013</title>   
+  </document-link>  
+  <!--document-link-lang ends-->    
+  <!--document-link-language starts-->
+  <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_fr.odt">
+   <category code="B01" />
+   <language code="fr" />
+   <title>Project report 2013</title>
+   <title xml:lang="fr">Rapport de projet 2013</title>
+  </document-link>
+  <!--document-link-language ends-->
+  <!--multi-cat-document-link starts-->
+  <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
+   <category code="A01" />
+   <category code="A02" />
+   <category code="A03" />
+   <language code="en" />
+   <title>Project report 2013</title>
+  </document-link>
+  <!--multi-cat-document-link ends-->
+  <!--activity-website starts-->
+  <activity-website>http://www.example.com/en/activity/ABC123</activity-website>
+  <!--activity-website ends-->
+  <!--related-activity starts-->
+  <related-activity ref="AA-AAA-123456789-6789" type="1" />
+  <related-activity ref="AA-AAA-123456789-XYZ" type="3" />
+  <!--related-activity ends-->
+  <!--conditions starts-->
+  <conditions attached="1">
+   <condition type="1">Conditions text</condition>
+   <condition xml:lang="fr" type="1">Conditions texte</condition>
+   <condition type="2">Conditions text</condition>
+   <condition xml:lang="fr" type="2">Conditions texte</condition>
+  </conditions>
+  <!--conditions ends-->
+  <!--result starts-->
+  <result type="1" aggregation-status="1">
+   <title>Result 1 title</title>
+   <description>Result 1 description text</description>
+   <indicator measure="1" ascending="1">
+    <title>Indicator 1 title</title>
+    <description>Indicator 1 description text</description>
+    <baseline year="2012" value="10"/>
+    <period> 
+     <period-start iso-date="2013-01-01"/> 
+     <period-end iso-date="2013-03-31"/>
+     <target value="10"/>
+     <actual value="11"/>
+    </period> 
+   </indicator>
+  </result>
+  <result type="1" aggregation-status="1">
+   <title>Result 2 title</title>
+   <description>Result 2 description text</description>
+   <indicator measure="1" ascending="1">
+    <title>Indicator 1 title</title>
+    <description>Indicator 1 description text</description>
+    <baseline year="2012" value="110"/>
+    <period>
+     <period-start iso-date="2013-01-01"/>
+     <period-end iso-date="2013-03-31"/>
+     <target value="110"/>
+     <actual value="111"/>
+    </period>
+   </indicator>
+  </result>
+  <!--result ends-->
+  <!--multi-lang result starts-->
+  <result type="1" aggregation-status="1">
+   <title>Result 1 title</title>
+   <title xml:lang="fr">Result 1 titre</title>
+   <description>Result 1 description text</description>
+   <description xml:lang="fr">Result 1 texte de description</description>
+   <indicator measure="1" ascending="1">
+    <title>Indicator 1 title</title>
+    <title xml:lang="fr">Indicator 1 titre</title>
+    <description>Indicator 1 description text</description>
+    <description xml:lang="fr">Indicator 1 texte de description</description>
+    <baseline year="2012" value="10">
+     <comment>Baseline comment text</comment>
+     <comment xml:lang="fr">Baseline comment texte</comment> 
+    </baseline>
+    <period> 
+     <period-start iso-date="2013-01-01"/> 
+     <period-end iso-date="2013-03-31"/>
+     <target value="10">
+      <comment>Target comment text</comment>
+      <comment xml:lang="fr">Target comment texte</comment> 
+     </target>
+     <actual value="11">
+      <comment>Actual comment text</comment>
+      <comment xml:lang="fr">Actual comment texte</comment>     
+     </actual>
+    </period> 
+   </indicator>
+  </result>
+  <!--multi-lang result ends-->
+  <!--multi-indicator result starts-->
+  <result type="1" aggregation-status="1">
+   <title>Result 1 title</title>
+   <description>Result 1 description text</description>
+   <indicator measure="1" ascending="1">
+    <title>Indicator 1 title</title>
+    <description>Indicator 1 description text</description>
+    <baseline year="2012" value="10"/>
+    <period> 
+     <period-start iso-date="2013-01-01"/> 
+     <period-end iso-date="2013-03-31"/> 
+     <target value="10"/> 
+     <actual value="11"/> 
+    </period> 
+   </indicator>
+   <indicator measure="1" ascending="1">
+    <title>Indicator 2 title</title>
+    <description>Indicator 2 description text</description>
+    <baseline year="2012" value="10"/>
+    <period>
+	 <period-start iso-date="2013-04-01"/>
+	 <period-end iso-date="2013-06-30"/>
+	 <target value="11"/>
+	 <actual value="12"/> 
+	</period> 
+   </indicator>
+  </result>
+  <!--multi-indicator result ends-->
+  <!--legacy-data starts-->
+  <legacy-data iati-equivalent="transaction" name="cost" value="1000">Legacy</legacy-data>
+  <!--legacy-data ends-->
+  <!--fss starts-->
+  <fss extraction-date="2014-05-06" priority="1" phaseout-year="2016">
+   <forecast year="2014" value-date="2013-07-03" currency="GBP">10000</forecast>
+   <forecast year="2015" currency="GBP" value-date="2013-07-03">20000</forecast>
+  </fss>
+  <!--fss ends-->
+  <!--crs-add starts-->
+  <crs-add>
+   <aidtype-flag code="1" significance="1" />
+   <loan-terms rate-1="4" rate-2="3">
+    <repayment-type code="1" />
+    <repayment-plan code="4" />
+    <commitment-date iso-date="2013-09-01"/>
+    <repayment-first-date iso-date="2014-01-01" />
+    <repayment-final-date iso-date="2020-12-31" />
+   </loan-terms>
+   <loan-status year="2014" currency="GBP" value-date="2013-05-24">
+     <interest-received>200000</interest-received>
+     <principal-outstanding>1500000</principal-outstanding>
+     <principal-arrears>0</principal-arrears>
+     <interest-arrears>0</interest-arrears>
+   </loan-status>
+  </crs-add>
+  <!--crs-add ends-->
+ </iati-activity>
+ <!--iati-activity ends-->
+</iati-activities>
+<!--iati-activities ends-->

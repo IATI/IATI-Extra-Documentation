@@ -10,7 +10,7 @@ Example of no ``conditions`` attached to the ``iati-activity`` :
 
 Example of ``conditions`` attached to the ``iati-activity``, expressed through the bolean *1*:
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--conditions starts-->
 	:end-before: <!--conditions ends-->
@@ -19,7 +19,7 @@ Example of ``conditions`` attached to the ``iati-activity``, expressed through t
 From version 1.04, the schema allows the ``xml:lang`` attribute to also be included in the sub-element ``condition``
 Example of an ``iati-activity`` with two ``conditions``, declared in the the default language and also *fr*:
 
-.. literalinclude:: ../../activity-standard-example-1.04-annotated-multi.xml	
+.. literalinclude:: ../../activity-standard-example-annotated-multi.xml	
 	:language: xml
 	:start-after: <!--conditions starts-->
 	:end-before: <!--conditions ends-->

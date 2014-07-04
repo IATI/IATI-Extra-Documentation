@@ -4,19 +4,19 @@ This is a child element of ``country-budget-items``
 
 Example that declares ``BudgetIdentifier`` code *1.1.1* (Executive - executive):
 
-.. literalinclude:: ../../../activity-standard-example-1.04-annotated.xml
+.. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--country-budget-items starts-->
 	:end-before: <!--country-budget-items ends-->
 	:emphasize-lines: 2, 4
 
-When multiple ``budget-item`` are declared, then the ``percentage`` values should sum 100% for the specific ``iati-activity``:
+When multiple ``budget-item`` elements are declared within a single ``country-budget-items`` element, then, for each ``vocabulary`` used, the ``percentage`` values should sum 100%:
 
-.. literalinclude:: ../../../activity-standard-example-1.04-annotated-multi.xml
+.. literalinclude:: ../../../activity-standard-example-annotated-multi.xml
 	:language: xml
 	:start-after: <!--country-budget-items starts-->
 	:end-before: <!--country-budget-items ends-->
-	:emphasize-lines: 2, 7
+	:emphasize-lines: 2, 6
 
 
 Changelog
