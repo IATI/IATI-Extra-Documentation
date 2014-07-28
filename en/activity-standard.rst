@@ -1,5 +1,14 @@
 Activity Standard
 =================
+This section details the **IATI Activity standard**.  It contains the following main areas:
+
+* :doc:`Overview <activity-standard/overview>` -  an introduction to key aspects of the activity standard.
+* :doc:`Elements <activity-standard/elements>` - details on each and every element and attribute of the standard, including relevant code lists, rules and example usage.
+
+Additionally:
+
+* A :doc:`summary table <activity-standard/summary-table>` provides an overview of all aspects of the activity standard.
+* An :doc:`example XML file <activity-standard/example-xml>` is provided, which is also used throughout the documentation.
 
 Definition
 ----------
