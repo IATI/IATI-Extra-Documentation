@@ -1,12 +1,16 @@
 Codelists
 =========
-The **IATI codelists** are key to making IATI activity and organisation data from different publishers **comparable**. Numerical codes are used to represent many standard values in an IATI file – for example, organisation types such as “Government” or “National NGO”. Standard sector codes and organisational identifiers are also supported.
+The **IATI codelists** are key to making IATI activity and organisation data from different publishers **comparable**. 
 
-| The IATI codelists ensure activity and organisation information is **comparable between different publishers**.
+| Codes are used to represent many standard values in an **IATI activity**. For example, codelists such as :doc:`organisation type </codelists/OrganisationType>` ensure that different publishers have unambiguous, comparable definitions (e.g. 23 = Regional NGO; 60 = Foundation; or 70 = Private Sector) they can use when describing activities.
 
-| Codes for fields such as :doc:`organisation type </codelists/OrganisationType>` (e.g. 23 = Regional NGO; 60 = Foundation; or 70 = Private Sector) ensure that different publishers have unambiguous, comparable definitions they can use when describing aid activities.
+| Codelists are updated through a :doc:`managed process </codelists/codelist-management>`.  A codelist can either be embedded (centrally managed by IATI) or non-embedded (derived from an authority source).   
 
-| The codes use existing authority lists where possible and build on codes published by the ISO, OECD DAC, COFOG and Guidestar.
+| For every codelist, the embedded status, alongside the relevant IATI element(s) are declared and linked to.
+
+| An :doc:`API is also available </codelists/codelist-api>` for accessing codelists.
+
+
 
 General Information about Codelists
 -----------------------------------
@@ -17,6 +21,7 @@ General Information about Codelists
 
    codelists/codelist-management
    codelists/codelist-api
+
 
 All Codelists
 -------------
