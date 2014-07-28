@@ -5,16 +5,16 @@ Definition
 ----------
 Within the **IATI activity standard** several types of dates can be specified.
 
-Those that relate to the ``iati-activity`` implementation:
+Dates that relate directly to the ``iati-activity``:
 
 * ``activity-date`` - the planned and actual start/end dates of the ``iati-activity``.
 * ``transaction-date`` - the date a specific ``transaction`` took place.
 * ``value-date`` - the specific date for the ``value`` of a ``budget`` or ``transaction``, which is used for currency conversion purposes.
 * ``period-start`` and ``period-end`` dates are used to describe a period of time in a ``budget`` , ``planned-disbursement`` or ``indicator`` 
 
-A time-sensitive declaration, that works in conjunction with the ``activity-date``:
+| Additionally, a time-sensitive (non-date) declaration works in conjunction with the ``activity-date``:
 
-* ``activity-status`` - the stage at which the activity is currently at.
+* ``activity-status`` - a numeric code to declare current stage of the ``iati-activity``.
 
 
 Considerations
