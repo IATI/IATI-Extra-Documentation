@@ -12,7 +12,6 @@ Further guidance, examples and specific details can be found in the :doc:`refere
    overview/organisation-file
    overview/iati-organisation
    overview/organisations
-   overview/iati-identifier
    overview/budgets
    overview/documents
    example-xml

@@ -1,5 +1,5 @@
-Organisations
-=============
+Type of Organisations
+=====================
 
 Definition
 ----------
