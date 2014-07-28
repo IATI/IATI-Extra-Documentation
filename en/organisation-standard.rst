@@ -25,7 +25,8 @@ Considerations
 --------------
 | When declaring information using the **IATI organisation standard** the following should be considered:
 
-* Who are the :doc:`Organisations </organisation-standard/overview/organisations/>` involved, what are they named and identified as?
+* Who are the :doc:`Organisations </organisation-standard/overview/iati-organisation/>` involved?
+* How are the :doc:`Organisations </organisation-standard/overview/organisations/>` unquiely identified?
 * What are the organisation’s planned future annual total :doc:`budgets </organisation-standard/overview/budgets/>`?
 * What are the organisation’s planned future :doc:`budgets </organisation-standard/overview/budgets/>` for aid given to recipient countries?
 * What are the organisation’s planned future :doc:`budgets </organisation-standard/overview/budgets/>` for aid given to recipient organisations?

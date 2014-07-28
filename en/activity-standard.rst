@@ -27,7 +27,8 @@ Considerations
 --------------
 When declaring information using the **IATI activity standard** the following should be considered:
 
-* What is the :doc:`name, description </activity-standard/overview/iati-activity/>` and :doc:`identifier </activity-standard/overview/iati-identifier/>` of the activity?
+* What is the :doc:`name and description </activity-standard/overview/iati-activity/>` of the activity? 
+* What is the `unique identifier </activity-standard/overview/iati-identifier/>` of the activity?
 * What :doc:`dates </activity-standard/overview/dates/>` help describe the timeframe of the activity?
 * Which :doc:`organisations </activity-standard/overview/organisations/>` are involved, and what is their role?
 * Where is the activity :doc:`geographically </activity-standard/overview/geography/>`?
