@@ -5,7 +5,7 @@ Definition
 ----------
 The **IATI activity standard** enables the publishing of information on measurable results from an ``iati-activity``, through use of the ``result`` element via: 
 
-* ``result`` - a measurable result of aid work.
+* ``result`` - a container for reporting outputs, outcomes, impacts and other results that stem directly from the ``iati-activity``.
 
  
 Considerations
