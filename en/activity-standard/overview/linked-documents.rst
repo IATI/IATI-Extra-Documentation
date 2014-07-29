@@ -27,7 +27,7 @@ When using the **IATI activity standard** to declare *documents*, the following 
 * The ``title`` element can be repeated for different languages, regardless of the language of the actual document.
 * The free-text instances of ``title`` should avoid use of text in CAPITALS, where possible.
 * In the **IATI activity standard**, documents that relate to the specific ``iati-activity`` would be linked to.  Organisation/agency specific documents are published via the **IATI organisation standard**.
-* For document ``category`` in the **IATI activity standard**, it is expected that the ``DocumentCategory`` code would be have the B prefix.
+* For document ``category`` in the **IATI activity standard**, it is expected that the ``DocumentCategory`` code would be have the A prefix.
 * Using the ``format`` attribute helps inform what to expect from the document.
 * Use of the ``format`` must be accompanied by a code on the ``FileFormat`` codelist.
 * The ``activity-website`` should be a URL to a page or website that is specifically about the ``iati-activity`` - not generic information (eg: http://www.example.com/en/activity/ABC123).

@@ -11,7 +11,7 @@ To download a codelist. Select your endpoint (see below) and then specify the co
 Endpoints
 ^^^^^^^^^
 
-The codelists used in each version of the standard are derived from different endpoints as a result of the historical management of the codelist API. We are finally taking in house control of them here at IATI.
+The codelists used in each version of the standard are derived from different endpoints as a result of the historical management of the codelist API. From May 2014, these are now under in-house control at IATI.
 
 Therefore anyone relying on the services at:
 

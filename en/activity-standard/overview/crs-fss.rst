@@ -1,5 +1,6 @@
 CRS & FSS
 =========
+Please note: This part of the activity standard is only relevant to organisations that actively report to CRS++ and/or the OECD DAC Forward Spending Survey.
 
 Definition
 ----------
