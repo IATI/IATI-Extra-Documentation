@@ -342,7 +342,8 @@
   </result>
   <!--multi-indicator result ends-->
   <!--legacy-data starts-->
-  <legacy-data iati-equivalent="transaction" name="cost" value="1000">Legacy</legacy-data>
+  <legacy-data name="Project Status" value="7" iati-equivalent="activity-status" />
+  <legacy-data name="cost" value="1000" iati-equivalent="transaction" />
   <!--legacy-data ends-->
   <!--fss starts-->
   <fss extraction-date="2014-05-06" priority="1" phaseout-year="2016">
