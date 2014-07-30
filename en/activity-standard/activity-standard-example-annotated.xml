@@ -263,9 +263,6 @@
    </indicator>
   </result>
   <!--result ends-->
-  <!--legacy-data starts-->
-  <legacy-data iati-equivalent="transaction" name="cost" value="1000"/>
-  <!--legacy-data ends-->
   <!--fss starts-->
   <fss extraction-date="2014-05-06" priority="1" phaseout-year="2016">
    <forecast year="2014" value-date="2013-07-03" currency="GBP">10000</forecast>
@@ -291,6 +288,7 @@
   <!--crs-add ends-->
   <!--legacy-data starts-->
   <legacy-data name="Project Status" value="7" iati-equivalent="activity-status"/>
+<legacy-data iati-equivalent="transaction" name="cost" value="1000"/>
   <!--legacy-data ends-->
  </iati-activity>
   <!--iati-activity ends-->	
