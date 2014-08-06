@@ -1,5 +1,4 @@
-Rules
-=====
+Types of Rules
+==============
 
-Breakdown listing of each rule
-
+Folder contianing a page for each rule?
