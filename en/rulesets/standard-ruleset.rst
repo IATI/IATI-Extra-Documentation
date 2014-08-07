@@ -7,10 +7,10 @@ The ruleset consists of two types of rules:
 * ``Starts with`` - conditions around the formation of the ``iati-identifier``
 * ``Date order`` - logics around the ordering of various date elements.
 
-These rules are applicable to various elements - as illustrated:
+These rules are applicable to various elements:
 
 //iati-activity
-===============
+---------------
 
 * ``iati-identifier`` should start with the value in ``reporting-org/@ref``
 
@@ -24,7 +24,7 @@ These rules are applicable to various elements - as illustrated:
 
 
 //transaction
-=============
+-------------
 
 * ``transaction-date`` must be today, or in the past.
 
@@ -32,13 +32,13 @@ These rules are applicable to various elements - as illustrated:
 
 
 //planned-disbursement
-======================
+----------------------
 
 * ``period-start`` must be before ``period-end``
 
 
 //result/indicator/period
-=========================
+-------------------------
 
 * ``period-start`` must be before ``period-end``
 
