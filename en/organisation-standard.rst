@@ -33,4 +33,13 @@ Considerations
 * Where are the organisation’s official public :doc:`documents </organisation-standard/overview/documents/>`?
 
 
+Contents
+--------
+
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   organisation-standard/overview
+   organisation-standard/elements
 
