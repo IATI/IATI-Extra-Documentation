@@ -19,7 +19,7 @@ Note that major changes were made to the subelements of ``location`` in version 
 
 | For more information refer to: 
 
-* the :ref:`1.04 location changes overview guidance </upgrades/decimal-upgrade-to-1-04/location-summary/>`
+* the :doc:`1.04 location changes overview guidance </upgrades/decimal-upgrade-to-1-04/location-summary/>`
 * the :ref:`Activities Schema Changelog <1_04_activities_schema_changes>` (or the individual subemelement pages)
 
 | The @ref attribute was introduced to provide a cross reference that a publisher can use to link back to their own internal system.
