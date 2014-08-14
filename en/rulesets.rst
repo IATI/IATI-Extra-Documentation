@@ -24,4 +24,6 @@ More info
    :glob:
    :titlesonly:
 
-   rulesets/*
+   rulesets/standard-ruleset
+   rulesets/standard-spec
+   rulesets/ruleset-development
