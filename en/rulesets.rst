@@ -25,5 +25,5 @@ More info
    :titlesonly:
 
    rulesets/standard-ruleset
-   rulesets/standard-spec
+   rulesets/ruleset-spec
    rulesets/ruleset-development
