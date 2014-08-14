@@ -31,7 +31,7 @@ Metadata Schema
 
 
 Updates to IATI Schema
-~~~~~~~~~~~~~~~~~~~~~~
+----------------------
 
 | The **IATI standard** is a living entity that requires improvement over time.  
 
