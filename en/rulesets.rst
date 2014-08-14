@@ -15,7 +15,7 @@ Rulesets are constructed as follows:
 * Individual *rules* detail any constraint or condition.  
 * Collectively, these rules then make up a *ruleset*.
 
-This section details the current Standard Ruleset, and provides information around how to utilise and develop rules
+This section details the current Standard Ruleset, and provides information around how to utilise and develop rules.
 
 More info
 -------------
