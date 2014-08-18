@@ -1,5 +1,14 @@
 Activity Standard
 =================
+This section details the **IATI Activity standard**.  It contains the following main areas:
+
+* :doc:`Overview <activity-standard/overview>` -  an introduction to key aspects of the activity standard.
+* :doc:`Elements <activity-standard/elements>` - details on each and every element and attribute of the standard, including relevant code lists, rules and example usage.
+
+Additionally:
+
+* A :doc:`summary table <activity-standard/summary-table>` provides an overview of all aspects of the activity standard.
+* An :doc:`example XML file <activity-standard/example-xml>` is provided, which is also used throughout the documentation.
 
 Definition
 ----------
@@ -9,7 +18,7 @@ An activity is defined by the reporting organisation.  Depending on who is repor
 
 | The **IATI activity standard** is the most widely used part of IATI.  The activity standard supports around forty different fields, referenced by standard codelists, and designed to capture information about many different kinds of aid activities.
 
-| Organisations publish this data in an :doc:`activity file </activity-standard/overview/activity-file/>`.  It is expected that every organisation publishing IATI data should include one *actvity file*, which is updated at least annually.
+| Organisations publish this data in an :doc:`activity file </activity-standard/overview/activity-file/>`.  It is expected that every organisation publishing IATI data should include one at least *actvity file*.
 
 | A *actvity file* can detail one or many activities, and a organisation can publish one or many files.
 
@@ -18,7 +27,8 @@ Considerations
 --------------
 When declaring information using the **IATI activity standard** the following should be considered:
 
-* What is the :doc:`name, description </activity-standard/overview/iati-activity/>` and :doc:`identifier </activity-standard/overview/iati-identifier/>` of the activity?
+* What is the :doc:`name and description </activity-standard/overview/iati-activity/>` of the activity? 
+* What is the `unique identifier </activity-standard/overview/iati-identifier/>` of the activity?
 * What :doc:`dates </activity-standard/overview/dates/>` help describe the timeframe of the activity?
 * Which :doc:`organisations </activity-standard/overview/organisations/>` are involved, and what is their role?
 * Where is the activity :doc:`geographically </activity-standard/overview/geography/>`?

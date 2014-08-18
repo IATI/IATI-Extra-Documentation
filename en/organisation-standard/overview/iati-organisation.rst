@@ -5,10 +5,11 @@ Definition
 ----------
 Within the **IATI organisation standard**. the ``iati-organisation`` is the building block to describe organisations.
 
-An ``iati-organisation`` represents a distinct grouping of information that reports various facts about an organisation.
+| An ``iati-organisation`` represents a distinct grouping of information that reports various facts about an organisation.
 
-A human-readable title and description for an ``iati-organisation`` can be provided using:
+| For each ``iati-organisation`` described, the following are expected as a minium:
 
+* ``iati-identifier`` is the unique reference for the organisation.
 * ``name`` - a human-readable name of the organisation.
 
 
@@ -17,7 +18,11 @@ Considerations
 When using the **IATI organisation standard** to declare an *iati-organisation*, the following should be considered:
 
 * Every ``iati-organisation`` must use a globally unique ``iati-identifier``
-* A publisher can set a default language and ``default-currency``, that is then used throughout the ``iati-activity``.  This can be overridden in subsequent elements however.
+* The ``iati-identifier`` should have no leading or trailing whitespace.
+* It is recommended that no forward slashes (/) or spaces should be contained within the ``iati-identifier``.
+* It is recommended to avoid spaces and non-ascii characters.  For example:
+	* ``AA-AAA-123456789`` is preferable to ``AA-AAA 123456789``.
+* A default language and ``default-currency`` can be set for any ``iati-organisation``.  This can be overridden in subsequent elements.
 * The ``last-updated-datetime`` date must change whenever the value of any field within the associated ``iati-organisation`` are updated.
 * The ``name`` can be repeated for different languages.  
 * The free-text instance of ``name`` should avoid use of text in CAPITALS, where possible. 

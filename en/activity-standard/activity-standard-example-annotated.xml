@@ -288,7 +288,8 @@
   </crs-add>
   <!--crs-add ends-->
   <!--legacy-data starts-->
-  <legacy-data name="Project Status" value="7" iati-equivalent="activity-status"/>
+  <legacy-data name="Project Status" value="7" iati-equivalent="activity-status" />
+  <legacy-data name="cost" value="1000" iati-equivalent="transaction" />
   <!--legacy-data ends-->
  </iati-activity>
   <!--iati-activity ends-->	

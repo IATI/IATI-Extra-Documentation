@@ -82,7 +82,7 @@ If a decision has been made to make a change to a non-embedded list the `IATI Te
 
 In most circumstances the decision to alter these codelists is straightforward. In rare cases, the team may decide to seek further clarification, or to consult further on whether or not to adopt a change. If so, a timetable outlining the process and timescales will be issued.
 
-A summary of all changes to all non-emebedded codelists will be published on the IATI Standard website. They can also be found via the list of commits to the GitHub repository.
+A :doc:`summary of all changes to all non-emebedded </upgrades/nonembedded-codelist-changelog/>` codelists is published on the IATI Standard website. They can also be found via the list of commits to the GitHub repository.
 
 Special Cases
 *************
