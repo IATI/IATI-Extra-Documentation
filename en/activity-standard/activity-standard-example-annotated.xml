@@ -1,11 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!--This is example XML for the IATI activity standard.  No reference to actual data or real organisations is intended-->
 <!--iati-activities starts-->
-<iati-activities generated-datetime="2014-05-06T10:15:37" version="1.04" linked-data-default="http://data.example.org/">
+<iati-activities generated-datetime="2014-07-15T17:15:37" version="2.01" linked-data-default="http://data.example.org/">
  <!--iati-activity starts-->	
- <iati-activity default-currency="EUR" last-updated-datetime="2014-05-06T10:15:37" hierarchy="1" version="1.04" linked-data-uri="http://data.example.org/123456789">
+ <iati-activity default-currency="EUR" last-updated-datetime="2014-07-15T17:15:37" version="2.01" linked-data-uri="http://data.example.org/123456789" hierarchy="1">
   <!--reporting-org starts-->
-  <reporting-org ref="AA-AAA-123456789" type="21">Organisation Name</reporting-org>
+  <reporting-org ref="AA-AAA-123456789" type="40" secondary-reporter="0">
+	  <narrative>Organisation name</narrative>
+  </reporting-org>
   <!--reporting-org ends-->
   <!--iati-identifier starts-->
   <iati-identifier>AA-AAA-123456789-ABC123</iati-identifier>
@@ -14,36 +16,65 @@
   <other-identifier owner-name="Agency A" owner-ref="AA-AAA-123456789">ABC123-XYZ</other-identifier>
   <!--other-identifier ends-->
   <!--title starts-->
-  <title>Activity title</title>
+  <title>
+   <narrative>Activity title</narrative>
+   <narrative xml:lang="fr">Titre de l'activité</narrative>
+   <narrative xml:lang="es">Título de la actividad</narrative>
+  </title>
   <!--title ends-->
   <!--description starts-->
-  <description type="1">General activity description text.  Long description of the activity with no particular structure.</description>
-  <description type="2">Objectives for the activity, for example from a logical framework.</description>
-  <description type="3">Statement of groups targeted to benefit from the activity.</description>
+  <description type="1">
+   <narrative>General activity description text.  Long description of the activity with no particular structure.</narrative>
+   <narrative xml:lang="fr">Activité générale du texte de description. Longue description de l'activité sans structure particulière.</narrative>
+  </description>
+  <description type="2">
+   <narrative>Objectives for the activity, for example from a logical framework.</narrative>
+   <narrative xml:lang="fr">Objectifs de l'activité, par exemple à partir d'un cadre logique.</narrative>   
+  </description>
+  <description type="3">
+   <narrative>Statement of groups targeted to benefit from the activity.</narrative>
+   <narrative xml:lang="fr">Déclaration de groupes ciblés pour bénéficier de l'activité.</narrative>
+  </description>
   <!--description ends-->
   <!--activity-status starts-->
   <activity-status code="2" />
   <!--activity-status ends-->
   <!--activity-date starts-->
-  <activity-date iso-date="2012-04-15" type="start-planned" />
-  <activity-date iso-date="2012-04-28" type="start-actual" />
-  <activity-date iso-date="2015-12-31" type="end-planned" />
+  <activity-date iso-date="2012-04-15" type="3">
+   <narrative>Actual start date of the project</narrative>
+  </activity-date> 
+  <activity-date iso-date="2012-04-28" type="1" />
+  <activity-date iso-date="2015-12-31" type="4" />
   <!--activity-date ends-->
   <!--contact-info starts-->
   <contact-info type="1">
-   <organisation>Agency A</organisation>
-   <person-name>A. Example</person-name>
-   <job-title>Transparency Lead</job-title>
-   <mailing-address>Transparency House, The Street, Town, City, Postcode</mailing-address>
+   <organisation>
+	<narrative>Agency A</narrative>
+   </organisation>
+   <person-name>
+	<narrative>A. Example</narrative>
+   </person-name>
+   <job-title>
+	<narrative>Transparency Lead</narrative>
+   </job-title>
+   <mailing-address>
+	<narrative>Transparency House, The Street, Town, City, Postcode</narrative>
+   </mailing-address>
    <telephone>0044111222333444</telephone>
    <email>transparency@example.org</email>
    <website>http://www.example.org</website>
   </contact-info>
   <!--contact-info ends-->
   <!--participating-org starts-->
-  <participating-org ref="BB-BBB-123456789" role="Funding" type="40">Agency B</participating-org>
-  <participating-org ref="CC-CCC-123456789" role="Extending" type="10">Agency C</participating-org>
-  <participating-org ref="AA-AAA-123456789" role="Implementing" type="21">Agency A</participating-org>
+  <participating-org ref="BB-BBB-123456789" role="2" type="40">
+	<narrative>Agency B</narrative>
+  </participating-org>
+  <participating-org ref="CC-CCC-123456789" role="1" type="10">
+	<narrative>Agency C</narrative>
+  </participating-org>	  
+  <participating-org ref="AA-AAA-123456789" role="3" type="21">
+	<narrative>Agency A</narrative>
+  </participating-org>
   <!--participating-org ends-->
   <!--activity-scope starts-->
   <activity-scope code="3" />
@@ -58,9 +89,15 @@
   <!--location starts-->
   <location ref="AF-KAN">
    <location-id vocabulary="G1" code="1453782" />
-   <name>Location name</name>
-   <description>Location description</description>
-   <activity-description>A description that qualifies the activity taking place at the location</activity-description>
+   <name>
+	<narrative>Location name</narrative>
+   </name>
+   <description>
+	<narrative>Location description</narrative>
+   </description>
+   <activity-description>
+	<narrative>A description that qualifies the activity taking place at the location</narrative>
+   </activity-description>
    <administrative level="1" code="1453782" vocabulary="G1" />
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>31.616944 65.716944</pos>
@@ -77,7 +114,9 @@
   <!--country-budget-items starts-->
   <country-budget-items vocabulary="2">
    <budget-item code="1.1.1">
-    <description>Description text</description>
+    <description>
+	 <narrative>Description text</narrative>
+	</description> 
    </budget-item>
   </country-budget-items>
   <!--country-budget-items ends-->
@@ -107,7 +146,7 @@
   </budget>
   <!--budget ends-->
   <!--planned-disbursement starts-->
-  <planned-disbursement updated="2014-01-01">
+  <planned-disbursement>
    <period-start iso-date="2014-01-01" />
    <period-end iso-date="2014-12-31" />
    <value currency="EUR" value-date="2014-01-01">3000</value>
@@ -118,23 +157,35 @@
   <!--capital-spend ends-->
   <!--min transaction starts-->
   <transaction ref="1234">
-   <transaction-date iso-date="2012-01-01">2012-01-01</transaction-date>
-   <transaction-type code="IF" />
+   <transaction-date iso-date="2012-01-01" />
+   <transaction-type code="4" />
    <value currency="EUR" value-date="2012-01-01">1000</value>   
-   <description>Transaction description text</description>
-   <provider-org provider-activity-id="BB-BBB-123456789-1234AA" ref="BB-BBB-123456789">Agency B</provider-org>
-   <receiver-org receiver-activity-id="AA-AAA-123456789-1234" ref="AA-AAA-123456789">Agency A</receiver-org>
+   <description>
+	<narrative>Transaction description text</narrative>   
+   </description>
+   <provider-org provider-activity-id="BB-BBB-123456789-1234AA" ref="BB-BBB-123456789">
+	<narrative>Agency B</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="AA-AAA-123456789-1234" ref="AA-AAA-123456789">
+	<narrative>Agency A</narrative>   
+   </receiver-org>
    <disbursement-channel code="1" />
   </transaction>
   <!--min transaction ends-->
   <!--full transaction starts-->
   <transaction ref="1234">
    <transaction-date iso-date="2012-01-01" />
-   <transaction-type code="IF" />
+   <transaction-type code="4" />
    <value currency="EUR" value-date="2012-01-01">1000</value>   
-   <description>Transaction description text</description>
-   <provider-org provider-activity-id="BB-BBB-123456789-1234AA" ref="BB-BBB-123456789">Agency B</provider-org>
-   <receiver-org receiver-activity-id="AA-AAA-123456789-1234" ref="AA-AAA-123456789">Agency A</receiver-org>
+   <description>
+	<narrative>Transaction description text</narrative>
+   </description>
+   <provider-org provider-activity-id="BB-BBB-123456789-1234AA" ref="BB-BBB-123456789">
+	<narrative>Agency B</narrative>
+   </provider-org>
+   <receiver-org receiver-activity-id="AA-AAA-123456789-1234" ref="AA-AAA-123456789">
+	<narrative>Agency A</narrative>
+   </receiver-org>
    <disbursement-channel code="1" />
    <flow-type code="10" />
    <finance-type code="110" />
@@ -146,45 +197,72 @@
   <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
    <category code="A01" />
    <language code="en" />
-   <title>Project report 2013</title>
+   <title>
+    <narrative>Project Report 2013</narrative>	   
+    <narrative xml:lang="fr">Rapport de projet 2013</narrative>
+   </title>
   </document-link>
   <!--document-link ends-->
-  <!--activity-website starts-->
+  <!--activity-website starts this element may be removed
   <activity-website>http://www.example.com/en/activity/ABC123</activity-website>
-  <!--activity-website ends-->
+  activity-website ends-->
   <!--related-activity starts-->
   <related-activity ref="AA-AAA-123456789-6789" type="1" />
   <!--related-activity ends-->
   <!--conditions starts-->
   <conditions attached="1">
-   <condition type="1">Conditions text</condition>
+   <condition type="1">
+    <narrative>Conditions text</narrative>
+    <narrative xml:lang="fr">Conditions texte></narrative>
+   </condition>
   </conditions>
   <!--conditions ends-->
   <!--result starts-->
   <result type="1" aggregation-status="1">
-   <title>Result 1 title</title>
-   <description>Result 1 description text</description>
+   <title>
+	<narrative>Result 1 title</narrative>
+    <narrative xml:lang="fr">Result 1 titre</narrative>      
+   </title>
+   <description>
+    <narrative>Result 1 description text</narrative>
+    <narrative xml:lang="fr">Result 1 texte de description</narrative>	   
+   </description>
    <indicator measure="1" ascending="1">
-     <title>Indicator 1 title</title>
-     <description>Indicator 1 description text</description>
+     <title>
+      <narrative>Indicator 1 title</narrative>
+      <narrative xml:lang="fr">Indicator 1 titre</narrative>      		 
+     </title>
+     <description>
+      <narrative>Indicator 1 description text</narrative>
+      <narrative xml:lang="fr">Indicator 1 texte de description</narrative>
+     </description>     
      <baseline year="2012" value="10">
-      <comment>Baseline comment text</comment>
+      <comment>
+	   <narrative>Baseline comment text</narrative> 
+	   <narrative xml:lang="fr">Baseline comment texte</narrative> 	    
+	  </comment>
      </baseline>
      <period>
       <period-start iso-date="2013-01-01" />
        <period-end iso-date="2013-03-31" />
        <target value="10">
-        <comment>Target comment text</comment> 
+        <comment>
+         <narrative>Target comment text</narrative>
+         <narrative xml:lang="fr">Target comment texte</narrative>				
+        </comment> 
        </target>
        <actual value="11">
-        <comment>Actual comment text</comment> 
+        <comment>
+         <narrative>Actual comment text</narrative>
+         <narrative xml:lang="fr">Actual comment texte</narrative>        
+        </comment> 
        </actual>
      </period>
    </indicator>
   </result>
   <!--result ends-->
   <!--legacy-data starts-->
-  <legacy-data iati-equivalent="transaction" name="cost" value="1000">Legacy</legacy-data>
+  <legacy-data iati-equivalent="transaction" name="cost" value="1000" />
   <!--legacy-data ends-->
   <!--fss starts-->
   <fss extraction-date="2014-05-06" priority="1" phaseout-year="2016">
