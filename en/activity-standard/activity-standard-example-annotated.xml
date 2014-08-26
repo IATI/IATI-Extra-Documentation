@@ -213,7 +213,7 @@
   <conditions attached="1">
    <condition type="1">
     <narrative>Conditions text</narrative>
-    <narrative xml:lang="fr">Conditions texte></narrative>
+    <narrative xml:lang="fr">Conditions texte</narrative>
    </condition>
   </conditions>
   <!--conditions ends-->
