@@ -91,46 +91,46 @@
   <!--recipient-country-budget ends-->
   <!--document-link starts-->
   <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_fr.odt">
-   <category code="B01" />
-   <language code="fr" />
    <title>
     <narrative>Annual Report 2013</narrative>	   
     <narrative xml:lang="fr">Rapport annuel 2013</narrative>
    </title>
+   <category code="B01" />
+   <language code="fr" />
   </document-link>
   <!--document-link ends-->
   <!--document-link-lang starts-->
   <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
-   <category code="B01" />
-   <language code="en" />
    <title>
     <narrative>Annual Report 2013</narrative>	   
     <narrative xml:lang="fr">Rapport annuel 2013</narrative>
    </title>
+   <category code="B01" />
+   <language code="en" />
   </document-link>
   <!--document-link-lang ends-->
   <!--multi-cat-document-link starts-->
   <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
-   <category code="B01" />
-   <category code="B02" />
-   <category code="B03" />
-   <language code="en" />
    <title>
     <narrative>Annual Report 2013</narrative>	   
     <narrative xml:lang="fr">Rapport annuel 2013</narrative>
    </title>
+   <category code="B01" />
+   <category code="B02" />
+   <category code="B03" />
+   <language code="en" />
   </document-link>
   <!--multi-cat-document-link ends-->
   <!--multi-country-document-link starts-->
   <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
-   <recipient-country code="AF" />
-   <recipient-country code="AX" />
-   <recipient-country code="AL" />
-   <language code="en" />
    <title>
     <narrative>Country Report 2013</narrative>	   
     <narrative xml:lang="fr">Rapport Pays 2013</narrative>
    </title>
+   <language code="en" />
+   <recipient-country code="AF" />
+   <recipient-country code="AX" />
+   <recipient-country code="AL" />
   </document-link>
   <!--multi-country-document-link ends-->
  </iati-organisation>
