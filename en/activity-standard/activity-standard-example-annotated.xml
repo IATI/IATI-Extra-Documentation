@@ -3,12 +3,23 @@
 <!--iati-activities starts-->
 <iati-activities generated-datetime="2014-07-15T17:15:37" version="2.01" linked-data-default="http://data.example.org/">
  <!--iati-activity starts-->	
- <iati-activity default-currency="EUR" last-updated-datetime="2014-07-15T17:15:37" version="2.01" linked-data-uri="http://data.example.org/123456789" hierarchy="1">
+ <iati-activity default-currency="EUR" last-updated-datetime="2014-07-15T17:15:37" linked-data-uri="http://data.example.org/123456789" hierarchy="1">
   <!--reporting-org starts-->
   <reporting-org ref="AA-AAA-123456789" type="40" secondary-reporter="0">
 	  <narrative>Organisation name</narrative>
   </reporting-org>
   <!--reporting-org ends-->
+  <!--participating-org starts-->
+  <participating-org ref="BB-BBB-123456789" role="2" type="40">
+	<narrative>Agency B</narrative>
+  </participating-org>
+  <participating-org ref="CC-CCC-123456789" role="1" type="10">
+	<narrative>Agency C</narrative>
+  </participating-org>	  
+  <participating-org ref="AA-AAA-123456789" role="3" type="21">
+	<narrative>Agency A</narrative>
+  </participating-org>
+  <!--participating-org ends-->
   <!--iati-identifier starts-->
   <iati-identifier>AA-AAA-123456789-ABC123</iati-identifier>
   <!--iati-identifier ends-->
@@ -51,31 +62,23 @@
    <organisation>
 	<narrative>Agency A</narrative>
    </organisation>
+   <department>
+    <narrative>Department B</narrative>
+   </department>
    <person-name>
 	<narrative>A. Example</narrative>
    </person-name>
    <job-title>
 	<narrative>Transparency Lead</narrative>
    </job-title>
-   <mailing-address>
-	<narrative>Transparency House, The Street, Town, City, Postcode</narrative>
-   </mailing-address>
    <telephone>0044111222333444</telephone>
    <email>transparency@example.org</email>
    <website>http://www.example.org</website>
+   <mailing-address>
+	<narrative>Transparency House, The Street, Town, City, Postcode</narrative>
+   </mailing-address>
   </contact-info>
   <!--contact-info ends-->
-  <!--participating-org starts-->
-  <participating-org ref="BB-BBB-123456789" role="2" type="40">
-	<narrative>Agency B</narrative>
-  </participating-org>
-  <participating-org ref="CC-CCC-123456789" role="1" type="10">
-	<narrative>Agency C</narrative>
-  </participating-org>	  
-  <participating-org ref="AA-AAA-123456789" role="3" type="21">
-	<narrative>Agency A</narrative>
-  </participating-org>
-  <!--participating-org ends-->
   <!--activity-scope starts-->
   <activity-scope code="3" />
   <!--activity-scope ends-->
@@ -88,6 +91,7 @@
   <!--recipient-region ends-->
   <!--location starts-->
   <location ref="AF-KAN">
+   <location-reach code="1" />	  
    <location-id vocabulary="G1" code="1453782" />
    <name>
 	<narrative>Location name</narrative>
@@ -103,7 +107,6 @@
     <pos>31.616944 65.716944</pos>
    </point>
    <exactness code="1"/>
-   <location-reach code="1" />
    <location-class code="2"/>
    <feature-designation code="PRNQ"/>
   </location>
@@ -126,12 +129,12 @@
   <!--collaboration-type starts-->
   <collaboration-type code="1" />
   <!--collaboration-type ends-->
-  <!--default-finance-type starts-->
-  <default-finance-type code="110" />
-  <!--default-finance-type ends-->
   <!--default-flow-type starts-->
   <default-flow-type code="10" />
   <!--default-flow-type ends-->
+  <!--default-finance-type starts-->
+  <default-finance-type code="110" />
+  <!--default-finance-type ends-->
   <!--default-aid-type starts-->
   <default-aid-type code="A01" />
   <!--default-aid-type ends-->
@@ -157,8 +160,10 @@
   <!--capital-spend ends-->
   <!--min transaction starts-->
   <transaction ref="1234">
-   <transaction-date iso-date="2012-01-01" />
    <transaction-type code="4" />
+   <transaction-date iso-date="2012-01-01">
+    <narrative>Transaction date text</narrative>
+   </transaction-date>
    <value currency="EUR" value-date="2012-01-01">1000</value>   
    <description>
 	<narrative>Transaction description text</narrative>   
@@ -174,8 +179,8 @@
   <!--min transaction ends-->
   <!--full transaction starts-->
   <transaction ref="1234">
-   <transaction-date iso-date="2012-01-01" />
    <transaction-type code="4" />
+   <transaction-date iso-date="2012-01-01" />
    <value currency="EUR" value-date="2012-01-01">1000</value>   
    <description>
 	<narrative>Transaction description text</narrative>
@@ -186,21 +191,24 @@
    <receiver-org receiver-activity-id="AA-AAA-123456789-1234" ref="AA-AAA-123456789">
 	<narrative>Agency A</narrative>
    </receiver-org>
-   <disbursement-channel code="1" />
+   <sector code="111" vocabulary="DAC" />
+   <recipient-country code="AF" />
+   <recipient-region code="456" vocabulary="1" />   
    <flow-type code="10" />
    <finance-type code="110" />
    <aid-type code="A01" />   
    <tied-status code="3" />
+   <disbursement-channel code="1" />
   </transaction>
   <!--full transaction ends-->
   <!--document-link starts-->
   <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
-   <category code="A01" />
-   <language code="en" />
    <title>
     <narrative>Project Report 2013</narrative>	   
     <narrative xml:lang="fr">Rapport de projet 2013</narrative>
    </title>
+   <category code="A01" />
+   <language code="en" />
   </document-link>
   <!--document-link ends-->
   <!--activity-website starts this element may be removed
@@ -209,6 +217,10 @@
   <!--related-activity starts-->
   <related-activity ref="AA-AAA-123456789-6789" type="1" />
   <!--related-activity ends-->
+  <!--legacy-data starts-->
+  <legacy-data name="Project Status" value="7" iati-equivalent="activity-status" />
+  <legacy-data name="cost" value="1000" iati-equivalent="transaction" />
+  <!--legacy-data ends-->
   <!--conditions starts-->
   <conditions attached="1">
    <condition type="1">
@@ -261,17 +273,9 @@
    </indicator>
   </result>
   <!--result ends-->
-  <!--legacy-data starts-->
-  <legacy-data iati-equivalent="transaction" name="cost" value="1000" />
-  <!--legacy-data ends-->
-  <!--fss starts-->
-  <fss extraction-date="2014-05-06" priority="1" phaseout-year="2016">
-   <forecast year="2014" value-date="2013-07-03" currency="GBP">10000</forecast>
-  </fss>
-  <!--fss ends-->
   <!--crs-add starts-->
   <crs-add>
-   <aidtype-flag code="1" significance="1" />
+   <other-flags code="1" significance="1" />
    <loan-terms rate-1="4" rate-2="3">
     <repayment-type code="1" />
     <repayment-plan code="4" />
@@ -287,10 +291,11 @@
    </loan-status>
   </crs-add>
   <!--crs-add ends-->
-  <!--legacy-data starts-->
-  <legacy-data name="Project Status" value="7" iati-equivalent="activity-status" />
-  <legacy-data name="cost" value="1000" iati-equivalent="transaction" />
-  <!--legacy-data ends-->
+  <!--fss starts-->
+  <fss extraction-date="2014-05-06" priority="1" phaseout-year="2016">
+   <forecast year="2014" value-date="2013-07-03" currency="GBP">10000</forecast>
+  </fss>
+  <!--fss ends-->
  </iati-activity>
   <!--iati-activity ends-->	
 </iati-activities>
