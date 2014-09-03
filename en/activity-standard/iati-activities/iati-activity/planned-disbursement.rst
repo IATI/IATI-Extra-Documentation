@@ -7,3 +7,10 @@ The ``planned-disbursement`` element acts as a container for other sub elements:
 	:start-after: <!--planned-disbursement starts-->
 	:end-before: <!--planned-disbursement ends-->
 	:emphasize-lines: 1, 5
+
+Changelog
+~~~~~~~~~
+
+1.05
+^^^^
+A description was added to this element
