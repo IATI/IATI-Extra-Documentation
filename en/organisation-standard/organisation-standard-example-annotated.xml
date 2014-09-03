@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--This is example XML for the IATI organisation standard.  No reference to actual data or real organisations is intended-->
 <!--iati-organisations starts-->
-<iati-organisations generated-datetime="2014-05-06T10:15:37" version="1.04">
+<iati-organisations generated-datetime="2014-09-02T16:15:37" version="1.05">
  <!--iati-organisation starts-->
- <iati-organisation default-currency="EUR" last-updated-datetime="2014-05-06T10:15:37" xml:lang="en" version="1.04">
+ <iati-organisation default-currency="EUR" last-updated-datetime="2014-09-02T16:15:37" xml:lang="en" version="1.05">
   <!--reporting-org starts-->
   <reporting-org ref="AA-AAA-123456789" type="40" secondary-reporter="0">Organisation name</reporting-org>
   <!--reporting-org ends-->
