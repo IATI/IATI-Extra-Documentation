@@ -26,20 +26,32 @@ is strongly advised to migrate to the new endpoints given below.
 
 .. _codelist_api_1.04:
 
-Codelists in Version 1.04 of the standard
------------------------------------------
+Codelists in Version after v1.03 (v1.04, v1.05) of the standard
+---------------------------------------------------------------
 
-v1.04 of the standard - use either:
+The codelists matching the current version of the standard will always be found using either:
 
   * http://iatistandard.org/codelists/downloads/clv1/, or
-  * Http://iatistandard.org/codelists/downloads/clv2/
+  * http://iatistandard.org/codelists/downloads/clv2/
+  
+To 'lock in' to a particular version of the codelists (above v1.03) you may specify
+  * http://iatistandard.org/<version>/codelists/downloads/clv1/ 
 
-In  v1.04 of the standard a new codelists structure has been introduced for those that want to take advantage of it's improved features (see below). We're calling this codelist version 2 (CLv2). This forms the 'single source of truth' from which codelists in the current/existing format (now known as codelist version 1, or CLv1) are derived.
+For example: (note: use version number without the decimal point)
+  * http://iatistandard.org/104/codelists/downloads/clv1/ will always return v1.04 codelists
+  * http://iatistandard.org/105/codelists/downloads/clv1/ will always return v1.05 codelists
+  
+By locking into a specified version in this way, you can always guarantee you are getting the lists associated with that particular version of the standard, and 
+not accidentally move up to a new version when a new version is released.
 
-To switch to the current versions of the codelists with the updates required for version 1.04 of the standard use http://iatistandard.org/codelists/downloads/clv1/ 
-If you rely on the codelist API please read the notes on **Codelist API Compatibility in version 1.04 of the IATI Standard** below.
+In v1.04 of the standard a new codelists structure was introduced. To take advantage of it's improved features (see below). 
 
-To switch to the new improved version (version 1.04 of the standard only) you can either:
+We're calling this codelist version 2 (CLv2). This forms the 'single source of truth' from which codelists in the current/existing format (now known as codelist version 1, or CLv1) are derived.
+
+To switch to the current versions of the codelists with the updates required for that version of the standard use http://iatistandard.org/codelists/downloads/clv1/ 
+If you rely on the codelist API please read the notes on **Codelist API Compatibility in version 1.04 of the IATI Standard and above** below.
+
+To switch to the new improved version (version 1.04 of the standard and above) you can either:
 
 1. Download the files using this endpoint http://iatistandard.org/codelists/downloads/clv2/, or
 2. Work directly with GitHub to get the data (see below).
@@ -48,7 +60,17 @@ Working with GitHub Directly
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The codelist source is now on GitHub:
 
-- https://github.com/IATI/IATI-Codelists/tree/version-1.04/xml
+Embedded Codelists
+------------------
+Each version of the standard has it's own branch in this repository. Branches are named version-<version-number> e.g. version-1.05.
+So, for example, the version 1.05 codelists can be found at:
+
+- https://github.com/IATI/IATI-Codelists/tree/version-1.05/xml
+
+Non-Embedded Codelists
+----------------------
+These can change independently of IATI versions. The latest versions are always on the 'master' branch.
+
 - https://github.com/IATI/IATI-Codelists-NonEmbedded/tree/master/xml
 
 We use this source to create all derived versions, (CSV, JSON and all forms of coldelist version 1 files, as well as all the documentation on the iatistandard.org website)
@@ -70,12 +92,12 @@ As this work progressed, it became evident that for the codelists to work in tha
 
 3. Finally, more metadata, including a description, is now included in the codesists.
 
-Codelist API Compatibility in version 1.04 of the IATI Standard
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-If you wish to stay with the current codelist API system in 1.04 you will be able to do so, but there are a few things you should be aware of.
+Codelist API Compatibility in version 1.04 of the IATI Standard and above
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+If you wish to stay with the codelist API system used prior to v1.04 you will be able to do so, but there are a few things you should be aware of.
 
 * The 'metadata' link/call is no longer available (instead, some of this is now available in the new style code lists, and some is stored in the github repository metadata to be consistent with the rest of the Single Source of Truth)
-* Only the latest versions (those required in v1.04 of the standard) will be available through the API. If you need an older version use the static archives detailed above.
+* Only the latest versions (those required in v1.04 of the standard and above) will be available through the API. If you need an older version use the static archives detailed above.
 * URLs containing the version and/or language do not work. (for example in the past a url like: /data/codelist/AidTypeFlag/version/1.0/lang/en was possible. This will not work using the /codelists/downloads/clv1/ endpoint. Instead, translations, where available, are maintained in the codelist version 2 (CLv2) files.
 * The 'fields' element is no longer provided in the index XML/JSON (See http://data.aidinfolabs.org/data/codelist.xml and compare with http://iatistandard.org/codelists/downloads/clv1/codelist.xml
 * Version information is no longer provided in the XML.
