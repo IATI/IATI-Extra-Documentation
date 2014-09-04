@@ -127,6 +127,7 @@
     <narrative>Country Report 2013</narrative>	   
     <narrative xml:lang="fr">Rapport Pays 2013</narrative>
    </title>
+   <category code="B01" />
    <language code="en" />
    <recipient-country code="AF" />
    <recipient-country code="AX" />
