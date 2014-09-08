@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``default-finance-type`` declaring the ``FinanceType`` code *100*:
+Example ``default-finance-type`` declaring the ``FinanceType`` code *110* (*Aid grant excluding debt reorganisation*):
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml

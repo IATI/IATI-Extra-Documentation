@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 This is a child element of ``country-budget-items``
 
-Example that declares ``BudgetIdentifier`` code *1.1.1* (Executive - executive):
+Example that declares ``BudgetIdentifier`` code *1.1.1* (*Executive - executive*):
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml

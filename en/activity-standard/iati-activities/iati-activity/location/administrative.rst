@@ -1,6 +1,9 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example usage of ``administrative`` within context of ``location``:
+Example usage of ``administrative`` within context of ``location``
+
+| This example declares a ``GeographicVocabulary`` code *G1* (Geonames) and a relevant ``code``  from that vocabulary, alongside an appropriate ``level``: 
+
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml

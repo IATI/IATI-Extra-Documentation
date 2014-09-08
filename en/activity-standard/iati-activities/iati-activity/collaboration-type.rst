@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``collaboration-type`` declaring the ``CollaborationType`` code *1*:
+Example ``collaboration-type`` declaring the ``CollaborationType`` code *1* (*Bilateral*):
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml

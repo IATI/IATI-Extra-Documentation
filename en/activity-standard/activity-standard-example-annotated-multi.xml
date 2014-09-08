@@ -1,10 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!--This is example XML for the IATI activity standard.  No reference to actual data or real organisations is intended-->
-<!--iati-activities starts-->
+<!--This is example XML for the IATI activity standard.  No reference to actual data, real organisations or development cooperation models is intended.-->
 <!--iati-activities starts-->
 <iati-activities generated-datetime="2014-05-06T10:15:37" version="1.04" linked-data-default="http://data.example.org/">
   <!--iati-activity starts-->
- <iati-activity default-currency="EUR" last-updated-datetime="2014-05-06T10:15:37" hierarchy="1" version="1.04" linked-data-uri="http://data.example.org/123456789">
+ <iati-activity xml:lang="en" default-currency="EUR" last-updated-datetime="2014-05-06T10:15:37" hierarchy="1" version="1.04" linked-data-uri="http://data.example.org/123456789">
   <!--reporting-org starts-->
   <reporting-org ref="BB-BBB-123456789" type="40" secondary-reporter="1">Organisation Name</reporting-org>
   <!--reporting-org ends-->
@@ -100,8 +99,8 @@
   </country-budget-items>
   <!--country-budget-items ends-->
   <!--policy-marker starts-->
-  <policy-marker code="01" significance="3" vocabulary="DAC" />
-  <policy-marker code="02" significance="3" vocabulary="DAC" />
+  <policy-marker code="1" significance="3" vocabulary="DAC" />
+  <policy-marker code="2" significance="3" vocabulary="DAC" />
   <!--policy-marker ends-->
   <!--collaboration-type starts-->
   <collaboration-type code="1" />
@@ -157,51 +156,50 @@
   <!--capital-spend starts-->
   <capital-spend percentage="88.8" />
   <!--capital-spend ends-->
-  <!--transaction starts-->
-  <!--transaction 1 starts-->
+  <!--transaction multi-lang starts-->
   <transaction ref="XYZ">
-   <transaction-date iso-date="2012-01-31" />
-   <transaction-type code="C" />
    <value currency="EUR" value-date="2012-01-31">1000</value>
    <description>Description text</description>
    <description xml:lang="fr">Description text</description>   
+   <transaction-type code="C" />
    <provider-org provider-activity-id="BB-BBB-123456789-1234" ref="BB-BBB-123456789">Agency B</provider-org>
    <receiver-org receiver-activity-id="CC-CCC-123456789-1234" ref="CC-CCC-123456789">Agency C</receiver-org>
-   <disbursement-channel code="1" />
+   <transaction-date iso-date="2012-01-31" />
    <flow-type code="10" />
    <finance-type code="110" />
    <aid-type code="A01" />
    <tied-status code="3" />
+   <disbursement-channel code="1" />
   </transaction>
-  <!--transaction 1 ends-->
+  <!--transaction multi-lang ends-->
   <!--transaction starts-->
   <transaction ref="ABC">
-   <transaction-date iso-date="2012-01-01" />
-   <transaction-type code="C" />
    <value currency="EUR" value-date="2012-01-01">1000</value>
    <description>Description text</description>
    <description xml:lang="fr">Texte de description</description>
+   <transaction-type code="C" />
    <provider-org provider-activity-id="BB-BBB-123456789-1234" ref="BB-BBB-123456789">Agency B</provider-org>
    <receiver-org receiver-activity-id="CC-CCC-123456789-1234" ref="CC-CCC-123456789">Agency C</receiver-org>
-   <disbursement-channel code="1" />
+   <transaction-date iso-date="2012-01-01" />
    <flow-type code="10" />
    <finance-type code="110" />
    <aid-type code="A01" />   
    <tied-status code="3" />
+   <disbursement-channel code="1" />   
   </transaction>
   <transaction ref="1234">
-   <transaction-date iso-date="2012-01-01" />
-   <transaction-type code="IF" />
    <value currency="EUR" value-date="2012-01-01">1000</value>
    <description>Description text</description>
    <description xml:lang="fr">Texte de description</description>
+   <transaction-type code="IF" />
    <provider-org provider-activity-id="BB-BBB-123456789-1234AA" ref="BB-BBB-123456789">Agency B</provider-org>
    <receiver-org receiver-activity-id="AA-AAA-123456789-1234" ref="AA-AAA-123456789">Agency A</receiver-org>
-   <disbursement-channel code="1" />
+   <transaction-date iso-date="2012-01-01" />
    <flow-type code="10" />
    <finance-type code="110" />
    <aid-type code="A01" />
    <tied-status code="3" />
+   <disbursement-channel code="1" />
   </transaction>
   <!--transaction ends-->
   <!--document-link starts-->
@@ -213,27 +211,27 @@
   <!--document-link ends-->
   <!--document-link-lang starts-->
   <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
+   <title>Project report 2013</title>
+   <title xml:lang="fr">Rapport de projet 2013</title> 
    <category code="A01" />
    <language code="en" />
-   <title>Project report 2013</title>
-   <title xml:lang="fr">Rapport de projet 2013</title>   
   </document-link>  
   <!--document-link-lang ends-->    
   <!--document-link-language starts-->
   <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_fr.odt">
-   <category code="B01" />
-   <language code="fr" />
    <title>Project report 2013</title>
    <title xml:lang="fr">Rapport de projet 2013</title>
+   <category code="B01" />
+   <language code="fr" />
   </document-link>
   <!--document-link-language ends-->
   <!--multi-cat-document-link starts-->
   <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
+   <title>Project report 2013</title>
    <category code="A01" />
    <category code="A02" />
    <category code="A03" />
    <language code="en" />
-   <title>Project report 2013</title>
   </document-link>
   <!--multi-cat-document-link ends-->
   <!--activity-website starts-->
