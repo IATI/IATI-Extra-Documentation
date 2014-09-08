@@ -3,7 +3,7 @@
 <!--iati-activities starts-->
 <iati-activities generated-datetime="2014-05-06T10:15:37" version="1.04" linked-data-default="http://data.example.org/">
  <!--iati-activity starts-->	
- <iati-activity default-currency="EUR" last-updated-datetime="2014-05-06T10:15:37" hierarchy="1" version="1.04" linked-data-uri="http://data.example.org/123456789">
+ <iati-activity xml:lang="en" default-currency="EUR" last-updated-datetime="2014-05-06T10:15:37" hierarchy="1" version="1.04" linked-data-uri="http://data.example.org/123456789">
   <!--reporting-org starts-->
   <reporting-org ref="AA-AAA-123456789" type="21">Organisation Name</reporting-org>
   <!--reporting-org ends-->
