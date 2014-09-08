@@ -4,28 +4,14 @@
 <iati-activities generated-datetime="2014-07-15T17:15:37" version="2.01" linked-data-default="http://data.example.org/">
  <!--iati-activity starts-->	
  <iati-activity default-currency="EUR" last-updated-datetime="2014-07-15T17:15:37" linked-data-uri="http://data.example.org/123456789" hierarchy="1">
+  <!--iati-identifier starts-->
+  <iati-identifier>AA-AAA-123456789-ABC123</iati-identifier>
+  <!--iati-identifier ends-->
   <!--reporting-org starts-->
   <reporting-org ref="AA-AAA-123456789" type="40" secondary-reporter="0">
 	  <narrative>Organisation name</narrative>
   </reporting-org>
   <!--reporting-org ends-->
-  <!--participating-org starts-->
-  <participating-org ref="BB-BBB-123456789" role="2" type="40">
-	<narrative>Agency B</narrative>
-  </participating-org>
-  <participating-org ref="CC-CCC-123456789" role="1" type="10">
-	<narrative>Agency C</narrative>
-  </participating-org>	  
-  <participating-org ref="AA-AAA-123456789" role="3" type="21">
-	<narrative>Agency A</narrative>
-  </participating-org>
-  <!--participating-org ends-->
-  <!--iati-identifier starts-->
-  <iati-identifier>AA-AAA-123456789-ABC123</iati-identifier>
-  <!--iati-identifier ends-->
-  <!--other-identifier starts-->
-  <other-identifier owner-name="Agency A" owner-ref="AA-AAA-123456789">ABC123-XYZ</other-identifier>
-  <!--other-identifier ends-->
   <!--title starts-->
   <title>
    <narrative>Activity title</narrative>
@@ -47,6 +33,20 @@
    <narrative xml:lang="fr">Déclaration de groupes ciblés pour bénéficier de l'activité.</narrative>
   </description>
   <!--description ends-->
+  <!--participating-org starts-->
+  <participating-org ref="BB-BBB-123456789" role="2" type="40">
+	<narrative>Agency B</narrative>
+  </participating-org>
+  <participating-org ref="CC-CCC-123456789" role="1" type="10">
+	<narrative>Agency C</narrative>
+  </participating-org>	  
+  <participating-org ref="AA-AAA-123456789" role="3" type="21">
+	<narrative>Agency A</narrative>
+  </participating-org>
+  <!--participating-org ends-->
+  <!--other-identifier starts-->
+  <other-identifier owner-name="Agency A" owner-ref="AA-AAA-123456789">ABC123-XYZ</other-identifier>
+  <!--other-identifier ends-->
   <!--activity-status starts-->
   <activity-status code="2" />
   <!--activity-status ends-->
