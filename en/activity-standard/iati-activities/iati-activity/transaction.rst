@@ -10,7 +10,7 @@ At the ``transaction`` level, the attribute ``ref`` can be used to describe refe
         ....
         </transaction>
 
-Example:
+Example ``transaction``:
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
@@ -26,10 +26,10 @@ Full example with additional elements which can override the default value set i
 	:end-before: <!--full transaction ends-->
 	:emphasize-lines: 1, 13
 	    
-An ``iati-activity`` can have multiple ``transaction`` elements:
+An ``iati-activity`` can have multiple ``transaction`` elements.
 
 .. literalinclude:: ../../activity-standard-example-annotated-multi.xml
 	:language: xml
 	:start-after: <!--transaction starts-->
 	:end-before: <!--transaction ends-->
-	:emphasize-lines: 1, 13, 14, 26
+	:emphasize-lines: 1, 14, 15, 28

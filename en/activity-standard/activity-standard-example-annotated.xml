@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!--This is example XML for the IATI activity standard.  No reference to actual data or real organisations is intended-->
+<!--This is example XML for the IATI activity standard.  No reference to actual data, real organisations or development cooperation models is intended.-->
 <!--iati-activities starts-->
 <iati-activities generated-datetime="2014-09-02T16:15:37" version="1.05" linked-data-default="http://data.example.org/">
   <!--iati-activity starts-->
- <iati-activity default-currency="EUR" last-updated-datetime="2014-09-02T16:15:37" hierarchy="1" version="1.05" linked-data-uri="http://data.example.org/123456789">
+ <iati-activity xml:lang="en" default-currency="EUR" last-updated-datetime="2014-09-02T16:15:37" hierarchy="1" version="1.05" linked-data-uri="http://data.example.org/123456789">
   <!--reporting-org starts-->
   <reporting-org ref="AA-AAA-123456789" type="21">Organisation Name</reporting-org>
   <!--reporting-org ends-->
@@ -34,9 +34,9 @@
    <organisation>Agency A</organisation>
    <person-name>A. Example</person-name>
    <job-title>Transparency Lead</job-title>
-   <mailing-address>Transparency House, The Street, Town, City, Postcode</mailing-address>
    <telephone>0044111222333444</telephone>
    <email>transparency@example.org</email>
+   <mailing-address>Transparency House, The Street, Town, City, Postcode</mailing-address>   
    <website>http://www.example.org</website>
   </contact-info>
   <!--contact-info ends-->
@@ -82,7 +82,7 @@
   </country-budget-items>
   <!--country-budget-items ends-->
   <!--policy-marker starts-->
-  <policy-marker code="01" significance="3" vocabulary="DAC" />
+  <policy-marker code="2" significance="3" vocabulary="DAC" />
   <!--policy-marker ends-->
   <!--collaboration-type starts-->
   <collaboration-type code="1" />
@@ -118,35 +118,35 @@
   <!--capital-spend ends-->
   <!--min transaction starts-->
   <transaction ref="1234">
-   <transaction-date iso-date="2012-01-01">2012-01-01</transaction-date>
-   <transaction-type code="IF" />
-   <value currency="EUR" value-date="2012-01-01">1000</value>   
+   <value currency="EUR" value-date="2012-01-01">1000</value>  
    <description>Transaction description text</description>
+   <transaction-type code="IF" />
    <provider-org provider-activity-id="BB-BBB-123456789-1234AA" ref="BB-BBB-123456789">Agency B</provider-org>
    <receiver-org receiver-activity-id="AA-AAA-123456789-1234" ref="AA-AAA-123456789">Agency A</receiver-org>
+   <transaction-date iso-date="2012-01-01" />
    <disbursement-channel code="1" />
   </transaction>
   <!--min transaction ends-->
   <!--full transaction starts-->
   <transaction ref="1234">
-   <transaction-date iso-date="2012-01-01" />
-   <transaction-type code="IF" />
    <value currency="EUR" value-date="2012-01-01">1000</value>   
    <description>Transaction description text</description>
+   <transaction-type code="IF" />
    <provider-org provider-activity-id="BB-BBB-123456789-1234AA" ref="BB-BBB-123456789">Agency B</provider-org>
    <receiver-org receiver-activity-id="AA-AAA-123456789-1234" ref="AA-AAA-123456789">Agency A</receiver-org>
+   <transaction-date iso-date="2012-01-01" />
+   <flow-type code="20" />
+   <finance-type code="111" />
+   <aid-type code="A02" />   
+   <tied-status code="5" />
    <disbursement-channel code="1" />
-   <flow-type code="10" />
-   <finance-type code="110" />
-   <aid-type code="A01" />   
-   <tied-status code="3" />
   </transaction>
   <!--full transaction ends-->
   <!--document-link starts-->
   <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
+   <title>Project report 2013</title>
    <category code="A01" />
    <language code="en" />
-   <title>Project report 2013</title>
   </document-link>
   <!--document-link ends-->
   <!--activity-website starts-->

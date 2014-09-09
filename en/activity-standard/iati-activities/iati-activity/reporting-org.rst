@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``reporting-org`` with ``ref`` *AA-AAA-123456789* and ``OrganisationType`` code *21*:
+Example ``reporting-org`` with ``ref`` *AA-AAA-123456789* and ``OrganisationType`` code *21* (*International NGO*):
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml

@@ -6,4 +6,4 @@ Example ``email`` within ``contact-info`` containing all possible child elements
 	:language: xml
 	:start-after: <!--contact-info starts-->
 	:end-before: <!--contact-info ends-->
-	:emphasize-lines: 7
+	:emphasize-lines: 6

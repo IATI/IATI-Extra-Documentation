@@ -19,7 +19,7 @@ The ``iati-activity`` element acts as a container for other sub-elements.  It is
 
 .. literalinclude:: ../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--crs-add ends-->	
+	:start-after: <!--legacy-data ends-->	
 	:end-before: <!--iati-activity ends-->
 	
 Changelog

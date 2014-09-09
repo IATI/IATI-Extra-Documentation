@@ -6,7 +6,7 @@ Example usage of ``description`` in context of ``transaction`` element.
 	:language: xml
 	:start-after: <!--min transaction starts-->
 	:end-before: <!--min transaction ends-->
-	:emphasize-lines: 5
+	:emphasize-lines: 3
 	
 Full example with additional elements which can override the default value set in ``iati-activity``:  
 
@@ -14,14 +14,14 @@ Full example with additional elements which can override the default value set i
 	:language: xml
 	:start-after: <!--full transaction starts-->
 	:end-before: <!--full transaction ends-->
-	:emphasize-lines: 5
+	:emphasize-lines: 3
 	
 It may be appropriate to repeat the ``description`` in other languages using ``xml:lang`` attribute.  
-In this example, the language *en* has been set in the ''iati-activity'' element:
+In this example, the language *en* has been set in the ``iati-activity`` element:
 
 .. literalinclude:: ../../../activity-standard-example-annotated-multi.xml
 	:language: xml
-	:start-after: <!--transaction 1 starts-->
-	:end-before: <!--transaction 1 ends-->
-	:emphasize-lines: 5, 6
+	:start-after: <!--transaction multi-lang starts-->
+	:end-before: <!--transaction multi-lang ends-->
+	:emphasize-lines: 4
 

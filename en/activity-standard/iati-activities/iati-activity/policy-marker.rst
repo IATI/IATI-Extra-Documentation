@@ -1,7 +1,8 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``policy-marker`` that declares a ``PolicyMarker`` code *04`, with a ``PolicySignificance`` code of *2*.  
-In this example, the ``vocabulary`` *DAC* is also declared:
+Example ``policy-marker`` that declares a ``PolicyMarker`` code *2*, with a ``PolicySignificance`` code of *3*.
+ 
+| In this example, the ``vocabulary`` *DAC* is also declared:
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
