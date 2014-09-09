@@ -23,5 +23,5 @@ In this example, the language *en* has been set in the ``iati-activity`` element
 	:language: xml
 	:start-after: <!--transaction multi-lang starts-->
 	:end-before: <!--transaction multi-lang ends-->
-	:emphasize-lines: 3, 4
+	:emphasize-lines: 4
 

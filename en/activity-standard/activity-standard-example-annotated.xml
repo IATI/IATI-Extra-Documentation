@@ -123,7 +123,7 @@
    <transaction-type code="IF" />
    <provider-org provider-activity-id="BB-BBB-123456789-1234AA" ref="BB-BBB-123456789">Agency B</provider-org>
    <receiver-org receiver-activity-id="AA-AAA-123456789-1234" ref="AA-AAA-123456789">Agency A</receiver-org>
-   <transaction-date iso-date="2012-01-01">2012-01-01</transaction-date>
+   <transaction-date iso-date="2012-01-01" />
    <disbursement-channel code="1" />
   </transaction>
   <!--min transaction ends-->
