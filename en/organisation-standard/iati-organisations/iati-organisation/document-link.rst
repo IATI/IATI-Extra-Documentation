@@ -1,6 +1,8 @@
 Example Usage
 ~~~~~~~~~~~~~
-| Example ``document-link`` with ``FileFormat`` *application/vnd.oasis.opendocument.text*.
+| Example ``document-link``
+
+| The ``FileFormat`` is declared as *application/vnd.oasis.opendocument.text*.
 | The ``DocumentCategory`` is declared as *B01*.
 | 
 | Note: ``DocumentCategory`` codes with the *B* ``DocumentCategory-category`` prefix are recommended within the **IATI organisation standard**  ``document-link`` element.
@@ -9,7 +11,7 @@ Example Usage
 	:language: xml
 	:start-after: <!--document-link starts-->
 	:end-before: <!--document-link ends-->
-	:emphasize-lines: 1, 5
+	:emphasize-lines: 1, 8
 	
 Changelog
 ~~~~~~~~~

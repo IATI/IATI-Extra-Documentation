@@ -6,4 +6,4 @@ Example usage of ``recipient-country`` in context of ``recipient-country-budget`
 	:language: xml
 	:start-after: <!--recipient-country-budget starts-->
 	:end-before: <!--recipient-country-budget ends-->
-	:emphasize-lines: 2, 8, 14
+	:emphasize-lines: 2, 4, 18, 24

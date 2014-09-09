@@ -8,4 +8,4 @@ A date in ISO 8601 format (YYYY-MM-DD) for the ``period-end`` date of the report
 	:language: xml
 	:start-after: <!--recipient-org-budget starts-->
 	:end-before: <!--recipient-org-budget ends-->
-	:emphasize-lines: 4, 10, 16
+	:emphasize-lines: 6, 22, 30
