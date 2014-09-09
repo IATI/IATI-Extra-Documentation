@@ -1,8 +1,8 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example of ``iati-organisation`` with ``last updated-datetime`` of on 6th May 2014. 
+Example of ``iati-organisation`` with ``last updated-datetime`` of on 2nd September 2014. 
 Language set as *en* (English) and a ``default-currency`` to *EUR* (Euros).  
-The optional ``version`` of *1.04* is also stated:
+The optional ``version`` of *1.05* is also stated:
 
 .. literalinclude:: ../organisation-standard-example-annotated.xml
 	:language: xml

@@ -1,12 +1,12 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example of ``iati-activity`` with ``last updated-datetime`` of on 6th May 2014.
+Example of ``iati-activity`` with ``last updated-datetime`` of on 2nd September 2014.
  
 Language set as *en* (English) and a ``default-currency`` to *EUR* (Euros).
 
 An optional attribute of ``hierarchy`` is set as *1*
 
-An optional ``version`` of *1.04* is also stated.
+An optional ``version`` of *1.05* is also stated.
 
 The optional attribute ``linked-data-uri`` (introduced in the decimal upgrade 1.02) is also included:
 
