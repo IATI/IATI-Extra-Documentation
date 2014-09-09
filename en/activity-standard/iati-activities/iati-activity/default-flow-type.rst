@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``default-flow-type`` declaring the ``FlowType`` code *10*:
+Example ``default-flow-type`` declaring the ``FlowType`` code *10* (*ODA*):
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml

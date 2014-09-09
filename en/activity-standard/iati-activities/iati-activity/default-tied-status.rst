@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``default-tied-status`` declaring the ``TiedStatus`` code *5*:
+Example ``default-tied-status`` declaring the ``TiedStatus`` code *3* (*Partially tied*):
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml

@@ -7,16 +7,17 @@ Example Usage
 	:language: xml
 	:start-after: <!--document-link starts-->
 	:end-before: <!--document-link ends-->
-	:emphasize-lines: 3
+	:emphasize-lines: 4
 
-| It may be appropriate to repeat the ``document-link`` element if the document is available in other languages:
-| Note: This specifies the language of the document being linked to.  In this example, the ``title`` element still uses ``xml:lang`` to declare the title in two languages.
+| It may be appropriate to repeat the ``document-link`` element if the document is available in other languages:.
+|
+| Note: This specifies the language of the document being linked to.  In this example, the ``title`` element still uses ``xml:lang`` to declare the title text in two languages.
 
 .. literalinclude:: ../../../activity-standard-example-annotated-multi.xml
 	:language: xml
 	:start-after: <!--document-link-language starts-->
 	:end-before: <!--document-link-language ends-->
-	:emphasize-lines: 3
+	:emphasize-lines: 5
 
 
 Changelog

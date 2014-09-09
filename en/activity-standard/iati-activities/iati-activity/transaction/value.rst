@@ -10,7 +10,7 @@ The ISO 4217 code for the ``currency`` in which the ``transaction`` is denominat
 	:language: xml
 	:start-after: <!--min transaction starts-->
 	:end-before: <!--min transaction ends-->
-	:emphasize-lines: 4
+	:emphasize-lines: 2
 
 Full example with additional elements which can override the default value set in ``iati-activity``: 
 
@@ -18,7 +18,7 @@ Full example with additional elements which can override the default value set i
 	:language: xml
 	:start-after: <!--full transaction starts-->
 	:end-before: <!--full transaction ends-->
-	:emphasize-lines: 4
+	:emphasize-lines: 2
 	
 Changelog
 ~~~~~~~~~

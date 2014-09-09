@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 The ``country-budget-items`` element acts as a container for other sub elements.
 
-Example ``country-budget-items`` that declares ``BudgetIdentifierVocabulary`` code *2* (Country Chart of Accounts):
+Example ``country-budget-items`` that declares ``BudgetIdentifierVocabulary`` code *2* (*Country Chart of Accounts*):
 
 .. code-block:: xml
 

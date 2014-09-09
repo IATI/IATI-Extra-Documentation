@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!--This is example XML for the IATI activity standard.  No reference to actual data or real organisations is intended-->
+<!--This is example XML for the IATI activity standard.  No reference to actual data, real organisations or development cooperation models is intended.-->
 <!--iati-activities starts-->
 <iati-activities generated-datetime="2014-07-15T17:15:37" version="2.01" linked-data-default="http://data.example.org/">
  <!--iati-activity starts-->	
- <iati-activity default-currency="EUR" last-updated-datetime="2014-07-15T17:15:37" linked-data-uri="http://data.example.org/123456789" hierarchy="1">
+ <iati-activity xml:lang="en" default-currency="EUR" last-updated-datetime="2014-07-15T17:15:37" linked-data-uri="http://data.example.org/123456789" hierarchy="1">
   <!--iati-identifier starts-->
   <iati-identifier>AA-AAA-123456789-ABC123</iati-identifier>
   <!--iati-identifier ends-->
@@ -73,6 +73,7 @@
    </job-title>
    <telephone>0044111222333444</telephone>
    <email>transparency@example.org</email>
+   <mailing-address>Transparency House, The Street, Town, City, Postcode</mailing-address>   
    <website>http://www.example.org</website>
    <mailing-address>
 	<narrative>Transparency House, The Street, Town, City, Postcode</narrative>
@@ -124,7 +125,7 @@
   </country-budget-items>
   <!--country-budget-items ends-->
   <!--policy-marker starts-->
-  <policy-marker code="01" significance="3" vocabulary="DAC" />
+  <policy-marker code="2" significance="3" vocabulary="DAC" />
   <!--policy-marker ends-->
   <!--collaboration-type starts-->
   <collaboration-type code="1" />

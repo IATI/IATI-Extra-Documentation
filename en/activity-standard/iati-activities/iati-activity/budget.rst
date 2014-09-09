@@ -3,7 +3,7 @@ Example Usage
 | The ``budget`` element acts as a container for other sub elements.
 | 
 | The attribute ``type`` should declare the relevant ``BudgetType`` code.  
-| If omitted, then ``BudgetType`` *Original* (code 1) is assumed:
+| If omitted, then ``BudgetType`` code *1* (*Original*) is assumed:
 | 
 | Example ``budget`` for a single year:
 

@@ -13,12 +13,11 @@ The unique Organisation Identifier for the ``provider-org``:
 
         <provider-org ref="BB-BBB-123456789-1234AA">Agency B</provider-org>
 
-If the funds are being provided from another reported ``iati-activity``, this
-must record the unique ``iati-identifier`` for that ``iati-activity``:
+If the funds are being provided from another reported ``iati-activity``, the unique ``iati-identifier`` is included:
 
 .. code-block:: xml
 
-        <provider-org ref="BB-BBB-123456789" provider-activity-id="BB-BBB-123456789-1234AA" >Agency B</provider-org>
+        <provider-org ref="BB-BBB-123456789" provider-activity-id="BB-BBB-123456789-1234AA">Agency B</provider-org>
         
 Full example:
 
@@ -26,7 +25,7 @@ Full example:
 	:language: xml
 	:start-after: <!--min transaction starts-->
 	:end-before: <!--min transaction ends-->
-	:emphasize-lines: 6
+	:emphasize-lines: 5
 
 Full example with additional elements which can override the default value set in ``iati-activity``:  
 
@@ -34,4 +33,4 @@ Full example with additional elements which can override the default value set i
 	:language: xml
 	:start-after: <!--full transaction starts-->
 	:end-before: <!--full transaction ends-->
-	:emphasize-lines: 6
+	:emphasize-lines: 5

@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example of an ``activity-scope`` with ``ActivityScope`` code *3* (Multi-national):
+Example of an ``activity-scope`` with ``ActivityScope`` code *3* (*Multi-national*):
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml

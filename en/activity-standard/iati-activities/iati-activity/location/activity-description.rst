@@ -15,7 +15,7 @@ It may be appropriate to repeat the ``activity-description`` in other languages 
 	:language: xml
 	:start-after: <!--location starts-->
 	:end-before: <!--location ends-->
-	:emphasize-lines: 6
+	:emphasize-lines: 8
 
 
 Changelog
