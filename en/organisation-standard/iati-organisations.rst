@@ -1,7 +1,7 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example of ``iati-organisations`` with ``generated-datetime`` of on 6th May 2014. 
-The ``version`` of *1.04* of the **IATI organisation standard** is stated:
+Example of ``iati-organisations`` with ``generated-datetime`` of on 2nd September 2014. 
+The ``version`` of *1.05* of the **IATI organisation standard** is stated:
 
 .. literalinclude:: organisation-standard-example-annotated.xml
 	:language: xml
