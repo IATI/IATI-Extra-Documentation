@@ -73,7 +73,6 @@
    </job-title>
    <telephone>0044111222333444</telephone>
    <email>transparency@example.org</email>
-   <mailing-address>Transparency House, The Street, Town, City, Postcode</mailing-address>   
    <website>http://www.example.org</website>
    <mailing-address>
 	<narrative>Transparency House, The Street, Town, City, Postcode</narrative>
