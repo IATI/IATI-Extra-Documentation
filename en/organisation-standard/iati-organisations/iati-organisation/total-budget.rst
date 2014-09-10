@@ -13,4 +13,4 @@ Example Usage
 	:language: xml
 	:start-after: <!--total-budget starts-->
 	:end-before: <!--total-budget ends-->
-	:emphasize-lines: 1, 13, 18, 19, 22
+	:emphasize-lines: 1, 13, 18, 19, 23
