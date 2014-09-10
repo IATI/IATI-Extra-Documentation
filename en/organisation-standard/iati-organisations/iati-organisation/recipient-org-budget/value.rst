@@ -10,7 +10,7 @@ The ISO 4217 code for the ``currency`` in which the ``recipient-org-budget`` is 
 	:language: xml
 	:start-after: <!--recipient-org-budget starts-->
 	:end-before: <!--recipient-org-budget ends-->
-	:emphasize-lines: 5, 11, 17
+	:emphasize-lines: 7, 23, 31
 			
 Changelog
 ~~~~~~~~~
