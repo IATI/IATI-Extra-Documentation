@@ -60,8 +60,8 @@
   <recipient-country code="AL" percentage="50" />
   <!--recipient-country ends-->
   <!--recipient-region starts-->
-  <recipient-region code="456" percentage="50" vocabulary="1" />
-  <recipient-region code="123" percentage="50" vocabulary="1" />
+  <recipient-region code="498" percentage="50" vocabulary="1" />
+  <recipient-region code="289" percentage="50" vocabulary="1" />
   <!--recipient-region ends-->
   <!--location starts-->
   <location ref="AF-KAN">
