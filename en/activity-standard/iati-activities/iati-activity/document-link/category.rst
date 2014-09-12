@@ -1,17 +1,13 @@
 Example Usage
 ~~~~~~~~~~~~~
-| Example declaring the ``DocumentCategory`` code *A01*:
+| Example  usage of ``category`` of a ``document-link`` in an ``iati-activity``.
+
+| This examples declares the ``DocumentCategory`` code *A01* with the ``code`` attribute.
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--document-link starts-->
 	:end-before: <!--document-link ends-->
-	:emphasize-lines: 3
+	:emphasize-lines: 6
 
-| Example declaring multiple ``DocumentCategory`` codes for the same ``document-link``:
-
-.. literalinclude:: ../../../activity-standard-example-annotated-multi.xml
-	:language: xml
-	:start-after: <!--multi-cat-document-link starts-->
-	:end-before: <!--multi-cat-document-link ends-->
-	:emphasize-lines: 3, 4, 5
+| Note: multiple categories are expressed by repeating the ``category`` element.		

@@ -1,22 +1,16 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``condition`` attached, with ``ConditionType`` code *1* (*Policy*):
+Example ``condition`` child element of ``conditions`` of an ``iati-activity``.
+
+| This example declares ``ConditionType`` code *1* (*Policy*) with the ``type`` attribute
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--conditions starts-->
 	:end-before: <!--conditions ends-->
-	:emphasize-lines: 2
-	
-From version 1.04, the schema allows the ``xml:lang`` attribute to also be included in the sub-element ``condition``
-|
-| Example of an ``iati-activity`` with two ``conditions``, declared in the default language of *en*,  and also *fr*:
+	:emphasize-lines: 2, 5
 
-.. literalinclude:: ../../../activity-standard-example-annotated-multi.xml	
-	:language: xml
-	:start-after: <!--conditions starts-->
-	:end-before: <!--conditions ends-->
-	:emphasize-lines: 2, 3, 4, 5
+| Note: multiple conditions are expressed by repeating the ``condition`` element.	
 
 Changelog
 ~~~~~~~~~

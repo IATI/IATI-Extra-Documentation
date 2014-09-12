@@ -1,22 +1,18 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example usage of ``administrative`` within context of ``location``
+Example usage of ``administrative`` within a ``location`` of an ``iati-activity``.
 
-| This example declares a ``GeographicVocabulary`` code *G1* (Geonames) and a relevant ``code``  from that vocabulary, alongside an appropriate ``level``: 
+| This example declares a ``GeographicVocabulary`` code *G1* (*Geonames*) with the ``vocabulary`` attribute.
 
+| An example value of *1453782* from that vocabulary is declared in the ``code`` attribute.
+
+| An example value of *1* is declared for the ``level`` attribute. 
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--location starts-->
 	:end-before: <!--location ends-->
-	:emphasize-lines: 6
-
-Prior to 1.04 National and sub-national administrative divisions could be declared as
-such (but as of 1.04 the @country, @adm1 and @adm2 attributes are deprecated):
-
-.. code-block:: xml
-
-    <administrative country="AF" adm1="KAN">Kandahar Province, Afghanistan</administrative>
+	:emphasize-lines: 13
 
 Changelog
 ~~~~~~~~~

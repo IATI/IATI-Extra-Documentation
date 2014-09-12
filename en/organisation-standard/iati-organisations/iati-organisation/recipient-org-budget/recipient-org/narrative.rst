@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-The ``narrative`` sub-element can be used to declare freetext for the ``recipient-org`` element.
+The ``narrative`` child element can be used to declare freetext for the ``recipient-org`` element.
 
 .. literalinclude:: ../../../../organisation-standard-example-annotated.xml
 	:language: xml
@@ -8,7 +8,7 @@ The ``narrative`` sub-element can be used to declare freetext for the ``recipien
 	:end-before: <!--recipient-org-budget ends-->
 	:emphasize-lines: 3, 19, 27
 
-Note: The ``narrative`` element can be repeated for any language additional to the default language set in ``iati-organisations``, by using the ``xml:lang`` attribute.  Example not shown.
+Note: The ``narrative`` element can be repeated for any language additional to the default language set in ``iati-organisation``, by using the ``xml:lang`` attribute.  Example not shown.
 		
 	
 Changelog

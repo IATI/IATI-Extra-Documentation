@@ -1,8 +1,8 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example of ``iati-activities`` with ``generated-datetime`` of on 2nd September 2014.
+Example of ``iati-activities`` with ``generated-datetime`` of on 10th September 2014.
  
-The ``version`` of *1.05* of the **IATI activity standard** is stated.
+The ``version`` of *2.01* of the **IATI activity standard** is stated.
 
 The optional ``linked-data-default`` is also included
 

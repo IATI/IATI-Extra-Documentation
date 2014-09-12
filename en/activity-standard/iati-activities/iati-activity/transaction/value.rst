@@ -1,24 +1,16 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example usage of ``value`` in context of ``transaction`` element.
+Example usage of ``value`` of a ``transaction`` in an ``iati-activity``.
 
-A ``value-date`` for currency conversions must be provided in ISO 8601 format (YYYY-MM-DD).
+| A date in ISO 8601 format (YYYY-MM-DD) for the ``value-date`` attribute is required.
 
-The ISO 4217 code for the ``currency`` in which the ``transaction`` is denominated should be declared using the ``Currency`` codelist, but only if different to ``default-currency`` in the ``iati-activity`` element.
-
-.. literalinclude:: ../../../activity-standard-example-annotated.xml
-	:language: xml
-	:start-after: <!--min transaction starts-->
-	:end-before: <!--min transaction ends-->
-	:emphasize-lines: 2
-
-Full example with additional elements which can override the default value set in ``iati-activity``: 
+| The ISO 4217 code for the ``currency`` in which the ``transaction`` is denominated should be declared using the ``Currency`` codelist, but only if different to ``default-currency`` in the ``iati-activity`` element.
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--full transaction starts-->
-	:end-before: <!--full transaction ends-->
-	:emphasize-lines: 2
+	:start-after: <!--transaction starts-->
+	:end-before: <!--transaction ends-->
+	:emphasize-lines: 4
 	
 Changelog
 ~~~~~~~~~

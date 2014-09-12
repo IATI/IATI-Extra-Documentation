@@ -1,6 +1,8 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``default-tied-status`` declaring the ``TiedStatus`` code *3* (*Partially tied*):
+Example ``default-tied-status``  for an ``iati-activity``.
+
+| This example declares ``TiedStatus`` code *3* (*Partially tied*) with the ``code`` attribute.
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml

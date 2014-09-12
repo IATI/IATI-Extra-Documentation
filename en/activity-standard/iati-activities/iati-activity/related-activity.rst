@@ -1,25 +1,16 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``related-activity`` with ``RelatedActivityType`` code *1* and ``ref`` for another ``iati-activity``: *AA-AAA-123456789-6789*:
+Example ``related-activity`` of an ``iati-activity``.
+
+| This example declares a ``RelatedActivityType`` code *1* (*Parent*) with the ``type`` attribute.
+
+| An example ``ref`` for another ``iati-activity`` of *AA-AAA-123456789-6789* is provided.
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--related-activity starts-->
 	:end-before: <!--related-activity ends-->
 
-Multiple ``related-activity`` can be declared:
+| Note: multiple related activities are expressed by repeating the ``related-activity`` element.	
 
-.. literalinclude:: ../../activity-standard-example-annotated-multi.xml
-	:language: xml
-	:start-after: <!--related-activity starts-->
-	:end-before: <!--related-activity ends-->
-	
-Additionally, a text title of the specific related ``iati-activity`` can be provided:
-
-.. code-block:: xml
-
-        <related-activity ref="AA-AAA-123456789-ABC" type="3">Related activity name</related-activity>
-
-
-  
 

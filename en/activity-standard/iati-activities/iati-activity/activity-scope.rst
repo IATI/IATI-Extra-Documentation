@@ -1,6 +1,8 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example of an ``activity-scope`` with ``ActivityScope`` code *3* (*Multi-national*):
+Example of an ``activity-scope`` of an ``iati-activity``.
+
+| This example declares ``ActivityScope`` code *3* (*Multi-national*) for the attribute ``code``.
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml

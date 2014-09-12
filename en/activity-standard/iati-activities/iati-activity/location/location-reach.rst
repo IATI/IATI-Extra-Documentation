@@ -1,14 +1,14 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example usage of ``location-reach`` within context of ``location``
+Example usage of ``location-reach`` within a ``location`` of an ``iati-activity``.
 
-| This example declares a ``GeographicLocationReach`` code *1* (Activity):
+| This example declares a ``GeographicLocationReach`` code *1* (Activity) with the ``code`` attribute.
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--location starts-->
 	:end-before: <!--location ends-->
-	:emphasize-lines: 11
+	:emphasize-lines: 2
 
 
 

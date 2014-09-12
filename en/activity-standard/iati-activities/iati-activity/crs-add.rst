@@ -1,6 +1,16 @@
 Example Usage
 ~~~~~~~~~~~~~
-The ``crs-add`` element acts as a container for other elements.
+Example ``crs-add`` for an ``iati-activity``.
+
+| This element is a parent for other child element.
+
+.. code-block:: xml
+
+     <crs-add attached="1">
+     ...
+     </crs-add>
+     
+| Full example with all child elements: 
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml

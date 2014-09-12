@@ -1,13 +1,13 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example usage of ``tied-status`` in context of ``transaction`` element.
+Example usage of ``tied-status`` of a ``transaction`` in an ``iati-activity``.
 
-Example declaring the ``TiedStatus`` code *5* (*Untied*):
+| This example declares the ``TiedStatus`` code *5* (*Untied*) with the ``code`` attribute.
 
-The ``tied-status`` element can override the ``default-tied-status`` value set in ``iati-activity``: 
+| Note: The ``tied-status`` element can override the ``default-tied-status`` value set in ``iati-activity``: 
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--full transaction starts-->
-	:end-before: <!--full transaction ends-->
-	:emphasize-lines: 11
+	:start-after: <!--transaction starts-->
+	:end-before: <!--transaction ends-->
+	:emphasize-lines: 20

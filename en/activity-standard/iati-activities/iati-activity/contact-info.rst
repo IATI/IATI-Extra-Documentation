@@ -1,22 +1,24 @@
 Example Usage
 ~~~~~~~~~~~~~
-This element acts as a container for other sub elements.
+Example ``contact-info`` for an ``iati-activity``.
 
-Example ``contact-info`` that declares ``ContactType`` code *1*:
+| This element is a parent for other child elements.
+
+| This example declares ``ContactType`` code *1* (*General Enquiries*) with the ``type`` attribute.
 
 .. code-block:: xml
 
-        <contact-info type="1">
-           ....
-        </contact-info>
+	<contact-info type="1">
+	...
+	</contact-info>
 
-Example ``contact-info`` containing all possible child elements: ``organisation`` ; ``person-name`` ; ``job-title`` ; ``mailing-address`` ; ``telephone`` ; ``email`` ; ``website``
+| Full example with all child elements:
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--contact-info starts-->
 	:end-before: <!--contact-info ends-->
-	:emphasize-lines: 1, 9
+	:emphasize-lines: 1, 20
 
 Changelog
 ~~~~~~~~~

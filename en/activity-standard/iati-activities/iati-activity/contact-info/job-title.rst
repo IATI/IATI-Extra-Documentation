@@ -1,12 +1,12 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``job-title`` within ``contact-info`` containing all possible child elements:
+Example ``job-title`` within ``contact-info`` of an ``iati-activity``
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--contact-info starts-->
 	:end-before: <!--contact-info ends-->
-	:emphasize-lines: 4
+	:emphasize-lines: 11, 13
 
 
 Changelog

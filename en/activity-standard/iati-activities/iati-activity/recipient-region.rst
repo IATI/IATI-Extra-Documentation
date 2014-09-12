@@ -1,26 +1,21 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``recipient-region`` with relevant ``Region`` code.
-The optional ``RegionVocabulary`` is also be declared
+Example ``recipient-region`` of an ``iati=activity``. 
 
+| This examples declares ``Region`` code *456* with the ``code`` attribute.
+
+| The optional ``RegionVocabulary`` is also be declared as *1* (*OECD DAC*)
+
+.. code-block:: xml
+
+	<recipient-region code="489" vocabulary="1" />
+
+When multiple ``recipient-region`` are declared, then the ``percentage`` values should sum to 100% for the specific ``iati-activity``.
+        
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--recipient-region starts-->
 	:end-before: <!--recipient-region ends-->
-
-When multiple ``recipient-region`` are declared, then the ``percentage`` values should sum to 100% for the specific ``iati-activity``:
-
-.. literalinclude:: ../../activity-standard-example-annotated-multi.xml
-	:language: xml
-	:start-after: <!--recipient-region starts-->
-	:end-before: <!--recipient-region ends-->
-	
-Additionally, the name of the ``Region`` can also be declared:
-
-.. code-block:: xml
-
-    <recipient-region code="289">South of Sahara, regional<recipient-region>
-
 
 Changelog
 ~~~~~~~~~

@@ -1,9 +1,9 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``mailing-address`` within ``contact-info`` containing all possible child elements:
+Example ``mailing-address`` within ``contact-info`` of an ``iati-activity``
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--contact-info starts-->
 	:end-before: <!--contact-info ends-->
-	:emphasize-lines: 7
+	:emphasize-lines: 17, 19

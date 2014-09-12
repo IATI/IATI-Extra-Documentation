@@ -6,24 +6,25 @@ Language set as *en* (English) and a ``default-currency`` to *EUR* (Euros).
 
 An optional attribute of ``hierarchy`` is set as *1*
 
-An optional ``version`` of *1.05* is also stated.
-
 The optional attribute ``linked-data-uri`` (introduced in the decimal upgrade 1.02) is also included:
 
 .. literalinclude:: ../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--iati-activity starts-->
-	:end-before: <!--reporting-org starts-->
+	:end-before: <!--iati-identifier starts-->
 
 The ``iati-activity`` element acts as a container for other sub-elements.  It is closed as follows:
 
 .. literalinclude:: ../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--legacy-data ends-->	
+	:start-after: <!--fss ends-->	
 	:end-before: <!--iati-activity ends-->
 	
 Changelog
 ~~~~~~~~~
+2.01
+^^^^
+The ``version`` attribute was removed in 2.01
 
 1.02
 ^^^^

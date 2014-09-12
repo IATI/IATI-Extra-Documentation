@@ -1,6 +1,8 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``legacy-data`` declaring two non-IATI values, in this case for ``activity-status`` and ``transaction``.
+Example ``legacy-data`` of an ``iati-activity``.
+
+| This example declares two non-IATI values for ``activity-status`` and ``transaction``.
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml

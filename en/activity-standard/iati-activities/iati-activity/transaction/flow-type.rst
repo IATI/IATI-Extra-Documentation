@@ -1,13 +1,13 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example usage of ``flow-type`` in context of ``transaction`` element.
+Example usage of ``flow-type`` of a ``transaction`` in an ``iati-activity``.
 
-Example declaring the ``FlowType`` code *20* (*OOF*):
+| This example declares the ``FlowType`` code *20* (*OOF*) with the ``code`` attribute.
 
-The ``flow-type`` element can override the ``default-flow-type`` value set in ``iati-activity``: 
+| Note: The ``flow-type`` element can override the ``default-flow-type`` value set in ``iati-activity``: 
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--full transaction starts-->
-	:end-before: <!--full transaction ends-->
-	:emphasize-lines: 8
+	:start-after: <!--transaction starts-->
+	:end-before: <!--transaction ends-->
+	:emphasize-lines: 17

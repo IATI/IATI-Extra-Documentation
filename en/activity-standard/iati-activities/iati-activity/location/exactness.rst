@@ -1,14 +1,14 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example usage of ``exactness`` within context of ``location``
+Example usage of ``exactness`` within a ``location`` of an ``iati-activity``.
 
-| This example declares a ``GeographicExactness`` code *1* (Exact):
+| This example declares a ``GeographicExactness`` code *1* (*Exact*) with the ``code`` attribute.
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--location starts-->
 	:end-before: <!--location ends-->
-	:emphasize-lines: 10
+	:emphasize-lines: 17
 
 
 Changelog
