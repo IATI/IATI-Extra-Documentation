@@ -1,26 +1,26 @@
 Example Usage
 ~~~~~~~~~~~~~
-The ``result`` element is a container for other sub-elements.  It is used to contain data for a result set.
+Example ``result`` for an ``iati-activity``.
 
-Example ``result`` that uses ``ResultType`` code *1* (Output).  This ``result`` is suitable for aggregation, as the ``aggregation-status`` boolean is set to *1*:
+| This element is a parent for other child elements.
+
+| This example declares ``ResultType`` code *1* (*Output*) with the ``type`` attribute..  
+
+| This ``result`` example is suitable for aggregation, as the ``aggregation-status`` boolean is set to *1*:
 
 .. code-block:: xml
 
         <result type="1" aggregation-status="1">
 			...
         </result>
+
+| Full example with all child elements:
  
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 1, 21
+	:emphasize-lines: 1, 42
 
+| Note: multiple results are expressed by repeating the ``result`` element.
 
-The ``result`` element can be repeated within any ``iati-activity``:
-
-.. literalinclude:: ../../activity-standard-example-annotated-multi.xml
-	:language: xml
-	:start-after: <!--result starts-->
-	:end-before: <!--result ends-->
-	:emphasize-lines: 1, 15, 16, 30

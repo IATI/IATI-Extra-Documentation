@@ -1,28 +1,17 @@
 Example Usage
 ~~~~~~~~~~~~~
-The ``indicator`` element acts as a container for other elements.
+Example usage of ``indicator``  in a ``result`` of an ``iati-activity``.
 
-It is also contained within a ``result`` element.  
+| This element is a parent for other child elements.  It is also contained within a ``result`` element.  
 
-Example usage of ``indicator`` in context of ``result`` element.
+| This example declares ``IndicatorMeasure`` code of *1* (*Unit*) with the ``measure`` attribute. 
 
-Example ``indicator`` with the ``IndicatorMeasure`` code of *1* (Unit). 
-
-This example also declares that the data is ``ascending``, via a boolean:
+| boolean *1* also declares that the data is ``ascending``.
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 4, 20
-
-
-The ``indicator`` element can be repeated within any ``result`` element:
-
-.. literalinclude:: ../../../activity-standard-example-annotated-multi.xml
-	:language: xml
-	:start-after: <!--multi-indicator result starts-->
-	:end-before: <!--multi-indicator result ends-->
-	:emphasize-lines: 4, 14, 15, 25
+	:emphasize-lines: 10, 41
 		
-		
+| Note: multiple results are expressed by repeating the ``indicator`` element within the ``result``.
