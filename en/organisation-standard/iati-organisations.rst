@@ -1,7 +1,12 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example of ``iati-organisations`` with ``generated-datetime`` of on 9th September 2014. 
-The ``version`` of *2.01* of the **IATI organisation standard** is stated:
+Example usage of ``iati-organisations``.
+
+| This element is a parent for other all other elements of the **IATI Organisation Standard**.
+
+| This example provides a date of *10th September 2014* for the ``generated-datetime`` attribute.
+ 
+| A ``Version`` of *2.01* is declared with the ``version`` attribute.
 
 .. literalinclude:: organisation-standard-example-annotated.xml
 	:language: xml

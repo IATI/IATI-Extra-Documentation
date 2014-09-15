@@ -1,8 +1,14 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example of ``iati-organisation`` with ``last updated-datetime`` of on 9th September 2014. 
-Language set as *en* (English) and a ``default-currency`` to *EUR* (Euros).  
-The optional ``version`` of *2.01* is also stated:
+Example usage of  `iati-organisation``
+
+| This example provides a date of *10th September 2014* for the ``last updated-datetime`` attribute.
+
+| This element is a parent for other child elements.
+
+| This example declares a ``Language`` as *en* (*English*) with the ``xml:lang`` attribute.
+
+| A ``Currency`` of *EUR* (*Euros*) is set with the ``default-currency`` attribute.  
 
 .. literalinclude:: ../organisation-standard-example-annotated.xml
 	:language: xml
