@@ -1,8 +1,8 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example usage of ``period-start`` in context of ``budget`` element.
+Example usage of ``period-start`` of ``budget`` for an ``iati-activity``.
 
-A date in ISO 8601 format (YYYY-MM-DD) for the ``period-start`` date of the reporting period is required:
+| A date in ISO 8601 format (YYYY-MM-DD) for the ``iso-date`` attribute is required.
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml

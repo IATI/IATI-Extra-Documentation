@@ -1,10 +1,14 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example of ``iati-activities`` with ``generated-datetime`` of on 2nd September 2014.
- 
-The ``version`` of *1.05* of the **IATI activity standard** is stated.
+Example usage of ``iati-activities``. 
 
-The optional ``linked-data-default`` is also included
+| This element is a parent for other all other elements of the **IATI Activity Standard**.
+
+| This example provides a date of *10th September 2014* for the ``generated-datetime`` attribute.
+ 
+| A ``Version`` of *2.01* is declared with the ``version`` attribute.
+
+| The optional ``linked-data-default`` is also included.
 
 .. literalinclude:: activity-standard-example-annotated.xml
 	:language: xml

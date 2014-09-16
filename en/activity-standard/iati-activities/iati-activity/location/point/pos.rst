@@ -1,12 +1,12 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example usage of ``pos``, a part of the ``point`` element within context of ``location``.
+Example usage of ``pos``, a child element of the ``point`` element of ``location``.
 
 .. literalinclude:: ../../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--location starts-->
 	:end-before: <!--location ends-->
-	:emphasize-lines: 8
+	:emphasize-lines: 15
 
 Changelog
 ~~~~~~~~~

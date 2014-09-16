@@ -1,36 +1,23 @@
 Example Usage
 ~~~~~~~~~~~~~
-The full name of the organisation making the financial ``transaction``
-(receiving in the case of loan and interest repayments).:
+Example usage of ``provider-org`` of a ``transaction`` in an ``iati-activity``.
+
+| This example declares the organisation identifier with the ``ref`` attribute.
 
 .. code-block:: xml
 
-        <provider-org>Agency B</provider-org>
+        <provider-org ref="BB-BBB-123456789-1234AA" />
 
-The unique Organisation Identifier for the ``provider-org``:
-
-.. code-block:: xml
-
-        <provider-org ref="BB-BBB-123456789-1234AA">Agency B</provider-org>
-
-If the funds are being provided from another reported ``iati-activity``, the unique ``iati-identifier`` is included:
+| This example declares the unique ``iati-identifier`` of the reported ``iati-activity`` from where the transaction is provided, with the ``provider-activity-id``:
 
 .. code-block:: xml
 
-        <provider-org ref="BB-BBB-123456789" provider-activity-id="BB-BBB-123456789-1234AA">Agency B</provider-org>
+        <provider-org ref="BB-BBB-123456789" provider-activity-id="BB-BBB-123456789-1234AA" />
         
-Full example:
+Full example, within a ``transaction``:
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--min transaction starts-->
-	:end-before: <!--min transaction ends-->
-	:emphasize-lines: 5
-
-Full example with additional elements which can override the default value set in ``iati-activity``:  
-
-.. literalinclude:: ../../../activity-standard-example-annotated.xml
-	:language: xml
-	:start-after: <!--full transaction starts-->
-	:end-before: <!--full transaction ends-->
-	:emphasize-lines: 5
+	:start-after: <!--transaction starts-->
+	:end-before: <!--transaction ends-->
+	:emphasize-lines: 8, 10 

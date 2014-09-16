@@ -1,29 +1,34 @@
 Example Usage
 ~~~~~~~~~~~~~
 Example of ``iati-activity`` with ``last updated-datetime`` of on 2nd September 2014.
- 
-Language set as *en* (English) and a ``default-currency`` to *EUR* (Euros).
 
-An optional attribute of ``hierarchy`` is set as *1*
+| This element is a parent for other child elements.
 
-An optional ``version`` of *1.05* is also stated.
+| This example declares a ``Language`` as *en* (*English*) with the ``xml:lang`` attribute.
 
-The optional attribute ``linked-data-uri`` (introduced in the decimal upgrade 1.02) is also included:
+| A ``Currency`` of *EUR* (*Euros*) is set with the ``default-currency`` attribute.  
+
+| An optional attribute of ``hierarchy`` is set as *1*
+
+| A further optional attribute ``linked-data-uri`` is also included:
 
 .. literalinclude:: ../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--iati-activity starts-->
-	:end-before: <!--reporting-org starts-->
+	:end-before: <!--iati-identifier starts-->
 
 The ``iati-activity`` element acts as a container for other sub-elements.  It is closed as follows:
 
 .. literalinclude:: ../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--legacy-data ends-->	
+	:start-after: <!--fss ends-->	
 	:end-before: <!--iati-activity ends-->
 	
 Changelog
 ~~~~~~~~~
+2.01
+^^^^
+The ``version`` attribute was removed in 2.01
 
 1.02
 ^^^^

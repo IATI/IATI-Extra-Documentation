@@ -1,14 +1,14 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example usage of ``point`` within context of ``location``
+Example usage of ``point`` within a ``location`` of an ``iati-activity``.
 
-| NOTE: The @srsName currently should always be http://www.opengis.net/def/crs/EPSG/0/4326
+| Note: The @srsName currently should always be ``http://www.opengis.net/def/crs/EPSG/0/4326``
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--location starts-->
 	:end-before: <!--location ends-->
-	:emphasize-lines: 7, 9
+	:emphasize-lines: 14, 16
 
 
 Changelog

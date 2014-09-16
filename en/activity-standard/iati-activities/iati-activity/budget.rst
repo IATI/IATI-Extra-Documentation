@@ -1,11 +1,20 @@
 Example Usage
 ~~~~~~~~~~~~~
-| The ``budget`` element acts as a container for other sub elements.
-| 
-| The attribute ``type`` should declare the relevant ``BudgetType`` code.  
-| If omitted, then ``BudgetType`` code *1* (*Original*) is assumed:
-| 
-| Example ``budget`` for a single year:
+Example ``budget`` for an ``iati-activity``.
+
+| This element is a parent for other child elements.
+
+| This example declares ``BudgetType`` code *1* (*Original*) with the ``type`` attribute.
+
+.. code-block:: xml
+
+	<budget type="1">
+	...
+	</budget>
+	
+| Note: If omitted, then ``BudgetType`` code *1* (*Original*) is assumed.
+
+| Full example with all child elements:
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
@@ -13,11 +22,4 @@ Example Usage
 	:end-before: <!--budget ends-->
 	:emphasize-lines: 1, 5
 
-| Example ``budget`` over multiple years
 | Note: multiple budgets are expressed by repeating the ``budget`` element.
-
-.. literalinclude:: ../../activity-standard-example-annotated-multi.xml
-	:language: xml
-	:start-after: <!--budget starts-->
-	:end-before: <!--budget ends-->
-	:emphasize-lines: 1, 5, 6, 10, 11, 15, 16, 20

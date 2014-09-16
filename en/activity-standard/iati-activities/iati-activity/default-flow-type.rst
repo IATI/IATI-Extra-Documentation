@@ -1,6 +1,8 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``default-flow-type`` declaring the ``FlowType`` code *10* (*ODA*):
+Example ``default-flow-type``  for an ``iati-activity``.
+
+| This example declares ``FlowType`` code *10* (*ODA*) with the ``code`` attribute.
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml

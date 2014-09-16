@@ -1,27 +1,25 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``sector`` with the ``Sector`` code:
+Example ``sector`` of an ``iati-activity``.
+
+| This example declares ``SectorVocabulary`` code *2* (*OECD DAC CRS Purpose Codes (3 digit)*) with the ``vocabulary`` attribute.
+
+| An example value *111* from this vocabulary is declared with the ``code`` attribute.
+
+.. code-block:: xml
+
+	<sector vocabulary="2" code="111" />
+        
+| When multiple ``sector`` are declared, then the ``percentage`` values should sum to 100% for the specific ``iati-activity``.
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--sector starts-->
 	:end-before: <!--sector ends-->
-
-When multiple ``sector`` are declared, then the ``percentage`` values should sum to 100% for the specific ``iati-activity``:
-
-.. literalinclude:: ../../activity-standard-example-annotated-multi.xml
-	:language: xml
-	:start-after: <!--sector starts-->
-	:end-before: <!--sector ends-->
     
-The ``vocabulary`` is used to declare which ``sector`` classification list is in use. If this is omitted, then IATI assumes the DAC.
+| The ``vocabulary`` is used to declare which ``sector`` classification list is in use. If this is omitted, then IATI assumes *1* (*OECD DAC CRS Purpose Codes (5 digit)*).
 
-If a vocabulary is not on the ``Vocabulary`` codelist, then the value of *RO* (Reporting Organisation) should be declared.  Exceptionally, the text/name for the code should also be include.
-
-.. code-block:: xml
-
-    <sector vocabulary="RO">Education</sector>
-    
+| If a vocabulary is not on the ``Vocabulary`` codelist, then the value of *99* (*Reporting Organisation*) should be declared.
 
 
 Changelog

@@ -1,6 +1,8 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``collaboration-type`` declaring the ``CollaborationType`` code *1* (*Bilateral*):
+Example ``collaboration-type``  for an ``iati-activity``.
+
+| This example declares ``CollaborationType`` code *1* (*Bilateral*) with the ``code`` attribute.
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml

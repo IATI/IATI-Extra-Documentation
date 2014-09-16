@@ -1,8 +1,10 @@
 Example Usage
 ~~~~~~~~~~~~~
-The ``transaction`` element acts as a container for other sub elements.
+Example ``transaction`` in an ``iati-activity``.
 
-At the ``transaction`` level, the attribute ``ref`` can be used to describe reference to this ``transaction`` in another system:
+| This element is a parent for other child elements.
+
+| This example declares the example value of *1234* with the ``ref`` attribute.
 
 .. code-block:: xml
 
@@ -10,26 +12,12 @@ At the ``transaction`` level, the attribute ``ref`` can be used to describe refe
         ....
         </transaction>
 
-Example ``transaction``:
+| Full example with all child elements:
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
-	:language: xml
-	:start-after: <!--min transaction starts-->
-	:end-before: <!--min transaction ends-->
-	:emphasize-lines: 1, 9
-
-Full example with additional elements which can override the default value set in ``iati-activity``: 
-
-.. literalinclude:: ../../activity-standard-example-annotated.xml
-	:language: xml
-	:start-after: <!--full transaction starts-->
-	:end-before: <!--full transaction ends-->
-	:emphasize-lines: 1, 13
-	    
-An ``iati-activity`` can have multiple ``transaction`` elements.
-
-.. literalinclude:: ../../activity-standard-example-annotated-multi.xml
 	:language: xml
 	:start-after: <!--transaction starts-->
 	:end-before: <!--transaction ends-->
-	:emphasize-lines: 1, 14, 15, 28
+	:emphasize-lines: 1, 22
+	    
+| Note: multiple budgets are expressed by repeating the ``budget`` element.

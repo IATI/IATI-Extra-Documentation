@@ -1,22 +1,13 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example usage of ``activity-description`` within context of ``location``:
+Example usage of ``activity-description`` within a ``location`` of an ``iati-activity``.:
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--location starts-->
 	:end-before: <!--location ends-->
-	:emphasize-lines: 5
-
-
-It may be appropriate to repeat the ``activity-description`` in other languages using additional ``language`` elements. In this example, the language en has been set in the ‘’iati-activity’’ element:
-
-.. literalinclude:: ../../../activity-standard-example-annotated-multi.xml
-	:language: xml
-	:start-after: <!--location starts-->
-	:end-before: <!--location ends-->
-	:emphasize-lines: 8
-
+	:emphasize-lines: 10, 12
+	
 
 Changelog
 ~~~~~~~~~

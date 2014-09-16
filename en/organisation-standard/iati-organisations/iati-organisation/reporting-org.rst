@@ -1,6 +1,10 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example of ``reporting-org`` with ``ref`` *AA-AAA-123456789* and using ``OrganisationType`` code *40*:
+Example ``reporting-org`` for an ``iati-organisation``.
+
+| The organisation ``ref`` of *AA-AAA-123456789* is declared.
+
+| An ``OrganisationType`` code of *40* (*Multilateral*) is used.
 
 | The optional ``secondary-publisher`` boolean is included, for illustration:
 

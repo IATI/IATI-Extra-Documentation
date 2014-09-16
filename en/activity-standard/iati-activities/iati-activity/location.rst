@@ -1,12 +1,24 @@
 Example Usage
 ~~~~~~~~~~~~~
-The ``location`` element is used a contain various other elements
+Example ``location`` for an ``iati-activity``.
 
+| This element is a parent for other child elements.
+
+| This example declares the example value of *AF-KAN* with the ``ref`` attribute.
+
+.. code-block:: xml
+
+	<location ref="AF-KAN">
+	...
+    </location>
+
+| Full example with all child elements:    
+    
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--location starts-->
 	:end-before: <!--location ends-->
-	:emphasize-lines: 1, 14
+	:emphasize-lines: 1, 20
 
 
 Changelog

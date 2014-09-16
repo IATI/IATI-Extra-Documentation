@@ -1,8 +1,8 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example usage of ``period-end`` in context of ``planned-disbursement`` element.
+Example usage of ``period-end`` of ``planned-disbursement`` for an ``iati-activity``.
 
-A date in ISO 8601 format (YYYY-MM-DD) for the ``period-end`` date of the reporting period is required:
+| A date in ISO 8601 format (YYYY-MM-DD) for the ``iso-date`` attribute is required.
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml

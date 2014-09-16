@@ -1,8 +1,12 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example usage of ``fss`` element with ``extraction-date`` of *2014-05-06* and ``phaseout-year`` decalred as *2016*.
+Example of ``fss`` of an ``iati-activity``.
 
-A boolean declares that this ``fss`` example is a partner country priority.
+| A date in ISO 8601 format (YYYY-MM-DD) for the ``extraction-date`` attribute is required.
+
+| This example declares the attribute ``phaseout-year`` as *2016*.
+
+| A boolean declares that this ``fss`` example is a partner country priority.
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
