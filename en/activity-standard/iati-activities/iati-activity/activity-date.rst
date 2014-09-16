@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example of an ``iati-activity`` with one each of the four possible ``ActivityDateType`` codes:
+Example of an ``activity-date`` with one each of the four possible ``ActivityDateType`` codes:
 
 A date in ISO 8601 format (YYYY-MM-DD) is required:
 

@@ -53,7 +53,7 @@
   <recipient-country code="AF" />
   <!--recipient-country ends-->
   <!--recipient-region starts-->
-  <recipient-region code="456" vocabulary="1" />
+  <recipient-region code="498" vocabulary="1" />
   <!--recipient-region ends-->
   <!--location starts-->
   <location ref="AF-KAN">

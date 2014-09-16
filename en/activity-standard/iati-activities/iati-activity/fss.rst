@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example usage of ``fss`` element with ``extraction-date`` of *2014-05-06* and ``phaseout-year`` decalred as *2016*.
+Example usage of ``fss`` element with ``extraction-date`` of *2014-05-06* and ``phaseout-year`` declared as *2016*.
 
 A boolean declares that this ``fss`` example is a partner country priority.
 
