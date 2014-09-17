@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example usage of  `iati-organisation``.
+Example usage of  ``iati-organisation``.
 | 
 | This element is a parent for other child elements.
 |
