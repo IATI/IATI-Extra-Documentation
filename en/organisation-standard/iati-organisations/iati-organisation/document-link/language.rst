@@ -1,21 +1,14 @@
 Example Usage
 ~~~~~~~~~~~~~
-| Example usage of ``language`` in context of ``document-link`` element.
-| NB: This specifies the language of the document being linked to.
+| Example usage of ``language`` of a ``document-link`` in an ``iati-organisation``.
+| 
+| This example declares the ``Language`` code *en* using the ``language`` attribute.
+| Note: This specifies the language of the document being linked to.
 
 .. literalinclude:: ../../../organisation-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--document-link-title starts-->
 	:end-before: <!--document-link-title ends-->
-	:emphasize-lines: 7
-
-| It may be appropriate to repeat the ``document-link`` element if the document is available in other languages:
-| Note: This specifies the language of the document being linked to.  In this example, the ``title`` element still uses ``xml:lang`` to declare the title in two languages.
-
-.. literalinclude:: ../../../organisation-standard-example-annotated.xml
-	:language: xml
-	:start-after: <!--document-link-lang starts-->
-	:end-before: <!--document-link-lang ends-->
 	:emphasize-lines: 7
 
 	

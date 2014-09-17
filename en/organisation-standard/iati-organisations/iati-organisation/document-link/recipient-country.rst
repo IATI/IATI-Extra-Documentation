@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-| Example usage of ``recipient-country`` in context of ``document-link`` element.
+| Example usage of ``recipient-country`` of a ``document-link`` in an ``iati-organisation``.
 
 .. literalinclude:: ../../../organisation-standard-example-annotated.xml
 	:language: xml
@@ -8,6 +8,7 @@ Example Usage
 	:end-before: <!--document-link ends-->
 	:emphasize-lines: 7
 
+| The ``recipient-country`` element can be repeated in any ``document-link``.
 | Example declaring multiple ``recipient-country`` elements for the same ``document-link``:
 
 .. literalinclude:: ../../../organisation-standard-example-annotated.xml

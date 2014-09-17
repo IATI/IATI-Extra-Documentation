@@ -1,7 +1,7 @@
 Example Usage
 ~~~~~~~~~~~~~
 Example ``budget`` for an ``iati-activity``.
-
+| 
 | This element is a parent for other child elements.
 | 
 | This example declares ``BudgetType`` code *1* (*Original*), using the ``type`` attribute.

@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example of ``iati-activity`
+Example of ``iati-activity``.
 | 
 | This element is a parent for other child elements.
 |
@@ -11,7 +11,7 @@ Example of ``iati-activity`
 | This example declares a ``Language`` as *en* (*English*), using the ``xml:lang`` attribute.
 | This example declares a ``Currency`` code of *USD*, using the ``default-currency`` attribute.  
 | An optional attribute of ``hierarchy`` is set as *1*
-| The optional attribute ``linked-data-uri`` is also included:
+| The optional attribute ``linked-data-uri`` is also included.
 
 .. literalinclude:: ../activity-standard-example-annotated.xml
 	:language: xml

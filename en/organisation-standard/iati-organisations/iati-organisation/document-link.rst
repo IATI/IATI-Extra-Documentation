@@ -1,17 +1,26 @@
 Example Usage
 ~~~~~~~~~~~~~
-| Example ``document-link``
-
-| The ``FileFormat`` is declared as *application/vnd.oasis.opendocument.text*.
-| The ``DocumentCategory`` is declared as *B01*.
+Example ``document-link`` in an ``iati-organisation``.
 | 
-| Note: ``DocumentCategory`` codes with the *B* ``DocumentCategory-category`` prefix are recommended within the **IATI organisation standard**  ``document-link`` element.
+| This element is a parent for other child elements.
+| 
+| This example declares a ``FileFormat`` of *application/vnd.oasis.opendocument.text*, using the ``format`` attribute.
+
+.. code-block:: xml
+
+	<document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
+	...
+    </document-link>
+
+| Full example with all child elements:
 
 .. literalinclude:: ../../organisation-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--document-link starts-->
 	:end-before: <!--document-link ends-->
 	:emphasize-lines: 1, 8
+
+| The ``document-link`` element can be repeated in any ``iati-organisation``.
 	
 Changelog
 ~~~~~~~~~
