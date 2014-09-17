@@ -1,14 +1,15 @@
 Example Usage
 ~~~~~~~~~~~~~
 Example ``recipient-country`` of an ``iati=activity``.
-
-| This examples declares ``Country`` code *AF* with the ``code`` attribute.
+| 
+| This examples declares the ``Country`` code *AF*, using the ``code`` attribute.
 
 .. code-block:: xml
 
         <recipient-country code="AF" />
 
-When multiple ``recipient-country`` are declared, then the ``percentage`` values should sum to 100% for the specific ``iati-activity``:
+| The ``recipient-country`` element can be repeated in any ``iati-activity``.
+| When multiple ``recipient-country`` are declared, then the ``percentage`` values should sum to 100% for the specific ``iati-activity``:
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml

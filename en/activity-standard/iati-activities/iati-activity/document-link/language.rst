@@ -1,7 +1,8 @@
 Example Usage
 ~~~~~~~~~~~~~
 | Example usage of ``language`` of a ``document-link`` in an ``iati-activity``.
-
+| 
+| This example declares the ``Language`` code *en*m using the ``language`` attribute.
 | Note: This specifies the language of the document being linked to.
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml

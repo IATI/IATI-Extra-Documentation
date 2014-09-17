@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``recipient-region`` of an ``iati=activity``. 
+Example ``recipient-region`` of an ``iati-activity``. 
 
 | This examples declares ``Region`` code *456* with the ``code`` attribute.
 
@@ -21,7 +21,7 @@ Full example:
 Changelog
 ~~~~~~~~~
 
-1.03
+2.01
 ^^^^
 
-Where used, the ``percentage`` attribute is now designated as a decimal value and no longer as a positive Integer
+The ``recipient-region`` element was added to ``transaction`` in 2.01

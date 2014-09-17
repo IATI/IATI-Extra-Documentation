@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 Example usage of ``exactness`` within a ``location`` of an ``iati-activity``.
 
-| This example declares a ``GeographicExactness`` code *1* (*Exact*) with the ``code`` attribute.
+| This example declares a ``GeographicExactness`` code *1* (*Exact*), using the ``code`` attribute.
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml

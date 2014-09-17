@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 Example usage of ``target`` within ``period``, in context of an ``indicator`` in a ``result`` element.
 
-| This example declares a``target`` value of *10*
+| This example declares a ``target`` value of *10*, using the ``value`` attribute.
 
 .. literalinclude:: ../../../../../activity-standard-example-annotated.xml
 	:language: xml

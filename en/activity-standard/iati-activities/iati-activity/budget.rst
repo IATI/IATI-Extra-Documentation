@@ -3,8 +3,8 @@ Example Usage
 Example ``budget`` for an ``iati-activity``.
 
 | This element is a parent for other child elements.
-
-| This example declares ``BudgetType`` code *1* (*Original*) with the ``type`` attribute.
+| 
+| This example declares ``BudgetType`` code *1* (*Original*), using the ``type`` attribute.
 
 .. code-block:: xml
 
@@ -22,4 +22,4 @@ Example ``budget`` for an ``iati-activity``.
 	:end-before: <!--budget ends-->
 	:emphasize-lines: 1, 5
 
-| Note: multiple budgets are expressed by repeating the ``budget`` element.
+| The ``budget`` element can be repeated in any ``iati-activity``.      

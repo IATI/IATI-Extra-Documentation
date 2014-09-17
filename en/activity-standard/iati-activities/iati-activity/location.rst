@@ -4,13 +4,13 @@ Example ``location`` for an ``iati-activity``.
 
 | This element is a parent for other child elements.
 
-| This example declares the example value of *AF-KAN* with the ``ref`` attribute.
+| This example declares the example value of *AF-KAN*, using the ``ref`` attribute.
 
 .. code-block:: xml
 
 	<location ref="AF-KAN">
 	...
-    </location>
+	</location>
 
 | Full example with all child elements:    
     
@@ -20,6 +20,7 @@ Example ``location`` for an ``iati-activity``.
 	:end-before: <!--location ends-->
 	:emphasize-lines: 1, 20
 
+| The ``location`` element can be repeated in any ``iati-activity``.
 
 Changelog
 ~~~~~~~~~

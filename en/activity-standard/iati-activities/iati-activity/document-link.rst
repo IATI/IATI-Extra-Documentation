@@ -3,8 +3,8 @@ Example Usage
 Example ``document-link`` in an ``iati-actvity``.
 
 | This element is a parent for other child elements.
-
-| This example declares a ``FileFormat`` of *application/vnd.oasis.opendocument.text* with the ``format`` attribute.
+| 
+| This example declares a ``FileFormat`` of *application/vnd.oasis.opendocument.text*, using the ``format`` attribute.
 
 .. code-block:: xml
 
@@ -20,8 +20,7 @@ Example ``document-link`` in an ``iati-actvity``.
 	:end-before: <!--document-link ends-->
 	:emphasize-lines: 1, 8
 	
-| Note: multiple documents are expressed by repeating the ``document-link`` element.		
-
+| The ``document-link`` element can be repeated in any ``iati-activity``.
 
 Changelog
 ~~~~~~~~~

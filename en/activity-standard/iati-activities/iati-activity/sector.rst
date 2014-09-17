@@ -2,14 +2,14 @@ Example Usage
 ~~~~~~~~~~~~~
 Example ``sector`` of an ``iati-activity``.
 
-| This example declares ``SectorVocabulary`` code *2* (*OECD DAC CRS Purpose Codes (3 digit)*) with the ``vocabulary`` attribute.
-
+| This example declares ``SectorVocabulary`` code *2* (*OECD DAC CRS Purpose Codes (3 digit)*), using the ``vocabulary`` attribute.
 | An example value *111* from this vocabulary is declared with the ``code`` attribute.
 
 .. code-block:: xml
 
 	<sector vocabulary="2" code="111" />
-        
+	
+| The ``sector`` element can be repeated in any ``iati-activity``.        
 | When multiple ``sector`` are declared, then the ``percentage`` values should sum to 100% for the specific ``iati-activity``.
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml

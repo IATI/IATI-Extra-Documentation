@@ -3,8 +3,8 @@ Example Usage
 Example ``planned-disbursement`` for an ``iati-activity``.
 
 | This element is a parent for other child elements.
-
-| This example declares ``BudgetType`` code *1* (*Original*) with the ``type`` attribute.
+| 
+| This example declares ``BudgetType`` code *1* (*Original*), using the ``type`` attribute.
 
 .. code-block:: xml
 
@@ -13,7 +13,7 @@ Example ``planned-disbursement`` for an ``iati-activity``.
 	</budget>
 	
 | Note: If omitted, then ``BudgetType`` code *1* (*Original*) is assumed.
-
+| 
 | Full example with all child elements:
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml

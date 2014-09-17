@@ -1,16 +1,17 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example of ``iati-activity`` with ``last updated-datetime`` of on 2nd September 2014.
-
+Example of ``iati-activity`
+| 
 | This element is a parent for other child elements.
-
-| This example declares a ``Language`` as *en* (*English*) with the ``xml:lang`` attribute.
-
-| A ``Currency`` of *EUR* (*Euros*) is set with the ``default-currency`` attribute.  
-
+|
+| This example provides a dateTime of *2014-09-10T07:15:37Z*  for the ``last-updated-datetime`` attribute.  
+| A dateTime in UTC time is indicated by adding a *Z* behind the time
+| This example date time format conforms to the xsd:dateTime standard.
+| 
+| This example declares a ``Language`` as *en* (*English*), using the ``xml:lang`` attribute.
+| This example declares a ``Currency`` code of *USD*, using the ``default-currency`` attribute.  
 | An optional attribute of ``hierarchy`` is set as *1*
-
-| A further optional attribute ``linked-data-uri`` is also included:
+| The optional attribute ``linked-data-uri`` is also included:
 
 .. literalinclude:: ../activity-standard-example-annotated.xml
 	:language: xml

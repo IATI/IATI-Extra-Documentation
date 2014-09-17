@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 Example ``budget-item`` within ``country-budget-items`` of an ``iati-activity``.
 
-| This example that declares ``BudgetIdentifier`` code *1.1.1* (*Executive - executive*) with the ``code`` attribute.
+| This example that declares ``BudgetIdentifier`` code *1.1.1* (*Executive - executive*), using the ``code`` attribute.
 
 .. code-block:: xml
 	:emphasize-lines: 2, 5
@@ -14,13 +14,14 @@ Example ``budget-item`` within ``country-budget-items`` of an ``iati-activity``.
 		</budget-item>
 	</country-budget-items>
 
-When multiple ``budget-item`` elements are declared within a single ``country-budget-items`` element, then, for each ``vocabulary`` used, the ``percentage`` values should sum 100%:
+| The ``budget-item`` element can be repeated in any ``country-budget-items`` of the same ``vocabulary``.  
+| When multiple ``budget-item`` elements are declared within a single ``country-budget-items`` element, then, for each ``vocabulary`` used, the ``percentage`` values should sum 100%:
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--country-budget-items starts-->
 	:end-before: <!--country-budget-items ends-->
-	:emphasize-lines: 2, 7
+	:emphasize-lines: 2, 6, 7, 12
 
 
 Changelog

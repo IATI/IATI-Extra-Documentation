@@ -2,10 +2,8 @@ Example Usage
 ~~~~~~~~~~~~~
 Example usage of ``administrative`` within a ``location`` of an ``iati-activity``.
 
-| This example declares a ``GeographicVocabulary`` code *G1* (*Geonames*) with the ``vocabulary`` attribute.
-
+| This example declares a ``GeographicVocabulary`` code *G1* (*Geonames*), using the ``vocabulary`` attribute.
 | An example value of *1453782* from that vocabulary is declared in the ``code`` attribute.
-
 | An example value of *1* is declared for the ``level`` attribute. 
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml

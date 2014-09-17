@@ -1,8 +1,9 @@
 Example Usage
 ~~~~~~~~~~~~~
 Example usage of ``period-start`` of ``budget`` for an ``iati-activity``.
-
-| A date in ISO 8601 format (YYYY-MM-DD) for the ``iso-date`` attribute is required.
+| 
+| An example date is declared in the ``iso-date`` attribute.
+| This example date format conform to the xsd:date standard - for most cases *YYYY-MM-DD* is sufficient.
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
