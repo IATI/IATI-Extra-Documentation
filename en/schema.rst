@@ -42,6 +42,9 @@ Previous schemas
 ----------------
 | Previous versions of the IATI Schema are available:
 
+-  `Version 1.05 of IATI
+   Standard <http://iatistandard.org/105/schema/>`__
+
 -  `Version 1.04 of IATI
    Standard <http://iatistandard.org/104/schema/>`__
 
