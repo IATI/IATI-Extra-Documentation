@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 Example usage of ``location-reach`` within a ``location`` of an ``iati-activity``.
 
-| This example declares a ``GeographicLocationReach`` code *1* (Activity) with the ``code`` attribute.
+| This example declares a ``GeographicLocationReach`` code *1* (Activity), using the ``code`` attribute.
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml

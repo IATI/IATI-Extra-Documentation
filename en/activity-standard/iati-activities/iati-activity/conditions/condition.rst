@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 Example ``condition`` child element of ``conditions`` of an ``iati-activity``.
 
-| This example declares ``ConditionType`` code *1* (*Policy*) with the ``type`` attribute
+| This example declares ``ConditionType`` code *1* (*Policy*), using the ``type`` attribute
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
@@ -10,7 +10,7 @@ Example ``condition`` child element of ``conditions`` of an ``iati-activity``.
 	:end-before: <!--conditions ends-->
 	:emphasize-lines: 2, 5
 
-| Note: multiple conditions are expressed by repeating the ``condition`` element.	
+| The ``condition`` element can be repeated in any ``conditions`` of an ``iati-activity``.
 
 Changelog
 ~~~~~~~~~

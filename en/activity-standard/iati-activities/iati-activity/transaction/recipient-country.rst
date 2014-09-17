@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``recipient-country`` of ``transaction`` in an ``iati=activity``.
+Example ``recipient-country`` of ``transaction`` in an ``iati-activity``.
 
 | This examples declares ``Country`` code *AF* with the ``code`` attribute.
 
@@ -21,7 +21,7 @@ Full example:
 Changelog
 ~~~~~~~~~
 
-1.03
+2.01
 ^^^^
 
-Where used, the ``percentage`` attribute is now designated as a decimal value and no longer as a positive Integer
+The ``recipient-country`` element was added to ``transaction`` in 2.01

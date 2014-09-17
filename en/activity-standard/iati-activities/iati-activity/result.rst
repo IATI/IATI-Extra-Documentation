@@ -3,9 +3,8 @@ Example Usage
 Example ``result`` for an ``iati-activity``.
 
 | This element is a parent for other child elements.
-
-| This example declares ``ResultType`` code *1* (*Output*) with the ``type`` attribute..  
-
+| 
+| This example declares ``ResultType`` code *1* (*Output*), using the ``type`` attribute.  
 | This ``result`` example is suitable for aggregation, as the ``aggregation-status`` boolean is set to *1*:
 
 .. code-block:: xml
@@ -22,5 +21,5 @@ Example ``result`` for an ``iati-activity``.
 	:end-before: <!--result ends-->
 	:emphasize-lines: 1, 42
 
-| Note: multiple results are expressed by repeating the ``result`` element.
+| The ``result`` element can be repeated in any ``iati-activity``.
 

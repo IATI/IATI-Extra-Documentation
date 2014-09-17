@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 Example usage of ``repayment-plan`` within ``loan-terms`` in context of ``crs-add`` element.
 
-A ``LoanRepaymentPeriod`` code *4* is declared:
+A ``LoanRepaymentPeriod`` code *4* is declared, using thge ``code`` attribute.
 
 .. literalinclude:: ../../../../activity-standard-example-annotated.xml
 	:language: xml

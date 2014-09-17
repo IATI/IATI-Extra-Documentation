@@ -3,7 +3,7 @@ Example Usage
 Example ``conditions`` for an ``iati-activity``.
 
 | This element is a parent for ``condition`` child element(s).
- 
+|  
 | Example of no ``conditions`` attached to the ``iati-activity``, expressed through the bolean *0*:
 
 .. code-block:: xml

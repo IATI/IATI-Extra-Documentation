@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 Example usage of ``other-flags`` of ``crs-add`` for an ``iati-activity``.
 
-| This example declares ``CRSAddOtherFlags`` code *1* (*Free standing technical cooperation*) with the usage of ``code`` attribute.
+| This example declares ``CRSAddOtherFlags`` code *1* (*Free standing technical cooperation*), using the ``code`` attribute.
 
 | A ``significance`` boolean of *1* indicates that this flag is reported.
 

@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 Example usage of ``point`` within a ``location`` of an ``iati-activity``.
 
-| Note: The @srsName currently should always be ``http://www.opengis.net/def/crs/EPSG/0/4326``
+| Note: The ``srsName`` attribute should always be populated with ``http://www.opengis.net/def/crs/EPSG/0/4326``
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml

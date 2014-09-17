@@ -1,8 +1,9 @@
 Example Usage
 ~~~~~~~~~~~~~
 Example usage of ``commitment-date`` within ``loan-terms`` in context of ``crs-add`` element.
-
-A date in ISO 8601 format (YYYY-MM-DD) is required for ``commitment-date`` date:
+| 
+| An example date is declared in the ``iso-date`` attribute.
+| This example date format conform to the xsd:date standard - for most cases *YYYY-MM-DD* is sufficient.
 
 .. literalinclude:: ../../../../activity-standard-example-annotated.xml
 	:language: xml

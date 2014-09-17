@@ -3,8 +3,8 @@ Example Usage
 Example ``country-budget-items`` for an ``iati-activity``.
 
 | This element is a parent for other child elements.
-
-| This example declares ``BudgetIdentifierVocabulary`` code *2* (*Country Chart of Accounts*) with the ``vocabulary`` attribute.
+|
+| This example declares ``BudgetIdentifierVocabulary`` code *2* (*Country Chart of Accounts*), using the ``vocabulary`` attribute.
 
 .. code-block:: xml
 
@@ -14,11 +14,17 @@ Example ``country-budget-items`` for an ``iati-activity``.
     
 Full example with all child elements:
 
-.. literalinclude:: ../../activity-standard-example-annotated.xml
-	:language: xml
-	:start-after: <!--country-budget-items starts-->
-	:end-before: <!--country-budget-items ends-->
+.. code-block:: xml
 	:emphasize-lines: 1, 7
+	
+		<country-budget-items vocabulary="2">
+			<budget-item code="1.1.1">
+				<description>
+					<narrative>Description text</narrative>
+				</description> 
+			</budget-item>
+		</country-budget-items>
+
 
 
 Changelog

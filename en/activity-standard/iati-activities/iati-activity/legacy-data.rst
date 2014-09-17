@@ -8,4 +8,3 @@ Example ``legacy-data`` of an ``iati-activity``.
 	:language: xml
 	:start-after: <!--legacy-data starts-->
 	:end-before: <!--legacy-data ends-->
-	:emphasize-lines: 1, 2
