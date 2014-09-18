@@ -3,7 +3,7 @@ Example Usage
 Example of ``iati-activity``.
 | 
 | This element is a parent for other child elements.
-|
+| 
 | This example provides a dateTime of *2014-09-10T07:15:37Z*  for the ``last-updated-datetime`` attribute.  
 | A dateTime in UTC time is indicated by adding a *Z* behind the time
 | This example date time format conforms to the xsd:dateTime standard.
