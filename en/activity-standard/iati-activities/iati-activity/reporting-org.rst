@@ -1,11 +1,9 @@
 Example Usage
 ~~~~~~~~~~~~~
 Example ``reporting-org`` for an ``iati-activity``
-
+| 
 | An example organisation ``ref`` of *AA-AAA-123456789* is declared.
-
-| An ``OrganisationType`` code of *40* (*Multilateral*) is used.
-
+| This example declares an ``OrganisationType`` code *40* (*Multilateral*), using the ``type`` attribute.
 | The optional ``secondary-publisher`` boolean is included, for illustration.
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml

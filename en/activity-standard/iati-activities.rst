@@ -1,13 +1,12 @@
 Example Usage
 ~~~~~~~~~~~~~
 Example usage of ``iati-activities``. 
-| 
+
 | This element is a parent for other all other elements of the **IATI Activity Standard**.
-|
 | This example provides a dateTime of *2014-09-10T07:15:37Z*  for the ``generated-datetime`` attribute.  
 | A dateTime in UTC time is indicated by adding a *Z* behind the time
 | This example date time format conforms to the xsd:dateTime standard.
-| 
+
 | A ``Version`` code of *2.01* is declared using the ``version`` attribute.
 | The optional ``linked-data-default`` attribute is also included.
 

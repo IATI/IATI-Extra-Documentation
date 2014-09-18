@@ -1,10 +1,12 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example usage of ``value`` in context of ``recipient-country-budget`` element.
-
-A ``value-date`` for currency conversions must be provided in ISO 8601 format (YYYY-MM-DD).
-
-The ISO 4217 code for the ``currency`` in which the ``recipient-country-budget`` is denominated should be declared using the ``Currency`` codelist, but only if different to ``default-currency`` in the ``iati-organisation`` element.
+Example ``value`` of ``recipient-country-budget`` for an ``iati-organisation``.
+| 
+| An example date is declared in the ``value-date`` attribute.
+| This example date format conform to the xsd:date standard - for most cases *YYYY-MM-DD* is sufficient.
+| 
+| This example declares a ``Curency`` code *USD*, using the ``currency`` attribute.
+| Note: A ``Currency`` code should only be declared if different to ``default-currency`` in the ``iati-organisation`` element.
 
 .. literalinclude:: ../../../organisation-standard-example-annotated.xml
 	:language: xml

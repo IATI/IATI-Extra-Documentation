@@ -1,15 +1,32 @@
 Example Usage
 ~~~~~~~~~~~~~
 | Example of ``total-budget`` for an ``iati-organisation``.
+| 
+| This element is a parent for other child elements.
 
-| Periods are stated using ``period-start`` and ``period-end``, with dates in ISO 8601 format (YYYY-MM-DD).
+.. code-block:: xml
 
-| The ``value`` example includes a ``currency`` of *USD* - which differs from that set as ``default-currency`` in ``iati-organisation``.
+	<total-budget>
+	...
+	</total-budget>
 
-| The ``value-date`` is reported in ISO 8601 format (YYYY-MM-DD).
+| Full example with all child element.
 
-| Note: multiple budgets are expressed by repeating the ``total-budget`` element.
-| This example ``total-budget`` is reported for years *2014, *2015* and *2016*.
+.. code-block:: xml
+	:emphasize-lines: 1, 9
+
+		<total-budget>
+			<period-start iso-date="2014-01-01" />
+			<period-end iso-date="2014-12-31" />
+			<value currency="USD" value-date="2014-01-01">250000000</value>
+			<budget-line ref="1234">
+				<value value-date="2014-01-01">200000000</value>
+				<narrative>Budget Line 1</narrative>
+			</budget-line>
+		</total-budget>
+
+	
+| The ``total-budget`` element can be repeated in any ``iati-organisation``. 
 		
 .. literalinclude:: ../../organisation-standard-example-annotated.xml
 	:language: xml

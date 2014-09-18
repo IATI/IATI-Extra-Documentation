@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``organisation-identifier``, which relates to ``iati-organisation`` *AA-AAA-123456789*:
+Example ``organisation-identifier`` of an ``iati-organisation``.
 
 .. literalinclude:: ../../organisation-standard-example-annotated.xml
 	:language: xml

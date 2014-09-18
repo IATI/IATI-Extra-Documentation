@@ -10,4 +10,4 @@ Example Usage
 	:end-before: <!--document-link ends-->
 	:emphasize-lines: 6
 
-| Note: multiple categories are expressed by repeating the ``category`` element.		
+| The ``category`` element can be repeated in any ``document-link``.		
