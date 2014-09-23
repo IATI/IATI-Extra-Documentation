@@ -10,7 +10,7 @@ Example Usage
 	...
 	</total-budget>
 
-| Full example with all child element.
+| Full example with all child elements.
 
 .. code-block:: xml
 	:emphasize-lines: 1, 9

@@ -1,10 +1,10 @@
 Example Usage
 ~~~~~~~~~~~~~
 Example ``document-link`` in an ``iati-organisation``.
-| 
+
 | This element is a parent for other child elements.
-| 
-| This example declares a ``FileFormat`` of *application/vnd.oasis.opendocument.text*, using the ``format`` attribute.
+ 
+| This example declares a ``FileFormat`` of *application/vnd.oasis.opendocument.text*, using the ``@format`` attribute.
 
 .. code-block:: xml
 

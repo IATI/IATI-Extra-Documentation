@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 | Example usage of ``language`` of a ``document-link`` in an ``iati-organisation``.
 | 
-| This example declares the ``Language`` code *en* using the ``language`` attribute.
+| This example declares the ``Language`` code *en*.
 | Note: This specifies the language of the document being linked to.
 
 .. literalinclude:: ../../../organisation-standard-example-annotated.xml
