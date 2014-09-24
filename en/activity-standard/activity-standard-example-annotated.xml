@@ -47,7 +47,7 @@
   </participating-org>
   <!--participating-org ends-->
   <!--other-identifier starts-->
-  <other-identifier owner-name="Agency A" owner-ref="AA-AAA-123456789">ABC123-XYZ</other-identifier>
+  <other-identifier owner-name="Agency A" owner-ref="AA-AAA-123456789" type="A1">ABC123-XYZ</other-identifier>
   <!--other-identifier ends-->
   <!--activity-status starts-->
   <activity-status code="2" />
