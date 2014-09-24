@@ -15,7 +15,13 @@ Example ``recipient-country`` of an ``iati=activity``.
 	:language: xml
 	:start-after: <!--recipient-country starts-->
 	:end-before: <!--recipient-country ends-->
- 
+
+| When both the ``recipient-region`` and ``recipient-country``, then the ``percentage`` values should sum to 100% for the specific ``iati-activity``.
+
+.. code-block:: xml
+
+	<recipient-country code="AF" percentage="50" />
+	<recipient-region code="489" vocabulary="1" percentage="50" /> 
 
 Changelog
 ~~~~~~~~~
