@@ -81,7 +81,7 @@
   <!--recipient-country-budget starts-->
   <recipient-country-budget>
    <recipient-country code="AF">
-    <narrative>Country name</narrative>
+    <narrative>Optional country text</narrative>
    </recipient-country>
    <period-start iso-date="2014-01-01" />
    <period-end iso-date="2014-12-31" />
@@ -162,7 +162,7 @@
    <category code="B01" />
    <language code="en" />
    <recipient-country code="AF">
-    <narrative>Country name</narrative>
+    <narrative>Optional country text</narrative>
    </recipient-country>
    <recipient-country code="AX" />
    <recipient-country code="AL" />

@@ -2,7 +2,9 @@ Example Usage
 ~~~~~~~~~~~~~
 The ``narrative`` child element can be used to declare freetext for the ``recipient-country`` element.
 
-| Note: the ``narrative`` element is optional.  In this example, it is shown just once.
+| Note: the ``narrative`` element is optional and should only be used to provide any essential clarification additional to name available in the ``Country`` codelist.  
+
+| In this example, it is shown just once.
 
 .. literalinclude:: ../../../../organisation-standard-example-annotated.xml
 	:language: xml
