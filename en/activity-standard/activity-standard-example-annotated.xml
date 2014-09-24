@@ -192,6 +192,7 @@
    </receiver-org>
    <disbursement-channel code="1" />
    <sector code="111" vocabulary="DAC" />
+   <!--Note: only a recipient-region OR a recipient-country is expected-->
    <recipient-country code="AF" />
    <recipient-region code="456" vocabulary="1" />   
    <flow-type code="10" />
