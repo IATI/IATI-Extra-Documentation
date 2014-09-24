@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 | Example usage of ``language`` of a ``document-link`` in an ``iati-organisation``.
 | 
-| This example declares the ``Language`` code *en* using the ``language`` attribute.
+| This example declares the ``Language`` code *en*.
 | Note: This specifies the language of the document being linked to.
 
 .. literalinclude:: ../../../organisation-standard-example-annotated.xml
@@ -11,6 +11,20 @@ Example Usage
 	:end-before: <!--document-link-title ends-->
 	:emphasize-lines: 7
 
+| In some cases, a ``document-link`` may be in multiple languages.  This is expressed by repeating the ``language`` element.
+
+.. code-block:: xml
+	:emphasize-lines: 7, 8
+	
+	<document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report.odt">
+		<title>
+			<narrative>Annual Report 2013</narrative>	   
+			<narrative xml:lang="fr">Rapport annuel 2013</narrative>
+		</title>
+		<category code="B01" />
+		<language code="en" />
+		<language code="fr" />
+	</document-link>
 	
 Changelog
 ~~~~~~~~~

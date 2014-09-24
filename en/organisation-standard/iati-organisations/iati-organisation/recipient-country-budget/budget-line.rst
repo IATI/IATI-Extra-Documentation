@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 Example ``budget-line`` for ``recipient-country-budget`` of an ``iati-orgaisation``.
 
-| An example ``ref`` attribute is included.
+| An example ``@ref`` attribute is included.
 
 .. code-block:: xml
 	:emphasize-lines: 1, 4

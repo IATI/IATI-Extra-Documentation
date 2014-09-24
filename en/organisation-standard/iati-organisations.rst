@@ -8,7 +8,7 @@ Example usage of ``iati-organisations``.
 | A dateTime in UTC time is indicated by adding a *Z* behind the time
 | This example date time format conforms to the xsd:dateTime standard.
 | 
-| A ``Version`` code of *2.01* is declared using the ``version`` attribute.
+| A ``Version`` code of *2.01* is declared using the ``@version`` attribute.
 
 .. literalinclude:: organisation-standard-example-annotated.xml
 	:language: xml

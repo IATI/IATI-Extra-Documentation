@@ -35,10 +35,10 @@
   </description>
   <!--description ends-->
   <!--participating-org starts-->
-  <participating-org ref="BB-BBB-123456789" role="2" type="40">
+  <participating-org ref="BB-BBB-123456789" role="1" type="40">
 	<narrative>Name of Agency B</narrative>
   </participating-org>
-  <participating-org ref="CC-CCC-123456789" role="1" type="10">
+  <participating-org ref="CC-CCC-123456789" role="2" type="10">
 	<narrative>Name of Agency C</narrative>
   </participating-org>	  
   <participating-org ref="AA-AAA-123456789" role="3" type="21">
@@ -53,12 +53,12 @@
   <activity-status code="2" />
   <!--activity-status ends-->
   <!--activity-date starts-->
-  <activity-date iso-date="2012-04-15" type="3">
+  <activity-date iso-date="2012-04-15" type="1">
    <narrative>Actual start date of the activity</narrative>
    <narrative xml:lang="fr">Date confirmée de commencement de l'activité</narrative>   
   </activity-date> 
-  <activity-date iso-date="2012-04-28" type="1" />
-  <activity-date iso-date="2015-12-31" type="4" />
+  <activity-date iso-date="2012-04-28" type="2" />
+  <activity-date iso-date="2015-12-31" type="3" />
   <!--activity-date ends-->
   <!--contact-info starts-->
   <contact-info type="1">
@@ -190,6 +190,7 @@
    <receiver-org receiver-activity-id="AA-AAA-123456789-1234" ref="AA-AAA-123456789">
 	<narrative>Agency A</narrative>
    </receiver-org>
+   <disbursement-channel code="1" />
    <sector code="111" vocabulary="DAC" />
    <recipient-country code="AF" />
    <recipient-region code="456" vocabulary="1" />   
@@ -197,7 +198,6 @@
    <finance-type code="110" />
    <aid-type code="A01" />   
    <tied-status code="3" />
-   <disbursement-channel code="1" />
   </transaction>
   <!--transaction ends-->
   <!--document-link starts-->

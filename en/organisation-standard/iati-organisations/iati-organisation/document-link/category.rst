@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 | Example  usage of ``category`` of a ``document-link`` in an ``iati-organisation``.
 | 
-| This examples declares the ``DocumentCategory`` code *B01*, using the ``code`` attribute.
+| This examples declares the ``DocumentCategory`` code *B01*, using the ``@code`` attribute.
 
 .. literalinclude:: ../../../organisation-standard-example-annotated.xml
 	:language: xml

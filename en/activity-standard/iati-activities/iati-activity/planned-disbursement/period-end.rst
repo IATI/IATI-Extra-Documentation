@@ -10,3 +10,14 @@ Example usage of ``period-end`` of ``planned-disbursement`` for an ``iati-activi
 	:start-after: <!--planned-disbursement starts-->
 	:end-before: <!--planned-disbursement ends-->
 	:emphasize-lines: 3
+	
+| In some instances, it may not be feasible to declare an ``period-end`` date.  In such cases, the element is not included:
+
+.. code-block:: xml
+	
+	<planned-disbursement type="1">
+		<period-start iso-date="2014-01-01" />
+		<value currency="EUR" value-date="2014-01-01">3000</value>
+	</planned-disbursement>
+	
+
