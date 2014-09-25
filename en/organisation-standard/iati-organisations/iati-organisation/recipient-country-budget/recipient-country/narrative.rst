@@ -2,15 +2,14 @@ Example Usage
 ~~~~~~~~~~~~~
 The ``narrative`` child element can be used to declare freetext for the ``recipient-country`` element.
 
-| Note: the ``narrative`` element is optional and should only be used to provide any essential clarification additional to the name available in the *Country* codelist.  
+| Note: Both the ``recipient-region`` and ``recipient-country`` elements still allow both a ``@code`` and descriptive text to be specified. This is to cover the isolated cases where the organisation publishing the data may not agree with name of a country or region given by the lookup codelists IATI uses.
 
-| In this example, it is shown just once.
-
-.. literalinclude:: ../../../../organisation-standard-example-annotated.xml
-	:language: xml
-	:start-after: <!--recipient-country-budget starts-->
-	:end-before: <!--recipient-country-budget ends-->
-	:emphasize-lines: 3
+.. code-block:: xml
+	:emphasize-lines: 2
+	
+	<recipient-country code="XK">
+		<narrative>Kosovo (As per UNSCR 1244)<narrative>
+	</recipient-country>   
 
 | Note: The ``narrative`` element can be repeated for any language additional to the default language set in ``iati-organisation``, by using the ``@xml:lang`` attribute.  Example not shown.
 	
@@ -19,5 +18,4 @@ Changelog
 
 2.01
 ^^^^
-
 | The ``narrative`` element was introduced in 2.01.

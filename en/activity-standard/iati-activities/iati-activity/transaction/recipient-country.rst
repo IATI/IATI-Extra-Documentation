@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 Example ``recipient-country`` of ``transaction`` in an ``iati-activity``.
 
-| This examples declares ``Country`` code *AF* with the ``code`` attribute.
+| The ``@code`` attribute declares a valid code (*AF*) from the *Country* codelist.
 
 .. code-block:: xml
 
@@ -14,8 +14,7 @@ Full example:
 	:language: xml
 	:start-after: <!--transaction starts-->
 	:end-before: <!--transaction ends-->
-	:emphasize-lines: 15
-
+	:emphasize-lines: 17
  
 
 Changelog
@@ -23,5 +22,4 @@ Changelog
 
 2.01
 ^^^^
-
 The ``recipient-country`` element was added to ``transaction`` in 2.01

@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 Example usage of ``transaction-type`` of ``transaction`` for an ``iati-activity``.
 
-| This example declares ``TransactionType`` code *1* (*Incoming Funds*), using the ``code`` attribute.
+| The ``@code`` attribute declares a valid code (*1*) from the *TransactionType* codelist.
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml

@@ -3,8 +3,8 @@ Example Usage
 Example ``country-budget-items`` for an ``iati-activity``.
 
 | This element is a parent for other child elements.
-|
-| This example declares ``BudgetIdentifierVocabulary`` code *2* (*Country Chart of Accounts*), using the ``vocabulary`` attribute.
+
+| The ``@vocabulary`` attribute declares a valid code (*2*) from the *BudgetIdentifierVocabulary* codelist.
 
 .. code-block:: xml
 
@@ -26,24 +26,10 @@ Full example with all child elements:
 		</country-budget-items>
 
 
-
-Changelog
-~~~~~~~~~
-
 Changelog
 ~~~~~~~~~
 
 1.03
 ^^^^
+This is a new element, introduced in version 1.03 of the standard.
 
-This is a new element, introduced in version 1.03 of the standard
-
-1.02
-^^^^
-
-This element did not exist
-
-1.01
-^^^^
-
-This element did not exist

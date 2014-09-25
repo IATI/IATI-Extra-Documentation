@@ -8,7 +8,7 @@ The ``narrative`` child element can be used to declare freetext for the ``descri
 	:end-before: <!--description ends-->
 	:emphasize-lines: 2, 6, 10 	
 	
-The ``narrative`` element can be repeated for any language additional to the default language set in ``iati-activity``, by using the ``xml:lang`` attribute:
+The ``narrative`` element can be repeated for any language additional to the default language set in ``iati-activity``, by using the ``@xml:lang`` attribute:
 		
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
@@ -19,8 +19,6 @@ The ``narrative`` element can be repeated for any language additional to the def
 	
 Changelog
 ~~~~~~~~~
-
 2.01
 ^^^^
-
 | The ``narrative`` element was introduced in 2.01.

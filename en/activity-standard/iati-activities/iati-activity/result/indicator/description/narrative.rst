@@ -2,19 +2,23 @@ Example Usage
 ~~~~~~~~~~~~~
 The ``narrative`` child element can be used to declare freetext for the ``description`` of a ``result``.
 
-.. literalinclude:: ../../../../../activity-standard-example-annotated.xml
-	:language: xml
-	:start-after: <!--result starts-->
-	:end-before: <!--result ends-->
-	:emphasize-lines: 16
+.. code-block:: xml
+	:emphasize-lines: 2	
 	
-The ``narrative`` element can be repeated for any language additional to the default language set in ``iati-activity``, by using the ``xml:lang`` attribute:
-		
-.. literalinclude:: ../../../../../activity-standard-example-annotated.xml
-	:language: xml
-	:start-after: <!--result starts-->
-	:end-before: <!--result ends-->
-	:emphasize-lines: 17
+		<description>
+			<narrative>Indicator title</narrative>
+			<narrative xml:lang="fr">Indicator titre</narrative>      
+		</description>
+
+The ``narrative`` element can be repeated for any language additional to the default language set in ``iati-activity``, by using the ``@xml:lang`` attribute:
+
+.. code-block:: xml
+	:emphasize-lines: 3	
+	
+		<description>
+			<narrative>Indicator title</narrative>
+			<narrative xml:lang="fr">Indicator titre</narrative>      
+		</description>
 	
 	
 Changelog

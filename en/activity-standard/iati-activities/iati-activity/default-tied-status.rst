@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 Example ``default-tied-status``  for an ``iati-activity``.
 
-| This example declares ``TiedStatus`` code *3* (*Partially tied*), using the ``code`` attribute.
+| The ``@code`` attribute declares a valid code (*3*) from the *TiedStatus* codelist.
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml

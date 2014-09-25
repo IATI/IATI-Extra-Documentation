@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 Example ``collaboration-type``  for an ``iati-activity``.
 
-| This example declares ``CollaborationType`` code *1* (*Bilateral*), using the ``code`` attribute.
+| The ``@code`` attribute declares a valid code (*1*) from the *CollaborationType* codelist.
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml

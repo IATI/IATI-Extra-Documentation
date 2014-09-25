@@ -4,7 +4,7 @@ Example ``location`` for an ``iati-activity``.
 
 | This element is a parent for other child elements.
 
-| This example declares the example value of *AF-KAN*, using the ``ref`` attribute.
+| An example organisation ``@ref`` of *AF-KAN* is declared.
 
 .. code-block:: xml
 

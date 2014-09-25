@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 Example usage of ``repayment-type`` within ``loan-terms`` in context of ``crs-add`` element.
 
-A ``LoanRepaymentType`` code *1* is declared, using thge ``code`` attribute.
+| The ``@code`` attribute declares a valid code (*1*) from the *LoanRepaymentType* codelist.
 
 .. literalinclude:: ../../../../activity-standard-example-annotated.xml
 	:language: xml

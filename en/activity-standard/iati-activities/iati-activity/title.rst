@@ -8,4 +8,9 @@ Example ``title`` for an ``iati-activity``:
 	:end-before: <!--title ends-->
 	:emphasize-lines: 1, 5	
 	  
+Changelog
+~~~~~~~~~
+2.01
+^^^^
+| Freetext is no longer allowed with this element.  It should now be declared with the new child ``narrative`` element.
 

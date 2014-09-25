@@ -2,9 +2,9 @@ Example Usage
 ~~~~~~~~~~~~~
 Example usage of ``other-flags`` of ``crs-add`` for an ``iati-activity``.
 
-| This example declares ``CRSAddOtherFlags`` code *1* (*Free standing technical cooperation*), using the ``code`` attribute.
+| The ``@code`` attribute declares a valid code (*1*) from the *CRSAddOtherFlags* codelist.
 
-| A ``significance`` boolean of *1* indicates that this flag is reported.
+| A ``@significance`` boolean of *1* indicates that this flag is reported.
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
@@ -15,6 +15,11 @@ Example usage of ``other-flags`` of ``crs-add`` for an ``iati-activity``.
 
 Changelog
 ~~~~~~~~~
+2.01
+^^^^
+The element ``aid-type-flag`` has been renamed as ``other-flags``
+
+The associated codelist *AidTypeFlag* has been renamed as *CRSAddOtherFlags*
 
 1.03
 ^^^^

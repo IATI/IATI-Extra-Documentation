@@ -26,22 +26,8 @@
    <value currency="USD" value-date="2014-01-01">250000000</value>
    <budget-line ref="1234">
 	<value currency="USD" value-date="2014-01-01">200000000</value>
-	<narrative>Budget Line 1</narrative>
+	<narrative>Budget Line</narrative>
    </budget-line>
-   <budget-line ref="5678">
-	<value currency="USD" value-date="2014-01-01">50000000</value>
-	<narrative>Budget Line 2</narrative>
-   </budget-line>
-  </total-budget>
-  <total-budget>
-   <period-start iso-date="2015-01-01" />
-   <period-end iso-date="2015-12-31" />
-   <value currency="USD" value-date="2014-01-01">300000000</value>
-  </total-budget>
-  <total-budget>
-   <period-start iso-date="2016-01-01" />
-   <period-end iso-date="2016-12-31" />
-   <value currency="USD" value-date="2014-01-01">350000000</value>
   </total-budget>
   <!--total-budget ends-->
   <!--recipient-org-budget starts-->
@@ -54,58 +40,20 @@
    <value currency="USD" value-date="2014-01-01">2500000</value>
    <budget-line ref="1234">
 	<value currency="USD" value-date="2014-01-01">2000000</value>
-	<narrative>Budget Line 1</narrative>
+	<narrative>Budget Line</narrative>
    </budget-line>
-   <budget-line ref="5678">
-	<value currency="USD" value-date="2014-01-01">500000</value>
-	<narrative>Budget Line 2</narrative>
-   </budget-line>
-  </recipient-org-budget>
-  <recipient-org-budget>
-   <recipient-org ref="123">
-    <narrative>Org Name</narrative>   
-   </recipient-org>
-   <period-start iso-date="2015-01-01" />
-   <period-end iso-date="2015-12-31" />
-   <value currency="USD" value-date="2015-01-01">3000000</value>
-  </recipient-org-budget>
-  <recipient-org-budget>
-   <recipient-org ref="123">
-    <narrative>Org Name</narrative>   
-   </recipient-org>
-   <period-start iso-date="2016-01-01" />
-   <period-end iso-date="2016-12-31" />
-   <value currency="USD" value-date="2014-01-01">3500000</value>
   </recipient-org-budget>
   <!--recipient-org-budget ends-->
   <!--recipient-country-budget starts-->
   <recipient-country-budget>
-   <recipient-country code="AF">
-    <narrative>Optional country text</narrative>
-   </recipient-country>
+   <recipient-country code="AF" />
    <period-start iso-date="2014-01-01" />
    <period-end iso-date="2014-12-31" />
    <value currency="USD" value-date="2014-01-01">25000000</value>
    <budget-line ref="1234">
 	<value currency="USD" value-date="2014-01-01">2000000</value>
-	<narrative>Budget Line 1</narrative>
+	<narrative>Budget Line</narrative>
    </budget-line>
-   <budget-line ref="5678">
-	<value currency="USD" value-date="2014-01-01">500000</value>
-	<narrative>Budget Line 2</narrative>
-   </budget-line>   
-  </recipient-country-budget>
-  <recipient-country-budget>
-   <recipient-country code="AF" />
-   <period-start iso-date="2015-01-01" />
-   <period-end iso-date="2015-12-31" />
-   <value currency="USD" value-date="2014-01-01">30000000</value>
-  </recipient-country-budget>
-  <recipient-country-budget>
-   <recipient-country code="AF" />
-   <period-start iso-date="2016-01-01" />
-   <period-end iso-date="2016-12-31" />
-   <value currency="USD" value-date="2014-01-01">35000000</value>
   </recipient-country-budget>
   <!--recipient-country-budget ends-->
   <!--document-link starts-->
@@ -161,9 +109,7 @@
    </title>
    <category code="B01" />
    <language code="en" />
-   <recipient-country code="AF">
-    <narrative>Optional country text</narrative>
-   </recipient-country>
+   <recipient-country code="AF" />
    <recipient-country code="AX" />
    <recipient-country code="AL" />
   </document-link>

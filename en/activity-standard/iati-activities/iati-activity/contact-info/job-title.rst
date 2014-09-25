@@ -11,18 +11,13 @@ Example ``job-title`` within ``contact-info`` of an ``iati-activity``
 
 Changelog
 ~~~~~~~~~
+Changelog
+~~~~~~~~~
+
+2.01
+^^^^
+| Freetext is no longer allowed with this element.  It should now be declared with the new child ``narrative`` element.
 
 1.03
 ^^^^
-
-Added the optional ``contact-info/job-title`` element
-
-1.02
-^^^^
-
-This element did not exist
-
-1.01
-^^^^
-
-This element did not exist
+| Added the optional ``contact-info/job-title`` element

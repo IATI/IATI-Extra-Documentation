@@ -3,14 +3,14 @@ Example Usage
 Example ``conditions`` for an ``iati-activity``.
 
 | This element is a parent for ``condition`` child element(s).
-|  
-| Example of no ``conditions`` attached to the ``iati-activity``, expressed through the bolean *0*:
+
+| The ``@attached`` *0* boolean is included, for illustration of no conditions.
 
 .. code-block:: xml
 
      <conditions attached="0"/>
 
-| Example of ``conditions`` attached to the ``iati-activity``, expressed through the bolean *1*:
+| The ``@attached`` *1* boolean is included, for illustration of conditions.
 
 .. code-block:: xml
 

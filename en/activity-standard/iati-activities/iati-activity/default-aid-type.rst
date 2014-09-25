@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 Example ``default-aid-type``  for an ``iati-activity``.
 
-| This example declares ``AidType`` code *A01* (*General budget support*), using the ``code`` attribute.
+| The ``@code`` attribute declares a valid code (*A01*) from the *AidType* codelist.
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml

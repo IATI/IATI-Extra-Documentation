@@ -17,17 +17,13 @@ Example Usage
 	:language: xml
 	:start-after: <!--multi-country-document-link starts-->
 	:end-before: <!--multi-country-document-link ends-->
-	:emphasize-lines: 8, 10, 11, 12
+	:emphasize-lines: 7, 8, 9
 
 	
 Changelog
 ~~~~~~~~~
 
-Changelog
-~~~~~~~~~
-
 2.01
 ^^^^
-
 | The ``recipient-country`` element was introduced in 2.01.
 

@@ -2,19 +2,18 @@ Example Usage
 ~~~~~~~~~~~~~
 Example ``sector`` of a ``transaction`` within an ``iati-activity``.
 
-| This example declares ``SectorVocabulary`` code *2* (*OECD DAC CRS Purpose Codes (3 digit)*) with the ``vocabulary`` attribute.
-
-| An example value *111* from this vocabulary is declared with the ``code`` attribute.
+| The ``@vocabulary`` attribute declares a valid code (*2*) from the *SectorVocabulary* codelist.
+| An example value *111* from this vocabulary is declared with the ``@code`` attribute.
 
 .. code-block:: xml
 
 	<sector vocabulary="2" code="111" />
         
-| Note: multiple sectors in a ``transaction``  are expressed by repeating the ``sector`` element.
-    
-| The ``vocabulary`` is used to declare which ``sector`` classification list is in use. If this is omitted, then IATI assumes *1* (*OECD DAC CRS Purpose Codes (5 digit)*).
+| The ``sector`` element can be repeated in any ``transaction``. 
+  
+| The ``vocabulary`` is used to declare which ``SectorVocabulary`` classification list is in use. If this is omitted, then IATI assumes a *SectorVocabulary* of *1* (OECD DAC CRS Purpose Codes (5 digit)).
 
-| If a vocabulary is not on the ``Vocabulary`` codelist, then the value of *99* (*Reporting Organisation*) should be declared.
+| If a vocabulary is not on the *SectorVocabulary* codelist, then the value of *99* or *98* (Reporting Organisation) should be declared.
 
 Full example:
 
@@ -22,12 +21,11 @@ Full example:
 	:language: xml
 	:start-after: <!--transaction starts-->
 	:end-before: <!--transaction ends-->
-	:emphasize-lines: 14
+	:emphasize-lines: 15
 
 Changelog
 ~~~~~~~~~
 
 2.01
 ^^^^
-
 The ``sector`` element was added to ``transaction`` in 2.01

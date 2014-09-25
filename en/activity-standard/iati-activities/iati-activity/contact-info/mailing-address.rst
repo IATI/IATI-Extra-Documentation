@@ -7,3 +7,10 @@ Example ``mailing-address`` within ``contact-info`` of an ``iati-activity``
 	:start-after: <!--contact-info starts-->
 	:end-before: <!--contact-info ends-->
 	:emphasize-lines: 17, 19
+
+Changelog
+~~~~~~~~~
+
+2.01
+^^^^
+| Freetext is no longer allowed with this element.  It should now be declared with the new child ``narrative`` element.

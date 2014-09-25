@@ -2,15 +2,16 @@ Example Usage
 ~~~~~~~~~~~~~
 Example ``budget-item`` within ``country-budget-items`` of an ``iati-activity``.
 
-| This example that declares ``BudgetIdentifier`` code *1.1.1* (*Executive - executive*), using the ``code`` attribute.
+| The ``@code`` attribute declares a valid code (*1.1.1*) from the *BudgetIdentifier* codelist.
 
 .. code-block:: xml
-	:emphasize-lines: 2, 5
+	:emphasize-lines: 2, 6
 	
 	<country-budget-items vocabulary="2">
 		<budget-item code="1.1.1">
 			<description>
 				<narrative>Description text</narrative>
+			</description>
 		</budget-item>
 	</country-budget-items>
 
@@ -29,20 +30,8 @@ Changelog
 
 1.04
 ^^^^
-
 The @percentage attribute had been erroneously set to be required in the schema on it's introduction in 1.03. This has now been set to 'optional' in the schema.
 
 1.03
 ^^^^
-
 Added the optional country-budget-item element
-
-1.02
-^^^^
-
-This element did not exist
-
-1.01
-^^^^
-
-This element did not exist

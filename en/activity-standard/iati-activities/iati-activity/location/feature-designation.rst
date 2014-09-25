@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 Example usage of ``feature-designation`` within a ``location`` of an ``iati-activity``.
 
-| This example declares a ``LocationType`` code *ADMF* (*administrative facility*), using the ``code`` attribute.:
+| The ``@code`` attribute declares a valid code (*ADMF*) from the *LocationType* codelist.
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
