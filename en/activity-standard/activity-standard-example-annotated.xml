@@ -47,7 +47,7 @@
   </participating-org>
   <!--participating-org ends-->
   <!--other-identifier starts-->
-  <other-identifier owner-name="Agency A" owner-ref="AA-AAA-123456789">ABC123-XYZ</other-identifier>
+  <other-identifier owner-name="Agency A" owner-ref="AA-AAA-123456789" type="A1">ABC123-XYZ</other-identifier>
   <!--other-identifier ends-->
   <!--activity-status starts-->
   <activity-status code="2" />
@@ -178,7 +178,7 @@
   <!--capital-spend ends-->
   <!--transaction starts-->
   <transaction ref="1234">
-   <transaction-type code="4" />
+   <transaction-type code="1" />
    <transaction-date iso-date="2012-01-01" />
    <value currency="EUR" value-date="2012-01-01">1000</value>   
    <description>
@@ -192,6 +192,7 @@
    </receiver-org>
    <disbursement-channel code="1" />
    <sector code="111" vocabulary="DAC" />
+   <!--Note: only a recipient-region OR a recipient-country is expected-->
    <recipient-country code="AF" />
    <recipient-region code="456" vocabulary="1" />   
    <flow-type code="10" />

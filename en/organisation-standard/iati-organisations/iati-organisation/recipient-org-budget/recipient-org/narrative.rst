@@ -8,7 +8,7 @@ The ``narrative`` child element can be used to declare freetext for the ``recipi
 	:end-before: <!--recipient-org-budget ends-->
 	:emphasize-lines: 3, 19, 27
 
-Note: The ``narrative`` element can be repeated for any language additional to the default language set in ``iati-organisation``, by using the ``xml:lang`` attribute.  Example not shown.
+Note: The ``narrative`` element can be repeated for any language additional to the default language set in ``iati-organisation``, by using the ``@xml:lang`` attribute.  Example not shown.
 		
 	
 Changelog

@@ -1,7 +1,7 @@
 Example Usage
 ~~~~~~~~~~~~~
 | Example of ``total-budget`` for an ``iati-organisation``.
-| 
+
 | This element is a parent for other child elements.
 
 .. code-block:: xml

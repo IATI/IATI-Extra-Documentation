@@ -32,11 +32,10 @@ Changelog
 1.02
 ^^^^
 
-Addition of a ``language`` element as a child of the ``document-link`` element:
-document-link/language/text() (0..1) - The ISO 639 code for the language
-of the document
+| document-link/language/text() (0..1) - The ISO 639 code for the language of the document
+Addition of a ``language`` element as a child of the ``document-link`` element: 
 
 1.01
 ^^^^
 
-This element did not exist
+| This element did not exist
