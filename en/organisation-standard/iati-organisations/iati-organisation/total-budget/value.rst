@@ -12,12 +12,11 @@ Example ``value`` of ``total-budget`` for an ``iati-organisation``.
 	:language: xml
 	:start-after: <!--total-budget starts-->
 	:end-before: <!--total-budget ends-->
-	:emphasize-lines: 4, 17, 22
+	:emphasize-lines: 4
 			
 Changelog
 ~~~~~~~~~
 
 1.03
 ^^^^
-
 Currency values are now allowed to be declared as decimals instead of integers.

@@ -12,7 +12,7 @@ Example ``value`` of ``recipient-country-budget`` for an ``iati-organisation``.
 	:language: xml
 	:start-after: <!--recipient-country-budget starts-->
 	:end-before: <!--recipient-country-budget ends-->
-	:emphasize-lines: 7, 21, 27
+	:emphasize-lines: 5
 	
 Changelog
 ~~~~~~~~~

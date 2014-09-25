@@ -12,12 +12,12 @@ Example usage of ``value`` in context of ``budget-line`` element.
 	:language: xml
 	:start-after: <!--total-budget starts-->
 	:end-before: <!--total-budget ends-->
-	:emphasize-lines: 6, 10
+	:emphasize-lines: 6
 			
 Changelog
 ~~~~~~~~~
+
 2.01
 ^^^^
-
 | The ``budget-line`` element was introduced in 2.01.
 

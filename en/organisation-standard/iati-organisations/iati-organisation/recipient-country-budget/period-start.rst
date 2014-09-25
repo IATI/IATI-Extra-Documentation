@@ -9,4 +9,4 @@ Example ``period-start`` of ``recipient-country-budget`` for an ``iati-organisat
 	:language: xml
 	:start-after: <!--recipient-country-budget starts-->
 	:end-before: <!--recipient-country-budget ends-->
-	:emphasize-lines: 5, 19, 25
+	:emphasize-lines: 3
