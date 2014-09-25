@@ -2,6 +2,8 @@ Example Usage
 ~~~~~~~~~~~~~
 | Example usage of ``recipient-country`` of a ``document-link`` in an ``iati-organisation``.
 
+| The ``@code`` attribute declares a valid code (*AF*) from the *Country* codelist.
+
 .. literalinclude:: ../../../organisation-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--document-link starts-->
@@ -28,3 +30,4 @@ Changelog
 ^^^^
 
 | The ``recipient-country`` element was introduced in 2.01.
+

@@ -3,8 +3,8 @@ Example Usage
 Example ``document-link`` in an ``iati-organisation``.
 
 | This element is a parent for other child elements.
- 
-| This example declares a ``FileFormat`` of *application/vnd.oasis.opendocument.text*, using the ``@format`` attribute.
+
+| The ``@format`` attribute declares a valid code (*application/vnd.oasis.opendocument.text*) from the *FileFormat* codelist.
 
 .. code-block:: xml
 
@@ -20,7 +20,6 @@ Example ``document-link`` in an ``iati-organisation``.
 	:end-before: <!--document-link ends-->
 	:emphasize-lines: 1, 8
 
-| The ``document-link`` element can be repeated in any ``iati-organisation``.
 	
 Changelog
 ~~~~~~~~~
@@ -28,5 +27,5 @@ Changelog
 1.02
 ^^^^
 
-Removed language attribute from, and introduced an new ``language`` child element to, the ``document-link`` element.
+Removed ``@language`` attribute from, and introduced an new ``language`` child element to, the ``document-link`` element.
 
