@@ -80,9 +80,7 @@
   <!--recipient-org-budget ends-->
   <!--recipient-country-budget starts-->
   <recipient-country-budget>
-   <recipient-country code="AF">
-    <narrative>Optional country text</narrative>
-   </recipient-country>
+   <recipient-country code="AF" />
    <period-start iso-date="2014-01-01" />
    <period-end iso-date="2014-12-31" />
    <value currency="USD" value-date="2014-01-01">25000000</value>
@@ -161,9 +159,7 @@
    </title>
    <category code="B01" />
    <language code="en" />
-   <recipient-country code="AF">
-    <narrative>Optional country text</narrative>
-   </recipient-country>
+   <recipient-country code="AF" />
    <recipient-country code="AX" />
    <recipient-country code="AL" />
   </document-link>

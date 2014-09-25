@@ -191,7 +191,7 @@
 	<narrative>Agency A</narrative>
    </receiver-org>
    <disbursement-channel code="1" />
-   <sector code="111" vocabulary="DAC" />
+   <sector vocabulary="2" code="111" />
    <!--Note: only a recipient-region OR a recipient-country is expected-->
    <recipient-country code="AF" />
    <recipient-region code="456" vocabulary="1" />   
@@ -232,26 +232,21 @@
   <!--result starts-->
   <result type="1" aggregation-status="1">
    <title>
-	<narrative>Result 1 title</narrative>
-	<narrative xml:lang="fr">Result 1 titre</narrative>      
+	<narrative>Result title</narrative>    
    </title>
    <description>
-    <narrative>Result 1 description text</narrative>
-    <narrative xml:lang="fr">Result 1 texte de description</narrative>	   
+    <narrative>Result description text</narrative>   
    </description>
    <indicator measure="1" ascending="1">
      <title>
-      <narrative>Indicator 1 title</narrative>
-      <narrative xml:lang="fr">Indicator 1 titre</narrative>      		 
+      <narrative>Indicator title</narrative>   		 
      </title>
      <description>
-      <narrative>Indicator 1 description text</narrative>
-      <narrative xml:lang="fr">Indicator 1 texte de description</narrative>
+      <narrative>Indicator description text</narrative>
      </description>     
      <baseline year="2012" value="10">
 	  <comment>
 	   <narrative>Baseline comment text</narrative>
-	   <narrative xml:lang="fr">Baseline comment texte</narrative>
 	  </comment>
      </baseline>
      <period>
@@ -259,14 +254,12 @@
       <period-end iso-date="2013-03-31" />
       <target value="10">
        <comment>
-        <narrative>Target comment text</narrative>
-        <narrative xml:lang="fr">Target comment texte</narrative>				
+        <narrative>Target comment text</narrative>			
        </comment> 
       </target>
       <actual value="11">
 	   <comment>
 		<narrative>Actual comment text</narrative>
-		<narrative xml:lang="fr">Actual comment texte</narrative>
 	   </comment> 
       </actual>
      </period>

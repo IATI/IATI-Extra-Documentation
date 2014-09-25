@@ -3,8 +3,8 @@ Example Usage
 Example ``transaction`` in an ``iati-activity``.
 
 | This element is a parent for other child elements.
-| 
-| This example declares the example value of *1234*, using the ``ref`` attribute.
+
+| An example ``@ref`` of *1234* is declared.
 
 .. code-block:: xml
 
@@ -18,6 +18,6 @@ Example ``transaction`` in an ``iati-activity``.
 	:language: xml
 	:start-after: <!--transaction starts-->
 	:end-before: <!--transaction ends-->
-	:emphasize-lines: 1, 22
+	:emphasize-lines: 1, 23
 	    
 | The ``transaction`` element can be repeated in any ``iati-activity``.      

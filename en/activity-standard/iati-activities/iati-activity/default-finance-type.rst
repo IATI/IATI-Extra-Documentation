@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 Example ``default-finance-type``  for an ``iati-activity``.
 
-| This example declares ``FinanceType`` code *110* (*Aid grant excluding debt reorganisation*), using the ``code`` attribute.
+| The ``@code`` attribute declares a valid code (*110*) from the *FinanceType* codelist.
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml

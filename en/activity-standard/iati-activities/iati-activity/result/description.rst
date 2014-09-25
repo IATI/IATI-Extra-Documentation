@@ -6,4 +6,11 @@ Example usage of ``description`` in a ``result`` of an ``iati-activity``.
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 6, 9
+	:emphasize-lines: 5, 7
+
+Changelog
+~~~~~~~~~
+
+2.01
+^^^^
+Freetext is no longer allowed with this element.  It should now be declared with the new child ``narrative`` element.

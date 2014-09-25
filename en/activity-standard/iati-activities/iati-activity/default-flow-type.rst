@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 Example ``default-flow-type``  for an ``iati-activity``.
 
-| This example declares ``FlowType`` code *10* (*ODA*), using the ``code`` attribute.
+| The ``@code`` attribute declares a valid code (*10*) from the *FlowType* codelist.
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml

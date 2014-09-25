@@ -3,12 +3,13 @@ Example Usage
 Example usage of ``iati-activities``. 
 
 | This element is a parent for other all other elements of the **IATI Activity Standard**.
-| This example provides a dateTime of *2014-09-10T07:15:37Z*  for the ``generated-datetime`` attribute.  
-| A dateTime in UTC time is indicated by adding a *Z* behind the time
-| This example date time format conforms to the xsd:dateTime standard.
 
-| A ``Version`` code of *2.01* is declared using the ``version`` attribute.
-| The optional ``linked-data-default`` attribute is also included.
+| This example provides a dateTime of *2014-09-10T07:15:37Z*  for the ``@generated-datetime`` attribute.  
+| A dateTime in UTC time is indicated by adding a *Z* behind the time
+| This example date time format conforms to the *xsd:dateTime* standard.
+
+| The ``@version`` attribute declares a valid code (*2.01*) from the *Version* codelist.
+| The optional ``@linked-data-default`` attribute is also included.
 
 .. literalinclude:: activity-standard-example-annotated.xml
 	:language: xml
@@ -27,13 +28,5 @@ Changelog
 
 1.02
 ^^^^
+Introduced the ``@linked-data-default`` attribute on ``iati-activities`` element
 
-Introduced the ``linked-data-default`` attribute on ``iati-activities`` element
-
-1.01
-^^^^
-
-See previous version on the IATI Standard
-`wiki <http://wiki.iatistandard.org/standard/documentation/1.0/iati-activities>`__
-and
-`website <http://iatistandard.org/101/activity-standard/container-elements/file-header/>`__

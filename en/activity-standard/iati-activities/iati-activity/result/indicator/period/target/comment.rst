@@ -6,4 +6,11 @@ Example usage of ``comment`` for ``target``:
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 29, 32
+	:emphasize-lines: 24, 26
+
+Changelog
+~~~~~~~~~
+
+2.01
+^^^^
+Freetext is no longer allowed with this element.  It should now be declared with the new child ``narrative`` element.

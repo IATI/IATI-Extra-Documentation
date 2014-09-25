@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 Example usage of ``location-class`` within a ``location`` of an ``iati-activity``.
 
-| This example declares a ``GeographicLocationClass`` code *2* (*Populated Place*), using the ``code`` attribute.:
+| The ``@code`` attribute declares a valid code (*2*) from the *GeographicLocationClass* codelist.
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml

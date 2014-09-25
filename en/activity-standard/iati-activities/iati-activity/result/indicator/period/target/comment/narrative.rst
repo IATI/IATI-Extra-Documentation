@@ -2,19 +2,23 @@ Example Usage
 ~~~~~~~~~~~~~
 The ``narrative`` child element can be used to declare freetext for the ``comment`` of a ``target``.
 
-.. literalinclude:: ../../../../../../../activity-standard-example-annotated.xml
-	:language: xml
-	:start-after: <!--result starts-->
-	:end-before: <!--result ends-->
-	:emphasize-lines: 30
+.. code-block:: xml
+	:emphasize-lines: 2	
 	
-The ``narrative`` element can be repeated for any language additional to the default language set in ``iati-activity``, by using the ``xml:lang`` attribute:
-		
-.. literalinclude:: ../../../../../../../activity-standard-example-annotated.xml
-	:language: xml
-	:start-after: <!--result starts-->
-	:end-before: <!--result ends-->
-	:emphasize-lines: 31
+		<comment>
+			<narrative>Target comment text</narrative>
+			<narrative xml:lang="fr">Target comment texte</narrative>      
+		</comment>
+
+The ``narrative`` element can be repeated for any language additional to the default language set in ``iati-activity``, by using the ``@xml:lang`` attribute:
+
+.. code-block:: xml
+	:emphasize-lines: 3	
+	
+		<comment>
+			<narrative>Target comment text</narrative>
+			<narrative xml:lang="fr">Target comment texte</narrative>      
+		</comment>
 	
 	
 Changelog

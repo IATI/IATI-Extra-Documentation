@@ -20,12 +20,12 @@ Example ``document-link`` in an ``iati-organisation``.
 	:end-before: <!--document-link ends-->
 	:emphasize-lines: 1, 8
 
+| The ``document-link`` element can be repeated in any ``iati-organisation``.
 	
 Changelog
 ~~~~~~~~~
 
 1.02
 ^^^^
-
 Removed ``@language`` attribute from, and introduced an new ``language`` child element to, the ``document-link`` element.
 

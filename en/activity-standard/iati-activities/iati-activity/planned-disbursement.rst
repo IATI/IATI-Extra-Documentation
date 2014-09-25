@@ -3,17 +3,17 @@ Example Usage
 Example ``planned-disbursement`` for an ``iati-activity``.
 
 | This element is a parent for other child elements.
-| 
-| This example declares ``BudgetType`` code *1* (*Original*), using the ``type`` attribute.
+
+| The ``@type`` attribute declares a valid code (*1*) from the *BudgetType* codelist.
 
 .. code-block:: xml
 
-	<budget type="1">
+	<planned-disbursement type="1">
 	...
-	</budget>
+	</planned-disbursement>
 	
-| Note: If omitted, then ``BudgetType`` code *1* (*Original*) is assumed.
-| 
+| Note: If omitted, then *BudgetType* code *1* (Original) is assumed.
+
 | Full example with all child elements:
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
@@ -28,8 +28,8 @@ Changelog
 ~~~~~~~~~
 2.01
 ^^^^
-The attribute ``last-updated`` was removed.
-The attribute ``type`` was added.
+The attribute ``@last-updated`` was removed.
+The attribute ``@type`` was added.
 
 
 1.05

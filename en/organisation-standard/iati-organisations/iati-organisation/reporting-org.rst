@@ -15,12 +15,11 @@ Example ``reporting-org`` for an ``iati-organisation``.
 		
 Changelog
 ~~~~~~~~~
+
 2.01
 ^^^^
-
 | Freetext is no longer allowed with this element.  It should now be declared with the new child ``narrative`` element.
 
 1.04
 ^^^^
-
 | The ``@secondary-publisher`` attribute was introduced in 1.04.

@@ -1,10 +1,10 @@
 Example Usage
 ~~~~~~~~~~~~~
 Example ``reporting-org`` for an ``iati-activity``
-| 
-| An example organisation ``ref`` of *AA-AAA-123456789* is declared.
-| This example declares an ``OrganisationType`` code *40* (*Multilateral*), using the ``type`` attribute.
-| The optional ``secondary-publisher`` boolean is included, for illustration.
+
+| An example organisation ``@ref`` of *AA-AAA-123456789* is declared.
+| The ``@type`` attribute declares a valid code (*40*) from the *OrganisationType* codelist.
+| The optional ``@secondary-publisher`` boolean is included, for illustration.
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
@@ -16,7 +16,10 @@ Example ``reporting-org`` for an ``iati-activity``
 Changelog
 ~~~~~~~~~
 
+2.01
+^^^^
+| Freetext is no longer allowed with this element.  It should now be declared with the new child ``narrative`` element.
+
 1.04
 ^^^^
-
 | The ``secondary-publisher`` was introduced in 1.04.

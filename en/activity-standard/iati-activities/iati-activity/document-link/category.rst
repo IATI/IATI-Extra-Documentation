@@ -1,8 +1,8 @@
 Example Usage
 ~~~~~~~~~~~~~
 | Example  usage of ``category`` of a ``document-link`` in an ``iati-activity``.
-| 
-| This examples declares the ``DocumentCategory`` code *A01*, using the ``code`` attribute.
+
+| This examples declares the ``DocumentCategory`` code *A01*, using the ``@code`` attribute.
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml

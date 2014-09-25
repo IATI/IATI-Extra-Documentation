@@ -12,6 +12,10 @@ Example usage of ``activity-description`` within a ``location`` of an ``iati-act
 Changelog
 ~~~~~~~~~
 
+2.01
+^^^^
+| Freetext is no longer allowed with this element.  It should now be declared with the new child ``narrative`` element.
+
 1.04
 ^^^^
 

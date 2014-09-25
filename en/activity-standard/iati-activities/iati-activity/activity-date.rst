@@ -2,7 +2,11 @@ Example Usage
 ~~~~~~~~~~~~~
 Example ``activity-date`` for an``iati-activity``.
 
-| In this example, an ``ActivityDateType`` code *1* (*start planned*) is declared, using the ``type`` attribute.
+| The ``@type`` attribute declares a valid code (*1*) from the *ActivityDateType* codelist.
+
+| An example date is declared in the ``@iso-date`` attribute.
+| Example date format conforms to the *xsd:date* standard - for most cases *YYYY-MM-DD* is sufficient.
+
 .. code-block:: xml
 
 	<activity-date iso-date="2012-04-28" type="1" />
@@ -10,18 +14,23 @@ Example ``activity-date`` for an``iati-activity``.
 | The ``activity-date`` element can be repeated in any ``iati-activity``.    
 | In this example four ``activity-date`` are declared.
 
-| An ``ActivityDateType`` code is declared for each date, using the ``type`` attribute.
-| Each example date is declared in the ``iso-date`` attribute.
-| Example date formats conform to the xsd:date standard - for most cases *YYYY-MM-DD* is sufficient.
-
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--activity-date starts-->	
 	:end-before: <!--activity-date ends-->
 	:emphasize-lines: 1, 4, 5, 6 	
 	
-Note: In some cases, not all ``ActivityDateType`` can be declared, depending on the ``activity-status`` of the ``iati-activity``
-| 
-| Note: In all cases, dates of ``type`` *actual* are not expected to be in the *future*.
+Note: In some cases, not all *ActivityDateType* codes can be declared, depending on the ``activity-status`` of the ``iati-activity``
+
+| Note: All instances of the *ActivityDateType* code *2* & *4* (actual dates) are not expected to be in the *future*.
+
+Changelog
+~~~~~~~~~
+
+2.01
+^^^^
+| Freetext is no longer allowed with this element.  It should now be declared with the new child ``narrative`` element.
+
+| The ``ActivityDateType`` codelist was changed to numeric codes
 
 

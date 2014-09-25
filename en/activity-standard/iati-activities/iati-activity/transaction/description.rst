@@ -7,3 +7,10 @@ Example usage of ``description`` of a ``transaction`` in an ``iati-activity``.
 	:start-after: <!--transaction starts-->
 	:end-before: <!--transaction ends-->
 	:emphasize-lines: 5, 7
+	
+Changelog
+~~~~~~~~~
+
+2.01
+^^^^
+| Freetext is no longer allowed with this element.  It should now be declared with the new child ``narrative`` element.

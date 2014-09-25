@@ -1,8 +1,8 @@
 Example Usage
 ~~~~~~~~~~~~~
 Example ``activity-status`` of an ``iati-activity``
-| 
-| This example declares an ``ActivityStatus`` code *2* (*Implementation*), using the ``code`` attribute.
+
+| The ``@code`` attribute declares a valid code (*2*) from the *ActivityStatus* codelist.
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml

@@ -26,4 +26,6 @@ The ``iati-organisation`` element acts as a container for other sub-elements.  I
 Changelog
 ~~~~~~~~~
 
-This element has not been changed.
+2.01
+^^^^
+| The ``version`` attribute was removed in 2.01

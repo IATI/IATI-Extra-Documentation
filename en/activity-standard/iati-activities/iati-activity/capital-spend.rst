@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 Example ``capital-spend`` of an ``iati-activity``.
 
-| This example uses the ``percentage`` attribute to state *88.8%* of the ``iati-activity`` budget is for capital expenditure.
+| This example uses the ``@percentage`` attribute to state *88.8%* of the ``iati-activity`` budget is for capital expenditure.
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
@@ -14,15 +14,4 @@ Changelog
 
 1.03
 ^^^^
-
 This is a new element, introduced in version 1.03 of the standard
-
-1.02
-^^^^
-
-This element did not exist
-
-1.01
-^^^^
-
-This element did not exist

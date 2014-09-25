@@ -4,7 +4,7 @@ Example ``contact-info`` for an ``iati-activity``.
 
 | This element is a parent for other child elements.
 
-| This example declares ``ContactType`` code *1* (*General Enquiries*) with the ``type`` attribute.
+| The ``@type`` attribute declares a valid code (*1*) from the *ContactType* codelist.
 
 .. code-block:: xml
 
@@ -23,15 +23,17 @@ Example ``contact-info`` for an ``iati-activity``.
 Changelog
 ~~~~~~~~~
 
+2.01
+^^^^
+Added the optional ``contact-info/department`` element
+
 1.03
 ^^^^
+Added the optional ``contact-info/website`` element.
 
-Added the optional contact-info/website element
+| Added the optional ``contact-info/@type`` attribute.
 
-Added the optional contact-info/@type attribute
-
-Changed the following subelements of contact-info to allow multiple-language versions explicitly (no change to parsing; purely
-semantic):
+| Changed the following subelements of contact-info to allow multiple-language versions explicitly (no change to parsing; purely semantic):
 
 -  organisation
 -  person-name

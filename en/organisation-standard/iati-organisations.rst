@@ -21,8 +21,3 @@ The ``iati-organisation`` element acts as a container for other sub-elements.  I
 	:language: xml
 	:start-after: <!--iati-organisation ends-->	
 	:end-before: <!--iati-organisations ends-->
-	
-Changelog
-~~~~~~~~~
-
-This element has not been changed.

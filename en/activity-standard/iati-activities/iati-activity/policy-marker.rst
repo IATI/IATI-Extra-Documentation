@@ -2,9 +2,9 @@ Example Usage
 ~~~~~~~~~~~~~
 Example ``policy-marker`` of an ``iati-activity``.
 
-| This example declares a ``PolicyMarkerVocabulary`` code *1* (*OECD DAC CRS*), using the ``code`` attribute.
-| A ``PolicyMarker`` code *2* is declared with the ``code`` attribute, 
-| A ``PolicySignificance`` code of *3* with the ``significance`` attribute.
+| The ``@vocabulary`` attribute declares a valid code (*1*) from the *PolicyMarkerVocabulary* codelist.
+| The ``@code`` attribute declares a valid code (*1*) from the *PolicyMarker* codelist.
+| The ``@significance`` attribute declares a valid code (*3*) from the *PolicySignificance* codelist.
  
 .. code-block:: xml
 
@@ -17,6 +17,13 @@ Example ``policy-marker`` of an ``iati-activity``.
 	:start-after: <!--policy-marker starts-->
 	:end-before: <!--policy-marker ends-->
 
-| If a vocabulary is not on the ``Vocabulary`` codelist, then the value of *99* (*Reporting Organisation*) should be declared.	
+| If a vocabulary is not on the *PolicyMarkerVocabulary* codelist, then the value of *99* (*Reporting Organisation*) should be declared.	
+
+Changelog
+~~~~~~~~~
+
+2.01
+^^^^
+| Freetext is no longer allowed with this element.  It should now be declared with the new child ``narrative`` element, but only in certain use-cases.
 	
 	

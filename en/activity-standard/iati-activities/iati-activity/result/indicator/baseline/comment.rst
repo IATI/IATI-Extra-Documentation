@@ -6,5 +6,11 @@ Example usage of ``comment`` for ``baseline``:
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 20, 23
+	:emphasize-lines: 16, 18
 
+Changelog
+~~~~~~~~~
+
+2.01
+^^^^
+Freetext is no longer allowed with this element.  It should now be declared with the new child ``narrative`` element.
