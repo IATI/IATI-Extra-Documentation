@@ -54,6 +54,17 @@ budget
 * The budget element should be repeated for each year of the activity's duration
 * Each budget should cover a period no longer than 1 year
 
+sector
+------
+
+* Sector MUST be reported at either activity level or transaction level but not both
+
+recipient-country and recipient-region
+--------------------------------------
+
+* Either recipient-country or recipient-region MUST be reported at activity level or transaction level but not both.
+
+
 Machine Readable Rules
 ^^^^^^^^^^^^^^^^^^^^^^
 
