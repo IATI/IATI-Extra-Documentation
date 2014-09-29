@@ -18,3 +18,10 @@ Example Usage
 	:start-after: <!--multi-cat-document-link starts-->
 	:end-before: <!--multi-cat-document-link ends-->
 	:emphasize-lines: 6, 7, 8
+
+Changelog
+~~~~~~~~~
+
+2.01
+^^^^
+| Freetext is no longer allowed within this element.

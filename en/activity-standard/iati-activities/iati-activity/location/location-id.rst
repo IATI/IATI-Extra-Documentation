@@ -29,6 +29,10 @@ The OSM element will be a node, way or relation.
 Changelog
 ~~~~~~~~~
 
+2.01
+^^^^
+| Freetext is no longer allowed within this element.
+
 1.04
 ^^^^
 

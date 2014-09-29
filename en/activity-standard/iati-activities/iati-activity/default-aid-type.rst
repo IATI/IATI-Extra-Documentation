@@ -8,3 +8,10 @@ Example ``default-aid-type``  for an ``iati-activity``.
 	:language: xml
 	:start-after: <!--default-aid-type starts-->
 	:end-before: <!--default-aid-type ends-->        
+
+Changelog
+~~~~~~~~~
+
+2.01
+^^^^
+| Freetext is no longer allowed within this element.

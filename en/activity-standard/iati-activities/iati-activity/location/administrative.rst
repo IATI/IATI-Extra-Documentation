@@ -15,6 +15,10 @@ Example usage of ``administrative`` within a ``location`` of an ``iati-activity`
 Changelog
 ~~~~~~~~~
 
+2.01
+^^^^
+| Freetext is no longer allowed within this element.
+
 1.04
 ^^^^
 

@@ -29,6 +29,10 @@ Example Usage
 Changelog
 ~~~~~~~~~
 
+2.01
+^^^^
+| Freetext is no longer allowed within this element.
+
 1.02
 ^^^^
 Addition of a ``@language`` element as a child of the ``document-link`` element:

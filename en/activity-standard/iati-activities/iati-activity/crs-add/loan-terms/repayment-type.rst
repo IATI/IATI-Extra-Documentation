@@ -13,6 +13,10 @@ Example usage of ``repayment-type`` within ``loan-terms`` in context of ``crs-ad
 Changelog
 ~~~~~~~~~
 
+2.01
+^^^^
+| Freetext is no longer allowed within this element.
+
 1.03
 ^^^^
 

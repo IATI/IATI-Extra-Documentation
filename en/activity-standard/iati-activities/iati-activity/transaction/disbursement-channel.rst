@@ -9,3 +9,10 @@ Example usage of ``disbursement-channel`` of a ``transaction`` in an ``iati-acti
 	:start-after: <!--transaction starts-->
 	:end-before: <!--transaction ends-->
 	:emphasize-lines: 14
+
+Changelog
+~~~~~~~~~
+
+2.01
+^^^^
+| Freetext is no longer allowed within this element.
