@@ -8,3 +8,10 @@ Example ``collaboration-type``  for an ``iati-activity``.
 	:language: xml
 	:start-after: <!--collaboration-type starts-->
 	:end-before: <!--collaboration-type ends-->
+
+Changelog
+~~~~~~~~~
+
+2.01
+^^^^
+| Freetext is no longer allowed within this element.

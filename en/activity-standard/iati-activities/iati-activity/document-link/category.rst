@@ -11,3 +11,10 @@ Example Usage
 	:emphasize-lines: 6
 
 | The ``category`` element can be repeated in any ``document-link``.		
+
+Changelog
+~~~~~~~~~
+
+2.01
+^^^^
+| Freetext is no longer allowed within this element.

@@ -12,6 +12,10 @@ Example of an ``activity-scope`` of an ``iati-activity``.
 Changelog
 ~~~~~~~~~
 
+2.01
+^^^^
+| Freetext is no longer allowed within this element.
+
 1.03
 ^^^^
 This is a new element, introduced in version 1.03 of the standard

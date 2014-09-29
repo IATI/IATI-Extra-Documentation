@@ -8,3 +8,10 @@ Example ``default-tied-status``  for an ``iati-activity``.
 	:language: xml
 	:start-after: <!--default-tied-status starts-->
 	:end-before: <!--default-tied-status ends-->
+	
+Changelog
+~~~~~~~~~
+
+2.01
+^^^^
+| Freetext is no longer allowed within this element.

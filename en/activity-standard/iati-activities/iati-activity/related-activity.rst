@@ -12,4 +12,11 @@ Example ``related-activity`` of an ``iati-activity``.
 
 | Note: multiple related activities are expressed by repeating the ``related-activity`` element.	
 
+Changelog
+~~~~~~~~~
+
+2.01
+^^^^
+| Freetext is no longer allowed within this element.
+
 

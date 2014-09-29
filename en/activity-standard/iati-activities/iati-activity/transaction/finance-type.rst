@@ -11,3 +11,10 @@ Example usage of ``finance-type`` of a ``transaction`` in an ``iati-activity``.
 	:start-after: <!--transaction starts-->
 	:end-before: <!--transaction ends-->
 	:emphasize-lines: 20
+
+Changelog
+~~~~~~~~~
+
+2.01
+^^^^
+| Freetext is no longer allowed within this element.

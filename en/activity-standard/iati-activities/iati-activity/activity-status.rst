@@ -8,3 +8,10 @@ Example ``activity-status`` of an ``iati-activity``
 	:language: xml
 	:start-after: <!--activity-status starts-->
 	:end-before: <!--activity-status ends-->
+
+Changelog
+~~~~~~~~~
+
+2.01
+^^^^
+| Freetext is no longer allowed within this element.
