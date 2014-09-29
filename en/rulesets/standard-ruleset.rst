@@ -15,17 +15,6 @@ Hence, the minimum and maximum number of tests undertaken on an ``iati-activity`
 
 This could also be duplicated, e.g. if the tests are run on a single *IATI activity file*, which contains multiple ``iati-activity`` instances.
 
-Contents of the Ruleset
-^^^^^^^^^^^^^^^^^^^^^^^
-
-The ruleset consists of two types of rules:
-
-* ``Starts with`` - conditions around the formation of the ``iati-identifier``
-* ``Date order`` - logics around the ordering of various date elements.
-
-These rules are applicable to various elements:
-
-
 Non-Machine Readable Rules
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
