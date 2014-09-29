@@ -26,6 +26,21 @@ reporting-org/\@ref
 * The agency prefix MUST be a valid code in the IATI code list
 * The identifier MUST be the same as that recorded by the publisher on the IATI Registry
 
+participating-org/@ref
+----------------------
+
+* When using this attribute, it must be a valid organisation identifier.
+
+transaction/provider-org/@ref
+-----------------------------
+
+* When using this attribute, it must be a valid organisation identifier.
+
+transaction/receiver-org/@ref
+-----------------------------
+
+* When using this attribute, it must be a valid organisation identifier.
+
 iati-identifier
 ---------------
 
