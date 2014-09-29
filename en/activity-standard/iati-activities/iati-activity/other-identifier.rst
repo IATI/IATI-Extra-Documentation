@@ -17,6 +17,6 @@ Example ``other-identifier`` of an ``iati-activity``.
 
 | A new attribute ``other-identifier/@type`` was introduce in 2.01, to be used with new code list ``OtherIdentifierType``.
 
-| The ``other-identifier/@owner-ref`` and ``other-identifier/@owner-ref`` attributes were removed in 2.01.
+| The ``other-identifier/@owner-ref`` and ``other-identifier/@owner-name`` attributes were removed in 2.01.
 
 | The ``owner-org`` child element was added in version 2.01.
