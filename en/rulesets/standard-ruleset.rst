@@ -58,6 +58,7 @@ sector
 ------
 
 * Sector MUST be reported at either activity level or transaction level but not both
+* At transaction level, only one sector per vocabulary should be reported
 
 recipient-country and recipient-region
 --------------------------------------
