@@ -1,5 +1,9 @@
 CRS & FSS
 =========
+
+*Please note: these overview pages are currently being updated for the `final release of version 2.01 of the IATI standard <https://github.com/IATI/IATI-Extra-Documentation/milestones/2.01%20Release%20Date>`__ *.
+
+
 Please note: This part of the activity standard is only relevant to organisations that actively report to CRS++ and/or the OECD DAC Forward Spending Survey.
 
 Definition

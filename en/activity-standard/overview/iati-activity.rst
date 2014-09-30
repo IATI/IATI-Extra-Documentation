@@ -1,6 +1,8 @@
 IATI Activity
 =============
 
+*Please note: these overview pages are currently being updated for the `final release of version 2.01 of the IATI standard <https://github.com/IATI/IATI-Extra-Documentation/milestones/2.01%20Release%20Date>`__ *.
+
 Definition
 ----------
 Within the **IATI activity standard**. the ``iati-activity`` is the building block to describe aid.

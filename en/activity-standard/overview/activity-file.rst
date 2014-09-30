@@ -1,6 +1,8 @@
 Activity file
 =============
 
+*Please note: these overview pages are currently being updated for the `final release of version 2.01 of the IATI standard <https://github.com/IATI/IATI-Extra-Documentation/milestones/2.01%20Release%20Date>`__ *.
+
 Definition
 ----------
 The *activity file* contains the data defined by the **IATI activity standard**.
