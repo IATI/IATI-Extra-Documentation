@@ -1,6 +1,8 @@
 Result
 ======
 
+*Please note: these overview pages are currently being updated for the `final release of version 2.01 of the IATI standard <https://github.com/IATI/IATI-Extra-Documentation/milestones/2.01%20Release%20Date>`__ *.
+
 Definition
 ----------
 The **IATI activity standard** enables the publishing of information on measurable results from an ``iati-activity``, through use of the ``result`` element via: 
