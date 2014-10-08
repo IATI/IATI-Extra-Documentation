@@ -18,7 +18,7 @@ Comments markup is optional and intended to supplement the documentation:
 	:start-after: <iati-identifier>AA-AAA-123456789</iati-identifier>
 	:end-before: <name>Organisation name</name>
 
-This example file can also be `downloaded. <https://raw.githubusercontent.com/IATI/IATI-Extra-Documentation/version-1.04/en/organisation-standard/organisation-standard-example-annotated.xml>`__.
+This example file can also be `downloaded. <https://raw.githubusercontent.com/IATI/IATI-Extra-Documentation/version-1.05/en/organisation-standard/organisation-standard-example-annotated.xml>`__.
 
 Full XML example usage of the **IATI organisation standard**:
 
