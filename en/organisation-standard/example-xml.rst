@@ -15,10 +15,16 @@ Comments markup is optional and intended to supplement the documentation:
 
 .. literalinclude:: organisation-standard-example-annotated.xml
 	:language: xml
-	:start-after: <iati-identifier>AA-AAA-123456789</iati-identifier>
-	:end-before: <name>Organisation name</name>
+	:start-after: <organisation-identifier>AA-AAA-123456789</organisation-identifier>
+	:end-before: <name>
 
-This example file can also be `downloaded. <https://raw.githubusercontent.com/IATI/IATI-Extra-Documentation/version-1.04/en/organisation-standard/organisation-standard-example-annotated.xml>`__.
+Download Example Usage File
+---------------------------
+
+The *example usage XML* file can be `downloaded <https://raw.githubusercontent.com/IATI/IATI-Extra-Documentation/version-2.01/en/organisation-standard/organisation-standard-example-annotated.xml>`__.
+
+Example Usage File (in full)
+----------------------------
 
 Full XML example usage of the **IATI organisation standard**:
 

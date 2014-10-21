@@ -15,15 +15,17 @@ Comments markup is optional and intended to supplement the documentation:
 
 .. literalinclude:: activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <reporting-org ref="AA-AAA-123456789" type="21">Organisation Name</reporting-org>
-	:end-before: <iati-identifier>AA-AAA-123456789-ABC123</iati-identifier>
+	:start-after: <iati-identifier>AA-AAA-123456789-ABC123</iati-identifier>
+	:end-before: <reporting-org ref="AA-AAA-123456789" type="40" secondary-reporter="0">
 
-There are two *example usage XML* files:
+Download Example Usage File
+---------------------------
 
-* *Example usage XML* file: `download <https://raw.githubusercontent.com/IATI/IATI-Extra-Documentation/version-1.04/en/activity-standard/activity-standard-example-annotated.xml>`__.
-* *Example usage XML* - with multiple values: `download <https://raw.githubusercontent.com/IATI/IATI-Extra-Documentation/version-1.04/en/activity-standard/activity-standard-example-annotated-multi.xml>`__.
+The *example usage XML* file can be `downloaded <https://raw.githubusercontent.com/IATI/IATI-Extra-Documentation/version-2.01/en/activity-standard/activity-standard-example-annotated.xml>`__.
 
-*Example usage XML* file: 
+
+Example Usage File (in full)
+----------------------------
 
 .. literalinclude:: activity-standard-example-annotated.xml
 	:language: xml
