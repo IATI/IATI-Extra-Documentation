@@ -28,8 +28,9 @@ Changelog
 ~~~~~~~~~
 2.01
 ^^^^
-The attribute ``@last-updated`` was removed.
-The attribute ``@type`` was added.
+The attribute ``@last-updated`` was `removed <http://iatistandard.org/upgrades/integer-upgrade-to-2-01/2-01-changes/#planned-disbursement-removed-renamed-attributes>`__.
+
+The attribute ``@type`` was `added <http://iatistandard.org/upgrades/integer-upgrade-to-2-01/2-01-changes/#planned-disbursement-removed-renamed-attributes>`__.
 
 
 1.05

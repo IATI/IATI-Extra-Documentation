@@ -17,7 +17,7 @@ Changelog
 ~~~~~~~~~
 2.01
 ^^^^
-The element ``aid-type-flag`` has been renamed as ``other-flags``
+The element ``aid-type-flag`` has been `renamed <http://iatistandard.org/upgrades/integer-upgrade-to-2-01/2-01-changes/#other-flags-renamed-element>`__.
 
 The associated codelist *AidTypeFlag* has been renamed as *CRSAddOtherFlags*
 

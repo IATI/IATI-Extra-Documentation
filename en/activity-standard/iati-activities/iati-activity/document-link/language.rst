@@ -31,7 +31,8 @@ Changelog
 
 2.01
 ^^^^
-| Freetext is no longer allowed within this element.
+Freetext is `no longer allowed <http://iatistandard.org/upgrades/integer-upgrade-to-2-01/2-01-changes/#freetext-amended-elements>`__  within this element.
+
 | In 2.01 this element usage rules were changed, to allow it to be repeated.
 
 1.02

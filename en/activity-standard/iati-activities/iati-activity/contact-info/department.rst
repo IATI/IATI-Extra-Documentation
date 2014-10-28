@@ -13,4 +13,4 @@ Changelog
 
 2.01
 ^^^^
-Added the optional ``contact-info/department`` element
+The ``contact-info/department`` child element was `added <http://iatistandard.org/upgrades/integer-upgrade-to-2-01/2-01-changes/#contact-info-department-new-element>`__

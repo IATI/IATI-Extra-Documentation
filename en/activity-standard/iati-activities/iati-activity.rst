@@ -31,7 +31,7 @@ Changelog
 
 2.01
 ^^^^
-| The ``version`` attribute was removed in 2.01
+| The ``version`` attribute was `removed <http://iatistandard.org/upgrades/integer-upgrade-to-2-01/2-01-changes/#iati-activity-removed-attribute>`__.  
 
 1.02
 ^^^^
