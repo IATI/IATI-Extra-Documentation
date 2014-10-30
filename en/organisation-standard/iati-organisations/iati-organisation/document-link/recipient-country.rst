@@ -25,5 +25,5 @@ Changelog
 
 2.01
 ^^^^
-| The ``recipient-country`` element was introduced in 2.01.
+| The ``recipient-country`` element was `added <http://iatistandard.org/upgrades/integer-upgrade-to-2-01/2-01-changes/#document-link-new-child-element>`__ as a child element of ``document-link``.
 

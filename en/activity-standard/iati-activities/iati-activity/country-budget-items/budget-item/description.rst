@@ -13,5 +13,7 @@ Changelog
 
 2.01
 ^^^^
-| Freetext is no longer allowed with this element.  It should now be declared with the new child ``narrative`` element.
+Freetext is no longer allowed with this element.  It should `now be declared <http://iatistandard.org/upgrades/integer-upgrade-to-2-01/2-01-changes/#narrative-new-elements>`__  with the new child ``narrative`` element, but only in particular use-cases.
+
+| The @type attribute was `removed <http://iatistandard.org/upgrades/integer-upgrade-to-2-01/2-01-changes/#description-removed-attributes>`__.
 

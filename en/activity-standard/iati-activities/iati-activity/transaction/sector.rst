@@ -28,4 +28,4 @@ Changelog
 
 2.01
 ^^^^
-The ``sector`` element was added to ``transaction`` in 2.01
+The ``sector`` element was `added <http://iatistandard.org/upgrades/integer-upgrade-to-2-01/2-01-changes/#transaction-new-child-elements>`__ as a child element of ``transaction``.
