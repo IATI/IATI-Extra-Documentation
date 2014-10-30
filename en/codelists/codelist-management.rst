@@ -69,18 +69,30 @@ https://github.com/IATI/IATI-Codelists-NonEmbedded
 Updates to Non-embedded Codelists
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The IATI Technical Team hold regular team meetings once a week. Any changes that have come to the attention to the team will be discussed at that meeting. The IATI Technical Lead (Bill Anderson) has the ultimate responsibility for decisions taken.
-
-Potential changes may come to the team via:
+Potential changes to Non-embedded Codelists may come to the team via:
 
 -  Personal requests/Support tickets
 -  Email notifications
 -  Announcements from the source organisations
 -  Automatic detection of changes to external sources compared with our own lists.
 
-If a decision has been made to make a change to a non-embedded list the `IATI Technical Google Group <https://groups.google.com/forum/#!forum/iati-technical>`__ will be notified (within 1 working day) about the change that is to be made and the date that the change will take effect (usually within 7 calendar days). At this point people have the right to disagree. Discussion should take place via the `IATI Technical Google Group <https://groups.google.com/forum/#!forum/iati-technical>`__. Unresolved matters can be taken to the following team meeting.
+All proposals will be added to the The `Non-embedded Codelist-Amendments Forum <http://support.iatistandard.org/forums/23076626-Non-embedded-Codelist-Amendments>`__
 
-In most circumstances the decision to alter these codelists is straightforward. In rare cases, the team may decide to seek further clarification, or to consult further on whether or not to adopt a change. If so, a timetable outlining the process and timescales will be issued.
+The IATI Technical Team hold regular team meetings once a week. All outstanding proposals will be discussed at that meeting. The IATI Technical Lead (Bill Anderson) has the ultimate responsibility for decisions taken.
+
+If a decision has been made to make a change to a non-embedded list the `IATI Technical Google Group <https://groups.google.com/forum/#!forum/iati-technical>`__ will be notified (within 1 working day) about the change that is to be made and the date that the change will take effect (usually within 7 calendar days). The proposal will be marked as 'Planned' on the support forum. At this point people have the right to disagree. Discussion should take place via the `IATI Technical Google Group <https://groups.google.com/forum/#!forum/iati-technical>`__. Unresolved matters can be taken to the following team meeting.
+
+In most circumstances the decision to alter these codelists is straightforward. In rare cases, the team may decide to seek further clarification, or to consult further on whether or not to adopt a change. If so, a timetable outlining the process and time scales will be issued.
+
+Once a change has been agreed, a GitHub issue will be created and will be linked to from the forum post.
+
+When the change has been made and accepted into the master branch of the `Non-embedded Codelist repository <https://github.com/IATI/IATI-Codelists-NonEmbedded>`__, the change will be 'live' to anyone who consumes these codelists directly from Github or via the API. 
+
+At this point the technical team will:
+
+ * Update the `Non-Embedded Codelist changelog record <http://iatistandard.org/upgrades/nonembedded-codelist-changelog>`__
+ * Regenerate the IATI Standard Website.
+ * Mark the forum post as 'Done'
 
 A :doc:`summary of all changes to all non-emebedded </upgrades/nonembedded-codelist-changelog/>` codelists is published on the IATI Standard website. They can also be found via the list of commits to the GitHub repository.
 
