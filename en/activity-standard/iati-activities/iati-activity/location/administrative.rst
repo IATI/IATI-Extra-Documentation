@@ -12,6 +12,27 @@ Example usage of ``administrative`` within a ``location`` of an ``iati-activity`
 	:end-before: <!--location ends-->
 	:emphasize-lines: 13
 
+Note: Multiple adminstrative levels can be reported by repeating the ``administrative`` element:
+
+.. code-block:: xml
+	:emphasize-lines: 6, 7
+
+	<location ref="AF-KAN">
+	   <location-id vocabulary="G1" code="1453782" />
+	   <name>Location name</name>
+	   <description>Location description</description>
+	   <activity-description>A description that qualifies the activity taking place at the location</activity-description>
+	   <administrative level="0" code="1149361" vocabulary="G1" />
+	   <administrative level="1" code="1453782" vocabulary="G1" />
+	   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+	    <pos>31.616944 65.716944</pos>
+	   </point>
+	   <exactness code="1"/>
+	   <location-reach code="1" />
+	   <location-class code="2"/>
+	   <feature-designation code="PRNQ"/>
+	  </location>
+
 Changelog
 ~~~~~~~~~
 
