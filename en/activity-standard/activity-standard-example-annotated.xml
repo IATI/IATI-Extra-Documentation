@@ -90,12 +90,12 @@
   <activity-scope code="3" />
   <!--activity-scope ends-->
   <!--recipient-country starts-->
-  <recipient-country code="AF" percentage="50" />
-  <recipient-country code="AG" percentage="50" />  
+  <recipient-country code="AF" percentage="25" />
+  <recipient-country code="AG" percentage="25" />  
   <!--recipient-country ends-->
   <!--recipient-region starts-->
-  <recipient-region code="489" vocabulary="1" percentage="50" />
-  <recipient-region code="289" vocabulary="1" percentage="50" />
+  <recipient-region code="489" vocabulary="1" percentage="25" />
+  <recipient-region code="289" vocabulary="1" percentage="25" />
   <!--recipient-region ends-->
   <!--location starts-->
   <location ref="AF-KAN">
