@@ -13,10 +13,10 @@ Example ``recipient-region`` of an ``iati-activity``.
 
 | When multiple ``recipient-region`` are declared, then the ``@percentage`` values should sum to 100% for the specific ``iati-activity``.
         
-.. literalinclude:: ../../activity-standard-example-annotated.xml
-	:language: xml
-	:start-after: <!--recipient-region starts-->
-	:end-before: <!--recipient-region ends-->
+.. code-block:: xml
+
+	<recipient-region code="489" vocabulary="1" percentage="50" />
+	<recipient-region code="389" vocabulary="1" percentage="50" />
 
 | When both the ``recipient-region`` and ``recipient-country``, then the ``@percentage`` values should sum to 100% for the specific ``iati-activity``.
 
