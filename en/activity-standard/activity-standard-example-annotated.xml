@@ -58,8 +58,8 @@
   <!--activity-status ends-->
   <!--activity-date starts-->
   <activity-date iso-date="2012-04-15" type="1">
-   <narrative>Actual start date of the activity</narrative>
-   <narrative xml:lang="fr">Date confirmée de commencement de l'activité</narrative>   
+   <narrative>Planned start date of the activity</narrative>
+   <narrative xml:lang="fr">Date prévue de début de l'activité</narrative>   
   </activity-date> 
   <activity-date iso-date="2012-04-28" type="2" />
   <activity-date iso-date="2015-12-31" type="3" />
@@ -90,12 +90,12 @@
   <activity-scope code="3" />
   <!--activity-scope ends-->
   <!--recipient-country starts-->
-  <recipient-country code="AF" percentage="50" />
-  <recipient-country code="AG" percentage="50" />  
+  <recipient-country code="AF" percentage="25" />
+  <recipient-country code="AG" percentage="25" />  
   <!--recipient-country ends-->
   <!--recipient-region starts-->
-  <recipient-region code="489" vocabulary="1" percentage="50" />
-  <recipient-region code="289" vocabulary="1" percentage="50" />
+  <recipient-region code="489" vocabulary="1" percentage="25" />
+  <recipient-region code="289" vocabulary="1" percentage="25" />
   <!--recipient-region ends-->
   <!--location starts-->
   <location ref="AF-KAN">

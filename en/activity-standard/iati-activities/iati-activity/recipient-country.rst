@@ -11,10 +11,10 @@ Example ``recipient-country`` of an ``iati-activity``.
 | The ``recipient-country`` element can be repeated in any ``iati-activity``.
 | When multiple ``recipient-country`` are declared, then the ``@percentage`` values should sum to 100% for the specific ``iati-activity``:
 
-.. literalinclude:: ../../activity-standard-example-annotated.xml
-	:language: xml
-	:start-after: <!--recipient-country starts-->
-	:end-before: <!--recipient-country ends-->
+.. code-block:: xml
+
+	<recipient-country code="AF" percentage="50" />
+	<recipient-country code="AG" percentage="50" />
 
 | When both the ``recipient-region`` and ``recipient-country``, then the ``@percentage`` values should sum to 100% for the specific ``iati-activity``.
 
