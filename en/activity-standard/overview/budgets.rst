@@ -1,13 +1,11 @@
 Budgets
 =======
 
-*Please note: these overview pages are currently being updated for the `final release of version 2.01 of the IATI standard <https://github.com/IATI/IATI-Extra-Documentation/milestones/2.01%20Release%20Date>`__ *.
-
 Definition
 ----------
 The monetary *budgets* assigned to a specific ``iati-activity`` can be described in the **IATI activity standard** using the following:
 
-* ``transaction-type`` - ``Commitment`` type can be used to describe the total committed budget for the duration of the activity.
+* ``transaction-type`` type Commitment (code *2*) can be used to describe the total committed budget for the duration of the activity.
 * ``budget`` - the value of the ``iati-activity`` ``budget`` for each financial year, as stated in the original project document.
 * ``planned-disbursement`` - a scheduled payment, set up against the ``budget``
  
@@ -33,3 +31,8 @@ When using the **IATI activity standard** to declare *budgets*, the following sh
 * It is expected that budgets would be described from the ``reporting-org`` perspective. 
 * When declaring a ``value-date`` for any budget, this date must be in the past.
 
+2.01 Considerations
+--------------------
+In version 2.01, the following must also be considered:
+
+* The ``planned-disbursement`` element no longer has an ``@updated`` attribute.  This has been replaced by a ``@type`` attribute

@@ -1,8 +1,6 @@
 Result
 ======
 
-*Please note: these overview pages are currently being updated for the `final release of version 2.01 of the IATI standard <https://github.com/IATI/IATI-Extra-Documentation/milestones/2.01%20Release%20Date>`__ *.
-
 Definition
 ----------
 The **IATI activity standard** enables the publishing of information on measurable results from an ``iati-activity``, through use of the ``result`` element via: 
@@ -21,6 +19,11 @@ When using the **IATI activity standard** to declare *result*, the following sho
 * An ``indicator`` can be repeated within any ``result`` dataset.
 * It is also recommended to include a ``baseline`` measure for each ``result`` recorded.
 * Any ``target``, ``actual`` and ``baseline`` can have attached a ``comment`` to provide additional narrative or information.
-* The free-text instances of ``title``, ``description`` and ``comment`` can be repeated for multiple languages, using ``xml:lang``.
+* The free-text instances of ``title``, ``description`` and ``comment`` can be repeated for multiple languages, using ``@xml:lang``.
 * The free-text instances of ``title``, ``description`` and ``comment`` should avoid use of text in CAPITALS, where possible. 
 
+2.01 Considerations
+--------------------
+In version 2.01, the following must also be considered:
+
+* Any freetext title, description or comment must be included in the child ``narrative`` element, which can be repeated for different languages. 

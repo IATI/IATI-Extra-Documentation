@@ -1,8 +1,6 @@
 Related Documents
 =================
 
-*Please note: these overview pages are currently being updated for the `final release of version 2.01 of the IATI standard <https://github.com/IATI/IATI-Extra-Documentation/milestones/2.01%20Release%20Date>`__ *.
-
 Definition
 ----------
 Within the **IATI activity standard** any number of links to supporting documents can be declared.
@@ -13,13 +11,12 @@ The main element for this is:
 
 The following also enable the links from the ``iati-activity`` to external resources:
 
-* ``activity-website``  - a website that provides more information about the specific ``iati-activity``
 * linked data - declaring the path at which information on the specific ``iati-activity`` is available as linked-data
 
 
 Considerations
 --------------
-When using the **IATI activity standard** to declare *documents*, the following should be considered:
+When using the **IATI activity standard** to declare *related documents*, the following should be considered:
 
 * All ``document-link`` should be presented in the form of URLs (eg: http://example.org/exampledocument.odt)
 * The URL must resolve to a valid internet address that provides direct access to the document in question.
@@ -29,8 +26,15 @@ When using the **IATI activity standard** to declare *documents*, the following 
 * The ``title`` element can be repeated for different languages, regardless of the language of the actual document.
 * The free-text instances of ``title`` should avoid use of text in CAPITALS, where possible.
 * In the **IATI activity standard**, documents that relate to the specific ``iati-activity`` would be linked to.  Organisation/agency specific documents are published via the **IATI organisation standard**.
-* For document ``category`` in the **IATI activity standard**, it is expected that the ``DocumentCategory`` code would be have the A prefix.
-* Using the ``format`` attribute helps inform what to expect from the document.
-* Use of the ``format`` must be accompanied by a code on the ``FileFormat`` codelist.
-* The ``activity-website`` should be a URL to a page or website that is specifically about the ``iati-activity`` - not generic information (eg: http://www.example.com/en/activity/ABC123).
+* For document ``category`` in the **IATI activity standard**, it is expected that the *DocumentCategory* code would be have the *A* prefix.
+* Using the ``@format`` attribute helps inform what to expect from the document.
+* Use of the ``@format`` must be accompanied by a code on the ``FileFormat`` codelist.
 
+
+2.01 Considerations
+--------------------
+In version 2.01, the following must also be considered:
+
+* In version 2.01 of the IATI Standard,  the schema data type used for some data fields where a URL is expected is now set as *xsd:anyURI*.
+* The ``activity-website`` element has been removed.  These can now be expressed as a ``document-link`` with the relevant *FileFormat* and *DocumentType* codes.
+* Any freetext title must be included in the child ``narrative`` element, which can be repeated for different languages. 

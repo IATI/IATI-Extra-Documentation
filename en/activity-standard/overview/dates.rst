@@ -1,8 +1,6 @@
 Activity Dates
 ==============
 
-*Please note: these overview pages are currently being updated for the `final release of version 2.01 of the IATI standard <https://github.com/IATI/IATI-Extra-Documentation/milestones/2.01%20Release%20Date>`__ *.
-
 Definition
 ----------
 Within the **IATI activity standard** several types of dates can be specified.
@@ -29,11 +27,16 @@ When using the **IATI activity standard** to declare *dates*, the following shou
 * Any start date should be before the end date, or the same
 * All dates can be updated at any point
 * An ``activity-date`` can have four types:
-	* start-planned - the forecast start date for the ``iati-activity`` (e.g. if the ``iati-activity`` is in the pipeline stage or the date of the first disbursement is not known).
-	* start-actual - the actual start date for the ``iati-activity`` (e.g. the date of the first disbursement).
-	* end-planned - the forecast end date for the ``iati-activity``.
-	* end-actual - the actual end date for the ``iati-activity`` (e.g. the date of the final disbursement).
+	* start-planned (code *1*) - the forecast start date for the ``iati-activity`` (e.g. if the ``iati-activity`` is in the pipeline stage or the date of the first disbursement is not known).
+	* start-actual (code *2*) - the actual start date for the ``iati-activity`` (e.g. the date of the first disbursement).
+	* end-planned (code *3*) - the forecast end date for the ``iati-activity``.
+	* end-actual (code *4*)- the actual end date for the ``iati-activity`` (e.g. the date of the final disbursement).
 * The ``activity-status`` represents the latest stage for the activity.  It can be updated at any time.
-* When the ``activity-status`` reaches ``ActivityStatus`` codes *3*, *4* or *5* then it is recommended that an ``end-actual`` date is added.
+* When the ``activity-status`` reaches *ActivityStatus* codes *3*, *4* or *5* then it is recommended that an end-actual (code *4*) date is added.
 
+2.01 Considerations
+--------------------
+In version 2.01, the following must also be considered:
 
+* The *ActivityDateType* codes for ``activity-date`` have changed to being numeric in 2.01.
+* In version 2.01 a date should be a valid *xsd:date*, and a datetimes should be a valid *xsd:dateTime*.
