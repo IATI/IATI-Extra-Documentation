@@ -1,8 +1,6 @@
 Type of Organisations
 =====================
 
-*Please note: these overview pages are currently being updated for the `final release of version 2.01 of the IATI standard <https://github.com/IATI/IATI-Extra-Documentation/milestones/2.01%20Release%20Date>`__ *.
-
 Definition
 ----------
 Within the **IATI organisation standard** three types of *organisations* can be declared:
@@ -23,6 +21,14 @@ When using the **IATI organisation standard** to declare *organisations*, the fo
 * An ``iati-organisation`` should include a ``name`` element - free text title of the organisation
 * Single or multiple ``recipient-org`` entries can be recorded.
 * For each ``recipient-org`` multiple forward looking ``recipient-org-budget`` can be recorded.
+
+2.01 Considerations
+--------------------
+In version 2.01, the following must also be considered:
+
+* A ``reporting-org`` is a mandatory element
+* A ``reporting-org`` identifier must start with a value published on the *OrganisationRegistrationAgency* codelist.
+* Any freetext ``name`` for an organisation, must be included in the child ``narrative`` element, which can be repeated for different languages. 
 
 
 Further Guidance 

@@ -1,8 +1,6 @@
 Organisation file
 =================
 
-*Please note: these overview pages are currently being updated for the `final release of version 2.01 of the IATI standard <https://github.com/IATI/IATI-Extra-Documentation/milestones/2.01%20Release%20Date>`__ *.
-
 Definition
 ----------
 The *organisation file* contains the data defined by the **IATI organisation standard**.
@@ -29,6 +27,13 @@ When using the **IATI organisation standard** to produce the *organisation file*
 	* ``iatiorganisation.xml`` is preferable to ``IATI Organisation.xml``  
 	* ``http://example.org/files/iatidata/iatiorganisation.xml`` is preferable to ``http://example.org/files/iati data/IATI Organisation.xml``.
 
+2.01 Considerations
+--------------------
+In version 2.01, the following must also be considered:
+
+* It is recommended that a single *organisation-file* does not exceed 40MB in file size.
+* The order of the elements presented in an *organisation-file* must follow the order set out in the schema.
+* The version of the IATI standard being used must be declared via the ``version`` attribute of the ``iati-organisations`` element.  This must be a valid value on the *Version* codelist.
 
 Further Guidance 
 ----------------

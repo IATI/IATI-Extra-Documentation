@@ -1,8 +1,6 @@
 Budgets
 =======
 
-*Please note: these overview pages are currently being updated for the `final release of version 2.01 of the IATI standard <https://github.com/IATI/IATI-Extra-Documentation/milestones/2.01%20Release%20Date>`__ *.
-
 Definition
 ----------
 Within the **IATI organisation standard** three types of *budgets* can be declared.  
@@ -25,7 +23,12 @@ When using the **IATI organisation standard** to declare *budgets*, the followin
 * Financial periods are presented using the ``period-start`` and ``period-end`` dates.
 * It is expected that financial years appropriate to the relevant ``iati-organisation`` would be described.
 * It is strongly recommended that the ``period-start`` and ``period-end`` of the financial years described for any ``recipient-country-budget`` match the budgetary/planning cycle of the ``recipient-country``.
-* It is possible to report budget values in multiple ``currency``.
-* The ``default-currency`` can be set in the ``iati-organisaton`` element.  Should subsequent budgets be in the same ``currency`` then there is no need to restate.
+* It is possible to report budget values in multiple ``@currency``.
+* The ``@default-currency`` can be set in the ``iati-organisaton`` element.  Should subsequent budgets be in the same ``@currency`` then there is no need to restate.
 * When declaring a ``value-date`` for any budget, this date must be in the past.
 
+2.01 Considerations
+--------------------
+In version 2.01, the following must also be considered:
+
+* The ``budget-line`` element was introduced.
