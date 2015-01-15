@@ -17,7 +17,7 @@ When using the **IATI activity standard** to declare *conditions*, the following
 * However, it is also valid to declare that no ``conditions`` are attached to a specific ``iati-activity`` via the ``@attached`` attribute.
 * For every ``condition`` a relevant *ConditionType* code is expected.
 * When multiple ``condition`` exist, these can be presented separately within the same ``conditions`` element.
-* The same ``condition`` can be presented in different languages, by using the ``narrative`` child element`` and the relevent *xml:lang*.
+* The same ``condition`` can be presented in different languages, by using the ``narrative`` child element`` and the relevant *xml:lang*.
 * The free-text to describe the condition should avoid jargon
 
 2.01 Considerations
