@@ -33,7 +33,7 @@ When using the **IATI activity standard** to produce an *activity-file*, the fol
 In version 2.01, the following must also be considered:
 
 * It is recommended that a single *activity-file* does not exceed 40MB in file size.
-* It is encouraged to segment there data into meaningful chunks, but the guidance to segment by country is no longer necessarily considered to be best practice.
+* Data publishers are encouraged to segment their data into 'meaningful chunks'. Prior to version 2.01 they were encouraged to segment their data by country and/or regions. This is no longer necessarily considered to be best practice.
 * The order of the elements presented in an *activity-file* must follow the order set out in the schema.
 * The version of the IATI standard being used must be declared via the ``version`` attribute of the ``iati-activities`` element.  This must be a valid value on the *Version* codelist.
 
