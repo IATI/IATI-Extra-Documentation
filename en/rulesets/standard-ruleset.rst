@@ -1,12 +1,15 @@
 Standard Ruleset
 ================
-The Standard Ruleset is a collection of rules that cover some of the basic requirements of the IATI Standard. Typically, these are rules about the data that cannot be enforced by the schema alone. It covers for example, the ordering of dates, and checks on the format of an iati-identifier.
+The Standard Ruleset is a collection of rules that cover some of the basic requirements of the IATI Standard and that a computer could, in principle, test. Typically, these are rules about the data that cannot be enforced by the schema alone. It covers for example, the ordering of dates, and checks on the format of an iati-identifier.
 
-Each rule is constructed to be something that a human should be able to understand.
+There are some things given in definitions of elements that really only a human can interpret, such as "Is a title meaningful?". The Standard Ruleset does not even try to deal with cases such as this.
 
-Some rules are constructed in such a way that a computer could both read the rule, and then check that the rule applies, although software may need to be written to perform achieve this. For example a computer can check that dates have been supplied, and that one is earlier in time than the other. A computer cannot really usefully check that 'a title is meaningful'. 
+We have created a generic framework that allows us to express many of these rules in a way that both humans and machines can understand.
+We call rules in this generic format our "Machine Readable" rules.
 
-Therefore we can split the Standard Ruleset into Machine Readable and Non-Machine Readable Rules
+We have already written some code to interpret these rules, and hope that they will be useful, for example, for someone that wanted to build a web application that tested people's data against these rules. They should be easy to implement.
+
+Some rules do not fit into this format, we call them "Non-Machine Readable Rules". It should be posible to write bespoke computer code to test each rule, but it requires a bit more work, both in terms of understanding what the rule means and the effort required to check.
 
 Using the Standard Ruleset
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
