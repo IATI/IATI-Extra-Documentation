@@ -16,7 +16,8 @@ When using the **IATI organisation standard** to declare *documents*, the follow
 * All ``document-link`` should be presented in the form of URLs (eg: http://example.org/exampledocument.odt)
 * The URL must resolve to a valid internet address that provides direct access to the document in question.
 * Attention should be paid by the publisher to any links that become obsolete.
-* The same document can be presented in different languages via separate ``document-link`` elements.
+* If the documents are in different languages, which are available at different URLs, then repeat the ``document-link`` element
+* If the same document has multiple languages within it, then repeat the ``language`` element.
 * For every document presented either a ``title`` or ``category`` is expected (or both).
 * The ``title`` element can be repeated for different languages, regardless of the language of the actual document.
 * The free-text instances of ``title`` should avoid use of text in CAPITALS, where possible.
