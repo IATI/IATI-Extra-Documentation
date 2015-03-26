@@ -89,7 +89,7 @@
   <!--activity-scope starts-->
   <activity-scope code="3" />
   <!--activity-scope ends-->
-  <!--recipient-country starts-->
+  <!--recipient-country starts-->act
   <recipient-country code="AF" percentage="25" />
   <recipient-country code="AG" percentage="25" />  
   <!--recipient-country ends-->
@@ -215,9 +215,6 @@
    <language code="en" />
   </document-link>
   <!--document-link ends-->
-  <!--activity-website starts this element may be removed
-  <activity-website>http://www.example.com/en/activity/ABC123</activity-website>
-  activity-website ends-->
   <!--related-activity starts-->
   <related-activity ref="AA-AAA-123456789-6789" type="1" />
   <!--related-activity ends-->
