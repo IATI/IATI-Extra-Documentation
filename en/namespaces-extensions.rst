@@ -15,7 +15,8 @@ XML namespaces
 
 The first approach allows reporting organisations to invent any required markup and add it to an IATI activity report.  IATI users who don’t recognise the extended markup are required simply to ignore it, without reporting an error.  Here is an example:
 
-.. code-block::xml
+.. code-block:: xml
+
     <iati-activity xmlns:acme=”http://example.org/acme/ns#”>
 
     ...
