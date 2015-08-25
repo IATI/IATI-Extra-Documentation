@@ -21,12 +21,14 @@ When using the **IATI activity standard** to declare *related documents*, the fo
 * All ``document-link`` should be presented in the form of URLs (eg: http://example.org/exampledocument.odt)
 * The URL must resolve to a valid internet address that provides direct access to the document in question.
 * Attention should be paid by the publisher to any links that become obsolete.
-* The same document can be presented in different languages via separate ``document-link`` elements.
-* For every document presented either a ``title`` or ``category`` is expected (or both).
+* If the documents are in different languages, which are available at different URLs, then repeat the ``document-link`` element
+* If the same document has multiple languages within it, then repeat the ``language`` element.
+* For every document presented a ``title`` and at least one ``category`` is required
 * The ``title`` element can be repeated for different languages, regardless of the language of the actual document.
 * The free-text instances of ``title`` should avoid use of text in CAPITALS, where possible.
 * In the **IATI activity standard**, documents that relate to the specific ``iati-activity`` would be linked to.  Organisation/agency specific documents are published via the **IATI organisation standard**.
 * For document ``category`` in the **IATI activity standard**, it is expected that the *DocumentCategory* code would be have the *A* prefix.
+* When a document has multiple categories, then the ``category`` element can be repeated.
 * Using the ``@format`` attribute helps inform what to expect from the document.
 * Use of the ``@format`` must be accompanied by a code on the ``FileFormat`` codelist.
 
