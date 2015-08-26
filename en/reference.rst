@@ -6,6 +6,7 @@ Reference
 
 * **Organisation Standard**
 * **Activity Standard**
+* **Namespaces & Extensions**
 * **Codelists**
 * **Schema**
 * **Rulesets**
@@ -16,6 +17,7 @@ Reference
    organisation-identifiers
    activity-standard
    organisation-standard
+   namespaces-extensions
    codelists
    schema
    rulesets
