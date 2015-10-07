@@ -78,7 +78,7 @@ Potential changes may come to the team via:
 -  Announcements from the source organisations
 -  Automatic detection of changes to external sources compared with our own lists.
 
-If a decision has been made to make a change to a non-embedded list the `IATI Technical Google Group <https://groups.google.com/forum/#!forum/iati-technical>`__ will be notified (within 1 working day) about the change that is to be made and the date that the change will take effect (usually within 7 calendar days). At this point people have the right to disagree. Discussion should take place via the `IATI Technical Google Group <https://groups.google.com/forum/#!forum/iati-technical>`__. Unresolved matters can be taken to the following team meeting.
+If a decision has been made to make a change to a non-embedded list the `IATI Standard discussion thread <http://discuss.iatistandard.org/c/iati-standard>`__ will be notified (within 1 working day) about the change that is to be made and the date that the change will take effect (usually within 7 calendar days). The proposal will be marked as 'Planned' on the support forum. At this point people have the right to disagree. Discussion should take place via the `IATI Standard discussion thread <http://discuss.iatistandard.org/c/iati-standard>`__. Unresolved matters can be taken to the following team meeting.
 
 In most circumstances the decision to alter these codelists is straightforward. In rare cases, the team may decide to seek further clarification, or to consult further on whether or not to adopt a change. If so, a timetable outlining the process and timescales will be issued.
 
