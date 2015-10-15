@@ -5,14 +5,16 @@ Example ``budget`` for an ``iati-activity``.
 | This element is a parent for other child elements.
 
 | The ``@type`` attribute declares a valid code (*1*) from the *BudgetType* codelist.
+| The ``@status`` attribute declares a valid code (*1*) from the *BudgetStatus* codelist.
 
 .. code-block:: xml
 
-	<budget type="1">
+	<budget type="1" status="1">
 	...
 	</budget>
 	
-| Note: If omitted, then *BudgetType* code *1* (Original) is assumed.
+| Note: If the @type attribute is omitted, then *BudgetType* code *1* (Original) is assumed.
+| Similarily, if the @status attribute is omitted, then *BudgetStatus* code *1* (Indicative) is assumed.
 
 | Full example with all child elements:
 
