@@ -34,10 +34,10 @@ When using the **IATI activity standard** to declare *related documents*, the fo
 * The ``document-date/@iso-date`` would normally be the production or published date of the relevant document to identify the specific document version.
 
 
-2.01 Considerations
+2.01+ Considerations
 --------------------
-In version 2.01, the following must also be considered:
+In versions 2.01 and above, the following must also be considered:
 
-* In version 2.01 of the IATI Standard,  the schema data type used for some data fields where a URL is expected is now set as *xsd:anyURI*.
+* The schema data type used for some data fields where a URL is expected is now set as *xsd:anyURI*.
 * The ``activity-website`` element has been removed.  These can now be expressed as a ``document-link`` with the relevant *FileFormat* and *DocumentType* codes.
 * Any freetext title must be included in the child ``narrative`` element, which can be repeated for different languages. 

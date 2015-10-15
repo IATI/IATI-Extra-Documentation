@@ -34,9 +34,9 @@ When using the **IATI activity standard** to declare *dates*, the following shou
 * The ``activity-status`` represents the latest stage for the activity.  It can be updated at any time.
 * When the ``activity-status`` reaches *ActivityStatus* codes *3*, *4* or *5* then it is recommended that an end-actual (code *4*) date is added.
 
-2.01 Considerations
+2.01+ Considerations
 --------------------
-In version 2.01, the following must also be considered:
+In versions 2.01 and above, the following must also be considered:
 
-* The *ActivityDateType* codes for ``activity-date`` have changed to being numeric in 2.01.
-* In version 2.01 a date should be a valid *xsd:date*, and a datetimes should be a valid *xsd:dateTime*.
+* The *ActivityDateType* codes for ``activity-date`` have changed to being numeric in versions 2.01 and above.
+* Dates should be a valid *xsd:date*, and a datetimes should be a valid *xsd:dateTime*.

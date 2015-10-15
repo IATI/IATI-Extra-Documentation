@@ -22,9 +22,9 @@ When using the **IATI activity standard** to declare *organisations*, the follow
 * In all cases, when describing an organisation, reference to their associated unique identifier should be included.
 * Should a ``provider-org`` or ``receiver-org`` within a ``transaction`` be the same as the ``reporting-org`` it is not expected that they are declared, but recommended.
 
-2.01 Considerations
+2.01+ Considerations
 --------------------
-In version 2.01, the following must also be considered:
+In versions 2.01 and above, the following must also be considered:
 
 * A ``reporting-org`` is a mandatory element
 * A ``participating-org`` with *OrganisationRole* of funding (code *1*) and/or implementing (code *4*) is mandatory.

@@ -30,10 +30,10 @@ When using the **IATI activity standard** to declare *transaction*, the followin
 * A ``transaction`` can also contain information on the source and destination organisation.  When describing these the ``provider-org`` and ``receiver-org`` should be used.  Ideally, the unique organisation identifier would be included.
 * Where possible, it is recommended that a ``transaction`` includes the ``provider-activity-id`` and/or ``receiver-activity-id`` to reference the ``iati-activity`` from which funds flow from/to.
 
-2.01 Considerations
+2.01+ Considerations
 --------------------
-In version 2.01, the following must also be considered:
+In versions 2.01 and above, the following must also be considered:
 
-* In version 2.01 a date should be a valid *xsd:date*, and a datetimes should be a valid *xsd:dateTime*.
+* Dates should be a valid *xsd:date*, and a datetimes should be a valid *xsd:dateTime*.
 * A ``recipient-country``, `recipient-region`` and ``sector`` can also be published as child elements of a ``transaction``.  When this is done, it is expected that **all** ``transaction`` include such data, whilst the relevent element is subsequently **not** included at the ``iati-activity`` level. 
 

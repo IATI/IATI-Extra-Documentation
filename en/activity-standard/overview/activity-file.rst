@@ -28,9 +28,9 @@ When using the **IATI activity standard** to produce an *activity-file*, the fol
 	* ``http://example.org/files/iatidata/iatiactivity.xml`` is preferable to ``http://example.org/files/iati data/IATI Activity.xml``.
 
 
-2.01 Considerations
+2.01+ Considerations
 --------------------
-In version 2.01, the following must also be considered:
+In versions 2.01 and above, the following must also be considered:
 
 * It is recommended that a single *activity-file* does not exceed 40MB in file size.
 * Data publishers are encouraged to segment their data into 'meaningful chunks'. Prior to version 2.01 they were encouraged to segment their data by country and/or regions. This is no longer necessarily considered to be best practice.

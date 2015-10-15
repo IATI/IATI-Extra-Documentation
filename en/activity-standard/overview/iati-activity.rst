@@ -28,9 +28,9 @@ When using the **IATI activity standard** to declare an *iati-activity*, the fol
 * Both the ``title`` and ``descriptions`` can be repeated for different languages.  
 * When an ``iati-activity`` is being implemented in a ``recipient-country`` where the official language is different to that of the ``reporting-org`` it is recommended that activity ``title`` and ``description`` are provided in all official ``reporting-org`` and ``recipient-country`` languages
 
-2.01 Considerations
+2.01+ Considerations
 --------------------
-In version 2.01, the following must also be considered:
+In versions 2.01 and above, the following must also be considered:
 
 * The ``title`` and ``description`` are mandatory elements of any ``iati-activity``.
 * Any freetext title or description must be included in the child ``narrative`` element, which can be repeated for different languages. 

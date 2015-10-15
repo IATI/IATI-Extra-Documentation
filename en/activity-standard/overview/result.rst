@@ -22,8 +22,8 @@ When using the **IATI activity standard** to declare *result*, the following sho
 * The free-text instances of ``title``, ``description`` and ``comment`` can be repeated for multiple languages, using ``@xml:lang``.
 * The free-text instances of ``title``, ``description`` and ``comment`` should avoid use of text in CAPITALS, where possible. 
 
-2.01 Considerations
+2.01+ Considerations
 --------------------
-In version 2.01, the following must also be considered:
+In versions 2.01 and above, the following must also be considered:
 
 * Any freetext title, description or comment must be included in the child ``narrative`` element, which can be repeated for different languages. 

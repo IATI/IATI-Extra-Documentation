@@ -33,9 +33,9 @@ When using the **IATI activity standard** to declare *documents*, the following 
 * If an ``iati-activity`` is either wholly *tied*, *partially tied* or *untied* it is recommended that the appropriate ``default-tied-status`` code is used.
 * If an ``iati-activity`` has more than one *tied status* it is recommended that the reported commitment(s) are split into the relevant tied, untied and/or partially-tied amounts and ``tied-status`` is reported at ``transaction`` level. (NB that tied status should be reported for commitments only.)
 
-2.01 Considerations
+2.01+ Considerations
 --------------------
-In version 2.01, the following must also be considered:
+In versions 2.01 and above, the following must also be considered:
 
 * A ``sector`` is mandatory.
 * Descriptive text / name is no longer supported for any classification elements. 
