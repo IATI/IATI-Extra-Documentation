@@ -10,3 +10,11 @@ Example usage of ``period-start`` of ``planned-disbursement`` for an ``iati-acti
 	:start-after: <!--planned-disbursement starts-->
 	:end-before: <!--planned-disbursement ends-->
 	:emphasize-lines: 2
+
+
+Changelog
+~~~~~~~~~
+
+2.02
+^^^^
+The definition of this element was amended for clarity.
