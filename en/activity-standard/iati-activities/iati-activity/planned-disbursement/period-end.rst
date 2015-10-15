@@ -19,5 +19,11 @@ Example usage of ``period-end`` of ``planned-disbursement`` for an ``iati-activi
 		<period-start iso-date="2014-01-01" />
 		<value currency="EUR" value-date="2014-01-01">3000</value>
 	</planned-disbursement>
-	
 
+
+Changelog
+~~~~~~~~~
+
+2.02
+^^^^
+The definition of this element was amended for clarity.
