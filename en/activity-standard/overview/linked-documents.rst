@@ -31,6 +31,7 @@ When using the **IATI activity standard** to declare *related documents*, the fo
 * When a document has multiple categories, then the ``category`` element can be repeated.
 * Using the ``@format`` attribute helps inform what to expect from the document.
 * Use of the ``@format`` must be accompanied by a code on the ``FileFormat`` codelist.
+* The ``document-date/@iso-date`` would normally be the production or published date of the relevant document to identify the specific document version.
 
 
 2.01 Considerations
