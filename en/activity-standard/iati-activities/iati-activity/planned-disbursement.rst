@@ -20,12 +20,17 @@ Example ``planned-disbursement`` for an ``iati-activity``.
 	:language: xml
 	:start-after: <!--planned-disbursement starts-->
 	:end-before: <!--planned-disbursement ends-->
-	:emphasize-lines: 1, 5
+	:emphasize-lines: 1, 11
 	
 | Note: multiple planned disbursements are expressed by repeating the ``planned-disbursement`` element.	
 
 Changelog
 ~~~~~~~~~
+2.02
+^^^^
+The ``provider-org`` and ``receiver-org`` elements were added to this element.
+
+
 2.01
 ^^^^
 The attribute ``@last-updated`` was `removed <http://iatistandard.org/upgrades/integer-upgrade-to-2-01/2-01-changes/#planned-disbursement-removed-renamed-attributes>`__.
