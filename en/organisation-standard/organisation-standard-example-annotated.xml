@@ -31,7 +31,7 @@
   </total-budget>
   <!--total-budget ends-->
   <!--recipient-org-budget starts-->
-  <recipient-org-budget>
+  <recipient-org-budget status="1">
    <recipient-org ref="AA-ABC-1234567">
     <narrative>Org Name</narrative>   
    </recipient-org>
