@@ -8,7 +8,7 @@ Example Usage
 	:language: xml
 	:start-after: <!--document-link starts-->
 	:end-before: <!--document-link ends-->
-	:emphasize-lines: 7
+	:emphasize-lines: 8
 
 | The ``document-date`` element should only be used once for each ``document-link`` element.		
 
