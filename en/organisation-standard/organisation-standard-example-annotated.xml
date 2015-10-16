@@ -45,7 +45,7 @@
   </recipient-org-budget>
   <!--recipient-org-budget ends-->
   <!--recipient-country-budget starts-->
-  <recipient-country-budget>
+  <recipient-country-budget status="1">
    <recipient-country code="AF" />
    <period-start iso-date="2014-01-01" />
    <period-end iso-date="2014-12-31" />
