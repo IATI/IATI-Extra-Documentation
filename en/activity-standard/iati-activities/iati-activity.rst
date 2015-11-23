@@ -29,6 +29,10 @@ The ``iati-activity`` element acts as a container for other sub-elements.  It is
 Changelog
 ~~~~~~~~~
 
+2.02
+^^^^
+| The ``humanitarian`` attribute was `added <http://support.iatistandard.org/entries/106937796-Humanitarian-Flag>`__.  
+
 2.01
 ^^^^
 | The ``version`` attribute was `removed <http://iatistandard.org/upgrades/integer-upgrade-to-2-01/2-01-changes/#iati-activity-removed-attribute>`__.  
