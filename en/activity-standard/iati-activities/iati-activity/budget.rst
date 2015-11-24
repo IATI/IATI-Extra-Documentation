@@ -25,3 +25,10 @@ Example ``budget`` for an ``iati-activity``.
 	:emphasize-lines: 1, 5
 
 | The ``budget`` element can be repeated in any ``iati-activity``.      
+
+Changelog
+~~~~~~~~~
+
+2.02
+^^^^
+The ``status`` attribute was `added <http://support.iatistandard.org/entries/21150501-Budgets-and-tentativeness>`__.
