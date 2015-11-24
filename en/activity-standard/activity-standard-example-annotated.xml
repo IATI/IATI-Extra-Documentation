@@ -103,17 +103,37 @@
    <location-reach code="1" />	  
    <location-id vocabulary="G1" code="1453782" />
    <name>
-	<narrative>Location name</narrative>
+	<narrative>Location #1 name</narrative>
    </name>
    <description>
-	<narrative>Location description</narrative>
+	<narrative>Location #1 description</narrative>
    </description>
    <activity-description>
-	<narrative>A description that qualifies the activity taking place at the location</narrative>
+	<narrative>A description that qualifies the activity taking place at location #1</narrative>
    </activity-description>
    <administrative vocabulary="G1" level="1" code="1453782" />
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>31.616944 65.716944</pos>
+   </point>
+   <exactness code="1"/>
+   <location-class code="2"/>
+   <feature-designation code="ADMF"/>
+  </location>
+  <location ref="KH-PNH">
+   <location-reach code="1" />    
+   <location-id vocabulary="G1" code="1821306" />
+   <name>
+  <narrative>Location #2 name</narrative>
+   </name>
+   <description>
+  <narrative>Location #2 description</narrative>
+   </description>
+   <activity-description>
+  <narrative>A description that qualifies the activity taking place at location #2</narrative>
+   </activity-description>
+   <administrative vocabulary="G1" level="1" code="1453782" />
+   <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
+    <pos>11.5500 104.9167</pos>
    </point>
    <exactness code="1"/>
    <location-class code="2"/>
@@ -276,14 +296,22 @@
       <period-start iso-date="2013-01-01" />
       <period-end iso-date="2013-03-31" />
       <target value="10">
-       <comment>
-        <narrative>Target comment text</narrative>			
-       </comment> 
+        <location ref="AF-KAN" />
+        <location ref="KH-PNH" />
+        <dimension name="sex" value="female" />
+        <dimension name="age" value="adult" />
+        <comment>
+          <narrative>Target comment text</narrative>			
+        </comment> 
       </target>
       <actual value="11">
-	   <comment>
-		<narrative>Actual comment text</narrative>
-	   </comment> 
+	      <location ref="AF-KAN" />
+        <location ref="KH-PNH" />
+        <dimension name="sex" value="female" />
+        <dimension name="age" value="adult" />
+        <comment>
+		      <narrative>Actual comment text</narrative>
+	       </comment> 
       </actual>
      </period>
    </indicator>
