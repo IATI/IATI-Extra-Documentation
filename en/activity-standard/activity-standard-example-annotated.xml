@@ -333,6 +333,7 @@
      <principal-arrears>0</principal-arrears>
      <interest-arrears>0</interest-arrears>
    </loan-status>
+   <channel-code>21039</channel-code>
   </crs-add>
   <!--crs-add ends-->
   <!--fss starts-->
