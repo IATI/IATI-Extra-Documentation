@@ -9,6 +9,11 @@ Example ``recipient-region`` of an ``iati-activity``.
 
 	<recipient-region code="489" vocabulary="1" />
 
+If a publisher uses a vocabulary of 99 (i.e. 'Reporting Organisation'), then the ``@vocabulary-uri`` attribute should also be used, for example:
+.. code-block:: xml
+
+	<recipient-region code="A1" vocabulary="99" vocabulary-uri="http://example.com/vocab.html" />
+
 | The ``recipient-region`` element can be repeated in any ``iati-activity``.
 
 | When multiple ``recipient-region`` are declared, then the ``@percentage`` values should sum to 100% for the specific ``iati-activity``.
@@ -28,6 +33,10 @@ Example ``recipient-region`` of an ``iati-activity``.
 	
 Changelog
 ~~~~~~~~~
+
+2.02
+^^^^
+The ``vocabulary-uri`` attribute was `added <http://support.iatistandard.org/entries/105713163-Add-URI-attribute-to-elements-where-Reporting-organisation-vocabularies-are-used>`__.
 
 2.01
 ^^^^

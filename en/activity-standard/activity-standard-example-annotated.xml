@@ -96,6 +96,7 @@
   <!--recipient-region starts-->
   <recipient-region code="489" vocabulary="1" percentage="25" />
   <recipient-region code="289" vocabulary="1" percentage="25" />
+  <recipient-region code="A1" vocabulary="99" vocabulary-uri="http://example.com/vocab.html" percentage="50" />
   <!--recipient-region ends-->
   <!--location starts-->
   <location ref="AF-KAN">
@@ -120,8 +121,9 @@
   </location>
   <!--location ends-->
   <!--sector starts-->
-  <sector vocabulary="2" code="111" percentage="50" />
-  <sector vocabulary="2" code="112" percentage="50" />
+  <sector vocabulary="2" code="111" percentage="25" />
+  <sector vocabulary="2" code="112" percentage="25" />
+  <sector vocabulary="98" vocabulary-uri="http://example.com/vocab.html" code="A1" percentage="50" />
   <!--sector ends-->
   <!--country-budget-items starts-->
   <country-budget-items vocabulary="2">
@@ -139,7 +141,8 @@
   <!--country-budget-items ends-->
   <!--policy-marker starts-->
   <policy-marker vocabulary="1" code="2" significance="3" />
-  <policy-marker vocabulary="1" code="1" significance="4" />  
+  <policy-marker vocabulary="1" code="9" significance="4" />
+  <policy-marker vocabulary="99" vocabulary-uri="http://example.com/vocab.html" code="A1" significance="3" />
   <!--policy-marker ends-->
   <!--collaboration-type starts-->
   <collaboration-type code="1" />
