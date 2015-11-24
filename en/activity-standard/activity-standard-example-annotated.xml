@@ -283,6 +283,9 @@
 	   </comment> 
       </actual>
      </period>
+     <reference vocabulary="1" code="3429" />
+     <reference vocabulary="7" code="861" />
+     <reference vocabulary="99" code="B1" indicator-uri="http://example.com/indicators.html" />
    </indicator>
   </result>
   <!--result ends-->
