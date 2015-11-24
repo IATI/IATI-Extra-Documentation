@@ -8,4 +8,4 @@ Example of ``baseline`` in context of an ``indicator`` in a ``result`` element.
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 15, 19
+	:emphasize-lines: 18, 22

@@ -8,5 +8,5 @@ Example usage of ``period`` in context of an ``indicator`` in a ``result`` eleme
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 25, 40
+	:emphasize-lines: 28, 43
 

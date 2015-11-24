@@ -9,4 +9,4 @@ Example usage of ``period-start`` within ``period``, in context of an ``indicato
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 26
+	:emphasize-lines: 29

@@ -8,5 +8,5 @@ Example usage of ``actual`` within ``period``, in context of an ``indicator`` in
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 28, 32
+	:emphasize-lines: 31, 35
 

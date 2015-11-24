@@ -263,7 +263,10 @@
      </title>
      <description>
       <narrative>Indicator description text</narrative>
-     </description>     
+     </description>
+     <reference vocabulary="1" code="3429" />
+     <reference vocabulary="7" code="861" />
+     <reference vocabulary="99" code="B1" indicator-uri="http://example.com/indicators.html" />     
      <baseline year="2012" value="10">
 	  <comment>
 	   <narrative>Baseline comment text</narrative>
@@ -283,9 +286,6 @@
 	   </comment> 
       </actual>
      </period>
-     <reference vocabulary="1" code="3429" />
-     <reference vocabulary="7" code="861" />
-     <reference vocabulary="99" code="B1" indicator-uri="http://example.com/indicators.html" />
    </indicator>
   </result>
   <!--result ends-->

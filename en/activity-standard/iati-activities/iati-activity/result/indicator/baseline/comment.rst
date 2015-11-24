@@ -6,7 +6,7 @@ Example usage of ``comment`` for ``baseline``:
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 16, 18
+	:emphasize-lines: 19, 21
 
 Changelog
 ~~~~~~~~~
