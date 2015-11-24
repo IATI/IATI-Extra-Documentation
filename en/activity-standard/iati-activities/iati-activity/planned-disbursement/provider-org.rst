@@ -27,4 +27,4 @@ Changelog
 
 2.02
 ^^^^
-Added the optional ``provider-org`` element
+The optional ``provider-org`` element was `added <http://support.iatistandard.org/entries/29665337-Add-provider-org-and-receiver-org-to-planned-disbursement-element>`__.
