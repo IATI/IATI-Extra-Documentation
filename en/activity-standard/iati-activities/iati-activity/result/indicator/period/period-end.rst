@@ -9,5 +9,5 @@ Example usage of ``period-end`` within ``period``, in context of an ``indicator`
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 30
+	:emphasize-lines: 25
 

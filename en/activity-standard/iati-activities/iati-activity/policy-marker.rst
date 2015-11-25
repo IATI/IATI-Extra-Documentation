@@ -11,6 +11,7 @@ Example ``policy-marker`` of an ``iati-activity``.
 	<policy-marker vocabulary="1" code="2" significance="3" />
 
 If a publisher uses a vocabulary of 99 (i.e. 'Reporting Organisation'), then the ``@vocabulary-uri`` attribute should also be used, for example:
+
 .. code-block:: xml
 
 	<policy-marker vocabulary="99" vocabulary-uri="http://example.com/vocab.html" code="A1" significance="3" />

@@ -8,4 +8,4 @@ Example usage of ``target`` within ``period``, in context of an ``indicator`` in
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 26, 30
+	:emphasize-lines: 26, 34

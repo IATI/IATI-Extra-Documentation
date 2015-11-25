@@ -6,7 +6,7 @@ Example usage of ``comment`` for ``actual``:
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 29, 31
+	:emphasize-lines: 40, 42
 
 Changelog
 ~~~~~~~~~

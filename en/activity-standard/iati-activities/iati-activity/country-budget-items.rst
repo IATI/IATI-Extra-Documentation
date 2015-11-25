@@ -17,13 +17,13 @@ Full example with all child elements:
 .. code-block:: xml
 	:emphasize-lines: 1, 7
 	
-		<country-budget-items vocabulary="2">
-			<budget-item code="1.1.1">
-				<description>
-					<narrative>Description text</narrative>
-				</description> 
-			</budget-item>
-		</country-budget-items>
+	<country-budget-items vocabulary="2">
+		<budget-item code="1.1.1">
+			<description>
+				<narrative>Description text</narrative>
+			</description> 
+		</budget-item>
+	</country-budget-items>
 
 
 Changelog

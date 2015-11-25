@@ -19,7 +19,7 @@ Example ``result`` for an ``iati-activity``.
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 1, 35
+	:emphasize-lines: 1, 46
 
 | The ``result`` element can be repeated in any ``iati-activity``.
 

@@ -3,16 +3,17 @@ Example Usage
 Example usage of ``receiver-org`` of a ``planned-disbursement`` in an ``iati-activity``.
 
 | This example declares the organisation identifier with the ``@ref`` attribute.
+| This example also declares the type of organisation which received the funds, using the @type attribute.
 
 .. code-block:: xml
 
-        <receiver-org ref="AA-AAA-123456789">Agency A</receiver-org>
+        <receiver-org ref="AA-AAA-123456789" type="23">Agency A</receiver-org>
 
 | This example declares the unique ``iati-identifier`` of the reported ``iati-activity`` to where the transaction is received, with the ``@receiver-activity-id`` attribute.
 
 .. code-block:: xml
 
-        <receiver-org ref="AA-AAA-123456789" receiver-activity-id="AA-AAA-123456789-1234" />
+        <receiver-org ref="AA-AAA-123456789" type="23" receiver-activity-id="AA-AAA-123456789-1234" />
 
 Full example, within a ``planned-disbursement``.
 

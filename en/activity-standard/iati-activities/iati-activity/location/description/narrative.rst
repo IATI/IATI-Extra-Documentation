@@ -4,7 +4,7 @@ The ``narrative`` element can be used to declare freetext for the ``description`
 
 .. literalinclude:: ../../../../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--location starts-->
+	:start-after: <!--location-single starts-->
 	:end-before: <!--location ends-->
 	:emphasize-lines: 8
 

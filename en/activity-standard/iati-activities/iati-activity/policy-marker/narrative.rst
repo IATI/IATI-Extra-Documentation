@@ -7,7 +7,7 @@ The ``narrative`` child element can be used to declare freetext for the ``policy
 .. code-block:: xml
 	:emphasize-lines: 2
 	
-	<policy-marker vocabulary="99" code="10">
+	<policy-marker vocabulary="99" code="10" significance="3">
 		<narrative>Policy Marker Text</narrative>
 	</policy-marker>
 

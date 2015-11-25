@@ -8,8 +8,8 @@ Example ``document-link`` in an ``iati-actvity``.
 
 .. code-block:: xml
 
-	<document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
-	...
+    <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
+    ...
     </document-link>
 
 | Full example with all child elements: 

@@ -16,7 +16,7 @@ Example ``crs-add`` for an ``iati-activity``.
 	:language: xml
 	:start-after: <!--crs-add starts-->
 	:end-before: <!--crs-add ends-->
-	:emphasize-lines: 1, 16
+	:emphasize-lines: 1, 17
 
 
 Changelog

@@ -98,18 +98,18 @@
   <recipient-region code="289" vocabulary="1" percentage="25" />
   <recipient-region code="A1" vocabulary="99" vocabulary-uri="http://example.com/vocab.html" percentage="50" />
   <!--recipient-region ends-->
-  <!--location starts-->
+  <!--location-single starts-->
   <location ref="AF-KAN">
-   <location-reach code="1" />	  
+   <location-reach code="1" />    
    <location-id vocabulary="G1" code="1453782" />
    <name>
-	<narrative>Location #1 name</narrative>
+  <narrative>Location name</narrative>
    </name>
    <description>
-	<narrative>Location #1 description</narrative>
+  <narrative>Location description</narrative>
    </description>
    <activity-description>
-	<narrative>A description that qualifies the activity taking place at location #1</narrative>
+  <narrative>A description that qualifies the activity taking place at the location.</narrative>
    </activity-description>
    <administrative vocabulary="G1" level="1" code="1453782" />
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
@@ -119,6 +119,8 @@
    <location-class code="2"/>
    <feature-designation code="ADMF"/>
   </location>
+  <!--location-single ends-->
+  <!--location-additional starts-->
   <location ref="KH-PNH">
    <location-reach code="1" />    
    <location-id vocabulary="G1" code="1821306" />
@@ -139,7 +141,7 @@
    <location-class code="2"/>
    <feature-designation code="ADMF"/>
   </location>
-  <!--location ends-->
+  <!--location-additional ends-->
   <!--sector starts-->
   <sector vocabulary="2" code="111" percentage="25" />
   <sector vocabulary="2" code="112" percentage="25" />
@@ -197,10 +199,10 @@
    <period-start iso-date="2014-01-01" />
    <period-end iso-date="2014-12-31" />
    <value currency="EUR" value-date="2014-01-01">3000</value>
-   <provider-org provider-activity-id="BB-BBB-123456789-1234AA" ref="BB-BBB-123456789">
+   <provider-org provider-activity-id="BB-BBB-123456789-1234AA" type="10" ref="BB-BBB-123456789">
      <narrative>Agency B</narrative>
    </provider-org>
-   <receiver-org receiver-activity-id="AA-AAA-123456789-1234" ref="AA-AAA-123456789">
+   <receiver-org receiver-activity-id="AA-AAA-123456789-1234" type="23" ref="AA-AAA-123456789">
      <narrative>Agency A</narrative>
    </receiver-org>
   </planned-disbursement>
@@ -232,8 +234,8 @@
    <disbursement-channel code="1" />
    <sector vocabulary="2" code="111" />
    <!--Note: only a recipient-region OR a recipient-country is expected-->
-   <recipient-country code="AF" />
-   <recipient-region code="456" vocabulary="1" />   
+   <recipient-country code="TM" />
+   <recipient-region code="616" vocabulary="1" />   
    <flow-type code="10" />
    <finance-type code="110" />
    <aid-type code="A01" />   

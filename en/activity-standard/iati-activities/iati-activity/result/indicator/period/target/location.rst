@@ -10,11 +10,11 @@ Example of ``location`` in context of an ``target`` element (as part of a parent
 
 | The ``location`` element can be repeated within any ``target`` element:
 
-.. literalinclude:: ../../../../activity-standard-example-annotated.xml
+.. literalinclude:: ../../../../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 29, 30
+	:emphasize-lines: 27, 28
 
 Changelog
 ~~~~~~~~~

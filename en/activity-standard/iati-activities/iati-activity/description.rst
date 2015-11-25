@@ -6,7 +6,7 @@ Example ``description`` of an ``iati-activity``.
 
 .. code-block:: xml
 
-	<description type="1">
+    <description type="1">
        <narrative>General activity description text.  Long description of the activity with no particular structure.</narrative>
     </description>
 

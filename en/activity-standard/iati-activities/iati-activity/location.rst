@@ -16,11 +16,20 @@ Example ``location`` for an ``iati-activity``.
     
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--location starts-->
-	:end-before: <!--location ends-->
+	:start-after: <!--location-single starts-->
+	:end-before: <!--location-single ends-->
 	:emphasize-lines: 1, 20
 
-| The ``location`` element can be repeated in any ``iati-activity``.
+| The ``location`` element can be repeated in any ``iati-activity``:
+
+.. code-block:: xml
+
+	<location ref="AF-KAN">
+	...
+	</location>
+	<location ref="KH-PNH">
+	...
+	</location>
 
 Changelog
 ~~~~~~~~~
