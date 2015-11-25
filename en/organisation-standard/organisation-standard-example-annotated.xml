@@ -68,6 +68,17 @@
    </budget-line>
   </recipient-country-budget>
   <!--recipient-country-budget ends-->
+  <!--total-expenditure starts-->
+  <total-expenditure>
+    <period-start iso-date="2014-01-01" />
+    <period-end iso-date="2014-12-31" />
+    <value currency="USD" value-date="2014-01-01">250000000</value>
+    <expense-line ref="1234">
+      <value currency="USD" value-date="2014-01-01">200000000</value>
+      <narrative xml:lang="en">Expense Line</narrative>
+    </expense-line>
+ </total-expenditure>
+  <!--total-expenditure ends-->
   <!--document-link starts-->
   <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
    <title>
