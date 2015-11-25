@@ -6,7 +6,7 @@ Example Usage
 
 .. code-block:: xml
 
-	<recipient-org-budget>
+	<recipient-org-budget status="1">
 	...
 	</recipient-org-budget>
 
@@ -19,3 +19,10 @@ Example Usage
 	:emphasize-lines: 1, 12
 
 | The ``recipient-org-budget`` element can be repeated in any ``iati-organisation``. 
+
+Changelog
+~~~~~~~~~
+
+2.02
+^^^^
+The ``status`` attribute was `added <http://support.iatistandard.org/entries/21150501-Budgets-and-tentativeness>`__.
