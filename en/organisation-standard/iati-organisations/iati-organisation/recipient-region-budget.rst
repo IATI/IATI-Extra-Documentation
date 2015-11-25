@@ -6,7 +6,7 @@ Example Usage
 
 .. code-block:: xml
 
-	<recipient-region-budget>
+	<recipient-region-budget status="1">
 	...
 	</recipient-region-budget>
 

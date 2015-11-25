@@ -45,7 +45,7 @@
   </recipient-org-budget>
   <!--recipient-org-budget ends-->
   <!--recipient-region-budget starts-->
-  <recipient-region-budget status="1">
+  <recipient-region-budget status="2">
     <recipient-region vocabulary="99" vocabulary-uri="http://example.com/vocab.html" code="A1" />
     <period-start iso-date="2014-01-01" />
     <period-end iso-date="2014-12-31" />
