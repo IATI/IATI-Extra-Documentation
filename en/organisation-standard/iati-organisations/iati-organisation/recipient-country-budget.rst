@@ -6,7 +6,7 @@ Example Usage
 
 .. code-block:: xml
 
-	<recipient-country-budget>
+	<recipient-country-budget status="1">
 	...
 	</recipient-country-budget>
 
@@ -21,3 +21,9 @@ Example Usage
 | The ``recipient-country-budget`` element can be repeated in any ``iati-organisation``. 
 		
 
+Changelog
+~~~~~~~~~
+
+2.02
+^^^^
+The ``status`` attribute was `added <http://support.iatistandard.org/entries/21150501-Budgets-and-tentativeness>`__.
