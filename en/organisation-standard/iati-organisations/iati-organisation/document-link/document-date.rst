@@ -17,4 +17,4 @@ Changelog
 
 2.02
 ^^^^
-Added the optional ``document-date`` element was `added <http://support.iatistandard.org/entries/92707776-Document-Dates >`__.
+Added the optional ``document-date`` element was `added <http://support.iatistandard.org/entries/92707776-Document-Dates>`__.
