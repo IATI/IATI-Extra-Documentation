@@ -20,7 +20,7 @@
   </reporting-org>
   <!--reporting-org ends-->
   <!--total-budget starts-->
-  <total-budget status="1">
+  <total-budget status="2">
    <period-start iso-date="2014-01-01" />
    <period-end iso-date="2014-12-31" />
    <value currency="USD" value-date="2014-01-01">250000000</value>
