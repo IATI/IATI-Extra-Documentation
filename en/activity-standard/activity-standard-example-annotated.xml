@@ -9,8 +9,8 @@
   <!--iati-identifier ends-->
   <!--reporting-org starts-->
   <reporting-org ref="AA-AAA-123456789" type="40" secondary-reporter="0">
-	  <narrative>Organisation name</narrative>
-	  <narrative xml:lang="fr">Nom de l'organisme</narrative>	  
+   <narrative>Organisation name</narrative>
+   <narrative xml:lang="fr">Nom de l'organisme</narrative>	  
   </reporting-org>
   <!--reporting-org ends-->
   <!--title starts-->
@@ -36,20 +36,20 @@
   <!--description ends-->
   <!--participating-org starts-->
   <participating-org ref="BB-BBB-123456789" role="1" type="40" activity-id="BB-BBB-123456789-1234">
-	<narrative>Name of Agency B</narrative>
+   <narrative>Name of Agency B</narrative>
   </participating-org>
   <participating-org ref="CC-CCC-123456789" role="2" type="10" activity-id="CC-CCC-123456789-1234">
-	<narrative>Name of Agency C</narrative>
+   <narrative>Name of Agency C</narrative>
   </participating-org>	  
   <participating-org ref="AA-AAA-123456789" role="3" type="21" activity-id="AA-AAA-123456789-1234">
-	<narrative>Name of Agency A</narrative>
-    <narrative xml:lang="fr">Nom de l'agence A</narrative>	 	
+   <narrative>Name of Agency A</narrative>
+   <narrative xml:lang="fr">Nom de l'agence A</narrative>	 	
   </participating-org>
   <!--participating-org ends-->
   <!--other-identifier starts-->
   <other-identifier ref="ABC123-XYZ" type="A1">
    <owner-org ref="AA-AAA-123456789">
-	<narrative>Organisation name</narrative>
+    <narrative>Organisation name</narrative>
    </owner-org>	  
   </other-identifier>
   <!--other-identifier ends-->
@@ -67,22 +67,22 @@
   <!--contact-info starts-->
   <contact-info type="1">
    <organisation>
-	<narrative>Agency A</narrative>
+    <narrative>Agency A</narrative>
    </organisation>
    <department>
     <narrative>Department B</narrative>
    </department>
    <person-name>
-	<narrative>A. Example</narrative>
+    <narrative>A. Example</narrative>
    </person-name>
    <job-title>
-	<narrative>Transparency Lead</narrative>
+    <narrative>Transparency Lead</narrative>
    </job-title>
    <telephone>0044111222333444</telephone>
    <email>transparency@example.org</email>
    <website>http://www.example.org</website>
    <mailing-address>
-	<narrative>Transparency House, The Street, Town, City, Postcode</narrative>
+    <narrative>Transparency House, The Street, Town, City, Postcode</narrative>
    </mailing-address>
   </contact-info>
   <!--contact-info ends-->
@@ -151,20 +151,20 @@
   <country-budget-items vocabulary="2">
    <budget-item code="1.1.1" percentage="50">
     <description>
-	 <narrative>Description text</narrative>
-	</description> 
+     <narrative>Description text</narrative>
+    </description> 
    </budget-item>
    <budget-item code="1.2.1"  percentage="50">
     <description>
-	 <narrative>Description text</narrative>
-	</description> 
+     <narrative>Description text</narrative>
+     </description> 
    </budget-item>
   </country-budget-items>
   <!--country-budget-items ends-->
   <!--humanitarian-scope starts-->
   <humanitarian-scope type="1" vocabulary="1-2" code="2015-000050" />
   <humanitarian-scope type="1" vocabulary="99" vocabulary-uri="http://example.com/vocab.html" code="A1">
-    <narrative xml:lang="en">Syrian refugee crisis, Middle-east &amp; Europe (2011 onwards)</narrative>
+   <narrative xml:lang="en">Syrian refugee crisis, Middle-east &amp; Europe (2011 onwards)</narrative>
   </humanitarian-scope>
   <!--humanitarian-scope ends-->
   <!--policy-marker starts-->
@@ -200,10 +200,10 @@
    <period-end iso-date="2014-12-31" />
    <value currency="EUR" value-date="2014-01-01">3000</value>
    <provider-org provider-activity-id="BB-BBB-123456789-1234AA" type="10" ref="BB-BBB-123456789">
-     <narrative>Agency B</narrative>
+    <narrative>Agency B</narrative>
    </provider-org>
    <receiver-org receiver-activity-id="AA-AAA-123456789-1234" type="23" ref="AA-AAA-123456789">
-     <narrative>Agency A</narrative>
+    <narrative>Agency A</narrative>
    </receiver-org>
   </planned-disbursement>
   <!--planned-disbursement ends-->
@@ -223,13 +223,13 @@
    <transaction-date iso-date="2012-01-01" />
    <value currency="EUR" value-date="2012-01-01">1000</value>   
    <description>
-	<narrative>Transaction description text</narrative>
+    <narrative>Transaction description text</narrative>
    </description>
    <provider-org provider-activity-id="BB-BBB-123456789-1234AA" type="10" ref="BB-BBB-123456789">
-	<narrative>Agency B</narrative>
+    <narrative>Agency B</narrative>
    </provider-org>
    <receiver-org receiver-activity-id="AA-AAA-123456789-1234" type="23" ref="AA-AAA-123456789">
-	<narrative>Agency A</narrative>
+    <narrative>Agency A</narrative>
    </receiver-org>
    <disbursement-channel code="1" />
    <sector vocabulary="2" code="111" />
@@ -274,7 +274,7 @@
   <!--result starts-->
   <result type="1" aggregation-status="1">
    <title>
-	<narrative>Result title</narrative>    
+    <narrative>Result title</narrative>    
    </title>
    <description>
     <narrative>Result description text</narrative>   
@@ -290,30 +290,30 @@
      <reference vocabulary="7" code="861" />
      <reference vocabulary="99" code="B1" indicator-uri="http://example.com/indicators.html" />     
      <baseline year="2012" value="10">
-	  <comment>
-	   <narrative>Baseline comment text</narrative>
-	  </comment>
+      <comment>
+       <narrative>Baseline comment text</narrative>
+      </comment>
      </baseline>
      <period>
       <period-start iso-date="2013-01-01" />
       <period-end iso-date="2013-03-31" />
       <target value="10">
-        <location ref="AF-KAN" />
-        <location ref="KH-PNH" />
-        <dimension name="sex" value="female" />
-        <dimension name="age" value="adult" />
-        <comment>
-          <narrative>Target comment text</narrative>			
-        </comment> 
+       <location ref="AF-KAN" />
+       <location ref="KH-PNH" />
+       <dimension name="sex" value="female" />
+       <dimension name="age" value="adult" />
+       <comment>
+        <narrative>Target comment text</narrative>			
+       </comment> 
       </target>
       <actual value="11">
-	      <location ref="AF-KAN" />
-        <location ref="KH-PNH" />
-        <dimension name="sex" value="female" />
-        <dimension name="age" value="adult" />
-        <comment>
-		      <narrative>Actual comment text</narrative>
-	       </comment> 
+       <location ref="AF-KAN" />
+       <location ref="KH-PNH" />
+       <dimension name="sex" value="female" />
+       <dimension name="age" value="adult" />
+       <comment>
+         <narrative>Actual comment text</narrative>
+       </comment> 
       </actual>
      </period>
    </indicator>

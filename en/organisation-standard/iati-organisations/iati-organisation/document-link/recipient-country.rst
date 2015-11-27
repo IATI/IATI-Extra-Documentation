@@ -8,7 +8,7 @@ Example Usage
 	:language: xml
 	:start-after: <!--document-link starts-->
 	:end-before: <!--document-link ends-->
-	:emphasize-lines: 7
+	:emphasize-lines: 8
 
 | The ``recipient-country`` element can be repeated in any ``document-link``.
 | Example declaring multiple ``recipient-country`` elements for the same ``document-link``:
@@ -17,7 +17,7 @@ Example Usage
 	:language: xml
 	:start-after: <!--multi-country-document-link starts-->
 	:end-before: <!--multi-country-document-link ends-->
-	:emphasize-lines: 7, 8, 9
+	:emphasize-lines: 8, 9, 10
 
 	
 Changelog

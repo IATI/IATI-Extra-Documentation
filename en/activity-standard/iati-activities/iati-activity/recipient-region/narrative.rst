@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 The ``narrative`` child element can be used to declare freetext for the ``recipient-region`` element.
 
-| Note: Both the ``recipient-region`` and ``recipient-country`` elements still allow both a ``@code`` and descriptive text to be specified. This is to cover the isolated cases where the organisation publishing the data may not agree with name of a country or region given by the lookup codelists IATI uses.  Example in the case of a ``recipient-region`` element.
+| Note: Both the ``recipient-region`` and ``recipient-country`` elements still allow both a ``@code`` and descriptive text to be specified. This is to cover the isolated cases where the organisation publishing the data may not agree with name of a country or region given by the lookup codelists IATI uses.  Example in the case of a ``recipient-region`` element:
 
 .. code-block:: xml
 	:emphasize-lines: 2

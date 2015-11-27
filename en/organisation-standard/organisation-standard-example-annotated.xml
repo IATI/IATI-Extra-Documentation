@@ -9,14 +9,14 @@
   <!--organisation-identifier ends-->
   <!--name starts-->
   <name>
-	  <narrative>Organisation name</narrative>
-	  <narrative xml:lang="fr">Nom de l'organisme</narrative>
+   <narrative>Organisation name</narrative>
+   <narrative xml:lang="fr">Nom de l'organisme</narrative>
   </name>
   <!--name ends-->
   <!--reporting-org starts-->
   <reporting-org ref="AA-AAA-123456789" type="40" secondary-reporter="0">
-	  <narrative>Organisation name</narrative>
-	  <narrative xml:lang="fr">Nom de l'organisme</narrative>	  
+   <narrative>Organisation name</narrative>
+   <narrative xml:lang="fr">Nom de l'organisme</narrative>	  
   </reporting-org>
   <!--reporting-org ends-->
   <!--total-budget starts-->
@@ -25,8 +25,8 @@
    <period-end iso-date="2014-12-31" />
    <value currency="USD" value-date="2014-01-01">250000000</value>
    <budget-line ref="1234">
-	<value currency="USD" value-date="2014-01-01">200000000</value>
-	<narrative>Budget Line</narrative>
+    <value currency="USD" value-date="2014-01-01">200000000</value>
+    <narrative>Budget Line</narrative>
    </budget-line>
   </total-budget>
   <!--total-budget ends-->
@@ -39,21 +39,21 @@
    <period-end iso-date="2014-12-31" />
    <value currency="USD" value-date="2014-01-01">2500000</value>
    <budget-line ref="1234">
-	<value currency="USD" value-date="2014-01-01">2000000</value>
-	<narrative>Budget Line</narrative>
+    <value currency="USD" value-date="2014-01-01">2000000</value>
+     <narrative>Budget Line</narrative>
    </budget-line>
   </recipient-org-budget>
   <!--recipient-org-budget ends-->
   <!--recipient-region-budget starts-->
   <recipient-region-budget status="2">
-    <recipient-region vocabulary="99" vocabulary-uri="http://example.com/vocab.html" code="A1" />
-    <period-start iso-date="2014-01-01" />
-    <period-end iso-date="2014-12-31" />
-    <value currency="USD" value-date="2014-01-01">25000000</value>
-    <budget-line ref="1234">
-      <value currency="USD" value-date="2014-01-01">2000000</value>
-      <narrative xml:lang="en">Budget Line</narrative>
-    </budget-line>
+   <recipient-region vocabulary="99" vocabulary-uri="http://example.com/vocab.html" code="A1" />
+   <period-start iso-date="2014-01-01" />
+   <period-end iso-date="2014-12-31" />
+   <value currency="USD" value-date="2014-01-01">25000000</value>
+   <budget-line ref="1234">
+    <value currency="USD" value-date="2014-01-01">2000000</value>
+    <narrative xml:lang="en">Budget Line</narrative>
+   </budget-line>
   </recipient-region-budget>
   <!--recipient-region-budget ends-->
   <!--recipient-country-budget starts-->
@@ -63,36 +63,36 @@
    <period-end iso-date="2014-12-31" />
    <value currency="USD" value-date="2014-01-01">25000000</value>
    <budget-line ref="1234">
-	<value currency="USD" value-date="2014-01-01">2000000</value>
-	<narrative>Budget Line</narrative>
+    <value currency="USD" value-date="2014-01-01">2000000</value>
+    <narrative>Budget Line</narrative>
    </budget-line>
   </recipient-country-budget>
   <!--recipient-country-budget ends-->
   <!--total-expenditure starts-->
   <total-expenditure>
-    <period-start iso-date="2014-01-01" />
-    <period-end iso-date="2014-12-31" />
-    <value currency="USD" value-date="2014-01-01">250000000</value>
-    <expense-line ref="1234">
-      <value currency="USD" value-date="2014-01-01">200000000</value>
-      <narrative xml:lang="en">Expense Line</narrative>
-    </expense-line>
+   <period-start iso-date="2014-01-01" />
+   <period-end iso-date="2014-12-31" />
+   <value currency="USD" value-date="2014-01-01">250000000</value>
+   <expense-line ref="1234">
+     <value currency="USD" value-date="2014-01-01">200000000</value>
+     <narrative xml:lang="en">Expense Line</narrative>
+   </expense-line>
  </total-expenditure>
-  <!--total-expenditure ends-->
-  <!--document-link starts-->
-  <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
-   <title>
-    <narrative>Annual Report 2013</narrative>	   
-   </title>
-   <category code="B01" />
-   <language code="en" />
-   <document-date iso-date="2014-02-05" />
-   <recipient-country code="AF" />  
-  </document-link>
-  <!--document-link ends-->
-  <!--document-link-title starts-->
-  <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
-   <title>
+ <!--total-expenditure ends-->
+ <!--document-link starts-->
+ <document-link format="application/vnd.oasis.opendocument.text" url="http://www.example.org/docs/report_en.odt">
+  <title>
+   <narrative>Annual Report 2013</narrative>	   
+  </title>
+  <category code="B01" />
+  <language code="en" />
+  <document-date iso-date="2014-02-05" />
+  <recipient-country code="AF" />  
+ </document-link>
+ <!--document-link ends-->
+ <!--document-link-title starts-->
+ <document-link format="application/vnd.oasis.opendocument.text" url="http://www.example.org/docs/report_en.odt">
+  <title>
     <narrative>Annual Report 2013</narrative>
     <narrative xml:lang="fr">Rapport annuel 2013</narrative>    	   
    </title>
@@ -103,18 +103,19 @@
   </document-link>
   <!--document-link-title ends-->  
   <!--document-link-lang starts-->
-  <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_fr.odt">
+  <document-link format="application/vnd.oasis.opendocument.text" url="http://www.example.org/docs/report_fr.odt">
    <title>
     <narrative>Annual Report 2013</narrative>	   
     <narrative xml:lang="fr">Rapport annuel 2013</narrative>
    </title>
    <category code="B01" />
    <language code="fr" />
+   <document-date iso-date="2014-02-05" />
    <recipient-country code="AF" />   
   </document-link>
   <!--document-link-lang ends-->
   <!--multi-cat-document-link starts-->
-  <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
+  <document-link format="application/vnd.oasis.opendocument.text" url="http://www.example.org/docs/report_en.odt">
    <title>
     <narrative>Annual Report 2013</narrative>	   
     <narrative xml:lang="fr">Rapport annuel 2013</narrative>
@@ -123,17 +124,19 @@
    <category code="B02" />
    <category code="B03" />
    <language code="en" />
+   <document-date iso-date="2014-02-05" />
    <recipient-country code="AF" />
   </document-link>
   <!--multi-cat-document-link ends-->
   <!--multi-country-document-link starts-->
-  <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
+  <document-link format="application/vnd.oasis.opendocument.text" url="http://www.example.org/docs/report_en.odt">
    <title>
     <narrative>Country Report 2013</narrative>	   
     <narrative xml:lang="fr">Rapport Pays 2013</narrative>
    </title>
    <category code="B01" />
    <language code="en" />
+   <document-date iso-date="2014-02-05" />
    <recipient-country code="AF" />
    <recipient-country code="AX" />
    <recipient-country code="AL" />
