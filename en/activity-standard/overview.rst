@@ -24,6 +24,8 @@ Further guidance, examples and details can be found in the :doc:`reference </act
    overview/crs-fss
    overview/conditions
    overview/contact-info
+   overview/humanitarian-reporting
+   overview/self-defined-vocabularies
    example-xml
  
    
