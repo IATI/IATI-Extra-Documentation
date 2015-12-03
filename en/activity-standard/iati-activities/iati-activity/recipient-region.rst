@@ -10,6 +10,7 @@ Example ``recipient-region`` of an ``iati-activity``.
 	<recipient-region code="489" vocabulary="1" />
 
 If a publisher uses a vocabulary of 99 (i.e. 'Reporting Organisation'), then the ``@vocabulary-uri`` attribute should also be used, for example:
+
 .. code-block:: xml
 
 	<recipient-region code="A1" vocabulary="99" vocabulary-uri="http://example.com/vocab.html" />
