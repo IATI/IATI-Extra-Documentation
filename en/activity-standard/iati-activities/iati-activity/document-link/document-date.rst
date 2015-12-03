@@ -1,3 +1,7 @@
+Usage in practice
+~~~~~~~~~~~~~~~~~
+This ``document-date`` element would normally be the production or published date of the relevant document to identify the specific document version.
+
 Example Usage
 ~~~~~~~~~~~~~
 | Example usage of the ``document-date`` element within a ``document-link`` as part of an ``iati-activity``.
