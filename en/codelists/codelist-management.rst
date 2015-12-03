@@ -11,8 +11,8 @@ very minor changes and to 'tag' major releases.
 
 The structure of the codelists themselves is governed by a schema that
 is versioned and maintained in the GitHub repository for each version of
-the standard. e.g. for v1.04:
-https://github.com/IATI/IATI-Codelists/blob/version-1.04/codelist.xsd
+the standard. e.g. for v2.02:
+https://github.com/IATI/IATI-Codelists/blob/version-2.02/codelist.xsd
 
 In managing the codelists we make a distinction between 'embedded' and
 'non-embedded' codelists. In addition, we may refer to these lists as
@@ -92,6 +92,10 @@ File Format
 
 Organisation Registration Agency
   Because there is a need to add registration agencies quickly, so that people can do their work, and because we anticipate many additions that will not be of interest to most people, we will add values to this list without making announcements. Values to be added will be agreed at the weekly team meeting.
+  
+Code status, addition and withdrawl dates
+-----------------------------------------
+All new codes added to codelist from the release of version 2.02 (December 2015) will feature ``status="active"`` and ``activation-date`` attributes in the underlaying GitHub source code repositories.  Similarily, codes withdrawn from the release of version 2.02 (December 2015) will feature ``status="withdrawn"`` and ``withdrawal-date`` attributes.
 
 Complete vs Incomplete Codelists
 --------------------------------
