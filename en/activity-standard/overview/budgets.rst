@@ -1,12 +1,16 @@
 Budgets
 =======
 
+.. role:: underline
+    :class: underline
+
 Definition
 ----------
 The monetary *budgets* assigned to a specific ``iati-activity`` can be described in the **IATI activity standard** using the following:
 
-* ``transaction-type`` type Commitment (code *2*) can be used to describe the total committed budget for the duration of the activity.
-* ``budget`` - the value of the ``iati-activity`` ``budget`` for each financial year, as stated in the original project document.
+* ``transaction-type`` type Commitment (code *2*) can be used to describe the total committed budget for the duration of the activity. Any changes to the original commitment should be reported as additional, incremental transactions (positive or negative) so that the sum of commitments represents the total committed budget.
+* ``budget`` - the value of the ``iati-activity`` ``budget`` for each financial year over the lifetime of the activity, as stated in the :underline:`original` project document or :underline:`revised` accordingly. While it is useful for the sum of budgets to match the sum of commitments this is not necessarily the case, depending on a publisher’s business model and legal frameworks.
+
 * ``planned-disbursement`` - a scheduled payment, set up against the ``budget``
  
 Additionally, there are two areas within the **IATI activity standard** that allow further clarification of budgets:
@@ -22,6 +26,7 @@ Considerations
 When using the **IATI activity standard** to declare *budgets*, the following should be considered:
 
 * It is recommended that budgets are presented in financial years.
+* A budget must not span a period greater than one year.
 * When presenting multiple budgets, then the ``budget`` element should be repeated accordingly.
 * It is expected that the financial years for ``reporting-org`` are described.
 * It is possible to report periods other than years, but this is not recommended.
