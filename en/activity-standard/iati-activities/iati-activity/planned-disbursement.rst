@@ -1,3 +1,13 @@
+Usage in practice
+~~~~~~~~~~~~~~~~~
+
+The purpose of planned-disbursement is to describe any predefined payment schedule.
+
+Planned disbursements should relate to an actual transfer of funds.
+
+Planned disbursements do not replace the activity-budget.
+
+
 Example Usage
 ~~~~~~~~~~~~~
 Example ``planned-disbursement`` for an ``iati-activity``.
