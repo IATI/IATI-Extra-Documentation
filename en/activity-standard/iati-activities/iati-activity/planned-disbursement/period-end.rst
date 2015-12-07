@@ -1,3 +1,9 @@
+Usage in practice
+~~~~~~~~~~~~~~~~~
+The ``period start`` should define when the actual transfer of funds will take place, if a specific date is known. If the specific payment date is not known, the period in which the transfer is due to take place should be described by using both ``period-start`` and ``period-end`` dates.
+
+The timeframe between ``period-start`` and ``period-end`` should not normally exceed 3 calendar months.
+
 Example Usage
 ~~~~~~~~~~~~~
 Example usage of ``period-end`` of ``planned-disbursement`` for an ``iati-activity``.
