@@ -23,6 +23,11 @@ The following also enables any activity or transaction that is humanitarian rela
 * ``transaction``/``@humanitarian`` – indicates that a specific ``transaction`` is humanitarian-related.
 
 
+Timely Reporting
+----------------
+In the event of any rapid onset or other emergency it is recommended that publishers refresh and re-publish  humanitarian activities on a daily or at least weekly basis in order that the most up to date information is continually available to data users. Such data users include, but are not limited to, UN OCHA FTS who are able to automatically import IATI files that contain humanitarian elements into the OCHA FTS systems. This therefore may require a change to a publishers own verification and / or publishing processes in order to enable this to happen as data may not be subject to 'normal' verification processes in order to allow this to happen. 
+
+
 Considerations
 --------------
 When using the IATI activity standard to declare humanitarian related activities the following should be considered:
