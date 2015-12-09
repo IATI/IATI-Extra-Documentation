@@ -3,12 +3,14 @@ Example Usage
 Example of ``reference`` in the context of an ``indicator`` of a ``result`` element.
 
 | This example declares use of ``@vocabulary`` *1*, with a ``@code`` of *3429*:
+
 .. code-block:: xml
 
     <reference vocabulary="1" code="3429" />
 
 
 If a publisher uses a vocabulary of 99 (i.e. 'Reporting Organisation'), then the ``@indicator-uri`` attribute should also be used, for example:
+
 .. code-block:: xml
 
 	<reference vocabulary="99" code="B1" indicator-uri="http://example.com/indicators.html" />
