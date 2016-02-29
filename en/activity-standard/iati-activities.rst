@@ -8,7 +8,7 @@ Example usage of ``iati-activities``.
 | A dateTime in UTC time is indicated by adding a *Z* behind the time
 | This example date time format conforms to the *xsd:dateTime* standard.
 
-| The ``@version`` attribute declares a valid code (*2.01*) from the *Version* codelist.
+| The ``@version`` attribute declares a valid code (*2.x*) from the *Version* codelist.
 | The optional ``@linked-data-default`` attribute is also included.
 
 .. literalinclude:: activity-standard-example-annotated.xml
