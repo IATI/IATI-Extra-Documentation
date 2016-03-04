@@ -12,7 +12,7 @@ Example usage of ``administrative`` within a ``location`` of an ``iati-activity`
 	:end-before: <!--location ends-->
 	:emphasize-lines: 13
 
-Note: Multiple adminstrative levels can be reported by repeating the ``administrative`` element:
+Note: Multiple administrative levels can be reported by repeating the ``administrative`` element:
 
 .. code-block:: xml
 	:emphasize-lines: 6, 7

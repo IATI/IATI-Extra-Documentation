@@ -8,7 +8,7 @@ You can:
 
 1. use the Codelist API to request a codelist via a URL
 
-2. From versioin 1.04 of the IATI standard upwards, you can work directly with our GitHub repositories
+2. From version 1.04 of the IATI standard upwards, you can work directly with our GitHub repositories
 
 
 API Calls
@@ -142,17 +142,17 @@ As this work progressed, it became evident that for the codelists to work in tha
 
 2. There is also a codelist schema that all the source XML validates against - https://github.com/IATI/IATI-Codelists/blob/version-1.04/codelist.xsd.
 
-3. Finally, more metadata, including a description, is now included in the codesists.
+3. Finally, more metadata, including a description, is now included in the codelists.
 
 If you rely on the codelist API you should also read the notes on **Codelist API Compatibility in version 1.04 of the IATI Standard and above** below.
 
 
 Codelist API Compatibility in version 1.04 of the IATI Standard and above
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-For version 2.01 data, a more sustainable approach would be to migrate your codelist handling routines to deal withy the latest CLv3 format.
+For version 2.01 data, a more sustainable approach would be to migrate your codelist handling routines to deal with the latest CLv3 format.
 
-If moving from a version before 1.04 to a higher 1.x decimal verison you might first consider moving your data to verison 2.01 instead. 
-If you decide to upgrade to a higher 1.x version, you should consider going to the highest decimal version your data can accomodate.
+If moving from a version before 1.04 to a higher 1.x decimal version you might first consider moving your data to version 2.01 instead.
+If you decide to upgrade to a higher 1.x version, you should consider going to the highest decimal version your data can accommodate.
 If you do this you may not need to alter the way you deal with codelists, but there are a few things that anyone relying on CLv1 should be aware of.
 
 * The 'metadata' link/call is no longer available (instead, some of this is now available in the CLv2 style code lists, and some is stored in the github repository metadata to be consistent with the rest of the Single Source of Truth)

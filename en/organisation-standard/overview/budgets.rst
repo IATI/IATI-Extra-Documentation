@@ -24,7 +24,7 @@ When using the **IATI organisation standard** to declare *budgets*, the followin
 * It is expected that financial years appropriate to the relevant ``iati-organisation`` would be described.
 * It is strongly recommended that the ``period-start`` and ``period-end`` of the financial years described for any ``recipient-country-budget`` match the budgetary/planning cycle of the ``recipient-country``.
 * It is possible to report budget values in multiple ``@currency``.
-* The ``@default-currency`` can be set in the ``iati-organisaton`` element.  Should subsequent budgets be in the same ``@currency`` then there is no need to restate.
+* The ``@default-currency`` can be set in the ``iati-organisation`` element.  Should subsequent budgets be in the same ``@currency`` then there is no need to restate.
 * When declaring a ``value-date`` for any budget, this date must be in the past.
 
 2.01 Considerations

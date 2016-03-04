@@ -8,7 +8,7 @@ Example usage of ``receiver-org`` of a ``transaction`` in an ``iati-activity``.
 .. code-block:: xml
 
         <receiver-org ref="AA-AAA-123456789" type="23">
-          <narratve>Agency B</narratve>
+          <narrative>Agency B</narrative>
         </receiver-org>
 
 | This example additionally declares the unique ``iati-identifier`` of the reported ``iati-activity`` to where the transaction is received, with the ``@receiver-activity-id`` attribute.
@@ -16,7 +16,7 @@ Example usage of ``receiver-org`` of a ``transaction`` in an ``iati-activity``.
 .. code-block:: xml
 
         <receiver-org ref="AA-AAA-123456789" type="23" receiver-activity-id="AA-AAA-123456789-1234">
-          <narratve>Agency A</narratve>
+          <narrative>Agency A</narrative>
         </receiver-org>
 
 Full example, within a ``transaction``.

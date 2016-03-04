@@ -20,7 +20,7 @@ When using the **IATI activity standard** to declare *transaction*, the followin
 	* Commitment (code*2*)- the total agreed budget for the activity.
 	* Disbursement (code*3*) - the amount transferred to another organisation in the aid delivery chain (e.g. a partner organisation being funded).
 	* Expenditure (code*4*) - the outlay on goods and services and project overheads.
-* The ``value`` of a transaction can be positive or negative, and contain decimals.  It should not contain comma seperators (eg: 3,000)
+* The ``value`` of a transaction can be positive or negative, and contain decimals.  It should not contain comma separators (eg: 3,000)
 	* example: ``3000`` or ``3000.00`` or ``-3000`` is acceptable.  ``3,000`` is not
 * Both the ``transaction-date`` and ``value-date`` must be in ISO 8601 format (YYYY-MM-DD), eg: 2014-03-21.
 * Neither of ``transaction-date`` and ``value-date`` can be in the "future".  A ``transaction`` always describes something that has taken place.
@@ -35,5 +35,5 @@ When using the **IATI activity standard** to declare *transaction*, the followin
 In versions 2.01 and above, the following must also be considered:
 
 * Dates should be a valid *xsd:date*, and a datetimes should be a valid *xsd:dateTime*.
-* A ``recipient-country``, `recipient-region`` and ``sector`` can also be published as child elements of a ``transaction``.  When this is done, it is expected that **all** ``transaction`` include such data, whilst the relevent element is subsequently **not** included at the ``iati-activity`` level. 
+* A ``recipient-country``, `recipient-region`` and ``sector`` can also be published as child elements of a ``transaction``.  When this is done, it is expected that **all** ``transaction`` include such data, whilst the relevant element is subsequently **not** included at the ``iati-activity`` level.
 

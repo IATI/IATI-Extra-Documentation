@@ -14,7 +14,7 @@ Example ``budget`` for an ``iati-activity``.
 	</budget>
 	
 | Note: If the @type attribute is omitted, then *BudgetType* code *1* (Original) is assumed.
-| Similarily, if the @status attribute is omitted, then *BudgetStatus* code *1* (Indicative) is assumed.
+| Similarly, if the @status attribute is omitted, then *BudgetStatus* code *1* (Indicative) is assumed.
 
 | Full example with all child elements:
 

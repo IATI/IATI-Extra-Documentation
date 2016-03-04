@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``expense-line`` for ``total-expenditure`` of an ``iati-orgaisation``.
+Example ``expense-line`` for ``total-expenditure`` of an ``iati-organisation``.
 
 | An example ``@ref`` attribute is included.
 

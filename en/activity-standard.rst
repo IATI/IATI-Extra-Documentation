@@ -18,9 +18,9 @@ An activity is defined by the reporting organisation.  Depending on who is repor
 
 | The **IATI activity standard** is the most widely used part of IATI.  The activity standard supports around forty different fields, referenced by standard codelists, and designed to capture information about many different kinds of aid activities.
 
-| Organisations publish this data in an :doc:`activity file </activity-standard/overview/activity-file/>`.  It is expected that every organisation publishing IATI data should include one at least *actvity file*.
+| Organisations publish this data in an :doc:`activity file </activity-standard/overview/activity-file/>`.  It is expected that every organisation publishing IATI data should include one at least *activity file*.
 
-| A *actvity file* can detail one or many activities, and a organisation can publish one or many files.
+| A *activity file* can detail one or many activities, and a organisation can publish one or many files.
 
 
 Considerations

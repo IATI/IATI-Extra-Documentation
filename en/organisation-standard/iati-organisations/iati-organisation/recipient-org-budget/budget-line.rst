@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``budget-line`` for ``recipient-org-budget`` of an ``iati-orgaisation``.
+Example ``budget-line`` for ``recipient-org-budget`` of an ``iati-organisation``.
 
 | An example ``@ref`` attribute is included.
 

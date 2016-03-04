@@ -23,7 +23,7 @@ The Standard Ruleset could be extended by adding rules particular to a single pu
 
 Limitations of rulesets
 -----------------------
-Via the IATI Validator, Rulesets do not currently apply to an entire dataset, consisting of several files.  Hence, a ruleset cannot test if an activity identifer has been used once, and only once, by a publisher across their entire dataset.
+Via the IATI Validator, Rulesets do not currently apply to an entire dataset, consisting of several files.  Hence, a ruleset cannot test if an activity identifier has been used once, and only once, by a publisher across their entire dataset.
 
 Rulesets do not allow for checks such as whether or not supplied text contains meaningful information. 
 

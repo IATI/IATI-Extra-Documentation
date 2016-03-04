@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``document-link`` in an ``iati-actvity``.
+Example ``document-link`` in an ``iati-activity``.
 
 | This element is a parent for other child elements.
 

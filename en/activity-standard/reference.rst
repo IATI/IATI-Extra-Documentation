@@ -7,7 +7,7 @@ This section contains detailed documentation for each XML element in the **IATI 
 
 | For each element, any rules for usage are declared.
 
-| Additionally, XML examples are provided for each element, with the relavant markup highlighted.
+| Additionally, XML examples are provided for each element, with the relevant markup highlighted.
 
 
 Further information

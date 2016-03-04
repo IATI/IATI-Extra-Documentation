@@ -23,7 +23,7 @@ Considerations
 --------------
 When using the **IATI activity standard** to declare *documents*, the following should be considered:
 
-* An ``iati-activity`` can have singlular or multiple ``sector`` 
+* An ``iati-activity`` can have singular or multiple ``sector``
 * When multiple ``sector`` are described, then a ``@percentage`` should be declared for each.  This should sum to 100% for each ``iati-activity``.
 * A ``@vocabulary`` can be declared when describing a ``sector``.  This should be on the *Vocabulary* codelist.
 * If no ``@vocabulary`` is declared, then the :doc:`DAC 5 digit codelist </codelists/Sector>` is assumed.
