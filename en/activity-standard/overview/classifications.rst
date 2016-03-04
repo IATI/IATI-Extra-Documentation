@@ -7,7 +7,7 @@ Within the **IATI activity standard** it is expected that *classifications* info
 
 Namely:
 
-* ``sector`` - the thematic catgory (or set of categories) an ``iati-activity`` operates with
+* ``sector`` - the thematic category (or set of categories) an ``iati-activity`` operates with
 
 Additionally, the following classifications enable the publication of various codes (often associated with CRS++ reporting)
 
@@ -23,7 +23,7 @@ Considerations
 --------------
 When using the **IATI activity standard** to declare *documents*, the following should be considered:
 
-* An ``iati-activity`` can have singlular or multiple ``sector`` 
+* An ``iati-activity`` can have singular or multiple ``sector``
 * When multiple ``sector`` are described, then a ``@percentage`` should be declared for each.  This should sum to 100% for each ``iati-activity``.
 * A ``@vocabulary`` can be declared when describing a ``sector``.  This should be on the *Vocabulary* codelist.
 * If no ``@vocabulary`` is declared, then the :doc:`DAC 5 digit codelist </codelists/Sector>` is assumed.
@@ -34,7 +34,7 @@ When using the **IATI activity standard** to declare *documents*, the following 
 * If an ``iati-activity`` has more than one *tied status* it is recommended that the reported commitment(s) are split into the relevant tied, untied and/or partially-tied amounts and ``tied-status`` is reported at ``transaction`` level. (NB that tied status should be reported for commitments only.)
 
 2.01 Considerations
---------------------
+-------------------
 In version 2.01, the following must also be considered:
 
 * A ``sector`` is mandatory.

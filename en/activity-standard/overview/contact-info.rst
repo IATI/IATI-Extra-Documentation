@@ -31,7 +31,7 @@ When using the **IATI activity standard** to declare *contact info*, the followi
 
 
 2.01 Considerations
---------------------
+-------------------
 In version 2.01, the following must also be considered:
 
 * Any freetext text for ``organisation``, ``person-name``, ``job-title`` and ``mailing-address`` must be included in a child ``narrative`` element, which can be repeated for different languages.

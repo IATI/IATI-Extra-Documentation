@@ -35,7 +35,7 @@ When using the **IATI activity standard** to declare *dates*, the following shou
 * When the ``activity-status`` reaches *ActivityStatus* codes *3*, *4* or *5* then it is recommended that an end-actual (code *4*) date is added.
 
 2.01 Considerations
---------------------
+-------------------
 In version 2.01, the following must also be considered:
 
 * The *ActivityDateType* codes for ``activity-date`` have changed to being numeric in 2.01.

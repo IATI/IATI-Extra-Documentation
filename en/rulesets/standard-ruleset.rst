@@ -9,13 +9,13 @@ We call rules in this generic format our "Machine Readable" rules.
 
 We have already written some code to interpret these rules, and hope that they will be useful, for example, for someone that wanted to build a web application that tested people's data against these rules. They should be easy to implement.
 
-Some rules do not fit into this format, we call them "Non-Machine Readable Rules". It should be posible to write bespoke computer code to test each rule, but it requires a bit more work, both in terms of understanding what the rule means and the effort required to check.
+Some rules do not fit into this format, we call them "Non-Machine Readable Rules". It should be possible to write bespoke computer code to test each rule, but it requires a bit more work, both in terms of understanding what the rule means and the effort required to check.
 
 Using the Standard Ruleset
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The current Standard Ruleset is a collection of rules that can be used to test the data in a single ``iati-activity`` or ``iati-organisation`` record.
-IATI data is often found as large files containing collections of (for example) activiites, so to test a file of IATI data against the Standard Ruleset means running the tests on each ``iati-activity`` or ``iati-organisation`` record in that file.
+IATI data is often found as large files containing collections of (for example) activities, so to test a file of IATI data against the Standard Ruleset means running the tests on each ``iati-activity`` or ``iati-organisation`` record in that file.
 
 Every ``iati-activity`` or ``iati-organisation`` record has the option to use different elements of the IATI Standard, and to also repeat certain elements, so in defining a Standard Ruleset it is necessary to include rules that may or may not need to apply for each individual ``iati-activity`` or ``iati-organisation`` record.
 

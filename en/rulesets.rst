@@ -18,7 +18,7 @@ Rulesets are constructed as follows:
 This section details the current Standard Ruleset, and provides information around how to utilise and develop rules.
 
 More info
--------------
+---------
 
 .. toctree::
    :glob:

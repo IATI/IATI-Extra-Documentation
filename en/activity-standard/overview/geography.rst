@@ -29,9 +29,9 @@ When using the **IATI activity standard** to describe *geography*, the following
 
 
 2.01 Considerations
---------------------
+-------------------
 In version 2.01, the following must also be considered:
 
 * It is not desirable to include the freetext name of any ``recipient-country`` or ``recipient-region``.  Only in exceptional circumstances - where the publishing organisation **must** provide different text to the name on the relevant *Country* or *Region* codelist.
 * It is feasible to have both a ``recipient-country`` and ``recipient-region`` in the same ``iati-activity``.  In such cases, the ``@percentage`` must be declared, and sum to 100 across both elements.
-* Both a ``recipient-country`` and ``recipient-region`` can also be published as child elements of a ``transaction``.  When this is done, it is expected that **all** ``transaction`` include such data, whilst the relevent element is subsequently **not** included at the ``iati-activity`` level. 
+* Both a ``recipient-country`` and ``recipient-region`` can also be published as child elements of a ``transaction``.  When this is done, it is expected that **all** ``transaction`` include such data, whilst the relevant element is subsequently **not** included at the ``iati-activity`` level.

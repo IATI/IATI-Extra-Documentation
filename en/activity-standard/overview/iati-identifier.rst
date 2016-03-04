@@ -20,7 +20,7 @@ When using the **IATI activity standard** to declare an *iati-identifier* the fo
 	* *AA-AAA-123456789-ABC123* is preferable to *AA-AAA-123456789-ABC 123*.
 
 2.01 Considerations
---------------------
+-------------------
 In version 2.01, the following must also be considered:
 
 * The ``iati-identifier`` must begin with an ``reporting-org`` identifier that has a value published on the *OrganisationRegistrationAgency* codelist.

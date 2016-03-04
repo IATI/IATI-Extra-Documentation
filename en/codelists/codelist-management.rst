@@ -105,9 +105,9 @@ File Format
 Organisation Registration Agency
   Because there is a need to add registration agencies quickly, so that people can do their work, and because we anticipate many additions that will not be of interest to most people, we will add values to this list without making announcements. Values to be added will be agreed at the weekly team meeting.
   
-Code status, addition and withdrawl dates
------------------------------------------
-All new codes added to codelist from the release of version 2.02 (December 2015) will feature ``status="active"`` and ``activation-date`` attributes in the underlaying GitHub source code repositories.  Similarily, codes withdrawn from the release of version 2.02 (December 2015) will feature ``status="withdrawn"`` and ``withdrawal-date`` attributes.
+Code status, addition and withdrawal dates
+------------------------------------------
+All new codes added to codelist from the release of version 2.02 (December 2015) will feature ``status="active"`` and ``activation-date`` attributes in the underlying GitHub source code repositories.  Similarly, codes withdrawn from the release of version 2.02 (December 2015) will feature ``status="withdrawn"`` and ``withdrawal-date`` attributes.
 
 Complete vs Incomplete Codelists
 --------------------------------

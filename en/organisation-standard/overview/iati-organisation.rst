@@ -7,7 +7,7 @@ Within the **IATI organisation standard**. the ``iati-organisation`` is the buil
 
 | An ``iati-organisation`` represents a distinct grouping of information that reports various facts about an organisation.
 
-| For each ``iati-organisation`` described, the following are expected as a minium:
+| For each ``iati-organisation`` described, the following are expected as a minimum:
 
 * ``iati-identifier`` is the unique reference for the organisation.
 * ``name`` - a human-readable name of the organisation.
@@ -28,7 +28,7 @@ When using the **IATI organisation standard** to declare an *iati-organisation*,
 * The free-text instance of ``name`` should avoid use of text in CAPITALS, where possible. 
 
 2.01 Considerations
---------------------
+-------------------
 In version 2.01, the following must also be considered:
 
 * The ``iati-identifier`` in the Organisation standard has been renamed to ``organisation-identifier``

@@ -9,7 +9,7 @@ Example usage of ``loan-status`` in context of ``crs-add`` element.
 | An example date is declared in the ``@iso-date`` attribute.
 | This example date format conform to the *xsd:date* standard - for most cases *YYYY-MM-DD* is sufficient.
 
-| This example declares a *Curency* code *GBP*, using the ``@currency`` attribute.
+| This example declares a *Currency* code *GBP*, using the ``@currency`` attribute.
 | Note: A ``Currency`` code should only be declared if different to ``@default-currency`` in the ``iati-activity`` element.
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml

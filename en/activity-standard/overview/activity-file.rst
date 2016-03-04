@@ -29,7 +29,7 @@ When using the **IATI activity standard** to produce an *activity-file*, the fol
 
 
 2.01 Considerations
---------------------
+-------------------
 In version 2.01, the following must also be considered:
 
 * It is recommended that a single *activity-file* does not exceed 40MB in file size.

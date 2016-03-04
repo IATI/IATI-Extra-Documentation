@@ -34,7 +34,7 @@ When using the **IATI activity standard** to declare *related documents*, the fo
 
 
 2.01 Considerations
---------------------
+-------------------
 In version 2.01, the following must also be considered:
 
 * In version 2.01 of the IATI Standard,  the schema data type used for some data fields where a URL is expected is now set as *xsd:anyURI*.

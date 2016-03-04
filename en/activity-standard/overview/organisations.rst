@@ -23,7 +23,7 @@ When using the **IATI activity standard** to declare *organisations*, the follow
 * Should a ``provider-org`` or ``receiver-org`` within a ``transaction`` be the same as the ``reporting-org`` it is not expected that they are declared, but recommended.
 
 2.01 Considerations
---------------------
+-------------------
 In version 2.01, the following must also be considered:
 
 * A ``reporting-org`` is a mandatory element

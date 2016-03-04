@@ -21,7 +21,7 @@ When using the **IATI activity standard** to declare *conditions*, the following
 * The free-text to describe the condition should avoid jargon
 
 2.01 Considerations
---------------------
+-------------------
 In version 2.01, the following must also be considered:
 
 * Any freetext condition text must be included in the child ``narrative`` element, which can be repeated for different languages.

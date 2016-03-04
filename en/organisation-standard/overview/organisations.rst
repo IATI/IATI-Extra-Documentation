@@ -23,7 +23,7 @@ When using the **IATI organisation standard** to declare *organisations*, the fo
 * For each ``recipient-org`` multiple forward looking ``recipient-org-budget`` can be recorded.
 
 2.01 Considerations
---------------------
+-------------------
 In version 2.01, the following must also be considered:
 
 * A ``reporting-org`` is a mandatory element

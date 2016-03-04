@@ -7,7 +7,7 @@ Example of ``forecast`` for the ``fss`` of an ``iati-activity``.
 
 | This example declares the attribute ``@year`` as *2014*.
 
-| This example declares a *Curency* code *GBP*, using the ``@currency`` attribute.
+| This example declares a *Currency* code *GBP*, using the ``@currency`` attribute.
 | Note: A *Currency* code should only be declared if different to ``@default-currency`` in the ``iati-activity`` element.
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml

@@ -32,7 +32,7 @@ When using the **IATI activity standard** to declare *budgets*, the following sh
 * When declaring a ``value-date`` for any budget, this date must be in the past.
 
 2.01 Considerations
---------------------
+-------------------
 In version 2.01, the following must also be considered:
 
 * The ``planned-disbursement`` element no longer has an ``@updated`` attribute.  This has been replaced by a ``@type`` attribute
