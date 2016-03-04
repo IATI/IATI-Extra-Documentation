@@ -28,7 +28,7 @@ When using the **IATI organisation standard** to declare an *iati-organisation*,
 * The free-text instance of ``name`` should avoid use of text in CAPITALS, where possible. 
 
 2.01 Considerations
---------------------
+-------------------
 In version 2.01, the following must also be considered:
 
 * The ``iati-identifier`` in the Organisation standard has been renamed to ``organisation-identifier``

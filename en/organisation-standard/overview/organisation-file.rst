@@ -28,7 +28,7 @@ When using the **IATI organisation standard** to produce the *organisation file*
 	* ``http://example.org/files/iatidata/iatiorganisation.xml`` is preferable to ``http://example.org/files/iati data/IATI Organisation.xml``.
 
 2.01 Considerations
---------------------
+-------------------
 In version 2.01, the following must also be considered:
 
 * It is recommended that a single *organisation-file* does not exceed 40MB in file size.

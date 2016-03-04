@@ -28,7 +28,7 @@ When using the **IATI organisation standard** to declare *budgets*, the followin
 * When declaring a ``value-date`` for any budget, this date must be in the past.
 
 2.01 Considerations
---------------------
+-------------------
 In version 2.01, the following must also be considered:
 
 * The ``budget-line`` element was introduced.

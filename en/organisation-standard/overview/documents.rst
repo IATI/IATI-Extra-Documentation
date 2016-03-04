@@ -27,7 +27,7 @@ When using the **IATI organisation standard** to declare *documents*, the follow
 * Use of the ``@format`` must be accompanied by a code on the *FileFormat* codelist.
 
 2.01 Considerations
---------------------
+-------------------
 In version 2.01, the following must also be considered:
 
 * In version 2.01 of the IATI Standard, the schema data type used for some data fields where a URL is expected is now set as *xsd:anyURI*.
