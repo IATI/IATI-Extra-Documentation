@@ -30,7 +30,7 @@ When using the **IATI activity standard** to declare *dates*, the following shou
 	* start-planned - the forecast start date for the ``iati-activity`` (e.g. if the ``iati-activity`` is in the pipeline stage or the date of the first disbursement is not known).
 	* start-actual - the actual start date for the ``iati-activity`` (e.g. the date of the first disbursement).
 	* end-planned - the forecast end date for the ``iati-activity``.
-	* end-actual - the actual end date for the ``iati-activity`` (e.g. the date of the final disbursement).
+	* end-actual (code *4*)- the actual end date for the ``iati-activity`` (End dates should, wherever possible, reflect the ending of physical activity.).
 * The ``activity-status`` represents the latest stage for the activity.  It can be updated at any time.
 * When the ``activity-status`` reaches ``ActivityStatus`` codes *3*, *4* or *5* then it is recommended that an ``end-actual`` date is added.
 * ``ActivityStatus`` code *6* indicates a temporary suspension of an activity. In this state an activity is assumed not to be ``current``, but future, forward-looking budgets are still assumed to be applicable.
