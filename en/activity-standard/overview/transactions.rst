@@ -35,5 +35,5 @@ When using the **IATI activity standard** to declare *transaction*, the followin
 In versions 2.01 and above, the following must also be considered:
 
 * Dates should be a valid *xsd:date*, and a datetimes should be a valid *xsd:dateTime*.
-* A ``recipient-country``, `recipient-region`` and ``sector`` can also be published as child elements of a ``transaction``.  When this is done, it is expected that **all** ``transaction`` include such data, whilst the relevant element is subsequently **not** included at the ``iati-activity`` level.
+* A ``recipient-country``, `recipient-region`` and ``sector`` can also be published as child elements of a ``transaction``.  When this is done, it is expected that **all** ``transaction`` include such data, whilst the relevant element is subsequently **not** included at the ``iati-activity`` level. Also none of these elements when published as child elements of a ``transaction`` need or use a percentage attribute as they do at the ``iati-activity`` level.   
 
