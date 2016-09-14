@@ -1,6 +1,8 @@
 Humanitarian Reporting
 ======================
 
+Please also see the `Humanitarian Reporting Guidelines <http://discuss.iatistandard.org/t/help-develop-iati-s-humanitarian-reporting-guidance/530>`_   which are currently out for community review on the IATI Community Discuss Forum
+
 Definition
 ----------
 Within the **IATI activity** standard there are a number of elements and vocabularies that enable humanitarian specific information to be published.
@@ -15,7 +17,6 @@ The ``humanitarian-scope`` element uses the following vocabularies:
 Humanitarian related information is also on:
 
 * ``SectorVocabulary`` –  code ``"10"``: The Humanitarian Global Clusters (Inter-Agency Standing Committee) defines the global clusters to which a a specific activity relates.
-* ``PolicyMarkerVocabulary`` - code ``"2"`` defines the list of UNOCHA humanitarian policies to which a specific activity relates.
 
 The following also enables any activity or transaction that is humanitarian related to be identified:
 
