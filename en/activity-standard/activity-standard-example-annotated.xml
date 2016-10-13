@@ -162,9 +162,12 @@
   </country-budget-items>
   <!--country-budget-items ends-->
   <!--humanitarian-scope starts-->
-  <humanitarian-scope type="1" vocabulary="1-2" code="EQ-2015-000048-NPL"/>
+  <humanitarian-scope type="1" vocabulary="1-2" code="EQ-2015-000048-NPL">
+ 	  <narrative>Nepal Earthquake April 2015</narrative>
+    <narrative xml:lang="fr"> Népal Earthquake Avril 2015</narrative>
+  </humanitarian-scope>
   <humanitarian-scope type="1" vocabulary="99" vocabulary-uri="http://example.com/vocab.html" code="A1">
-   <narrative xml:lang="en">Syrian refugee crisis, Middle-east &amp; Europe (2011 onwards)</narrative>
+   <narrative xml:lang="en">Nepal Earthquake April 2015</narrative>
   </humanitarian-scope>
   <!--humanitarian-scope ends-->
   <!--policy-marker starts-->
