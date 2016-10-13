@@ -4,11 +4,11 @@ Example ``humanitarian-scope`` of an ``iati-activity``.
 
 | The ``@type`` attribute declares a valid code (*1*) from the *HumanitarianScopeType* codelist.
 | The ``@vocabulary`` attribute declares a valid code (*1-2*) from the *HumanitarianScopeVocabulary* codelist.
-| The ``@code`` attribute declares a valid code (*2015-000048*) from the specified vocabulary.
+| The ``@code`` attribute declares a valid code (*EQ-2015-000048-NPL*) from the specified vocabulary.
  
 .. code-block:: xml
 
-	<humanitarian-scope type="1" vocabulary="1-2" code="2015-000048">
+	<humanitarian-scope type="1" vocabulary="1-2" code="EQ-2015-000048-NPL">
 	...
 	</humanitarian-scope>
 
