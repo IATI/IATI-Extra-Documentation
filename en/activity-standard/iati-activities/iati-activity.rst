@@ -11,8 +11,9 @@ Example of ``iati-activity``.
 | The ``@xml:lang`` attribute declares a valid code (*en*) from the *Language* codelist.
 | The ``@default-currency`` attribute declares a valid code (*USD*) from the *Currency* codelist.
 
-| The optional ``@hierarchy`` attribute of  is set as *1*
-| The optional ``@linked-data-uri`` attribute  is also included.
+| The optional ``@humanitarian`` attribute is set as *1*
+| The optional ``@hierarchy`` attribute is set as *1*
+| The optional ``@linked-data-uri`` attribute is also included.
 
 .. literalinclude:: ../activity-standard-example-annotated.xml
 	:language: xml
