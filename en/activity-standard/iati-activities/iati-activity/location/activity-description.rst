@@ -5,7 +5,7 @@ Example usage of ``activity-description`` within a ``location`` of an ``iati-act
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--location-single starts-->
-	:end-before: <!--location ends-->
+	:end-before: <!--location-single ends-->
 	:emphasize-lines: 10, 12
 	
 
