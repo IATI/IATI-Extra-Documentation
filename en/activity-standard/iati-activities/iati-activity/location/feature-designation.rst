@@ -7,7 +7,7 @@ Example usage of ``feature-designation`` within a ``location`` of an ``iati-acti
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--location-single starts-->
-	:end-before: <!--location ends-->
+	:end-before: <!--location-single ends-->
 
 
 

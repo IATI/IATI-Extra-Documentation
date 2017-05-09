@@ -8,7 +8,7 @@ Example usage of ``location-id`` within a ``location`` of an ``iati-activity``..
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--location-single starts-->
-	:end-before: <!--location ends-->
+	:end-before: <!--location-single ends-->
 
 Note: If the *GeographicVocabulary* *G2* (*Open Street Map*) is used, then the ``@code`` value should be of the form <OSM element>/<OSM identifier>
 
