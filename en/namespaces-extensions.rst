@@ -17,7 +17,7 @@ The first approach allows reporting organisations to invent any required markup 
 
 .. code-block:: xml
 
-    <iati-activity xmlns:acme=”http://example.org/acme/ns#”>
+    <iati-activity xmlns:acme="http://example.org/acme/ns#">
 
     ...
 
