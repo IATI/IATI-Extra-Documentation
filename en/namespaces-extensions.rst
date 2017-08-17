@@ -29,3 +29,21 @@ The first approach allows reporting organisations to invent any required markup 
 
 In this example, ACME has defined its own namespace using the URL ``http://example.org/acme/ns#`` and mapped that to the prefix ``acme``.  It then adds the new element, ``acme:risk-level``, to provide information about its risk assessment for the activity.  IATI users who don’t recognise the ``http://example.org/acme/ns#`` namespace are required to ignore the ``acme:risk element`` rather than reporting an error, so the extended markup does not harm compatibility.  Users who are familiar with the namespace, however, can take advantage of the additional information.
 
+
+Adding XML namespaces in versions 2.0x
+--------------
+Please note: when adding XML namespaces in versions 2.0x of the IATI standard, the namespace elements should be included at the end of the document, after elements in the schema.  Example:
+
+
+.. code-block:: xml
+
+    <iati-activity xmlns:acme="http://example.org/acme/ns#">
+
+    ...
+    </fss>
+    <acme:risk-level>3</acme:risk-level>
+
+    ...
+
+    </iati-activity>
+
