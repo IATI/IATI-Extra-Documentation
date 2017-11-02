@@ -21,7 +21,7 @@ The first approach allows reporting organisations to invent any required markup 
 
     ...
 
-    <acme:risk-level>3</acme:risk-level>
+      <acme:risk-level>3</acme:risk-level>
 
     ...
 
@@ -32,18 +32,37 @@ In this example, ACME has defined its own namespace using the URL ``http://examp
 
 Adding XML namespaces in versions 2.0x
 --------------
-Please note: when adding XML namespaces in versions 2.0x of the IATI standard, the namespace elements should be included at the end of the document, after elements in the schema.  Example:
+Please note: elements must occur in the order they are specified in the Schema.  When adding XML namespaces in versions 2.0x of the IATI standard, they should be placed as the last element.  At the activity level, they must only be included at the end of the activity (before </iati-activity>).  If added as a subelement, the namespace element must be placed as the last subelement.  Example:
 
-
+1) XML namespace at activity level
 .. code-block:: xml
 
     <iati-activity xmlns:acme="http://example.org/acme/ns#">
 
     ...
-    </fss>
-    <acme:risk-level>3</acme:risk-level>
+    
+      </fss>
+      <acme:risk-level>3</acme:risk-level>
 
     ...
 
     </iati-activity>
 
+2) XML namespace as a subelement within transaction
+.. code-block:: xml
+
+    <iati-activity xmlns:acme="http://example.org/acme/ns#">
+    
+    ...
+    
+      <transaction>
+    
+    ...
+    
+        </value>
+        <acme:risk-level>3</acme:risk-level>
+      </transaction>
+    
+    ...
+    
+    </iati-activity>
