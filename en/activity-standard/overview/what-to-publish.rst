@@ -64,7 +64,7 @@ Please note that elements only became mandatory at version 2.0 of the IATI Stand
 
 A full table of elements that can be reported in IATI is available here:
 
-* All elements in IATI (Link to follow)
+* :doc:`All elements in IATI <all-elements-in-IATI>`
 
 If you receive funding from DFID, the Dutch or Belgian government you will have additional reporting requirements, for information on these please go to the following pages:
 
