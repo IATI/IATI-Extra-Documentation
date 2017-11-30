@@ -9,7 +9,7 @@ Further guidance, examples and details can be found in the :doc:`reference </act
    :glob:
 
    overview/what-to-publish
-   overview/all-elements-in-IATI
+   overview/all-elements-in-iati
    summary-table
    overview/activity-file
    overview/iati-activity
