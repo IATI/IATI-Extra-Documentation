@@ -1,6 +1,6 @@
 Full list of top-level elements in IATI
 =========
-The table below lists all of the elements that can be included in your publishing to IATI. This includes all of the mandatory and recommended elements outlined in ‘What to Publish’.
+The table below lists all of the elements that can be included in your publishing to IATI. This includes all of the mandatory and recommended elements outlined in :doc:`What to Publish <what-to-publish>`.
 
 One publishing approach is to start with the mandatory and recommended (minimum) elements, and then build up over time. Each element you include will increase the comprehensiveness of your data and will help people to understand the work you are carrying out.
 
