@@ -185,7 +185,6 @@
   <default-finance-type code="110" />
   <!--default-finance-type ends-->
   <!--default-aid-type starts-->
-  <default-aid-type code="A01" />
   <default-aid-type code="xx" vocabulary="1"/><!-- Needs to be updated with a valid code -->
   <!--default-aid-type ends-->
   <!--default-tied-status starts-->
