@@ -3,7 +3,7 @@ Example Usage
 Example ``default-aid-type``  for an ``iati-activity``.
 
 | The ``@code`` attribute declares a valid code (*A01*) from the *AidType* codelist.
-| The ``@vocabulary`` attribute declares a code for the vocabulary aid-type classifications. If omitted it is assumed the ``@code`` given is a valid code from the *AidType* codelist.
+| The ``@vocabulary`` attribute declares a code for the vocabulary aid-type classifications to define the ``@code`` value unless omitted.
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
