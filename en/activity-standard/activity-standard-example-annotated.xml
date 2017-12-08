@@ -282,7 +282,7 @@
    <description>
     <narrative>Result description text</narrative>
    </description>
-   <indicator measure="1" ascending="1">
+   <indicator measure="1" ascending="1" aggregation-status="1">
      <title>
       <narrative>Indicator title</narrative>
      </title>
