@@ -2,15 +2,15 @@
 <!--This is example XML for the IATI activity standard.  No reference to actual data, real organisations or development cooperation models is intended.-->
 <!--iati-activities starts-->
 <iati-activities generated-datetime="2014-09-10T07:15:37Z" version="2.02" linked-data-default="http://data.example.org/">
- <!--iati-activity starts-->	
- <iati-activity xml:lang="en" default-currency="USD" last-updated-datetime="2014-09-10T07:15:37Z" humanitarian="1" linked-data-uri="http://data.example.org/123456789" hierarchy="1">
+ <!--iati-activity starts-->
+ <iati-activity xml:lang="en" default-currency="USD" last-updated-datetime="2014-09-10T07:15:37Z" humanitarian="1" linked-data-uri="http://data.example.org/123456789" hierarchy="1" budget-not-provided="1">
   <!--iati-identifier starts-->
   <iati-identifier>AA-AAA-123456789-ABC123</iati-identifier>
   <!--iati-identifier ends-->
   <!--reporting-org starts-->
   <reporting-org ref="AA-AAA-123456789" type="40" secondary-reporter="0">
    <narrative>Organisation name</narrative>
-   <narrative xml:lang="fr">Nom de l'organisme</narrative>	  
+   <narrative xml:lang="fr">Nom de l'organisme</narrative>
   </reporting-org>
   <!--reporting-org ends-->
   <!--title starts-->
@@ -27,7 +27,7 @@
   </description>
   <description type="2">
    <narrative>Objectives for the activity, for example from a logical framework.</narrative>
-   <narrative xml:lang="fr">Objectifs de l'activité, par exemple à partir d'un cadre logique.</narrative>   
+   <narrative xml:lang="fr">Objectifs de l'activité, par exemple à partir d'un cadre logique.</narrative>
   </description>
   <description type="3">
    <narrative>Statement of groups targeted to benefit from the activity.</narrative>
@@ -40,17 +40,17 @@
   </participating-org>
   <participating-org ref="CC-CCC-123456789" role="2" type="10" activity-id="CC-CCC-123456789-1234">
    <narrative>Name of Agency C</narrative>
-  </participating-org>	  
+  </participating-org>
   <participating-org ref="AA-AAA-123456789" role="3" type="21" activity-id="AA-AAA-123456789-1234">
    <narrative>Name of Agency A</narrative>
-   <narrative xml:lang="fr">Nom de l'agence A</narrative>	 	
+   <narrative xml:lang="fr">Nom de l'agence A</narrative>
   </participating-org>
   <!--participating-org ends-->
   <!--other-identifier starts-->
   <other-identifier ref="ABC123-XYZ" type="A1">
    <owner-org ref="AA-AAA-123456789">
     <narrative>Organisation name</narrative>
-   </owner-org>	  
+   </owner-org>
   </other-identifier>
   <!--other-identifier ends-->
   <!--activity-status starts-->
@@ -59,8 +59,8 @@
   <!--activity-date starts-->
   <activity-date iso-date="2012-04-15" type="1">
    <narrative>Planned start date of the activity</narrative>
-   <narrative xml:lang="fr">Date prévue de début de l'activité</narrative>   
-  </activity-date> 
+   <narrative xml:lang="fr">Date prévue de début de l'activité</narrative>
+  </activity-date>
   <activity-date iso-date="2012-04-28" type="2" />
   <activity-date iso-date="2015-12-31" type="3" />
   <!--activity-date ends-->
@@ -91,7 +91,7 @@
   <!--activity-scope ends-->
   <!--recipient-country starts-->
   <recipient-country code="AF" percentage="25" />
-  <recipient-country code="AG" percentage="25" />  
+  <recipient-country code="AG" percentage="25" />
   <!--recipient-country ends-->
   <!--recipient-region starts-->
   <recipient-region code="489" vocabulary="1" percentage="25" />
@@ -100,7 +100,7 @@
   <!--recipient-region ends-->
   <!--location-single starts-->
   <location ref="AF-KAN">
-   <location-reach code="1" />    
+   <location-reach code="1" />
    <location-id vocabulary="G1" code="1453782" />
    <name>
   <narrative>Location name</narrative>
@@ -122,7 +122,7 @@
   <!--location-single ends-->
   <!--location-additional starts-->
   <location ref="KH-PNH">
-   <location-reach code="1" />    
+   <location-reach code="1" />
    <location-id vocabulary="G1" code="1821306" />
    <name>
   <narrative>Location #2 name</narrative>
@@ -152,12 +152,12 @@
    <budget-item code="1.1.1" percentage="50">
     <description>
      <narrative>Description text</narrative>
-    </description> 
+    </description>
    </budget-item>
    <budget-item code="1.2.1"  percentage="50">
     <description>
      <narrative>Description text</narrative>
-     </description> 
+     </description>
    </budget-item>
   </country-budget-items>
   <!--country-budget-items ends-->
@@ -216,7 +216,7 @@
    <period-end iso-date="2014-12-31" />
    <value currency="EUR" value-date="2014-01-01">3000</value>
   </planned-disbursement>
-  <!--planned-disbursement ends-->  
+  <!--planned-disbursement ends-->
   <!--capital-spend starts-->
   <capital-spend percentage="88.8" />
   <!--capital-spend ends-->
@@ -224,7 +224,7 @@
   <transaction ref="1234" humanitarian="1">
    <transaction-type code="1" />
    <transaction-date iso-date="2012-01-01" />
-   <value currency="EUR" value-date="2012-01-01">1000</value>   
+   <value currency="EUR" value-date="2012-01-01">1000</value>
    <description>
     <narrative>Transaction description text</narrative>
    </description>
@@ -238,17 +238,17 @@
    <sector vocabulary="2" code="111" />
    <!--Note: only a recipient-region OR a recipient-country is expected-->
    <recipient-country code="TM" />
-   <recipient-region code="616" vocabulary="1" />   
+   <recipient-region code="616" vocabulary="1" />
    <flow-type code="10" />
    <finance-type code="110" />
-   <aid-type code="A01" />   
+   <aid-type code="A01" />
    <tied-status code="3" />
   </transaction>
   <!--transaction ends-->
   <!--document-link starts-->
   <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report_en.odt">
    <title>
-    <narrative>Project Report 2013</narrative>	   
+    <narrative>Project Report 2013</narrative>
     <narrative xml:lang="fr">Rapport de projet 2013</narrative>
    </title>
    <category code="A01" />
@@ -277,21 +277,21 @@
   <!--result starts-->
   <result type="1" aggregation-status="1">
    <title>
-    <narrative>Result title</narrative>    
+    <narrative>Result title</narrative>
    </title>
    <description>
-    <narrative>Result description text</narrative>   
+    <narrative>Result description text</narrative>
    </description>
-   <indicator measure="1" ascending="1">
+   <indicator measure="1" ascending="1" aggregation-status="1">
      <title>
-      <narrative>Indicator title</narrative>   		 
+      <narrative>Indicator title</narrative>
      </title>
      <description>
       <narrative>Indicator description text</narrative>
      </description>
      <reference vocabulary="1" code="3429" />
      <reference vocabulary="7" code="861" />
-     <reference vocabulary="99" code="B1" indicator-uri="http://example.com/indicators.html" />     
+     <reference vocabulary="99" code="B1" indicator-uri="http://example.com/indicators.html" />
      <baseline year="2012" value="10">
       <comment>
        <narrative>Baseline comment text</narrative>
@@ -306,8 +306,8 @@
        <dimension name="sex" value="female" />
        <dimension name="age" value="adult" />
        <comment>
-        <narrative>Target comment text</narrative>			
-       </comment> 
+        <narrative>Target comment text</narrative>
+       </comment>
       </target>
       <actual value="11">
        <location ref="AF-KAN" />
@@ -316,7 +316,7 @@
        <dimension name="age" value="adult" />
        <comment>
          <narrative>Actual comment text</narrative>
-       </comment> 
+       </comment>
       </actual>
      </period>
    </indicator>
@@ -347,6 +347,6 @@
   </fss>
   <!--fss ends-->
  </iati-activity>
-  <!--iati-activity ends-->	
+  <!--iati-activity ends-->
 </iati-activities>
 <!--iati-activities ends-->
