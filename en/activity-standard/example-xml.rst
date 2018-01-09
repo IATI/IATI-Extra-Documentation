@@ -21,7 +21,7 @@ Comments markup is optional and intended to supplement the documentation:
 Download Example Usage File
 ---------------------------
 
-The *example usage XML* file can be `downloaded <https://raw.githubusercontent.com/IATI/IATI-Extra-Documentation/version-2.02/en/activity-standard/activity-standard-example-annotated.xml>`__.
+The *example usage XML* file can be `downloaded <https://raw.githubusercontent.com/IATI/IATI-Extra-Documentation/version-2.03/en/activity-standard/activity-standard-example-annotated.xml>`__.
 
 
 Example Usage File (in full)
@@ -38,7 +38,7 @@ Example Usage File (in full)
 	:language: xml
 	:start-after: <!--iati-activities starts-->
 	:end-before: <!--iati-activities ends-->
-	
+
 Further guidance
 ----------------
 
