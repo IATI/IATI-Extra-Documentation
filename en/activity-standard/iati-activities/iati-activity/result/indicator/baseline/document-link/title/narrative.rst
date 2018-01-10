@@ -17,4 +17,4 @@ Changelog
 
 2.03
 ^^^^
-| This mandatory ``narrative`` element of a ``description`` in a ``document-link`` element was `added <https://discuss.iatistandard.org/t/add-document-link-to-results-indicator-included-2-03/895>`__.
+| This mandatory ``narrative`` element of a ``title`` in a ``document-link`` element was `added <https://discuss.iatistandard.org/t/add-document-link-to-results-indicator-included-2-03/895>`__.
