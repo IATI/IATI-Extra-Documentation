@@ -335,6 +335,17 @@
      <description>
       <narrative>Indicator description text</narrative>
      </description>
+     <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/result_indicator_en.odt">
+      <title>
+       <narrative>Results Report 2013</narrative>
+      </title>
+      <description>
+        <narrative>Report of results</narrative>
+      </description>
+      <category code="A01" />
+      <language code="en" />
+      <document-date iso-date="2014-02-05" />
+     </document-link>
      <reference vocabulary="1" code="3429" />
      <reference vocabulary="7" code="861" />
      <reference vocabulary="99" code="B1" indicator-uri="http://example.com/indicators.html" />
