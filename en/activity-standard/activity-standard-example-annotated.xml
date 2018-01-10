@@ -337,10 +337,10 @@
      </description>
      <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/result_indicator_en.odt">
       <title>
-       <narrative>Results Report 2013</narrative>
+       <narrative>Results Indicator Report 2013</narrative>
       </title>
       <description>
-        <narrative>Report of results</narrative>
+        <narrative>Report of results indicator</narrative>
       </description>
       <category code="A01" />
       <language code="en" />
@@ -354,6 +354,17 @@
       <location ref="KH-PNH" />
       <dimension name="sex" value="female" />
       <dimension name="age" value="adult" />
+      <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/result_baseline_en.odt">
+       <title>
+        <narrative>Results Baseline Report 2013</narrative>
+       </title>
+       <description>
+         <narrative>Report of results baseline</narrative>
+       </description>
+       <category code="A01" />
+       <language code="en" />
+       <document-date iso-date="2014-02-05" />
+      </document-link>
       <comment>
        <narrative>Baseline comment text</narrative>
       </comment>
