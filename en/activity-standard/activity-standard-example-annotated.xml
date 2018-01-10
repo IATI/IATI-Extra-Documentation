@@ -377,6 +377,17 @@
        <location ref="KH-PNH" />
        <dimension name="sex" value="female" />
        <dimension name="age" value="adult" />
+       <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/result_period_target_en.odt">
+        <title>
+         <narrative>Results Period Target Report 2013</narrative>
+        </title>
+        <description>
+          <narrative>Report of results period target</narrative>
+        </description>
+        <category code="A01" />
+        <language code="en" />
+        <document-date iso-date="2014-02-05" />
+       </document-link>
        <comment>
         <narrative>Target comment text</narrative>
        </comment>
