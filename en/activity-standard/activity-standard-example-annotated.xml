@@ -380,6 +380,8 @@
        <location ref="KH-PNH" />
        <dimension name="sex" value="female" />
        <dimension name="age" value="adult" />
+        <narrative>Target comment text</narrative>
+       </comment>
        <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/result_period_target_en.odt">
         <title>
          <narrative>Results Period Target Report 2013</narrative>
@@ -391,15 +393,15 @@
         <language code="en" />
         <document-date iso-date="2014-02-05" />
        </document-link>
-       <comment>
-        <narrative>Target comment text</narrative>
-       </comment>
       </target>
       <actual value="11">
        <location ref="AF-KAN" />
        <location ref="KH-PNH" />
        <dimension name="sex" value="female" />
        <dimension name="age" value="adult" />
+       <comment>
+         <narrative>Actual comment text</narrative>
+       </comment>
        <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/result_period_actual_en.odt">
         <title>
          <narrative>Results Period Actual Report 2013</narrative>
@@ -411,9 +413,6 @@
         <language code="en" />
         <document-date iso-date="2014-02-05" />
        </document-link>
-       <comment>
-         <narrative>Actual comment text</narrative>
-       </comment>
       </actual>
      </period>
    </indicator>

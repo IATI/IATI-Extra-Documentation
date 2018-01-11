@@ -31,4 +31,4 @@ Removed ``@language`` attribute from, and introduced an new ``language`` child e
 
 2.03
 ^^^^
-The ``narrative`` element was `added <https://discuss.iatistandard.org/t/document-link-description-included-2-03/841>`__.
+The child element ``description`` was `added <https://discuss.iatistandard.org/t/document-link-description-included-2-03/841>`__.
