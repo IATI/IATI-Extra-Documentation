@@ -8,15 +8,15 @@ Example ``sector`` of an ``iati-activity``.
 .. code-block:: xml
 
 	<sector vocabulary="2" code="111" />
-	
-| The ``sector`` element can be repeated in any ``iati-activity``.        
+
+| The ``sector`` element can be repeated in any ``iati-activity``.
 | When multiple ``sector`` are declared, then the ``@percentage`` values should sum to 100% for the specific ``iati-activity``.
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--sector starts-->
 	:end-before: <!--sector ends-->
-    
+
 | The ``vocabulary`` is used to declare which ``SectorVocabulary`` classification list is in use. If this is omitted, then IATI assumes a *SectorVocabulary* of *1* (OECD DAC CRS Purpose Codes (5 digit)).
 
 | If a vocabulary is not on the *SectorVocabulary* codelist, then the value of *99* or *98* (Reporting Organisation) should be declared.
@@ -29,6 +29,10 @@ Example ``sector`` of an ``iati-activity``.
 
 Changelog
 ~~~~~~~~~
+
+2.03
+^^^^
+Updated the ``@vocabulary`` attribute `definition - removed the % sign
 
 2.02
 ^^^^
