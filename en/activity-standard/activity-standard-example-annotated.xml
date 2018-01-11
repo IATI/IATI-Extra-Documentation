@@ -380,6 +380,7 @@
        <location ref="KH-PNH" />
        <dimension name="sex" value="female" />
        <dimension name="age" value="adult" />
+       <comment>
         <narrative>Target comment text</narrative>
        </comment>
        <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/result_period_target_en.odt">
