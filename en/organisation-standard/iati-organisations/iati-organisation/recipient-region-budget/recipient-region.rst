@@ -24,6 +24,11 @@ Example of ``recipient-region`` in context of a complete ``recipient-region-budg
 
 Changelog
 ~~~~~~~~~
+
+2.03
+^^^^
+Definition of ``@vocabulary-uri`` attribute `updated <https://discuss.iatistandard.org/t/guidance-on-u-r-i-usage-for-publisher-s-own-vocabularies-included-2-03/850>`__.
+
 2.02
 ^^^^
 The optional ``recipient-region-budget`` element was `added <http://support.iatistandard.org/entries/79323113-Org-Standard-recipient-region-budget>`__.

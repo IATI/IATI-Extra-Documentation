@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``recipient-region`` of an ``iati-activity``. 
+Example ``recipient-region`` of an ``iati-activity``.
 
 | The ``@code`` attribute declares a valid code (*489*) from the *Region* codelist.
 | The optional ``@vocabulary`` attribute declares a valid code (*1*) from the *RegionVocabulary* codelist.
@@ -24,6 +24,10 @@ Full example:
 
 Changelog
 ~~~~~~~~~
+
+2.03
+^^^^
+Definition of ``@vocabulary-uri`` attribute `updated <https://discuss.iatistandard.org/t/guidance-on-u-r-i-usage-for-publisher-s-own-vocabularies-included-2-03/850>`__.
 
 2.02
 ^^^^
