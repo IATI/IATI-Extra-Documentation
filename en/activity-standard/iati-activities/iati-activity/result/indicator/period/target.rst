@@ -9,3 +9,8 @@ Example usage of ``target`` within ``period``, in context of an ``indicator`` in
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
 	:emphasize-lines: 26, 34
+
+	2.03
+	^^^^
+	The ``target`` element of a ``period`` in a ``indicator`` in a ``result`` element can be reported multiple times `added <https://discuss.iatistandard.org/t/results-allow-disaggregations-of-results-data-included-2-03/871>`__.
+	
