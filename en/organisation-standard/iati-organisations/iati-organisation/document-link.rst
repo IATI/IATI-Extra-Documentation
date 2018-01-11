@@ -21,7 +21,7 @@ Example ``document-link`` in an ``iati-organisation``.
 	:emphasize-lines: 1, 9
 
 | The ``document-link`` element can be repeated in any ``iati-organisation``.
-	
+
 Changelog
 ~~~~~~~~~
 
@@ -29,3 +29,6 @@ Changelog
 ^^^^
 Removed ``@language`` attribute from, and introduced an new ``language`` child element to, the ``document-link`` element.
 
+2.03
+^^^^
+The ``narrative`` element was `added <https://discuss.iatistandard.org/t/document-link-description-included-2-03/841>`__.

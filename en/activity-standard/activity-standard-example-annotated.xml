@@ -282,6 +282,9 @@
     <narrative>Project Report 2013</narrative>
     <narrative xml:lang="fr">Rapport de projet 2013</narrative>
    </title>
+   <description>
+     <narrative>Description of the document</narrative>
+   </description>
    <category code="A01" />
    <language code="en" />
    <document-date iso-date="2014-02-05" />
