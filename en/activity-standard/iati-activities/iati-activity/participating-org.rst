@@ -6,6 +6,7 @@ Example ``participating-org`` in an ``iati-activity``.
 | The ``@role`` attribute declares a valid code (*2*) from the *OrganisationRole* codelist.
 | The ``@type`` attribute declares a valid code (*40*) from the *OrganisationType* codelist.
 | The ``@activity-id`` attribute declares an IATI activity identifier.
+| The ``@crs-channel-code`` attribute declares the CRS Channel Code for the participating organisation.
 
 .. code-block:: xml
 	:emphasize-lines: 1, 3
@@ -31,11 +32,11 @@ Changelog
 2.03
 ^^^^
 | The definition of the ``@ref`` attribute was `updated <https://discuss.iatistandard.org/t/migration-of-organisationregistrationagency-codelist-to-org-id-guide-included-2-03/851>`__.
+| The ``@crs-channel-code`` attribute was `added <https://discuss.iatistandard.org/t/crs-channels-of-delivery-included-2-03/857>`__.
 
 2.02
 ^^^^
 | The ``activity-id`` attribute was `added <http://support.iatistandard.org/entries/82377659-Add-activity-id-attribute-to-participating-org-element>`__.
-
 
 2.01
 ^^^^
