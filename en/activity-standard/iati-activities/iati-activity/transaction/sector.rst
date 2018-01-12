@@ -8,9 +8,9 @@ Example ``sector`` of a ``transaction`` within an ``iati-activity``.
 .. code-block:: xml
 
 	<sector vocabulary="2" code="111" />
-        
-| The ``sector`` element can be repeated in any ``transaction``. 
-  
+
+| The ``sector`` element can be repeated in any ``transaction``.
+
 | The ``vocabulary`` is used to declare which ``SectorVocabulary`` classification list is in use. If this is omitted, then IATI assumes a *SectorVocabulary* of *1* (OECD DAC CRS Purpose Codes (5 digit)).
 
 | If a vocabulary is not on the *SectorVocabulary* codelist, then the value of *99* or *98* (Reporting Organisation) should be declared.
@@ -31,9 +31,13 @@ Full example:
 Changelog
 ~~~~~~~~~
 
+2.03
+^^^^
+The definition of the ``@vocabulary-uri`` was `updated <https://discuss.iatistandard.org/t/guidance-on-u-r-i-usage-for-publisher-s-own-vocabularies-included-2-03/850>`__.
+
 2.02
 ^^^^
-The ``vocabulary-uri`` attribute was `added <http://support.iatistandard.org/entries/105713163-Add-URI-attribute-to-elements-where-Reporting-organisation-vocabularies-are-used>`__.
+The ``@vocabulary-uri`` attribute was `added <http://support.iatistandard.org/entries/105713163-Add-URI-attribute-to-elements-where-Reporting-organisation-vocabularies-are-used>`__.
 
 2.01
 ^^^^

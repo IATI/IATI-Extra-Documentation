@@ -27,6 +27,10 @@ If a publisher uses a vocabulary of 99 (i.e. 'Reporting Organisation'), then the
 Changelog
 ~~~~~~~~~
 
+2.03
+^^^^
+The rule for using the ``reference`` element was `added <https://discuss.iatistandard.org/t/results-vocabulary-attribute-option-included-2-03/879>`__.
+
 2.02
 ^^^^
 The optional ``reference`` element was `added <http://support.iatistandard.org/entries/79784435-Results-Require-unambiguous-indicator-reference>`__.

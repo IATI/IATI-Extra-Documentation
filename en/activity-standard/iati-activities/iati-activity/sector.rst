@@ -33,6 +33,7 @@ Changelog
 2.03
 ^^^^
 Updated the ``@vocabulary`` attribute `definition - removed the % sign
+The definition of the ``@vocabulary-uri`` was `updated <https://discuss.iatistandard.org/t/guidance-on-u-r-i-usage-for-publisher-s-own-vocabularies-included-2-03/850>`__.
 
 2.02
 ^^^^

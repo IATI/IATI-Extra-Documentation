@@ -18,6 +18,7 @@ Changelog
 
 2.03
 ^^^^
+| The definition of the ``@ref`` attributed was `updated <https://discuss.iatistandard.org/t/migration-of-organisationregistrationagency-codelist-to-org-id-guide-included-2-03/851/>`__.
 | The definition of the ``@secondary-reporter`` attributed was `updated <https://discuss.iatistandard.org/t/modify-definition-of-secondary-publisher-included-2-03/846>`__.
 
 2.01
