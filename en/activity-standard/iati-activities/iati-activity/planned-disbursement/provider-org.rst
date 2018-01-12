@@ -14,18 +14,22 @@ Example usage of ``provider-org`` of a ``planned-disbursement`` in an ``iati-act
 .. code-block:: xml
 
         <provider-org ref="BB-BBB-123456789" type="10" provider-activity-id="BB-BBB-123456789-1234AA" />
-        
+
 Full example, within a ``planned-disbursement``.
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--planned-disbursement starts-->
 	:end-before: <!--planned-disbursement ends-->
-	:emphasize-lines: 5, 7 
+	:emphasize-lines: 5, 7
 
 Changelog
 ~~~~~~~~~
 
+2.03
+^^^^
+| The definition of the ``@ref`` attribute was `updated <https://discuss.iatistandard.org/t/migration-of-organisationregistrationagency-codelist-to-org-id-guide-included-2-03/851>`__.
+
 2.02
 ^^^^
-The optional ``provider-org`` element was `added <http://support.iatistandard.org/entries/29665337-Add-provider-org-and-receiver-org-to-planned-disbursement-element>`__.
+| The optional ``provider-org`` element was `added <http://support.iatistandard.org/entries/29665337-Add-provider-org-and-receiver-org-to-planned-disbursement-element>`__.
