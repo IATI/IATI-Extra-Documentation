@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-The ``narrative`` child element can be used to declare freetext for the ``description`` parent element.
+The ``narrative`` child element can be used to declare freetext for the ``tag`` element.
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
@@ -16,4 +16,4 @@ Changelog
 
 2.03
 ^^^^
-| The mandatory ``narrative`` element within a ``description`` in a ``tag`` element  was `added <https://discuss.iatistandard.org/t/non-statistical-secondary-sectors-excluded-2-03/849>`__.
+| The mandatory ``narrative`` element within a ``tag`` element  was `added <https://discuss.iatistandard.org/t/non-statistical-secondary-sectors-excluded-2-03/849>`__.

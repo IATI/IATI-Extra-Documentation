@@ -167,14 +167,10 @@
 
   <!--tag starts-->
   <tag vocabulary="1" code="1">
-    <description>
-      <narrative>A description of the tag</narrative>
-    </description>
+    <narrative>A description of the tag</narrative>
   </tag>
   <tag vocabulary="99" vocabulary-uri="http://example.com/vocab.html" code="T1">
-    <description>
-      <narrative>A description of the tag</narrative>
-    </description>
+    <narrative>A description of the tag</narrative>
   </tag>
   <!--tag ends-->
 
