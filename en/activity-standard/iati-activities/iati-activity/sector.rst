@@ -32,7 +32,7 @@ Changelog
 
 2.03
 ^^^^
-Updated the ``@vocabulary`` attribute `definition - removed the % sign
+Updated the ``@vocabulary`` attribute `definition - removed the % sign  <https://discuss.iatistandard.org/t/bug-fix-implementing-checks-on-percentage-attributes/983>`__
 
 2.02
 ^^^^
