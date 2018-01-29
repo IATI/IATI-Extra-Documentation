@@ -12,6 +12,9 @@ Example usage of ``aid-type`` of a ``transaction`` in an ``iati-activity``.
 	:end-before: <!--transaction ends-->
 	:emphasize-lines: 21
 
-	2.03
-	^^^^
-	The ``aid-type`` element can be reported multiple times within a ``transaction`` element `added <https://discuss.iatistandard.org/t/add-vocabularies-to-aid-type-included-2-03/847>`__.
+Changelog
+~~~~~~~~~
+
+2.03
+^^^^
+The ``aid-type`` element can be reported multiple times within a ``transaction`` element `added <https://discuss.iatistandard.org/t/add-vocabularies-to-aid-type-included-2-03/847>`__ with associated guidelines.
