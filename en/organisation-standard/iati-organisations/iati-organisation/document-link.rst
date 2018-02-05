@@ -18,10 +18,9 @@ Example ``document-link`` in an ``iati-organisation``.
 	:language: xml
 	:start-after: <!--document-link starts-->
 	:end-before: <!--document-link ends-->
-	:emphasize-lines: 1, 9
 
 | The ``document-link`` element can be repeated in any ``iati-organisation``.
-	
+
 Changelog
 ~~~~~~~~~
 
