@@ -26,9 +26,8 @@ Example ``transaction`` in an ``iati-activity``.
 	:language: xml
 	:start-after: <!--transaction starts-->
 	:end-before: <!--transaction ends-->
-	:emphasize-lines: 1, 23
-	    
-| The ``transaction`` element can be repeated in any ``iati-activity``.  
+
+| The ``transaction`` element can be repeated in any ``iati-activity``.
 
 
 Changelog
@@ -36,4 +35,4 @@ Changelog
 
 2.02
 ^^^^
-| The ``humanitarian`` attribute was `added <http://support.iatistandard.org/entries/106937796-Humanitarian-Flag>`__.    
+| The ``humanitarian`` attribute was `added <http://support.iatistandard.org/entries/106937796-Humanitarian-Flag>`__.

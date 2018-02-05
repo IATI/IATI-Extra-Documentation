@@ -12,14 +12,13 @@ Example ``document-link`` in an ``iati-activity``.
     ...
     </document-link>
 
-| Full example with all child elements: 
+| Full example with all child elements:
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--document-link starts-->
 	:end-before: <!--document-link ends-->
-	:emphasize-lines: 1, 9
-	
+
 | The ``document-link`` element can be repeated in any ``iati-activity``.
 
 Changelog

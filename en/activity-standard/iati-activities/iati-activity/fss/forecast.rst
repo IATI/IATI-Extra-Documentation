@@ -14,7 +14,6 @@ Example of ``forecast`` for the ``fss`` of an ``iati-activity``.
 	:language: xml
 	:start-after: <!--fss starts-->
 	:end-before: <!--fss ends-->
-	:emphasize-lines: 2
 
 | Note: multiple forecasts are expressed by repeating the ``forecast`` element.
 

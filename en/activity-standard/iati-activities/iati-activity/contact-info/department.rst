@@ -6,8 +6,7 @@ Example ``department`` within ``contact-info`` of an ``iati-activity``.
 	:language: xml
 	:start-after: <!--contact-info starts-->
 	:end-before: <!--contact-info ends-->
-	:emphasize-lines: 5, 7
-	
+
 Changelog
 ~~~~~~~~~
 

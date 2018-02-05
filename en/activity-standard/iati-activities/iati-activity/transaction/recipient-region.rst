@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``recipient-region`` of an ``iati-activity``. 
+Example ``recipient-region`` of an ``iati-activity``.
 
 | The ``@code`` attribute declares a valid code (*489*) from the *Region* codelist.
 | The optional ``@vocabulary`` attribute declares a valid code (*1*) from the *RegionVocabulary* codelist.
@@ -10,6 +10,7 @@ Example ``recipient-region`` of an ``iati-activity``.
 	<recipient-region code="489" vocabulary="1" />
 
 If a publisher uses a vocabulary of 99 (i.e. 'Reporting Organisation'), then the ``@vocabulary-uri`` attribute should also be used, for example:
+
 .. code-block:: xml
 
 	<recipient-region code="A1" vocabulary="99" vocabulary-uri="http://example.com/vocab.html" />
@@ -20,7 +21,6 @@ Full example:
 	:language: xml
 	:start-after: <!--transaction starts-->
 	:end-before: <!--transaction ends-->
-	:emphasize-lines: 18
 
 Changelog
 ~~~~~~~~~
