@@ -14,12 +14,11 @@ Example ``result`` for an ``iati-activity``.
         </result>
 
 | Full example with all child elements:
- 
+
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 1, 46
 
 | The ``result`` element can be repeated in any ``iati-activity``.
 

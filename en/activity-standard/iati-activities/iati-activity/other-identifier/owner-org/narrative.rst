@@ -6,11 +6,10 @@ The ``narrative`` child element can be used to declare freetext for the ``owner-
 	:language: xml
 	:start-after: <!--other-identifier starts-->
 	:end-before: <!--other-identifier ends-->
-	:emphasize-lines: 3
 
 | The ``narrative`` element can be repeated for any language additional to the default language set in ``iati-activity``, by using the ``@xml:lang`` attribute.  Example not shown.
 
-	
+
 Changelog
 ~~~~~~~~~
 

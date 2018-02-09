@@ -12,7 +12,6 @@ Example usage of ``value`` in context of ``planned-disbursement`` element.
 	:language: xml
 	:start-after: <!--planned-disbursement starts-->
 	:end-before: <!--planned-disbursement ends-->
-	:emphasize-lines: 4
 
 Changelog
 ~~~~~~~~~

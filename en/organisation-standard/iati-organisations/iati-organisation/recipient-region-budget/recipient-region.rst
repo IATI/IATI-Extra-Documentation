@@ -20,7 +20,6 @@ Example of ``recipient-region`` in context of a complete ``recipient-region-budg
 	:language: xml
 	:start-after: <!--recipient-region-budget starts-->
 	:end-before: <!--recipient-region-budget ends-->
-	:emphasize-lines: 2
 
 Changelog
 ~~~~~~~~~
