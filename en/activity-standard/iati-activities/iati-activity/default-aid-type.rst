@@ -14,7 +14,7 @@ Changelog
 
 2.03
 ^^^^
-The ``default-aid-type`` element can be reported multiple times within a ``iati-activity`` element `added <https://discuss.iatistandard.org/t/add-vocabularies-to-aid-type-included-2-03/847>`__ with associated guidelines.
+The ``default-aid-type`` element can be reported multiple times within a ``iati-activity`` element `added <https://discuss.iatistandard.org/t/add-vocabularies-to-aid-type-included-2-03/847>`__.
 
 2.01
 ^^^^
