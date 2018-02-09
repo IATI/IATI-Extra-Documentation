@@ -314,6 +314,17 @@
    <description>
     <narrative>Result description text</narrative>
    </description>
+   <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/result_en.odt">
+    <title>
+     <narrative>Results Report 2013</narrative>
+    </title>
+    <description>
+      <narrative>Report of results</narrative>
+    </description>
+    <category code="A01" />
+    <language code="en" />
+    <document-date iso-date="2014-02-05" />
+   </document-link>
    <reference vocabulary="1" code="3429" />
    <reference vocabulary="7" code="861" />
    <reference vocabulary="99" code="B1" vocabulary-uri="http://example.com/indicators.html" />
@@ -324,6 +335,17 @@
      <description>
       <narrative>Indicator description text</narrative>
      </description>
+     <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/result_indicator_en.odt">
+      <title>
+       <narrative>Results Indicator Report 2013</narrative>
+      </title>
+      <description>
+        <narrative>Report of results indicator</narrative>
+      </description>
+      <category code="A01" />
+      <language code="en" />
+      <document-date iso-date="2014-02-05" />
+     </document-link>
      <reference vocabulary="1" code="3429" />
      <reference vocabulary="7" code="861" />
      <reference vocabulary="99" code="B1" indicator-uri="http://example.com/indicators.html" />
@@ -332,6 +354,17 @@
       <location ref="KH-PNH" />
       <dimension name="sex" value="female" />
       <dimension name="age" value="adult" />
+      <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/result_baseline_en.odt">
+       <title>
+        <narrative>Results Baseline Report 2013</narrative>
+       </title>
+       <description>
+         <narrative>Report of results baseline</narrative>
+       </description>
+       <category code="A01" />
+       <language code="en" />
+       <document-date iso-date="2014-02-05" />
+      </document-link>
       <comment>
        <narrative>Baseline comment text</narrative>
       </comment>
@@ -347,6 +380,17 @@
        <comment>
         <narrative>Target comment text</narrative>
        </comment>
+       <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/result_period_target_en.odt">
+        <title>
+         <narrative>Results Period Target Report 2013</narrative>
+        </title>
+        <description>
+          <narrative>Report of results period target</narrative>
+        </description>
+        <category code="A01" />
+        <language code="en" />
+        <document-date iso-date="2014-02-05" />
+       </document-link>
       </target>
       <actual value="11">
        <location ref="AF-KAN" />
@@ -356,6 +400,17 @@
        <comment>
          <narrative>Actual comment text</narrative>
        </comment>
+       <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/result_period_actual_en.odt">
+        <title>
+         <narrative>Results Period Actual Report 2013</narrative>
+        </title>
+        <description>
+          <narrative>Report of results period actual</narrative>
+        </description>
+        <category code="A01" />
+        <language code="en" />
+        <document-date iso-date="2014-02-05" />
+       </document-link>
       </actual>
      </period>
    </indicator>
