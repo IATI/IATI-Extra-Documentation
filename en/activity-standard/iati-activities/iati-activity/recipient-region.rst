@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example ``recipient-region`` of an ``iati-activity``. 
+Example ``recipient-region`` of an ``iati-activity``.
 
 | The ``@code`` attribute declares a valid code (*489*) from the *Region* codelist.
 | The optional ``@vocabulary`` attribute declares a valid code (*1*) from the *RegionVocabulary* codelist.
@@ -21,7 +21,7 @@ Please note, if using your own vocabulary (i.e. code 99), it is recommended that
 | The ``recipient-region`` element can be repeated in any ``iati-activity``.
 
 | When multiple ``recipient-region`` are declared, then the ``@percentage`` values should sum to 100% for the specific ``iati-activity``.
-        
+
 .. code-block:: xml
 
 	<recipient-region code="489" vocabulary="1" percentage="50" />
@@ -33,10 +33,14 @@ Please note, if using your own vocabulary (i.e. code 99), it is recommended that
 
 	<recipient-country code="AF" percentage="50" />
 	<recipient-region code="489" vocabulary="1" percentage="50" />
-	
-	
+
+
 Changelog
 ~~~~~~~~~
+
+2.03
+^^^^
+Definition of ``@percentage`` attribute `updated <https://discuss.iatistandard.org/t/boundary-values-for-percentages-included-2-03/843>`__.
 
 2.02
 ^^^^

@@ -21,10 +21,14 @@ Example ``recipient-country`` of an ``iati-activity``.
 .. code-block:: xml
 
 	<recipient-country code="AF" percentage="50" />
-	<recipient-region code="489" vocabulary="1" percentage="50" /> 
+	<recipient-region code="489" vocabulary="1" percentage="50" />
 
 Changelog
 ~~~~~~~~~
+
+2.03
+^^^^
+Definition of ``@percentage`` attribute `updated <https://discuss.iatistandard.org/t/boundary-values-for-percentages-included-2-03/843>`__.
 
 2.01
 ^^^^
