@@ -6,7 +6,6 @@ Example usage of ``principle-outstanding`` within ``loan-status`` in context of 
 	:language: xml
 	:start-after: <!--crs-add starts-->
 	:end-before: <!--crs-add ends-->
-	:emphasize-lines: 12
 
 Changelog
 ~~~~~~~~~

@@ -12,10 +12,10 @@ Example ``capital-spend`` of an ``iati-activity``.
 Changelog
 ~~~~~~~~~
 
-1.03
-^^^^
-This is a new element, introduced in version 1.03 of the standard
-
 2.03
 ^^^^
 Definition of ``@percentage`` attribute `updated <https://discuss.iatistandard.org/t/boundary-values-for-percentages-included-2-03/843>`__.
+
+1.03
+^^^^
+This is a new element, introduced in version 1.03 of the standard

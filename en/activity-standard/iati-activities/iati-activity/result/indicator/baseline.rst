@@ -8,13 +8,15 @@ Example of ``baseline`` in context of an ``indicator`` in a ``result`` element.
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 18, 22
 
-	Changelog
-	~~~~~~~~~
+Changelog
+~~~~~~~~~
 
-	2.03
-	^^^^
-	The attribute ``@iso-date`` was `added <https://discuss.iatistandard.org/t/results-improve-consistency-of-results-standard-included-2-03/874>`__.
-	The ``baseline`` element in ``indicator`` in a ``result`` element can be reported multiple times `added <https://discuss.iatistandard.org/t/results-improve-consistency-of-results-standard-included-2-03/874>`__.
-	The attribute ``@value`` was made optional and rules for its use `added <https://discuss.iatistandard.org/t/results-represent-more-than-quantitative-data-included-2-03/872>`__.
+2.03
+^^^^
+
+The occurance rules of the ``baseline`` element were amended so that `it can be reported multiple times <https://discuss.iatistandard.org/t/results-improve-consistency-of-results-standard-included-2-03/874>`__.
+
+The attribute ``@iso-date`` was `added <https://discuss.iatistandard.org/t/results-improve-consistency-of-results-standard-included-2-03/874>`__.
+
+The attribute ``@value`` was made optional and rules for its use `added <https://discuss.iatistandard.org/t/results-represent-more-than-quantitative-data-included-2-03/872>`__.

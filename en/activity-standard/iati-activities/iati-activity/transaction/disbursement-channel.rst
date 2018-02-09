@@ -8,7 +8,6 @@ Example usage of ``disbursement-channel`` of a ``transaction`` in an ``iati-acti
 	:language: xml
 	:start-after: <!--transaction starts-->
 	:end-before: <!--transaction ends-->
-	:emphasize-lines: 14
 
 Changelog
 ~~~~~~~~~

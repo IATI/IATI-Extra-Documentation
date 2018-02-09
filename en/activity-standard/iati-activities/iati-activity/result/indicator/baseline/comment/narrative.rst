@@ -3,24 +3,22 @@ Example Usage
 The ``narrative`` child element can be used to declare freetext for the ``comment`` of a ``baseline``.
 
 .. code-block:: xml
-	:emphasize-lines: 2	
-	
+
 		<comment>
 			<narrative>Baseline comment text</narrative>
-			<narrative xml:lang="fr">Baseline comment texte</narrative>      
+			<narrative xml:lang="fr">Baseline comment texte</narrative>
 		</comment>
 
 The ``narrative`` element can be repeated for any language additional to the default language set in ``iati-activity``, by using the ``@xml:lang`` attribute:
 
 .. code-block:: xml
-	:emphasize-lines: 3	
-	
+
 		<comment>
 			<narrative>Baseline comment text</narrative>
-			<narrative xml:lang="fr">Baseline comment texte</narrative>      
+			<narrative xml:lang="fr">Baseline comment texte</narrative>
 		</comment>
-	
-	
+
+
 Changelog
 ~~~~~~~~~
 

@@ -12,7 +12,6 @@ Example usage of ``value`` of ``budget`` for an ``iati-activity``.
 	:language: xml
 	:start-after: <!--budget starts-->
 	:end-before: <!--budget ends-->
-	:emphasize-lines: 4
 
 
 Changelog

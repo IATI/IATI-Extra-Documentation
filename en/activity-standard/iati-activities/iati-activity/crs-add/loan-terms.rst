@@ -11,7 +11,6 @@ The ``loan-terms`` element acts as a container for other elements.
 	:language: xml
 	:start-after: <!--crs-add starts-->
 	:end-before: <!--crs-add ends-->
-	:emphasize-lines: 3, 9
 
 
 Changelog

@@ -6,7 +6,6 @@ Example ``job-title`` within ``contact-info`` of an ``iati-activity``
 	:language: xml
 	:start-after: <!--contact-info starts-->
 	:end-before: <!--contact-info ends-->
-	:emphasize-lines: 11, 13
 
 
 Changelog
