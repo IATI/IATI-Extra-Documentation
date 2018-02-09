@@ -9,7 +9,6 @@ Example usage of ``commitment-date`` within ``loan-terms`` in context of ``crs-a
 	:language: xml
 	:start-after: <!--crs-add starts-->
 	:end-before: <!--crs-add ends-->
-	:emphasize-lines: 6
 
 Changelog
 ~~~~~~~~~

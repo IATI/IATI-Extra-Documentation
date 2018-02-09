@@ -9,14 +9,13 @@ Example ``crs-add`` for an ``iati-activity``.
      <crs-add attached="1">
      ...
      </crs-add>
-     
-| Full example with all child elements: 
+
+| Full example with all child elements:
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--crs-add starts-->
 	:end-before: <!--crs-add ends-->
-	:emphasize-lines: 1, 17
 
 
 Changelog

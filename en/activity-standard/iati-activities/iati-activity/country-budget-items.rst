@@ -11,17 +11,16 @@ Example ``country-budget-items`` for an ``iati-activity``.
     <country-budget-items vocabulary="2">
 	...
     </country-budget-items>
-    
+
 Full example with all child elements:
 
 .. code-block:: xml
-	:emphasize-lines: 1, 7
-	
+
 	<country-budget-items vocabulary="2">
 		<budget-item code="1.1.1">
 			<description>
 				<narrative>Description text</narrative>
-			</description> 
+			</description>
 		</budget-item>
 	</country-budget-items>
 

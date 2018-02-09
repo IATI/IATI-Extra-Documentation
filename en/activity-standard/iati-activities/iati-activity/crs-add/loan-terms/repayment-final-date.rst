@@ -9,7 +9,6 @@ Example usage of ``repayment-final-date`` within ``loan-terms`` in context of ``
 	:language: xml
 	:start-after: <!--crs-add starts-->
 	:end-before: <!--crs-add ends-->
-	:emphasize-lines: 8
 
 Changelog
 ~~~~~~~~~
