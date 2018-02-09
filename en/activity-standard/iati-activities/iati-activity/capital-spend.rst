@@ -19,5 +19,3 @@ Definition of ``@percentage`` attribute `updated <https://discuss.iatistandard.o
 1.03
 ^^^^
 This is a new element, introduced in version 1.03 of the standard
-
-
