@@ -6,7 +6,6 @@ Example usage of ``pos``, a child element of the ``point`` element of ``location
 	:language: xml
 	:start-after: <!--location-single starts-->
 	:end-before: <!--location ends-->
-	:emphasize-lines: 15
 
 Changelog
 ~~~~~~~~~

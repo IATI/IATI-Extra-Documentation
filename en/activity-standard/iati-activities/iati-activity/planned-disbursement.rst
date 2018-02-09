@@ -21,7 +21,7 @@ Example ``planned-disbursement`` for an ``iati-activity``.
 	<planned-disbursement type="1">
 	...
 	</planned-disbursement>
-	
+
 | Note: If omitted, then *BudgetType* code *1* (Original) is assumed.
 
 | Full example with all child elements:
@@ -30,9 +30,8 @@ Example ``planned-disbursement`` for an ``iati-activity``.
 	:language: xml
 	:start-after: <!--planned-disbursement starts-->
 	:end-before: <!--planned-disbursement ends-->
-	:emphasize-lines: 1, 11
-	
-| Note: multiple planned disbursements are expressed by repeating the ``planned-disbursement`` element.	
+
+| Note: multiple planned disbursements are expressed by repeating the ``planned-disbursement`` element.
 
 Changelog
 ~~~~~~~~~

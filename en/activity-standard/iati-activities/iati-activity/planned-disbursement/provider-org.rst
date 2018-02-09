@@ -14,14 +14,13 @@ Example usage of ``provider-org`` of a ``planned-disbursement`` in an ``iati-act
 .. code-block:: xml
 
         <provider-org ref="BB-BBB-123456789" type="10" provider-activity-id="BB-BBB-123456789-1234AA" />
-        
+
 Full example, within a ``planned-disbursement``.
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--planned-disbursement starts-->
 	:end-before: <!--planned-disbursement ends-->
-	:emphasize-lines: 5, 7 
 
 Changelog
 ~~~~~~~~~

@@ -12,8 +12,7 @@ Example ``value`` of ``total-expenditure`` for an ``iati-organisation``.
 	:language: xml
 	:start-after: <!--total-expenditure starts-->
 	:end-before: <!--total-expenditure ends-->
-	:emphasize-lines: 4
-			
+
 Changelog
 ~~~~~~~~~
 2.02
