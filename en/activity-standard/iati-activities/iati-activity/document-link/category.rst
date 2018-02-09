@@ -8,9 +8,8 @@ Example Usage
 	:language: xml
 	:start-after: <!--document-link starts-->
 	:end-before: <!--document-link ends-->
-	:emphasize-lines: 6
 
-| The ``category`` element can be repeated in any ``document-link``.		
+| The ``category`` element can be repeated in any ``document-link``.
 
 Changelog
 ~~~~~~~~~

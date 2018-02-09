@@ -12,8 +12,7 @@ Example usage of ``value`` in context of ``expense-line`` element.
 	:language: xml
 	:start-after: <!--total-expenditure starts-->
 	:end-before: <!--total-expenditure ends-->
-	:emphasize-lines: 6
-			
+
 Changelog
 ~~~~~~~~~
 2.02

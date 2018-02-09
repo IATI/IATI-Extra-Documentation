@@ -22,7 +22,6 @@ If a publisher uses a vocabulary of 99 (i.e. 'Reporting Organisation'), then the
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 15, 16, 17
 
 Changelog
 ~~~~~~~~~

@@ -8,7 +8,6 @@ Example usage of ``repayment-plan`` within ``loan-terms`` in context of ``crs-ad
 	:language: xml
 	:start-after: <!--crs-add starts-->
 	:end-before: <!--crs-add ends-->
-	:emphasize-lines: 5
 
 Changelog
 ~~~~~~~~~

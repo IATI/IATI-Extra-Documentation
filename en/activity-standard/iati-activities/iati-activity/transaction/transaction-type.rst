@@ -8,7 +8,6 @@ Example usage of ``transaction-type`` of ``transaction`` for an ``iati-activity`
 	:language: xml
 	:start-after: <!--transaction starts-->
 	:end-before: <!--transaction ends-->
-	:emphasize-lines: 2
 
 Changelog
 ~~~~~~~~~
