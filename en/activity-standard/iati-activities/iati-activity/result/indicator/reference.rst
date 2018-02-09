@@ -16,7 +16,7 @@ If a publisher uses a vocabulary of 99 (i.e. 'Reporting Organisation'), then the
 	<reference vocabulary="99" code="B1" indicator-uri="http://example.com/indicators.html" />
 
 
-| The ``reference`` element can be repeated in any ``indicator``:
+| The ``reference`` element can be repeated in any ``indicator``.  If the ``reference`` element is reported at indicator level it must not be reported at result level:
 
 .. literalinclude:: ../../../../activity-standard-example-annotated.xml
 	:language: xml

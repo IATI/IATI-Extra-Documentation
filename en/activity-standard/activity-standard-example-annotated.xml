@@ -314,6 +314,9 @@
    <description>
     <narrative>Result description text</narrative>
    </description>
+   <reference vocabulary="1" code="3429" />
+   <reference vocabulary="7" code="861" />
+   <reference vocabulary="99" code="B1" vocabulary-uri="http://example.com/indicators.html" />
    <indicator measure="1" ascending="1" aggregation-status="1">
      <title>
       <narrative>Indicator title</narrative>
