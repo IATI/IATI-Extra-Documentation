@@ -26,6 +26,10 @@ If a publisher uses a vocabulary of 99 (i.e. 'Reporting Organisation'), then the
 Changelog
 ~~~~~~~~~
 
+2.03
+^^^^
+Definition of ``@indicator-uri`` attribute `updated <https://discuss.iatistandard.org/t/guidance-on-u-r-i-usage-for-publisher-s-own-vocabularies-included-2-03/850>`__.
+
 2.02
 ^^^^
 The optional ``reference`` element was `added <http://support.iatistandard.org/entries/79784435-Results-Require-unambiguous-indicator-reference>`__.
