@@ -6,7 +6,6 @@ Example usage of ``title`` in context of an ``indicator`` in a ``result`` elemen
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 9, 11
 
 Changelog
 ~~~~~~~~~

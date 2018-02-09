@@ -8,11 +8,10 @@ Example of ``baseline`` in context of an ``indicator`` in a ``result`` element.
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 18, 22
 
-	Changelog
-	~~~~~~~~~
+Changelog
+~~~~~~~~~
 
-	2.03
-	^^^^
-	The attribute ``@iso-date`` was `added <https://discuss.iatistandard.org/t/results-improve-consistency-of-results-standard-included-2-03/874>`__.
+2.03
+^^^^
+The attribute ``@iso-date`` was `added <https://discuss.iatistandard.org/t/results-improve-consistency-of-results-standard-included-2-03/874>`__.
