@@ -8,7 +8,6 @@ Example ``condition`` child element of ``conditions`` of an ``iati-activity``.
 	:language: xml
 	:start-after: <!--conditions starts-->
 	:end-before: <!--conditions ends-->
-	:emphasize-lines: 2, 5
 
 | The ``condition`` element can be repeated in any ``conditions`` of an ``iati-activity``.
 

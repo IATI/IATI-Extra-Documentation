@@ -12,7 +12,7 @@ Example ``budget`` for an ``iati-activity``.
 	<budget type="1" status="1">
 	...
 	</budget>
-	
+
 | Note: If the @type attribute is omitted, then *BudgetType* code *1* (Original) is assumed.
 | Similarly, if the @status attribute is omitted, then *BudgetStatus* code *1* (Indicative) is assumed.
 
@@ -22,9 +22,8 @@ Example ``budget`` for an ``iati-activity``.
 	:language: xml
 	:start-after: <!--budget starts-->
 	:end-before: <!--budget ends-->
-	:emphasize-lines: 1, 5
 
-| The ``budget`` element can be repeated in any ``iati-activity``.      
+| The ``budget`` element can be repeated in any ``iati-activity``.
 
 Changelog
 ~~~~~~~~~

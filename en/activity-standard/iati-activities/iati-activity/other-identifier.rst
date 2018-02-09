@@ -4,12 +4,11 @@ Example ``other-identifier`` of an ``iati-activity``.
 
 | An example ``@ref`` of *ABC123-XYZ* is declared.
 | The ``@type`` attribute declares a valid code (*A1*) from the *OtherIdentifierType* codelist.
- 
+
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--other-identifier starts-->
 	:end-before: <!--other-identifier ends-->
-	:emphasize-lines: 1, 5	
 
 2.01
 ^^^^

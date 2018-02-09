@@ -6,7 +6,6 @@ Example usage of ``comment`` for ``target``:
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 31, 33
 
 Changelog
 ~~~~~~~~~

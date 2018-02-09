@@ -17,11 +17,11 @@ Example ``conditions`` for an ``iati-activity``.
      <conditions attached="1">
      ...
      </conditions>
-     
-| Full example with all child elements:     
-     
+
+| Full example with all child elements:
+
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--conditions starts-->
 	:end-before: <!--conditions ends-->
-	:emphasize-lines: 1, 6
+

@@ -14,7 +14,6 @@ Example of ``location`` in context of an ``target`` element (as part of a parent
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 27, 28
 
 Changelog
 ~~~~~~~~~

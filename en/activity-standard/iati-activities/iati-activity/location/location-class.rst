@@ -8,7 +8,6 @@ Example usage of ``location-class`` within a ``location`` of an ``iati-activity`
 	:language: xml
 	:start-after: <!--location-single starts-->
 	:end-before: <!--location ends-->
-	:emphasize-lines: 18
 
 Changelog
 ~~~~~~~~~
