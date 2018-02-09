@@ -26,7 +26,7 @@ Changelog
 
 2.03
 ^^^^
-The ``narrative`` element was `added <https://discuss.iatistandard.org/t/document-link-description-included-2-03/841>`__.
+The ``description`` element was `added <https://discuss.iatistandard.org/t/document-link-description-included-2-03/841>`__.
 
 1.02
 ^^^^
