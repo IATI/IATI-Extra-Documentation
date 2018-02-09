@@ -5,8 +5,7 @@ The ``narrative`` child element can be used to declare freetext for the ``sector
 | The ``narrative`` element should be used specially when the *99* (Reporting Organisation) or *98* (Reporting Organisation 2) *SectorVocabulary* are declared.
 
 .. code-block:: xml
-	:emphasize-lines: 2
-	
+
 	<sector vocabulary="99" code="1">
 		<narrative>Health Sector</narrative>
 	</sector>
