@@ -34,5 +34,3 @@ Definition of ``@indicator-uri`` attribute `updated <https://discuss.iatistandar
 2.02
 ^^^^
 The optional ``reference`` element was `added <http://support.iatistandard.org/entries/79784435-Results-Require-unambiguous-indicator-reference>`__.
-
-
