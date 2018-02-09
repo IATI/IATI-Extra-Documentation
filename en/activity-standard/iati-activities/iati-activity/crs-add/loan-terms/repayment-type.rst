@@ -8,7 +8,6 @@ Example usage of ``repayment-type`` within ``loan-terms`` in context of ``crs-ad
 	:language: xml
 	:start-after: <!--crs-add starts-->
 	:end-before: <!--crs-add ends-->
-	:emphasize-lines: 4
 
 Changelog
 ~~~~~~~~~

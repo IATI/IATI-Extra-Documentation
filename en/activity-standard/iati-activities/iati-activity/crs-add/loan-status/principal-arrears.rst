@@ -6,7 +6,6 @@ Example usage of ``principle-arrears`` within ``loan-status`` in context of ``cr
 	:language: xml
 	:start-after: <!--crs-add starts-->
 	:end-before: <!--crs-add ends-->
-	:emphasize-lines: 13
 
 Changelog
 ~~~~~~~~~
