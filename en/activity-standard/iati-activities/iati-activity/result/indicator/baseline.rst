@@ -14,6 +14,9 @@ Changelog
 
 2.03
 ^^^^
+
+The occurance rules of the ``baseline`` element were amended so that `it can be reported multiple times <https://discuss.iatistandard.org/t/results-improve-consistency-of-results-standard-included-2-03/874>`__.
+
 The attribute ``@iso-date`` was `added <https://discuss.iatistandard.org/t/results-improve-consistency-of-results-standard-included-2-03/874>`__.
 
 The attribute ``@value`` was made optional and rules for its use `added <https://discuss.iatistandard.org/t/results-represent-more-than-quantitative-data-included-2-03/872>`__.
