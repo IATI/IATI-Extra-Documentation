@@ -12,13 +12,12 @@ Example ``location`` for an ``iati-activity``.
 	...
 	</location>
 
-| Full example with all child elements:    
-    
+| Full example with all child elements:
+
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--location-single starts-->
 	:end-before: <!--location-single ends-->
-	:emphasize-lines: 1, 20
 
 | The ``location`` element can be repeated in any ``iati-activity``:
 
@@ -35,15 +34,15 @@ Changelog
 ~~~~~~~~~
 2.01
 ^^^^
-The following child elements were removed: `coordinates; gazetteer-entry; location-type <http://iatistandard.org/upgrades/integer-upgrade-to-2-01/2-01-changes/#location-removed-elements>`__. 
+The following child elements were removed: `coordinates; gazetteer-entry; location-type <http://iatistandard.org/upgrades/integer-upgrade-to-2-01/2-01-changes/#location-removed-elements>`__.
 
-The @percentage attribute was `removed <http://iatistandard.org/upgrades/integer-upgrade-to-2-01/2-01-changes/#location-removed-attributes>`__. 
+The @percentage attribute was `removed <http://iatistandard.org/upgrades/integer-upgrade-to-2-01/2-01-changes/#location-removed-attributes>`__.
 
 1.04
 ^^^^
-Note that major changes were made to the subelements of ``location`` in version 1.04.  
+Note that major changes were made to the subelements of ``location`` in version 1.04.
 
-| For more information refer to: 
+| For more information refer to:
 
 * the :doc:`1.04 location changes overview guidance </upgrades/decimal-upgrade-to-1-04/location-summary/>`
 * the :ref:`Activities Schema Changelog <1_04_activities_schema_changes>` (or the individual subemelement pages)

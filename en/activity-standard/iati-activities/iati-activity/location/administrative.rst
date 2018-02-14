@@ -4,18 +4,16 @@ Example usage of ``administrative`` within a ``location`` of an ``iati-activity`
 
 | The ``@vocabulary`` attribute declares a valid code (*G1*) from the *GeographicVocabulary* codelist.
 | An example value of *1453782* from that vocabulary is declared in the ``@code`` attribute.
-| An example value of *1* is declared for the ``@level`` attribute. 
+| An example value of *1* is declared for the ``@level`` attribute.
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--location-single starts-->
 	:end-before: <!--location ends-->
-	:emphasize-lines: 13
 
 Note: Multiple administrative levels can be reported by repeating the ``administrative`` element:
 
 .. code-block:: xml
-	:emphasize-lines: 6, 7
 
 	<location ref="AF-KAN">
 	   <location-id vocabulary="G1" code="1453782" />
@@ -40,7 +38,7 @@ Changelog
 ^^^^
 Freetext is `no longer allowed <http://iatistandard.org/upgrades/integer-upgrade-to-2-01/2-01-changes/#freetext-amended-elements>`__  within this element.
 
-The @county, @adm1 and @adm2 attributes were `removed <http://iatistandard.org/upgrades/integer-upgrade-to-2-01/2-01-changes/#location-removed-attributes>`__. 
+The @county, @adm1 and @adm2 attributes were `removed <http://iatistandard.org/upgrades/integer-upgrade-to-2-01/2-01-changes/#location-removed-attributes>`__.
 
 1.04
 ^^^^

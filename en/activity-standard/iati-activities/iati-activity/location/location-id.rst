@@ -9,11 +9,10 @@ Example usage of ``location-id`` within a ``location`` of an ``iati-activity``..
 	:language: xml
 	:start-after: <!--location-single starts-->
 	:end-before: <!--location ends-->
-	:emphasize-lines: 3
-	
+
 Note: If the *GeographicVocabulary* *G2* (*Open Street Map*) is used, then the ``@code`` value should be of the form <OSM element>/<OSM identifier>
 
-The OSM element will be a node, way or relation. 
+The OSM element will be a node, way or relation.
 
 | Examples:
 

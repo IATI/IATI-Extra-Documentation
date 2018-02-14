@@ -6,8 +6,7 @@ Example usage of ``name`` within a ``location`` of an ``iati-activity``.:
 	:language: xml
 	:start-after: <!--location-single starts-->
 	:end-before: <!--location ends-->
-	:emphasize-lines: 4, 6
-	
+
 Changelog
 ~~~~~~~~~
 

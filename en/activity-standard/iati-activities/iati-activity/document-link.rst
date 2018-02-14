@@ -18,17 +18,17 @@ Example ``document-link`` in an ``iati-activity``.
 	:language: xml
 	:start-after: <!--document-link starts-->
 	:end-before: <!--document-link ends-->
-	:emphasize-lines: 1, 9
 
 | The ``document-link`` element can be repeated in any ``iati-activity``.
 
 Changelog
 ~~~~~~~~~
+2.03
+^^^^
+The child element ``description`` was `added <https://discuss.iatistandard.org/t/document-link-description-included-2-03/841>`__.
 
 1.02
 ^^^^
 Removed ``@language`` attribute from, and introduced an new ``language`` child element to, the ``document-link`` element.
 
-2.03
-^^^^
-The child element ``description`` was `added <https://discuss.iatistandard.org/t/document-link-description-included-2-03/841>`__.
+

@@ -8,7 +8,6 @@ Example ``participating-org`` in an ``iati-activity``.
 | The ``@activity-id`` attribute declares an IATI activity identifier.
 
 .. code-block:: xml
-	:emphasize-lines: 1, 3
 
 	<participating-org ref="BB-BBB-123456789" role="2" type="40" activity-id="BB-BBB-123456789-1234">
 		<narrative>Name of Agency B</narrative>
@@ -23,7 +22,6 @@ As demonstrated in the the above example, it is strongly recommended that the na
 	:language: xml
 	:start-after: <!--participating-org starts-->
 	:end-before: <!--participating-org ends-->
-	:emphasize-lines: 1, 3, 4, 6, 7, 10
 
 Changelog
 ~~~~~~~~~

@@ -15,7 +15,6 @@ Example usage of ``period-start`` of ``planned-disbursement`` for an ``iati-acti
 	:language: xml
 	:start-after: <!--planned-disbursement starts-->
 	:end-before: <!--planned-disbursement ends-->
-	:emphasize-lines: 2
 
 
 Changelog
