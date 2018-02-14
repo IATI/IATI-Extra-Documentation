@@ -18,7 +18,6 @@ Example ``description`` of an ``iati-activity``.
 	:language: xml
 	:start-after: <!--description starts-->
 	:end-before: <!--description ends-->
-	:emphasize-lines: 1, 4, 5, 8, 9, 12
 
 Changelog
 ~~~~~~~~~

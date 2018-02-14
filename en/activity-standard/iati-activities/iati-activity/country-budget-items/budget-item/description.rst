@@ -6,8 +6,7 @@ Example usage of ``description`` of ``budget-item`` element, a child element of 
 	:language: xml
 	:start-after: <!--country-budget-items starts-->
 	:end-before: <!--country-budget-items ends-->
-	:emphasize-lines: 3, 5, 8, 10
-	
+
 Changelog
 ~~~~~~~~~
 

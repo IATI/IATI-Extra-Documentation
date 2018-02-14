@@ -16,9 +16,8 @@ Example Usage
 	:language: xml
 	:start-after: <!--recipient-org-budget starts-->
 	:end-before: <!--recipient-org-budget ends-->
-	:emphasize-lines: 1, 12
 
-| The ``recipient-org-budget`` element can be repeated in any ``iati-organisation``. 
+| The ``recipient-org-budget`` element can be repeated in any ``iati-organisation``.
 
 Changelog
 ~~~~~~~~~
