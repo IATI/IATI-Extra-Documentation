@@ -10,9 +10,8 @@ Example ``reporting-org`` for an ``iati-organisation``.
 	:language: xml
 	:start-after: <!--reporting-org starts-->
 	:end-before: <!--reporting-org ends-->
-	:emphasize-lines: 1, 4	
-	
-		
+
+
 Changelog
 ~~~~~~~~~
 

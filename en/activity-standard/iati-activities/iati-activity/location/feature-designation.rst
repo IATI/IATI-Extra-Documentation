@@ -8,7 +8,6 @@ Example usage of ``feature-designation`` within a ``location`` of an ``iati-acti
 	:language: xml
 	:start-after: <!--location-single starts-->
 	:end-before: <!--location ends-->
-	:emphasize-lines: 19
 
 
 

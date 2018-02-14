@@ -6,7 +6,6 @@ Example usage of ``interest-arrears`` within ``loan-status`` in context of ``crs
 	:language: xml
 	:start-after: <!--crs-add starts-->
 	:end-before: <!--crs-add ends-->
-	:emphasize-lines: 14
 
 Changelog
 ~~~~~~~~~
