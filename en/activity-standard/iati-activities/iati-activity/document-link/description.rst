@@ -14,4 +14,4 @@ Changelog
 
 2.03
 ^^^^
-The optional ``description`` element of a ``document-link`` in a ``result`` element was `added <https://discuss.iatistandard.org/t/document-link-description-included-2-03/841>`__.
+The optional ``description`` element of a ``document-link`` element was `added <https://discuss.iatistandard.org/t/document-link-description-included-2-03/841>`__.

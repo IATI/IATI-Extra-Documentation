@@ -6,8 +6,7 @@ Example ``title`` for an ``iati-activity``:
 	:language: xml
 	:start-after: <!--title starts-->
 	:end-before: <!--title ends-->
-	:emphasize-lines: 1, 5	
-	  
+
 Changelog
 ~~~~~~~~~
 2.01

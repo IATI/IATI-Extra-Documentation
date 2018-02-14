@@ -16,7 +16,6 @@ Example usage of ``loan-status`` in context of ``crs-add`` element.
 	:language: xml
 	:start-after: <!--crs-add starts-->
 	:end-before: <!--crs-add ends-->
-	:emphasize-lines: 10, 15
 
 
 Changelog
