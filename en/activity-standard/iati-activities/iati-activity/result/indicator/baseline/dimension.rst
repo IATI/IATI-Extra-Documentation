@@ -14,7 +14,6 @@ Example of ``dimension`` in context of a ``baseline`` element (as part of a pare
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 29, 30
 
 Changelog
 ~~~~~~~~~

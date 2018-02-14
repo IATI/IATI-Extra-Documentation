@@ -6,7 +6,6 @@ Example usage of ``description``  of a ``document-link`` in a ``target`` in a ``
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 5, 7
 
 Changelog
 ~~~~~~~~~

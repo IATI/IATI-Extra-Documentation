@@ -7,7 +7,6 @@ Example usage of ``description``  of a ``document-link`` in a ``iati-activity`` 
 	:language: xml
 	:start-after: <!--document-link starts-->
 	:end-before: <!--document-link ends-->
-	:emphasize-lines: 5, 7
 
 Changelog
 ~~~~~~~~~

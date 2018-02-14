@@ -12,7 +12,6 @@ Example Usage
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 8
 
 | The ``document-date`` element should only be used once for each ``document-link`` element.
 

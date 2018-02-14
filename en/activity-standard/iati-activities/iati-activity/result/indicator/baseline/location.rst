@@ -14,7 +14,6 @@ Example of ``location`` in context of a ``baseline`` element (as part of a paren
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 36, 37
 
 Changelog
 ~~~~~~~~~

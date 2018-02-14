@@ -6,7 +6,6 @@ Example Usage
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 2, 5
 
 Changelog
 ~~~~~~~~~
