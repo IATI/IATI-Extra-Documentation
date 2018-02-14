@@ -12,7 +12,6 @@ Example usage of ``indicator``  in a ``result`` of an ``iati-activity``.
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 8, 45
 
 | The ``indicator`` element can be repeated in any ``result`` of an ``iati-activity``.
 

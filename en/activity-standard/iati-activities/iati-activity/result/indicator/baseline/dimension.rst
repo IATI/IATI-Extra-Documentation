@@ -1,6 +1,6 @@
 Example Usage
 ~~~~~~~~~~~~~
-Example of ``dimension`` in context of an ``baseline`` element (as part of a parent ``result``/``indicator`` element).
+Example of ``dimension`` in context of a ``baseline`` element (as part of a parent ``result``/``indicator`` element).
 
 | This example declares ``@name`` as *sex*, with a ``@value`` of *female*:
 .. code-block:: xml

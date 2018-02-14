@@ -9,4 +9,4 @@ Example usage of ``period-end`` of ``budget`` for an ``iati-activity``.
 	:language: xml
 	:start-after: <!--budget starts-->
 	:end-before: <!--budget ends-->
-	:emphasize-lines: 3
+

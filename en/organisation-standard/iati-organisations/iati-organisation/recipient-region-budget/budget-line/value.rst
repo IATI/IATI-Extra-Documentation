@@ -12,8 +12,7 @@ Example usage of ``value`` in context of ``budget-line`` element.
 	:language: xml
 	:start-after: <!--recipient-region-budget starts-->
 	:end-before: <!--recipient-region-budget ends-->
-	:emphasize-lines: 7
-			
+
 Changelog
 ~~~~~~~~~
 2.02
