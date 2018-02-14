@@ -40,6 +40,7 @@ Changelog
 
 2.03
 ^^^^
+Definition of ``@vocabulary-uri`` attribute `updated <https://discuss.iatistandard.org/t/guidance-on-u-r-i-usage-for-publisher-s-own-vocabularies-included-2-03/850>`__.
 Definition of ``@percentage`` attribute `updated <https://discuss.iatistandard.org/t/boundary-values-for-percentages-included-2-03/843>`__.
 
 2.02
