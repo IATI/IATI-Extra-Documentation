@@ -153,9 +153,9 @@
    <point srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
     <pos>11.5500 104.9167</pos>
    </point>
-   <exactness code="1"/>
-   <location-class code="2"/>
-   <feature-designation code="ADMF"/>
+   <exactness code="1" />
+   <location-class code="2" />
+   <feature-designation code="ADMF" />
   </location>
   <!--location-additional ends-->
 
@@ -164,6 +164,15 @@
   <sector vocabulary="2" code="112" percentage="50" />
   <sector vocabulary="98" vocabulary-uri="http://example.com/vocab.html" code="A1" percentage="100" />
   <!--sector ends-->
+
+  <!--tag starts-->
+  <tag vocabulary="1" code="1">
+    <narrative>A description of the tag</narrative>
+  </tag>
+  <tag vocabulary="99" vocabulary-uri="http://example.com/vocab.html" code="T1">
+    <narrative>A description of the tag</narrative>
+  </tag>
+  <!--tag ends-->
 
   <!--country-budget-items starts-->
   <country-budget-items vocabulary="2">
@@ -175,7 +184,7 @@
    <budget-item code="1.2.1"  percentage="50">
     <description>
      <narrative>Description text</narrative>
-     </description>
+    </description>
    </budget-item>
   </country-budget-items>
   <!--country-budget-items ends-->
