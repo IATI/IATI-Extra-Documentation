@@ -8,8 +8,7 @@ Example ``owner-org`` of an ``other-identifier`` of an ``iati-activity``.
 	:language: xml
 	:start-after: <!--other-identifier starts-->
 	:end-before: <!--other-identifier ends-->
-	:emphasize-lines: 2, 4
-	
+
 Changelog
 ~~~~~~~~~
 

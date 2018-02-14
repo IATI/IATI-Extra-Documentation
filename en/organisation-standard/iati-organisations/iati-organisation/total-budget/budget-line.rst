@@ -8,11 +8,10 @@ Example ``budget-line`` for ``total-budget`` of an ``iati-organisation``.
 	:language: xml
 	:start-after: <!--total-budget starts-->
 	:end-before: <!--total-budget ends-->
-	:emphasize-lines: 5, 8
 
-| The ``budget-line`` element can be repeated in any ``total-budget``. 
+| The ``budget-line`` element can be repeated in any ``total-budget``.
 
-			
+
 Changelog
 ~~~~~~~~~
 

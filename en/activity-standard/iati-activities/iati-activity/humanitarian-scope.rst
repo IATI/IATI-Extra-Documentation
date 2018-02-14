@@ -27,7 +27,6 @@ If a publisher uses a vocabulary of 99 (i.e. 'Reporting Organisation'), then the
 	:language: xml
 	:start-after: <!--humanitarian-scope starts-->
 	:end-before: <!--humanitarian-scope ends-->
-	:emphasize-lines: 1, 2, 4
 
 | If a vocabulary is not on the *HumanitarianScopeVocabulary* codelist, then the value of *99* (*Reporting Organisation*) should be declared.
 

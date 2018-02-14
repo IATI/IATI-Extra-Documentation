@@ -16,9 +16,8 @@ Example Usage
 	:language: xml
 	:start-after: <!--total-expenditure starts-->
 	:end-before: <!--total-expenditure ends-->
-	:emphasize-lines: 1, 9
 
-| The ``total-expenditure`` element can be repeated in any ``iati-organisation``. 
+| The ``total-expenditure`` element can be repeated in any ``iati-organisation``.
 
 Changelog
 ~~~~~~~~~

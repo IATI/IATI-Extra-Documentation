@@ -26,7 +26,6 @@ Full example, within a ``transaction``.
 	:language: xml
 	:start-after: <!--transaction starts-->
 	:end-before: <!--transaction ends-->
-	:emphasize-lines: 8, 10
 
 Changelog
 ~~~~~~~~~

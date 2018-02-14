@@ -8,7 +8,6 @@ Example usage of ``channel-code`` of ``crs-add`` for an ``iati-activity``.
 	:language: xml
 	:start-after: <!--crs-add starts-->
 	:end-before: <!--crs-add ends-->
-	:emphasize-lines: 16
 
 
 Changelog

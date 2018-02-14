@@ -6,10 +6,9 @@ The ``narrative`` child element can be used to declare freetext for the ``budget
 	:language: xml
 	:start-after: <!--total-budget starts-->
 	:end-before: <!--total-budget ends-->
-	:emphasize-lines: 7
 
 | Note: The ``narrative`` element can be repeated for any language additional to the default language set in ``iati-organisation``, by using the ``@xml:lang`` attribute.  Example not shown.
-	
+
 Changelog
 ~~~~~~~~~
 

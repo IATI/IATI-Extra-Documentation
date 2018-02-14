@@ -18,7 +18,6 @@ Example ``contact-info`` for an ``iati-activity``.
 	:language: xml
 	:start-after: <!--contact-info starts-->
 	:end-before: <!--contact-info ends-->
-	:emphasize-lines: 1, 20
 
 Changelog
 ~~~~~~~~~

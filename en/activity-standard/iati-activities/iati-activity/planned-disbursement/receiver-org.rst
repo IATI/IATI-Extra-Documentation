@@ -21,7 +21,6 @@ Full example, within a ``planned-disbursement``.
 	:language: xml
 	:start-after: <!--planned-disbursement starts-->
 	:end-before: <!--planned-disbursement ends-->
-	:emphasize-lines: 8, 10
 
 Changelog
 ~~~~~~~~~

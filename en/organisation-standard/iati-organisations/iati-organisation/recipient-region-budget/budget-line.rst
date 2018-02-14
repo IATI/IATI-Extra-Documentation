@@ -8,11 +8,10 @@ Example ``budget-line`` for ``recipient-region-budget`` of an ``iati-organisatio
 	:language: xml
 	:start-after: <!--recipient-region-budget starts-->
 	:end-before: <!--recipient-region-budget ends-->
-	:emphasize-lines: 6, 9
 
-| The ``budget-line`` element can be repeated in any ``recipient-region-budget``. 
+| The ``budget-line`` element can be repeated in any ``recipient-region-budget``.
 
-		
+
 Changelog
 ~~~~~~~~~
 2.02

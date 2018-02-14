@@ -6,7 +6,6 @@ Example usage of ``description`` within a ``location`` of an ``iati-activity``.:
 	:language: xml
 	:start-after: <!--location-single starts-->
 	:end-before: <!--location ends-->
-	:emphasize-lines: 7, 9
 
 Changelog
 ~~~~~~~~~
@@ -17,4 +16,4 @@ Freetext is no longer allowed with this element.  It should `now be declared <ht
 
 1.04
 ^^^^
-The documentation in the schema has changed from "A human-readable description of the location (not the activity)." 
+The documentation in the schema has changed from "A human-readable description of the location (not the activity)."
