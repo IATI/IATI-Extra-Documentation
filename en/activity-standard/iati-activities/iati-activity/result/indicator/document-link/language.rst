@@ -9,7 +9,6 @@ Example Usage
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 7
 
 | In some cases, a ``document-link`` may be in multiple languages.  This is expressed by repeating the ``language`` element.
 

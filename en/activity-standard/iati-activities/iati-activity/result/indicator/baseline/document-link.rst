@@ -20,7 +20,6 @@ Example ``document-link`` in a ``baseline``  in a ``indicator`` in a ``result`` 
 	:language: xml
 	:start-after: <!--result starts-->
 	:end-before: <!--result ends-->
-	:emphasize-lines: 1, 9
 
 | The ``document-link`` element can be repeated in any ``result`` element.
 
