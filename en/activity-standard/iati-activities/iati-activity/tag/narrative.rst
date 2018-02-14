@@ -1,12 +1,12 @@
 Example Usage
 ~~~~~~~~~~~~~
-The ``narrative`` child element can be used to declare freetext for the ``tag`` parent element.
+
+The ``narrative`` element can be used to declare freetext for the ``tag`` parent element.
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--tag starts-->
 	:end-before: <!--tag ends-->
-	:emphasize-lines: 2, 5
 
 The ``narrative`` element can be repeated for any language additional to the default language set in ``iati-activity``, by using the ``@xml:lang`` attribute:
 

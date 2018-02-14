@@ -33,6 +33,10 @@ If a publisher uses a vocabulary of 99 (i.e. 'Reporting Organisation'), then the
 Changelog
 ~~~~~~~~~
 
+2.03
+^^^^
+The definition of the ``@vocabulary-uri`` was `updated <https://discuss.iatistandard.org/t/guidance-on-u-r-i-usage-for-publisher-s-own-vocabularies-included-2-03/850>`__.
+
 2.02
 ^^^^
 The ``humanitarian-scope`` element was `added <http://support.iatistandard.org/entries/105778163-Humanitarian-Emergencies-and-Appeals>`__.
