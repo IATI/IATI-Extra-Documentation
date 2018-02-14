@@ -26,6 +26,10 @@ As demonstrated in the the above example, it is strongly recommended that the na
 Changelog
 ~~~~~~~~~
 
+2.03
+^^^^
+| The definition of the ``@ref`` attribute was `updated <https://discuss.iatistandard.org/t/migration-of-organisationregistrationagency-codelist-to-org-id-guide-included-2-03/851>`__.
+
 2.02
 ^^^^
 | The ``activity-id`` attribute was `added <http://support.iatistandard.org/entries/82377659-Add-activity-id-attribute-to-participating-org-element>`__.
