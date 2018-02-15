@@ -2,10 +2,10 @@
 <!--This is example XML for the IATI organisation standard.  No reference to actual data or real organisations is intended-->
 
 <!--iati-organisations starts-->
-<iati-organisations generated-datetime="2014-09-10T07:15:37Z" version="2.02">
+<iati-organisations generated-datetime="2018-02-15T12:07:37Z" version="2.03">
 
  <!--iati-organisation starts-->
- <iati-organisation default-currency="EUR" last-updated-datetime="2014-09-10T07:15:37Z" xml:lang="en">
+ <iati-organisation default-currency="EUR" last-updated-datetime="2018-02-15T12:07:37Z" xml:lang="en">
 
   <!--organisation-identifier starts-->
   <organisation-identifier>AA-AAA-123456789</organisation-identifier>
