@@ -4,8 +4,8 @@ Example usage of ``title`` in context of an ``indicator`` in a ``result`` elemen
 
 .. literalinclude:: ../../../../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--result starts-->
-	:end-before: <!--result ends-->
+	:start-after: <!--result-indicator starts-->
+	:end-before: <!--result-indicator ends-->
 
 Changelog
 ~~~~~~~~~

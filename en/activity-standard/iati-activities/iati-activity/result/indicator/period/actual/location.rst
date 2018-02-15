@@ -13,8 +13,8 @@ Example of ``location`` in context of an ``actual`` element (as part of a parent
 
 .. literalinclude:: ../../../../../../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--result starts-->
-	:end-before: <!--result ends-->
+	:start-after: <!--result-period starts-->
+	:end-before: <!--result-period ends-->
 
 Changelog
 ~~~~~~~~~

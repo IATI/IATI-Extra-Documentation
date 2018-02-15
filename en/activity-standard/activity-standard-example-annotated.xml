@@ -326,6 +326,7 @@
    <description>
     <narrative>Result description text</narrative>
    </description>
+   <!--result-document-link example starts-->
    <document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/result_en.odt">
     <title>
      <narrative>Results Report 2013</narrative>
@@ -336,10 +337,14 @@
     <category code="A01" />
     <language code="en" />
     <document-date iso-date="2014-02-05" />
+ <!--result-document-link example ends-->
    </document-link>
+<!--result-reference starts-->
    <reference vocabulary="1" code="3429" />
    <reference vocabulary="7" code="861" />
    <reference vocabulary="99" code="B1" vocabulary-uri="http://example.com/indicators.html" />
+<!--result-reference ends-->
+<!--result-indicator starts-->
    <indicator measure="1" ascending="1" aggregation-status="1">
      <title>
       <narrative>Indicator title</narrative>
@@ -361,6 +366,7 @@
      <reference vocabulary="1" code="3429" />
      <reference vocabulary="7" code="861" />
      <reference vocabulary="99" code="B1" indicator-uri="http://example.com/indicators.html" />
+<!--result-baseline starts-->
      <baseline year="2012" iso-date="2012-01-01" value="10">
       <location ref="AF-KAN" />
       <location ref="KH-PNH" />
@@ -381,6 +387,8 @@
        <narrative>Baseline comment text</narrative>
       </comment>
      </baseline>
+     <!--result-baseline ends-->
+     <!--result-period starts-->
      <period>
       <period-start iso-date="2013-01-01" />
       <period-end iso-date="2013-03-31" />
@@ -425,7 +433,9 @@
        </document-link>
       </actual>
      </period>
+     <!--result-period ends-->
    </indicator>
+   <!--result-indicator ends-->
   </result>
   <!--result ends-->
 

@@ -4,8 +4,8 @@ Example usage of ``comment`` for ``baseline``:
 
 .. literalinclude:: ../../../../../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--result starts-->
-	:end-before: <!--result ends-->
+	:start-after: <!--result-baseline starts-->
+	:end-before: <!--result-baseline ends-->
 
 Changelog
 ~~~~~~~~~

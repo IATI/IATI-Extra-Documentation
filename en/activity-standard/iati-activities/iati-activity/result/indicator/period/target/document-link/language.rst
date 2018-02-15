@@ -5,10 +5,10 @@ Example Usage
 | The ``@language`` attribute declares a valid code (*en*) from the *Language* codelist.
 | Note: This specifies the language of the document being linked to.
 
-.. literalinclude:: ../../../activity-standard-example-annotated.xml
+.. literalinclude:: ../../../../../../../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--result starts-->
-	:end-before: <!--result ends-->
+	:start-after: <!--result-document-link example starts-->
+	:end-before: <!--result-document-link example ends-->
 
 | In some cases, a ``document-link`` may be in multiple languages.  This is expressed by repeating the ``language`` element.
 

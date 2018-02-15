@@ -6,6 +6,5 @@ Example usage of ``period`` in context of an ``indicator`` in a ``result`` eleme
 
 .. literalinclude:: ../../../../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--result starts-->
-	:end-before: <!--result ends-->
-
+	:start-after: <!--result-indicator starts-->
+	:end-before: <!--result-indicator ends-->

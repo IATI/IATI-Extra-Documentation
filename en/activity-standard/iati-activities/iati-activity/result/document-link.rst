@@ -15,10 +15,10 @@ Example ``document-link`` in a ``result`` element.
 
 | Full example with all child elements:
 
-.. literalinclude:: ../../activity-standard-example-annotated.xml
+.. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--result starts-->
-	:end-before: <!--result ends-->
+	:start-after: <!--result-document-link example starts-->
+	:end-before: <!--result-document-link example ends-->
 
 | The ``document-link`` element can be repeated in any ``result`` element.
 

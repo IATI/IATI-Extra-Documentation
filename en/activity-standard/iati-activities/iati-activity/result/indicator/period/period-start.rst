@@ -7,6 +7,5 @@ Example usage of ``period-start`` within ``period``, in context of an ``indicato
 
 .. literalinclude:: ../../../../../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--result starts-->
-	:end-before: <!--result ends-->
-
+	:start-after: <!--result-period starts-->
+	:end-before: <!--result-period ends-->

@@ -10,8 +10,8 @@ Example usage of ``indicator``  in a ``result`` of an ``iati-activity``.
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--result starts-->
-	:end-before: <!--result ends-->
+	:start-after: <!--result-indicator starts-->
+	:end-before: <!--result-indicator ends-->
 
 | The ``indicator`` element can be repeated in any ``result`` of an ``iati-activity``.
 

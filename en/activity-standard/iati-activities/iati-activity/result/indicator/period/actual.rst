@@ -6,8 +6,8 @@ Example usage of ``actual`` within ``period``, in context of an ``indicator`` in
 
 .. literalinclude:: ../../../../../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--result starts-->
-	:end-before: <!--result ends-->
+	:start-after: <!--result-period starts-->
+	:end-before: <!--result-period ends-->
 
 Changelog
 ~~~~~~~~~
