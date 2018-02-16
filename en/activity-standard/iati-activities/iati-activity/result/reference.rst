@@ -18,10 +18,10 @@ If a publisher uses a vocabulary of 99 (i.e. 'Reporting Organisation'), then the
 
 | The ``reference`` element can be repeated in any ``result``. If the ``reference`` element is reported at result level it must not be reported at indicator level:
 
-.. literalinclude:: ../../../../activity-standard-example-annotated.xml
+.. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--result starts-->
-	:end-before: <!--result ends-->
+	:start-after: <!--result-reference starts-->
+	:end-before: <!--result-reference ends-->
 
 Changelog
 ~~~~~~~~~

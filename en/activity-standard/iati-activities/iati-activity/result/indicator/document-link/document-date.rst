@@ -9,10 +9,10 @@ Example Usage
 
 | This examples declares an ISO date (corresponding to 5th February 2014) using the ``@iso-date`` attribute.
 
-.. literalinclude:: ../../../activity-standard-example-annotated.xml
+.. literalinclude:: ../../../../../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--result starts-->
-	:end-before: <!--result ends-->
+	:start-after: <!--result-document-link example starts-->
+	:end-before: <!--result-document-link example ends-->
 
 | The ``document-date`` element should only be used once for each ``document-link`` element.
 

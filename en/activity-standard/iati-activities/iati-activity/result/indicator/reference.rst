@@ -20,8 +20,8 @@ If a publisher uses a vocabulary of 99 (i.e. 'Reporting Organisation'), then the
 
 .. literalinclude:: ../../../../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--result starts-->
-	:end-before: <!--result ends-->
+	:start-after: <!--result-indicator starts-->
+	:end-before: <!--result-indicator ends-->
 
 Changelog
 ~~~~~~~~~

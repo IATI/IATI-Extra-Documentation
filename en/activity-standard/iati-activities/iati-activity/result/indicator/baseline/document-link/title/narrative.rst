@@ -2,10 +2,10 @@ Example Usage
 ~~~~~~~~~~~~~
 The ``narrative`` child element can be used to declare freetext for the ``title`` element.
 
-.. literalinclude:: ../../../../activity-standard-example-annotated.xml
+.. literalinclude:: ../../../../../../../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--result starts-->
-	:end-before: <!--result ends-->
+	:start-after: <!--result-document-link example starts-->
+	:end-before: <!--result-document-link example ends-->
 
 | The ``narrative`` element can be repeated for any language additional to the default language set in ``iati-organisation``, by using the ``@xml:lang`` attribute.
 

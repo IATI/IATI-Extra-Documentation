@@ -2,10 +2,10 @@ Example Usage
 ~~~~~~~~~~~~~
 | Example usage of ``title`` of a ``document-link`` in a ``baseline`` in a ``indicator`` in a ``result`` element.
 
-.. literalinclude:: ../../../activity-standard-example-annotated.xml
+.. literalinclude:: ../../../../../../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--result starts-->
-	:end-before: <!--result ends-->
+	:start-after: <!--result-document-link example starts-->
+	:end-before: <!--result-document-link example ends-->
 
 Changelog
 ~~~~~~~~~

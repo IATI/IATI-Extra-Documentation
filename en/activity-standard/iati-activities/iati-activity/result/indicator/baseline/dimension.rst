@@ -10,10 +10,10 @@ Example of ``dimension`` in context of a ``baseline`` element (as part of a pare
 
 | The ``dimension`` element can be repeated within any ``target`` element:
 
-.. literalinclude:: ../../../../../../activity-standard-example-annotated.xml
+.. literalinclude:: ../../../../../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--result starts-->
-	:end-before: <!--result ends-->
+	:start-after: <!--result-baseline starts-->
+	:end-before: <!--result-baseline ends-->
 
 Changelog
 ~~~~~~~~~
