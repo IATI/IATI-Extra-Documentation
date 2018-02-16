@@ -337,8 +337,8 @@
     <category code="A01" />
     <language code="en" />
     <document-date iso-date="2014-02-05" />
- <!--result-document-link example ends-->
    </document-link>
+<!--result-document-link example ends-->
 <!--result-reference starts-->
    <reference vocabulary="1" code="3429" />
    <reference vocabulary="7" code="861" />
