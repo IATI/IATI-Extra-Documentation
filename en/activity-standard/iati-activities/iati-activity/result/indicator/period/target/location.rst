@@ -12,9 +12,8 @@ Example of ``location`` in context of an ``target`` element (as part of a parent
 
 .. literalinclude:: ../../../../../../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--result starts-->
-	:end-before: <!--result ends-->
-	:emphasize-lines: 27, 28
+	:start-after: <!--result-period starts-->
+	:end-before: <!--result-period ends-->
 
 Changelog
 ~~~~~~~~~

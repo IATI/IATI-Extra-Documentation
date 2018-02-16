@@ -25,14 +25,17 @@ Full example, within a ``transaction``.
 	:language: xml
 	:start-after: <!--transaction starts-->
 	:end-before: <!--transaction ends-->
-	:emphasize-lines: 11, 13
 
 Changelog
 ~~~~~~~~~
 
+2.03
+^^^^
+| The definition of the ``@ref`` attribute was `updated <https://discuss.iatistandard.org/t/migration-of-organisationregistrationagency-codelist-to-org-id-guide-included-2-03/851>`__.
+
 2.02
 ^^^^
-The attribute ``@type`` was `added <http://support.iatistandard.org/entries/81683876-provider-receiver-og-adding-type>`__.
+| The attribute ``@type`` was `added <http://support.iatistandard.org/entries/81683876-provider-receiver-og-adding-type>`__.
 
 2.01
 ^^^^

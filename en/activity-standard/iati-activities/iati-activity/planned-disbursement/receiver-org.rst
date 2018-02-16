@@ -21,11 +21,14 @@ Full example, within a ``planned-disbursement``.
 	:language: xml
 	:start-after: <!--planned-disbursement starts-->
 	:end-before: <!--planned-disbursement ends-->
-	:emphasize-lines: 8, 10
 
 Changelog
 ~~~~~~~~~
 
+2.03
+^^^^
+| The definition of the ``@ref`` attribute was `updated <https://discuss.iatistandard.org/t/migration-of-organisationregistrationagency-codelist-to-org-id-guide-included-2-03/851>`__.
+
 2.02
 ^^^^
-The optional ``receiver-org`` element was `added <http://support.iatistandard.org/entries/29665337-Add-provider-org-and-receiver-org-to-planned-disbursement-element>`__.
+| The optional ``receiver-org`` element was `added <http://support.iatistandard.org/entries/29665337-Add-provider-org-and-receiver-org-to-planned-disbursement-element>`__.

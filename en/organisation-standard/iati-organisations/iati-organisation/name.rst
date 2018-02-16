@@ -6,8 +6,7 @@ Example of ``name`` of an ``iati-organisation``.
 	:language: xml
 	:start-after: <!--name starts-->
 	:end-before: <!--name ends-->
-	:emphasize-lines: 1, 4	
-		
+
 Changelog
 ~~~~~~~~~
 

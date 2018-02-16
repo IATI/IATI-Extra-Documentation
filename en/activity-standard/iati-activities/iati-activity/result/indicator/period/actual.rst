@@ -6,7 +6,14 @@ Example usage of ``actual`` within ``period``, in context of an ``indicator`` in
 
 .. literalinclude:: ../../../../../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--result starts-->
-	:end-before: <!--result ends-->
-	:emphasize-lines: 35, 43
+	:start-after: <!--result-period starts-->
+	:end-before: <!--result-period ends-->
 
+Changelog
+~~~~~~~~~
+
+2.03
+
+The ``actual`` element of a ``period`` in an ``indicator`` in a ``result`` element can be reported multiple times `added <https://discuss.iatistandard.org/t/results-allow-disaggregations-of-results-data-included-2-03/871>`__.
+
+The attribute ``@value`` was made optional and rules for its use `added <https://discuss.iatistandard.org/t/results-represent-more-than-quantitative-data-included-2-03/872>`__.

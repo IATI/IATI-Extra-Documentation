@@ -10,13 +10,16 @@ Example ``related-activity`` of an ``iati-activity``.
 	:start-after: <!--related-activity starts-->
 	:end-before: <!--related-activity ends-->
 
-| Note: multiple related activities are expressed by repeating the ``related-activity`` element.	
+| Note: multiple related activities are expressed by repeating the ``related-activity`` element.
 
 Changelog
 ~~~~~~~~~
 
+2.03
+^^^^
+Definition of ``related-activity`` element `updated <https://discuss.iatistandard.org/t/hierarchies-related-activity-definition-included-2-03/840>`__.
+
 2.01
 ^^^^
 Freetext is `no longer allowed <http://iatistandard.org/upgrades/integer-upgrade-to-2-01/2-01-changes/#freetext-amended-elements>`__  within this element.
-
 

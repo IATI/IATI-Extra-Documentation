@@ -3,6 +3,7 @@ Example Usage
 Example of ``location`` in context of an ``actual`` element (as part of a parent ``result``/``indicator`` element).
 
 | This example declares ``@ref`` as *AF-KAN*, which matches the ``@ref`` value for a location already referenced in iati-activity/location:
+
 .. code-block:: xml
 
     <location ref="AF-KAN" />
@@ -12,9 +13,8 @@ Example of ``location`` in context of an ``actual`` element (as part of a parent
 
 .. literalinclude:: ../../../../../../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--result starts-->
-	:end-before: <!--result ends-->
-	:emphasize-lines: 36, 37
+	:start-after: <!--result-period starts-->
+	:end-before: <!--result-period ends-->
 
 Changelog
 ~~~~~~~~~

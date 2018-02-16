@@ -4,9 +4,8 @@ Example usage of ``comment`` for ``actual``:
 
 .. literalinclude:: ../../../../../../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--result starts-->
-	:end-before: <!--result ends-->
-	:emphasize-lines: 40, 42
+	:start-after: <!--result-period starts-->
+	:end-before: <!--result-period ends-->
 
 Changelog
 ~~~~~~~~~

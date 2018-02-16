@@ -16,16 +16,21 @@ If a publisher uses a vocabulary of 99 (i.e. 'Reporting Organisation'), then the
 	<reference vocabulary="99" code="B1" indicator-uri="http://example.com/indicators.html" />
 
 
-| The ``reference`` element can be repeated in any ``indicator``:
+| The ``reference`` element can be repeated in any ``indicator``.  If the ``reference`` element is reported at indicator level it must not be reported at result level:
 
 .. literalinclude:: ../../../../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--result starts-->
-	:end-before: <!--result ends-->
-	:emphasize-lines: 15, 16, 17
+	:start-after: <!--result-indicator starts-->
+	:end-before: <!--result-indicator ends-->
 
 Changelog
 ~~~~~~~~~
+
+2.03
+^^^^
+Definition of ``@indicator-uri`` attribute `updated <https://discuss.iatistandard.org/t/guidance-on-u-r-i-usage-for-publisher-s-own-vocabularies-included-2-03/850>`__.
+
+The rule for using the ``reference`` element was `added <https://discuss.iatistandard.org/t/results-vocabulary-attribute-option-included-2-03/879>`__.
 
 2.02
 ^^^^

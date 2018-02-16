@@ -5,7 +5,7 @@ Example ``humanitarian-scope`` of an ``iati-activity``.
 | The ``@type`` attribute declares a valid code (*1*) from the *HumanitarianScopeType* codelist.
 | The ``@vocabulary`` attribute declares a valid code (*1-2*) from the *HumanitarianScopeVocabulary* codelist.
 | The ``@code`` attribute declares a valid code (*EQ-2015-000048-NPL*) from the specified vocabulary.
- 
+
 .. code-block:: xml
 
 	<humanitarian-scope type="1" vocabulary="1-2" code="EQ-2015-000048-NPL">
@@ -21,18 +21,21 @@ If a publisher uses a vocabulary of 99 (i.e. 'Reporting Organisation'), then the
 	</humanitarian-scope>
 
 
-| The ``humanitarian-scope`` element can be repeated in any ``iati-activity``.  
+| The ``humanitarian-scope`` element can be repeated in any ``iati-activity``.
 
 .. literalinclude:: ../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--humanitarian-scope starts-->
 	:end-before: <!--humanitarian-scope ends-->
-	:emphasize-lines: 1, 2, 4
 
-| If a vocabulary is not on the *HumanitarianScopeVocabulary* codelist, then the value of *99* (*Reporting Organisation*) should be declared.	
+| If a vocabulary is not on the *HumanitarianScopeVocabulary* codelist, then the value of *99* (*Reporting Organisation*) should be declared.
 
 Changelog
 ~~~~~~~~~
+
+2.03
+^^^^
+The definition of the ``@vocabulary-uri`` was `updated <https://discuss.iatistandard.org/t/guidance-on-u-r-i-usage-for-publisher-s-own-vocabularies-included-2-03/850>`__.
 
 2.02
 ^^^^

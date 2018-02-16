@@ -3,6 +3,7 @@ Example Usage
 Example of ``dimension`` in context of an ``target`` element (as part of a parent ``result``/``indicator`` element).
 
 | This example declares ``@name`` as *sex*, with a ``@value`` of *female*:
+
 .. code-block:: xml
 
     <dimension name="sex" value="female" />
@@ -12,9 +13,8 @@ Example of ``dimension`` in context of an ``target`` element (as part of a paren
 
 .. literalinclude:: ../../../../../../activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--result starts-->
-	:end-before: <!--result ends-->
-	:emphasize-lines: 29, 30
+	:start-after: <!--result-period starts-->
+	:end-before: <!--result-period ends-->
 
 Changelog
 ~~~~~~~~~

@@ -8,7 +8,6 @@ Example usage of ``point`` within a ``location`` of an ``iati-activity``.
 	:language: xml
 	:start-after: <!--location-single starts-->
 	:end-before: <!--location ends-->
-	:emphasize-lines: 14, 16
 
 
 Changelog
