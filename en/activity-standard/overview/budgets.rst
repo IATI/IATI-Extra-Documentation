@@ -9,7 +9,7 @@ Definition
 The monetary *budgets* assigned to a specific ``iati-activity`` can be described in the **IATI activity standard** using the following:
 
 * ``transaction-type`` type Commitment (code *2*) can be used to describe the total committed budget for the duration of the activity. Any changes to the original commitment should be reported as additional, incremental transactions (positive or negative) so that the sum of commitments represents the total committed budget.
-* ``budget`` - the value of the ``iati-activity`` ``budget`` for each financial year over the lifetime of the activity, as stated in the :underline:`original` project document or :underline:`revised` accordingly. While it is useful for the sum of budgets to match the sum of commitments this is not necessarily the case, depending on a publisher’s business model and legal frameworks.
+* ``budget`` - the value of the ``iati-activity`` ``budget`` for each financial year over the lifetime of the activity, as stated in the :underline:`original` project document or :underline:`revised` accordingly. The status explains whether the budget being reported is indicative or has been formally committed. The value should appear within the `BudgetStatus <http://iatistandard.org/203/codelists/BudgetStatus/>`__ codelist. If the @status attribute is not present, the budget is assumed to be indicative. The sum of budgets may or may not match the sum of commitments, depending on a publisher’s business model and legal frameworks.
 
 * ``planned-disbursement`` - a scheduled payment, set up against the ``budget``
  
