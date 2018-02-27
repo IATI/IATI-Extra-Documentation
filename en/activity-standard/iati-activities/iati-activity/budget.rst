@@ -32,3 +32,5 @@ Changelog
 2.02
 ^^^^
 The ``status`` attribute was `added <http://support.iatistandard.org/entries/21150501-Budgets-and-tentativeness>`__.
+
+The ``budget`` definition was updated as a `bug fix <https://discuss.iatistandard.org/t/proposal-update-of-budget-element-description-text-in-activity-standard/1216>`__ on the 27/02/2018.
