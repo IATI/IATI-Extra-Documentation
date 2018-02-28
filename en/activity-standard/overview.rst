@@ -8,6 +8,8 @@ Further guidance, examples and details can be found in the :doc:`reference </act
    :titlesonly:
    :glob:
 
+   overview/what-to-publish
+   overview/all-elements-in-IATI
    summary-table
    overview/activity-file
    overview/iati-activity
