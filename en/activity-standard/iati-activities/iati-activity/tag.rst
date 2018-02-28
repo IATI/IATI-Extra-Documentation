@@ -19,6 +19,7 @@ Example ``tag`` in a ``iati-activity`` element.
 | If a vocabulary is not on the *TagVocabulary* codelist, then the value of *99* (Reporting Organisation) should be declared.
 
 | If a publisher uses a vocabulary of 99 (i.e. 'Reporting Organisation'), then the ``@vocabulary-uri`` attribute should also be used, for example:
+
 .. code-block:: xml
 
     <tag vocabulary="99" vocabulary-uri="http://example.com/vocab.html" code="T1" />
