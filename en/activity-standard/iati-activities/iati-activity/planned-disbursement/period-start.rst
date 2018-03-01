@@ -10,7 +10,7 @@ A date in ISO 8601 format (YYYY-MM-DD) for the ``period-start`` date of the repo
 	:end-before: <!--planned-disbursement ends-->
 	:emphasize-lines: 2
 
-Example that declares multiple ``planned-disbursements. 
+Example that declares multiple ``planned-disbursement``.
 
 Note - in this example, only the ``period-start`` date element is present, to declare the disbursement is flagged for a specific date, rather than a period of time.
 
