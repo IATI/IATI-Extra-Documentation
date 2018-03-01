@@ -3,6 +3,7 @@ Example Usage
 Example of ``dimension`` in context of an ``actual`` element (as part of a parent ``result``/``indicator`` element).
 
 | This example declares ``@name`` as *sex*, with a ``@value`` of *female*:
+
 .. code-block:: xml
 
     <dimension name="sex" value="female" />

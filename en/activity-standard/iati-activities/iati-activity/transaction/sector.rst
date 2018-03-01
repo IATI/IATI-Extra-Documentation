@@ -16,6 +16,7 @@ Example ``sector`` of a ``transaction`` within an ``iati-activity``.
 | If a vocabulary is not on the *SectorVocabulary* codelist, then the value of *99* or *98* (Reporting Organisation) should be declared.
 
 | If a publisher uses a vocabulary of 98 or 99 (i.e. 'Reporting Organisation'), then the ``@vocabulary-uri`` attribute should also be used, for example:
+
 .. code-block:: xml
 
     <sector vocabulary="99" vocabulary-uri="http://example.com/vocab.html" code="A1" />
