@@ -9,7 +9,7 @@ Example usage of ``administrative`` within a ``location`` of an ``iati-activity`
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--location-single starts-->
-	:end-before: <!--location ends-->
+	:end-before: <!--location-single ends-->
 
 Note: Multiple administrative levels can be reported by repeating the ``administrative`` element:
 
