@@ -83,8 +83,8 @@
   </location>
   <!--location ends-->
   <!--sector starts-->
-  <sector code="222" percentage="50" vocabulary="DAC" />
-  <sector code="111" percentage="50" vocabulary="DAC" />
+  <sector code="22010" percentage="50" vocabulary="DAC" />
+  <sector code="11110" percentage="50" vocabulary="DAC" />
   <!--sector ends-->
   <!--country-budget-items starts-->
   <country-budget-items vocabulary="2">
