@@ -32,13 +32,6 @@ Example Usage File (in full)
 	:start-after: <!--iati-activities starts-->
 	:end-before: <!--iati-activities ends-->
 
-*Example usage XML* - with multiple values:
-
-.. literalinclude:: activity-standard-example-annotated-multi.xml
-	:language: xml
-	:start-after: <!--iati-activities starts-->
-	:end-before: <!--iati-activities ends-->
-	
 Further guidance
 ----------------
 
