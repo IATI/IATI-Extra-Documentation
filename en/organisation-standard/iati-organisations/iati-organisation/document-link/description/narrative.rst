@@ -7,9 +7,9 @@ The ``narrative`` child element can be used to declare freetext for the ``descri
 	:start-after: <!--document-link starts-->
 	:end-before: <!--document-link ends-->
 
-  | The ``narrative`` element can be repeated for any language additional to the default language set in ``iati-organisation``, by using the ``xml:lang`` attribute.
+| The ``narrative`` element can be repeated for any language additional to the default language set in ``iati-organisation``, by using the ``xml:lang`` attribute.
 
-  | Note: This relates to the language of the text in the XML.
+| Note: This relates to the language of the text in the XML.
 
 Changelog
 ~~~~~~~~~
