@@ -340,8 +340,6 @@
    </document-link>
 <!--result-document-link example ends-->
 <!--result-reference starts-->
-   <reference vocabulary="1" code="3429" />
-   <reference vocabulary="7" code="861" />
    <reference vocabulary="99" code="B1" vocabulary-uri="http://example.com/indicators.html" />
 <!--result-reference ends-->
 <!--result-indicator starts-->
