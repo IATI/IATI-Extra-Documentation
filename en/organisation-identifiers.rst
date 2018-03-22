@@ -17,7 +17,7 @@ In the **IATI organisation standard**:
 
 In the **IATI activity standard**:
 
-* They are used to identify organisations as reporting organisations (``reporting-org``), receiving funds (``reciver-org``), providing funds (``provider-org``), or otherwise involved in ``iati-activities`` (using ``participating-org``)
+* They are used to identify organisations as reporting organisations (``reporting-org``), receiving funds (``receiver-org``), providing funds (``provider-org``), or otherwise involved in ``iati-activities`` (using ``participating-org``)
 * They form the basis of the ``iati-identifier`` - used to declare a globally unique activity identifier for the specific ``iati-activity``  - composed of the reporting organisation Organisation ID, and an Activity ID.
 
 
