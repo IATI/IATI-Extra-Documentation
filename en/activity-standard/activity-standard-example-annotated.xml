@@ -89,7 +89,7 @@
   <!--activity-scope starts-->
   <activity-scope code="3" />
   <!--activity-scope ends-->
-  <!--recipient-country starts-->act
+  <!--recipient-country starts-->
   <recipient-country code="AF" percentage="25" />
   <recipient-country code="AG" percentage="25" />  
   <!--recipient-country ends-->
