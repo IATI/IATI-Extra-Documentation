@@ -17,7 +17,7 @@ When using the **IATI activity standard** to declare *transaction*, the followin
 * For every ``transaction`` a type contained on the *TransactionType* codelist is required, 
 * There are several types of transactions. The most common are:
 	* Incoming funds (code*1*) - the funds received from a funding source (e.g. a donor).
-	* Commitment (code*2*) - the total agreed committed budget for the activity (this may or may not match the value of the activity's budget)
+	* Outgoing Commitment (code*2*) - the total agreed committed budget for the activity (this may or may not match the value of the activity's budget)
 	* Disbursement (code*3*) - the amount transferred to another organisation in the aid delivery chain (e.g. a partner organisation being funded).
 	* Expenditure (code*4*) - the outlay on goods and services and project overheads.
 * The ``value`` of a transaction can be positive or negative, and contain decimals.  It should not contain comma separators (eg: 3,000)
