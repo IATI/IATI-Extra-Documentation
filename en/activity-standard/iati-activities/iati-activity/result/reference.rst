@@ -2,19 +2,11 @@ Example Usage
 ~~~~~~~~~~~~~
 Example of ``reference`` in the context of a ``result`` element.
 
-| This example declares use of ``@vocabulary`` *1*, with a ``@code`` of *3429*:
+| This example declares use of ``@vocabulary`` *99*, with a ``@code`` of *B1*.  The ``@vocabulary-uri`` attribute should also be used:
 
 .. code-block:: xml
 
-    <reference vocabulary="1" code="3429" />
-
-
-If a publisher uses a vocabulary of 99 (i.e. 'Reporting Organisation'), then the ``@vocabulary-uri`` attribute should also be used, for example:
-
-.. code-block:: xml
-
-	<reference vocabulary="99" code="B1" vocabulary-uri="http://example.com/indicators.html" />
-
+    <reference vocabulary="99" code="B1" vocabulary-uri="http://example.com/indicators.html" />
 
 | The ``reference`` element can be repeated in any ``result``. If the ``reference`` element is reported at result level it must not be reported at indicator level:
 
