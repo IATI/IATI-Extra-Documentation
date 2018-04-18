@@ -2,12 +2,12 @@ Example Usage
 ~~~~~~~~~~~~~
 Example ``budget-item`` within ``country-budget-items`` of an ``iati-activity``.
 
-| The ``@code`` attribute declares a valid code (*1.1.1*) from the *BudgetIdentifier* codelist.
+| The ``@code`` attribute declares a code (*1844*) provided from the *Reporting Organisation's* codelist.
 
 .. code-block:: xml
 
-	<country-budget-items vocabulary="2">
-		<budget-item code="1.1.1">
+	<country-budget-items vocabulary="4">
+		<budget-item code="1844">
 			<description>
 				<narrative>Description text</narrative>
 			</description>
