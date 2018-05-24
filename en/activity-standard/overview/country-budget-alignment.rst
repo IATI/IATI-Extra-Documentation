@@ -15,7 +15,7 @@ For activities at the commitment stage, the percentage of an activity that is ca
 This definition was approved by `WP-STAT under the written procedure <http://www.oecd.org/officialdocuments/publicdisplaydocumentpdf/?cote=DCD/DAC/STAT(2015)30/REV1&docLanguage=En/>`_ in February 2016.
 
 
-2) Publish detailed CRS purpose codes
+2) Publish detailed CRS purpose codes in the sector field
 --------------------
 **(a) Don’t use very broad codes**
 
