@@ -2,15 +2,23 @@ Example Usage
 ~~~~~~~~~~~~~
 Example usage of ``aid-type`` of a ``transaction`` in an ``iati-activity``.
 
-| The ``@code`` attribute declares a valid code (*A02*) from the *AidType* codelist.
+| The ``@code`` attribute declares a valid code from the specified codelist.
 | The ``@vocabulary`` attribute declares a valid code (*1*) from the *AidTypeVocabulary* codelist.
 
-| Note: The ``aid-type`` element can override the ``default-aid-type`` value set in ``iati-activity``:
+.. code-block:: xml
+
+	<aid-type code="A01" vocabulary="1" />
+	
+The aid-type element can be repeated in any iati-activity.
 
 .. literalinclude:: ../../../activity-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--transaction starts-->
 	:end-before: <!--transaction ends-->
+
+The vocabulary is used to declare which AidType list is in use. If this is omitted, then IATI assumes an AidType of 1 (OECD DAC).
+
+| Note: The ``aid-type`` element can override the ``default-aid-type`` value set in ``iati-activity``
 
 Changelog
 ~~~~~~~~~
