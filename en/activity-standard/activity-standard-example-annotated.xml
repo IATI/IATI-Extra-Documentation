@@ -219,6 +219,7 @@
 
   <!--default-aid-type starts-->
   <default-aid-type code="A01" vocabulary="1" />
+  <default-aid-type code="1" vocabulary="2" />
   <!--default-aid-type ends-->
 
   <!--default-tied-status starts-->
@@ -281,6 +282,7 @@
    <flow-type code="10" />
    <finance-type code="110" />
    <aid-type code="A01" vocabulary="1" />
+   <aid-type code="1" vocabulary="2" />
    <tied-status code="3" />
   </transaction>
   <!--transaction ends-->
