@@ -16,7 +16,7 @@ The aid-type element can be repeated in any iati-activity.
 	:start-after: <!--transaction starts-->
 	:end-before: <!--transaction ends-->
 
-The vocabulary is used to declare which AidType list is in use. If this is omitted, then IATI assumes an AidType of 1 (OECD DAC).
+The vocabulary is used to declare which AidType list is in use. If omitted, an Aid Type Vocabulary of 1 (OECD DAC) is assumed.
 
 | Note: The ``aid-type`` element can override the ``default-aid-type`` value set in ``iati-activity``
 
