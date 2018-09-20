@@ -17,7 +17,7 @@ The default-aid-type element can be repeated in any iati-activity.
 	:start-after: <!--default-aid-type starts-->
 	:end-before: <!--default-aid-type ends-->
 
-The vocabulary is used to declare which AidType list is in use. If omitted, an Aid Type Vocabulary of 1 is assumed. 
+The vocabulary is used to declare which AidType list is in use. If omitted, an AidType Vocabulary of 1 (OECD DAC) is assumed. 
 
 | Note: The ``aid-type`` element can override the ``default-aid-type`` value set in ``iati-activity``
 
