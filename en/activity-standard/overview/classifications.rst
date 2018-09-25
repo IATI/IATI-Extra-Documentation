@@ -27,7 +27,7 @@ When using the **IATI activity standard** to declare *documents*, the following 
 * When multiple ``sector`` are described, then a ``@percentage`` should be declared for each.  This should sum to 100% for each ``iati-activity``.
 * A ``@vocabulary`` can be declared when describing a ``sector``.  This should be on the *Vocabulary* codelist.
 * If no ``@vocabulary`` is declared, then the :doc:`DAC 5 digit codelist </codelists/Sector>` is assumed.
-* A ``reporting-org`` can declare their own ``@vocabulary``, via using the *RO* (Reporting Org) *Vocabulary* code.
+* A ``reporting-org`` can declare their own ``@vocabulary``, via using the *99* (Reporting Org) *Vocabulary* code.
 * Multiple or singular ``policy-marker`` can also be described.  Unlike ``sector``, a percentage is not required.
 * The classifications of ``default-finance-type``, ``default-flow-type``, ``default-aid-type`` and ``default-tied-status`` apply to the whole ``iati-activity``.  These can be overridden within a single ``transaction`` via using any of ``finance-type`` , ``flow-type`` , ``aid-type`` and/or ``tied-status``.
 * If an ``iati-activity`` is either wholly *tied*, *partially tied* or *untied* it is recommended that the appropriate ``default-tied-status`` code is used.
