@@ -23,7 +23,7 @@ When using the **IATI activity standard** to declare an *iati-identifier* the fo
 -------------------
 In version 2.01, the following must also be considered:
 
-* The ``iati-identifier`` must begin with an ``reporting-org`` identifier that has a value published on the *OrganisationRegistrationAgency* codelist.
+* The ``iati-identifier`` must begin with either the current IATI organisation identifier for the reporting organisation or a previous identifier reported in the element ``other-identifier``.
 
 Further Guidance 
 ----------------
