@@ -19,8 +19,8 @@ General Information about Codelists
    :glob:
    :titlesonly:
 
-   codelists/codelist-management
-   codelists/codelist-api
+   codelists-guides/codelist-management
+   codelists-guides/codelist-api
 
 
 All Codelists
@@ -31,4 +31,3 @@ All Codelists
    :titlesonly:
 
    codelists/*
-
