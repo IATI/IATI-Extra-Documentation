@@ -2,3 +2,4 @@ en/_build
 *.swp
 *~
 */html
+.DS_Store
