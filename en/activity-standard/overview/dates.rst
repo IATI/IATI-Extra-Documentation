@@ -39,4 +39,4 @@ When using the **IATI activity standard** to declare *dates*, the following shou
 In versions 2.01 and above, the following must also be considered:
 
 * The *ActivityDateType* codes for ``activity-date`` have changed to being numeric in versions 2.01 and above.
-* Dates should be a valid *xsd:date*, and a datetimes should be a valid *xsd:dateTime*.
+* Dates must be a valid *xsd:date*, and a datetimes must be a valid *xsd:dateTime*.
