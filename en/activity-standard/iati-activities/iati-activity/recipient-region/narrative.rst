@@ -7,7 +7,7 @@ The ``narrative`` child element can be used to declare freetext for the ``recipi
 .. code-block:: xml
 
 	<recipient-region code="589" vocabulary="1">
-		<narrative>Middle East, regional (As per WHO Eastern Mediterranean Region)<narrative>
+		<narrative>Middle East, regional (As per WHO Eastern Mediterranean Region)</narrative>
 	</recipient-region>
 
 | The ``narrative`` element can be repeated for any language additional to the default language set in ``iati-activity``, by using the ``@xml:lang`` attribute.  Example not shown.
