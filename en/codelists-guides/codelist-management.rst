@@ -54,7 +54,7 @@ https://github.com/IATI/IATI-Codelists-NonEmbedded
 
 Codes in TBC Codelists may be:
 
-- Added - at any point in time, subject to applicable notification and/or consultation via [IATI Discuss](https://discuss.iatistandard.org/c/standard-management/non-embedded-codelist-amendments)
+- Added - at any point in time, subject to applicable notification and/or consultation via [IATI Discuss]  <https://discuss.iatistandard.org/c/standard-management/non-embedded-codelist-amendments)
 - Modified - at any point in time, subject to applicable notification and/or consultation via [IATI Discuss](https://discuss.iatistandard.org/c/standard-management/non-embedded-codelist-amendments)
 - Withdrawn - at any point in time, subject to applicable notification and/or consultation via [IATI Discuss](https://discuss.iatistandard.org/c/standard-management/non-embedded-codelist-amendments)
 - Removed - at a Major Upgrade, through the applicable consultation process via [IATI Discuss](https://discuss.iatistandard.org/c/standard-management/non-embedded-codelist-amendments)
