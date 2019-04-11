@@ -11,7 +11,7 @@ is versioned and maintained in the GitHub repository for each version of
 the standard. e.g. for v2.02:
 https://github.com/IATI/IATI-Codelists/blob/version-2.02/codelist.xsd
 
-There are **four types** of Codelist in IATI; core, TBC, replicated, and external. Each of these are managed in a different way:
+There are **four types** of Codelist in IATI: Core, Non-Core, Replicated, and External. Each of these are managed in a different way:
 
 .. _embedded_codelist:
 
@@ -40,26 +40,26 @@ Examples of Core Codelists include: Transaction Type, Organisation Type.
 
 .. _non_embedded_codelist:
 
-Non-Embedded Codelists - TBC
+Non-Embedded Codelists - Non-Core
 ----------------------
 
-TBC Codelists contain confirming values for a particular version of the IATI Standard, the contents of which are managed by the IATI Technical Team. TBC Codelists contain Codes that qualify data, not processes.
+Non-Core Codelists contain confirming values for a particular version of the IATI Standard, the contents of which are managed by the IATI Technical Team. Non-Core Codelists contain Codes that qualify data, not processes.
 
 These Codelists usually provide lookup information, e.g. Description Type, Geographic Location, Indicator Vocabularies. An addition or modification has a minor impact on the sense and use of the data.
 
-TBC Codelists are managed via GitHub at:
+Non-Core Codelists are managed via GitHub at:
 https://github.com/IATI/IATI-Codelists-NonEmbedded
 
-**Modification Schedule: Non-Embedded Codelists - TBC**
+**Modification Schedule: Non-Embedded Codelists - Non-Core**
 
-Codes in TBC Codelists may be:
+Codes in Non-Core Codelists may be:
 
 - Added - at any point in time, subject to applicable notification and/or consultation via [IATI Discuss]  <https://discuss.iatistandard.org/c/standard-management/non-embedded-codelist-amendments)
 - Modified - at any point in time, subject to applicable notification and/or consultation via [IATI Discuss](https://discuss.iatistandard.org/c/standard-management/non-embedded-codelist-amendments)
 - Withdrawn - at any point in time, subject to applicable notification and/or consultation via [IATI Discuss](https://discuss.iatistandard.org/c/standard-management/non-embedded-codelist-amendments)
 - Removed - at a Major Upgrade, through the applicable consultation process via [IATI Discuss](https://discuss.iatistandard.org/c/standard-management/non-embedded-codelist-amendments)
 
-Examples of TBC Codelists include: Sector Vocabulary, Condition Type, Result Type.
+Examples of Non-Core Codelists include: Sector Vocabulary, Condition Type, Result Type.
 
 Non-Embedded Codelists - Replicated
 ----------------------
@@ -103,13 +103,13 @@ A Codelist may have its type changed. The points at which this may occur are def
 A Codelist may have its type changed through the applicable consultation process via the following steps:
 
 - External to Replicated - at a Minor or Major upgrade
-- Replicated to TBC - at a Minor or Major upgrade
-- TBC to Core - at a Minor or Major upgrade
-- Core to TBC - at a Minor or Major upgrade
-- TBC to Replicated - at a Minor or Major upgrade
+- Replicated to Non-Core - at a Minor or Major upgrade
+- Non-Core to Core - at a Minor or Major upgrade
+- Core to Non-core - at a Minor or Major upgrade
+- Non-Core to Replicated - at a Minor or Major upgrade
 - Replicated to External - at a Minor or Major upgrade
 
-Should a Codelist Type change require multiple steps, such as 'TBC to External' requireing 'TBC to Replicated' followed by 'Replicated to External', the restriction stated by the final step
+Should a Codelist Type change require multiple steps, such as 'Non-Core to External' requireing 'TBC to Replicated' followed by 'Replicated to External', the restriction stated by the final step
 
  
 Code status, addition and withdrawal dates
