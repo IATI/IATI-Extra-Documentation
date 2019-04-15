@@ -13,7 +13,7 @@ https://github.com/IATI/IATI-Codelists/blob/version-2.02/codelist.xsd
 
 There are **four types** of Codelist in IATI: Core, Non-Core, Replicated, and External. Each of these are managed in a different way:
 
-.. _embedded_codelist:
+.. _core_codelist:
 
 Embedded Codelists - Core
 ------------------
@@ -25,7 +25,7 @@ These are Codelists that are core to IATI: changing them has a big on impact on 
 Embedded codelists are  managed via GitHub at:
 https://github.com/IATI/IATI-Codelists/
 
-**Modification Sechdule: Embedded Codelists - Core**
+**Modification Schedule: Embedded Codelists - Core**
 
 Codes in Core Codelists may be:
 
@@ -38,7 +38,7 @@ See more information about the IATI Upgrade process here: http://reference.iatis
 
 Examples of Core Codelists include: Transaction Type, Organisation Type.
 
-.. _non_embedded_codelist:
+.. _non_core_codelist:
 
 Non-Embedded Codelists - Non-Core
 ----------------------
