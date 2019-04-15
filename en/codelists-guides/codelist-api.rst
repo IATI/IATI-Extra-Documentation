@@ -128,7 +128,7 @@ If you wish to use the new style XML, or are prepared to run the supplied python
 Developers dealing with version 1.04, 1.05 (and any subsequent version 1.x decimal versions) data with need to work with both the CLv2 format in the IATI-Codelists repository on the version-1.x branch, AND the CLv3 version of the IATI-Codelists-NonEmbedded repository (master branch)
 
 
-Why did we create a new structure for codelists for verison 1.04?
+Why did we create a new structure for codelists for version 1.04?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 As part of our move towards creating a :doc:`Single Source of Truth </developer/ssot/>` for the IATI Standard, we have started to take a different approach to codelists. See background paper previously circulated: https://docs.google.com/document/d/1oeH-8BFB__2IYF4MLnUwx2LcXZCVd5e-iYsXtQ4ViTk/edit
 
