@@ -21,7 +21,7 @@ Non-Machine Readable Rules
 
 IATI Org IDs\@ref
 -------------------
-* When reporting an IATI Org ID either for the publishers or another agency, it must be a valid organisation identifier.
+* When reporting an IATI Org ID either for the publishers or another agency, it MUST be a valid organisation identifier.
 * For the publisher, the identifier MUST be the same as that recorded by the publisher on the IATI Registry
 iati-identifier
 ---------------
@@ -31,7 +31,7 @@ iati-identifier
 
 recipient-country and recipient-region
 --------------------------------------
-* The recipient region must only be published in addition to the recipient country.
+* Recipient-region MUST not be used merely to describe the region of a country reported in recipient-country, but ONLY if the region is a recipient IN ADDITION to the country.
 
 Machine Readable Rules
 ^^^^^^^^^^^^^^^^^^^^^^
