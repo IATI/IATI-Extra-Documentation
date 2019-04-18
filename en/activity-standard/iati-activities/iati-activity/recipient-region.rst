@@ -20,19 +20,20 @@ Please note, if using your own vocabulary (i.e. code 99), it is recommended that
 
 | The ``recipient-region`` element can be repeated in any ``iati-activity``.
 
-| When multiple ``recipient-region`` are declared, then the ``@percentage`` values should sum to 100% for the specific ``iati-activity``.
+| When multiple ``recipient-region`` are declared, then the ``@percentage`` values should sum to 100% per vocabulary for the specific ``iati-activity``.
 
 .. code-block:: xml
 
 	<recipient-region code="489" vocabulary="1" percentage="50" />
 	<recipient-region code="389" vocabulary="1" percentage="50" />
 
-| When both the ``recipient-region`` and ``recipient-country``, then the ``@percentage`` values should sum to 100% for the specific ``iati-activity``.
+| When both the ``recipient-region`` and ``recipient-country``, then the ``@percentage`` values should sum to 100% per region vocabulary for the specific ``iati-activity``.
 
 .. code-block:: xml
 
 	<recipient-country code="AF" percentage="50" />
 	<recipient-region code="489" vocabulary="1" percentage="50" />
+	<recipient-region code="A1" vocabulary="99" percentage="50" vocabulary-uri="http://example.com/vocab.html" />
 
 
 Changelog
