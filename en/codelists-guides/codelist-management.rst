@@ -18,7 +18,7 @@ There are **four types** of Codelist in IATI: Core, Non-Core, Replicated, and Ex
 Embedded Codelists - Core
 ------------------
 
-Core Codelists contain conforming values for a particular **Decimal Version** of the IATI Standard, the contents of which are managed by the IATI Technical Team. Core Codelists contain codes that involve functional logic that impacts the way in which the Standard is interpreted and processed.
+Core Codelists contain conforming values for a particular **decimal Version** of the IATI Standard, the contents of which are managed by the IATI Technical Team. Core Codelists contain codes that involve functional logic that impacts the way in which the Standard is interpreted and processed.
 
 These are Codelists that are core to IATI: changing them has a big on impact on all those publishing and using IATI data.
 
@@ -43,7 +43,7 @@ Examples of Core Codelists include: Transaction Type, Organisation Type.
 Non-Embedded Codelists - Non-Core
 ----------------------
 
-Non-Core Codelists contain confirming values for a particular version of the IATI Standard, the contents of which are managed by the IATI Technical Team. Non-Core Codelists contain Codes that qualify data, not processes.
+Non-Core Codelists contain conforming values for a particular **integer** version of the IATI Standard, the contents of which are managed by the IATI Technical Team. Non-Core Codelists contain Codes that qualify data, not processes.
 
 These Codelists usually provide lookup information, e.g. Description Type, Geographic Location, Indicator Vocabularies. An addition or modification has a minor impact on the sense and use of the data.
 
@@ -64,7 +64,7 @@ Examples of Non-Core Codelists include: Sector Vocabulary, Condition Type, Resul
 Non-Embedded Codelists - Replicated
 ----------------------
 
-Replicated Codelists contain conforming values for the IATI Standard. The contents are generally managed by a third-party organisation and the IATI Technical Team maintain a corresponding copy in a document that conforms to the Codelist Schema.
+Replicated Codelists contain values for the IATI Standard. The contents are generally managed by a third-party organisation, in exceptional circumstances an additional code can be added. The IATI Technical Team maintain a corresponding copy in a document that conforms to the Codelist Schema.
 
 **Modification Schedule: Non-Embedded Codelists - Replicated**
 
