@@ -34,7 +34,7 @@ Codes in Core Codelists may be:
 - Withdrawn - at a Minor or Major Upgrade, through the applicable consultation process
 - Removed - at a Major Upgrade, through the applicable consultation process
 
-See more information about the IATI Upgrade process here: http://reference.iatistandard.org/203/upgrades/
+See more information about the IATI Upgrade process here: http://reference.iatistandard.org/202/upgrades/
 
 Examples of Core Codelists include: Transaction Type, Organisation Type.
 
