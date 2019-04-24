@@ -9,7 +9,7 @@ Over time, Codelists need to be updated when codes need to be added, removed, or
 The structure of the codelists themselves is governed by a schema that
 is versioned and maintained in the GitHub repository for each version of
 the standard. e.g. for v2.02:
-https://github.com/IATI/IATI-Codelists/blob/version-2.02/codelist.xsd
+https://github.com/IATI/IATI-Codelists/blob/version-2.01/codelist.xsd
 
 There are **four types** of Codelist in IATI: Core, Non-Core, Replicated, and External. Each of these are managed in a different way:
 
@@ -34,7 +34,7 @@ Codes in Core Codelists may be:
 - Withdrawn - at a Minor or Major Upgrade, through the applicable consultation process
 - Removed - at a Major Upgrade, through the applicable consultation process
 
-See more information about the IATI Upgrade process here: http://reference.iatistandard.org/203/upgrades/
+See more information about the IATI Upgrade process here: http://reference.iatistandard.org/201/upgrades/
 
 Examples of Core Codelists include: Transaction Type, Organisation Type.
 
