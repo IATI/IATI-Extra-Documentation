@@ -8,8 +8,8 @@ Over time, Codelists need to be updated when codes need to be added, removed, or
 
 The structure of the codelists themselves is governed by a schema that
 is versioned and maintained in the GitHub repository for each version of
-the standard. e.g. for v2.02:
-https://github.com/IATI/IATI-Codelists/blob/version-2.02/codelist.xsd
+the standard. e.g. for v2.03:
+https://github.com/IATI/IATI-Codelists/blob/version-2.03/codelist.xsd
 
 There are **four types** of Codelist in IATI: Core, Non-Core, Replicated, and External. Each of these are managed in a different way:
 
