@@ -2,108 +2,115 @@ IATI Codelist Management
 ========================
 
 The IATI codelists are key to making IATI data from different publishers
-comparable.
+comparable. Codelists contain a list of values and each value is assigned a code, e.g. the country Uganda has the code 'UG'. All codes are alphanumeric. Codes help reduce the amount of human error when entering data and having set values helps with data analysis.
 
-These lists need to be managed to deal with additions, amendments, bugs,
-and deletions. We use GitHub as a tool to manage our change control
-process. By placing codelists in GitHub, we have the ability to track
-very minor changes and to 'tag' major releases.
+Over time, Codelists need to be updated when codes need to be added, removed, or changed. We use GitHub as a tool to manage our Codelists, and you are able to track the changes. By managing Codelists in GitHub, we have the ability to track very minor changes and to 'tag' major releases.
 
 The structure of the codelists themselves is governed by a schema that
 is versioned and maintained in the GitHub repository for each version of
 the standard. e.g. for v2.02:
 https://github.com/IATI/IATI-Codelists/blob/version-2.02/codelist.xsd
 
-In managing the codelists we make a distinction between 'embedded' and
-'non-embedded' codelists. In addition, we may refer to these lists as
-either 'complete' or 'incomplete'.
+There are **four types** of Codelist in IATI: Core, Non-Core, Replicated, and External. Each of these are managed in a different way:
 
-.. _embedded_codelist:
+.. _core_codelist:
 
-Embedded Codelists
+Embedded Codelists - Core
 ------------------
 
-These are 'functional' codelists that are core to IATI. Changing them
-has a big impact on all those publishing and using IATI data. For example, adding, removing
-or renaming something on the transaction-types codelist
-http://iatistandard.org/codelists/transaction_type/ could
-be very disruptive.
+Core Codelists contain conforming values for a particular **decimal Version** of the IATI Standard, the contents of which are managed by the IATI Technical Team. Core Codelists contain codes that involve functional logic that impacts the way in which the Standard is interpreted and processed.
 
-Embedded codelists are  managed via GitHub at:
+These are Codelists that are core to IATI: changing them has a big on impact on all those publishing and using IATI data.
+
+Embedded codelists are  managed via GitHub at:
 https://github.com/IATI/IATI-Codelists/
 
--  Any changes to these codelists should be handled through a formal
-   decimal or integer upgrade process.
-   (http://dev.iatistandard.org/upgrades/).
-   (except bug fixes - see below)
--  Releases are tagged in line with the IATI Standard versions. This
-   means you can grab a snapshot of e.g. everything to do with version
-   1.03.
--  There are branches for each version of the standard. These can change
-   between decimal and integer releases of the standard ONLY for bug
-   fixes, typos, and translations. Users can chose to track changes to
-   those branches if they like but our documentation (from v1.04
-   onwards) will always track the corresponding branch.
--  During an upgrade to the standard, the new version of a new branch is
-   created for development.
+**Modification Schedule: Embedded Codelists - Core**
 
-.. _non_embedded_codelist:
+Codes in Core Codelists may be:
 
-Non-Embedded Codelists
+- Added - at a Minor or Major Upgrade, through the applicable consultation process
+- Modified - at a Minor or Major Upgrade, through the applicable consultation process
+- Withdrawn - at a Minor or Major Upgrade, through the applicable consultation process
+- Removed - at a Major Upgrade, through the applicable consultation process
+
+See more information about the IATI Upgrade process here: http://reference.iatistandard.org/202/upgrades/
+
+Examples of Core Codelists include: Transaction Type, Organisation Type.
+
+.. _non_core_codelist:
+
+Non-Embedded Codelists - Non-Core
 ----------------------
 
-These 'non-functional' codelists usually provide lookup information on
-e.g. currencies, languages in use, countries, etc. Often they are
-derived from third party lists and an addition or modification has a
-minor impact on the sense and use of the data.
+Non-Core Codelists contain conforming values for a particular **integer** version of the IATI Standard, the contents of which are managed by the IATI Technical Team. Non-Core Codelists contain Codes that qualify data, not processes.
 
-Non-embedded codelists are managed via GitHub at:
+These Codelists usually provide lookup information, e.g. Description Type, Geographic Location, Indicator Vocabularies. An addition or modification has a minor impact on the sense and use of the data.
+
+Non-Core Codelists are managed via GitHub at:
 https://github.com/IATI/IATI-Codelists-NonEmbedded
 
--  We aim to make changes to these lists quickly to allow data users to
-   take advantage of the changes immediately. These changes can be made
-   outside of a formal decimal or integer upgrade process.
--  Releases would be tagged in line with standard but the minor changes
-   will be available on the master branch of this repository.
+**Modification Schedule: Non-Embedded Codelists - Non-Core**
 
-Updates to Non-embedded Codelists
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Codes in Non-Core Codelists may be:
 
-Potential changes to Non-embedded Codelists may come to the team via:
+- Added - at any point in time, subject to applicable notification and/or consultation via `IATI Discuss  <https://discuss.iatistandard.org/c/standard-management/non-embedded-codelist-amendments>`__
+- Modified - at any point in time, subject to applicable notification and/or consultation via `IATI Discuss <https://discuss.iatistandard.org/c/standard-management/non-embedded-codelist-amendments>`__
+- Withdrawn - at any point in time, subject to applicable notification and/or consultation via `IATI Discuss <https://discuss.iatistandard.org/c/standard-management/non-embedded-codelist-amendments>`__
+- Removed - at a Major Upgrade, through the applicable consultation process via `IATI Discuss <https://discuss.iatistandard.org/c/standard-management/non-embedded-codelist-amendments>`__
 
--  Personal requests/Support tickets
--  Email notifications
--  Announcements from the source organisations
--  Automatic detection of changes to external sources compared with our own lists.
+Examples of Non-Core Codelists include: Sector Vocabulary, Condition Type, Result Type.
 
-All proposals will be added to the The `Non-embedded Codelist-Amendments Forum <http://support.iatistandard.org/forums/23076626-Non-embedded-Codelist-Amendments>`__
+Non-Embedded Codelists - Replicated
+----------------------
 
-The IATI Technical Team hold regular team meetings once a week. All outstanding proposals will be discussed at that meeting. The IATI Technical Lead (Bill Anderson) has the ultimate responsibility for decisions taken.
+Replicated Codelists contain values for the IATI Standard. The contents are generally managed by a third-party organisation, in exceptional circumstances an additional code can be added. The IATI Technical Team maintain a corresponding copy in a document that conforms to the Codelist Schema.
 
-If a decision has been made to make a change to a non-embedded list the `IATI Standard discussion thread <http://discuss.iatistandard.org/c/iati-standard>`__ will be notified (within 1 working day) about the change that is to be made and the date that the change will take effect (usually within 7 calendar days). The proposal will be marked as 'Planned' on the support forum. At this point people have the right to disagree. Discussion should take place via the `IATI Standard discussion thread <http://discuss.iatistandard.org/c/iati-standard>`__. Unresolved matters can be taken to the following team meeting.
+**Modification Schedule: Non-Embedded Codelists - Replicated**
 
-In most circumstances the decision to alter these codelists is straightforward. In rare cases, the team may decide to seek further clarification, or to consult further on whether or not to adopt a change. If so, a timetable outlining the process and time scales will be issued.
+Codes in Replicated Codelists may be:
 
-Once a change has been agreed, a GitHub issue will be created and will be linked to from the forum post.
+- Added - at any point in time, subject to applicable notification by the third-party
+- Modified - at any point in time, subject to applicable notification by the third-party
+- Withdrawn - at any point in time, subject to applicable notification by the third-party
+- Removed - never
 
-When the change has been made and accepted into the master branch of the `Non-embedded Codelist repository <https://github.com/IATI/IATI-Codelists-NonEmbedded>`__, the change will be 'live' to anyone who consumes these codelists directly from Github or via the API. 
+Examples of Replicated Codelists include: DAC 5-Digit, Organisation Registration Agency
 
-At this point the technical team will:
+Non-Embedded Codelists - External
+----------------------
 
- * Update the `Non-Embedded Codelist changelog record <http://iatistandard.org/upgrades/nonembedded-codelist-changelog>`__
- * Regenerate the IATI Standard Website.
- * Mark the forum post as 'Done'
+External Codelists are a collection of codes managed by a third-party organisation. The IATI Technical Team does not maintain a correspoding copy in a document that conforms to the Codelist Schema.
 
-A :doc:`summary of all changes to all non-emebedded </upgrades/nonembedded-codelist-changelog/>` codelists is published on the IATI Standard website. They can also be found via the list of commits to the GitHub repository.
+**Modification Schedule: Non-Embedded Codelists - External**
 
-Special Cases
-*************
+Codes in External Codelists may be:
 
-File Format
-  The IATI Technical Team will use its judgement to assess the importance of a change to the file format list and whether or not an announcement is required (i.e. the list may alter to stay inline with the external source, but announcements will not necessarily be made).
+- Added - at any point in time
+- Modified - at any point in time
+- Withdrawn - at any point in time
+- Removed - at any point in time
 
-Organisation Registration Agency
-  Because there is a need to add registration agencies quickly, so that people can do their work, and because we anticipate many additions that will not be of interest to most people, we will add values to this list without making announcements. Values to be added will be agreed at the weekly team meeting.
+Examples of Exteral Codelists include: Earmarking Modalities
+
+Changing Codelist Type
+----------------------
+
+A Codelist may have its type changed. The points at which this may occur are defined by the following modification schedule:
+
+**Modification Schedule: Codelist Type**
+
+A Codelist may have its type changed through the applicable consultation process via the following steps:
+
+- External to Replicated - at a Minor or Major upgrade
+- Replicated to Non-Core - at a Minor or Major upgrade
+- Non-Core to Core - at a Minor or Major upgrade
+- Core to Non-core - at a Minor or Major upgrade
+- Non-Core to Replicated - at a Minor or Major upgrade
+- Replicated to External - at a Minor or Major upgrade
+
+Should a Codelist Type change require multiple steps, such as 'Non-Core to External' requireing 'TBC to Replicated' followed by 'Replicated to External', the restriction stated by the final step
+
  
 Code status, addition and withdrawal dates
 ------------------------------------------
@@ -123,4 +130,3 @@ This is an example of a 'complete' codelist.
 
 We distinguish between these two types of codelists by the use of an xml
 attribute: ``complete="1"``
-
