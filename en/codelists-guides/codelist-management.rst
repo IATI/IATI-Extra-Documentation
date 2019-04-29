@@ -33,7 +33,7 @@ Codes in Core Codelists may be:
 - Withdrawn - at a Minor or Major Upgrade, through the applicable consultation process
 - Removed - at a Major Upgrade, through the applicable consultation process
 
-See more information about the IATI Upgrade process here: http://reference.iatistandard.org/203/upgrades/
+See more information about the IATI Upgrade process here: http://reference.iatistandard.org/upgrades/
 
 Examples of Core Codelists include: Transaction Type, Organisation Type.
 
@@ -79,18 +79,13 @@ Examples of Replicated Codelists include: DAC 5-Digit, Organisation Registration
 Non-Embedded Codelists - External
 ----------------------
 
-External Codelists are a collection of codes managed by a third-party organisation. The IATI Technical Team does not maintain a correspoding copy in a document that conforms to the Codelist Schema.
+External Codelists are a collection of codes managed by a third-party organisation. The IATI Technical Team does not maintain a corresponding copy in a document that conforms to the Codelist Schema. A URL to the codelist will be added to the relevant Non-Core codelist vocabulary e.g. the `Aid Type Vocabulary <http://reference.iatistandard.org/codelists/AidTypeVocabulary/>`__ codelist contains codes for and links to:
 
-**Modification Schedule: Non-Embedded Codelists - External**
+- `OECD DAC (aid type) <http://reference.iatistandard.org/codelists/AidType/>`__ which is a replicated codelist
+- `Earmarking Category <http://reference.iatistandard.org/codelists/EarmarkingCategory/>`__ which is a replicated codelist
+- Earmarking Modality which is an external codelist 
 
-Codes in External Codelists may be:
-
-- Added - at any point in time
-- Modified - at any point in time
-- Withdrawn - at any point in time
-- Removed - at any point in time
-
-Examples of Exteral Codelists include: Earmarking Modalities
+Please note that the managers of external codelists can update and remove codes according to their own processes.
 
 Changing Codelist Type
 ----------------------
@@ -112,7 +107,7 @@ of all possible values that might be used. In the case of countries,
 publishers may use extra user defined codes (such as 'XK' for Kosovo) or valid
 historical values that are not on our maintained list.
 
-For other codelists, such as the DescriptionType codelist, if the value
+For other codelists, such as the `Description Type <http://reference.iatistandard.org/codelists/DescriptionType/>`__ codelist, if the value
 is not on the codelist the data doesn’t make any sense - it is invalid.
 This is an example of a 'complete' codelist.
 
