@@ -43,7 +43,7 @@ Examples of Core Codelists include: Transaction Type, Organisation Type.
 Non-Embedded Codelists - Non-Core
 ----------------------
 
-Non-Core Codelist values are not version specific. The contents of the codelist which are managed by the IATI Technical Team. Non-Core Codelists contain codes that qualify data, not processes.
+Non-Core Codelist values are not version specific. The contents of the codelists are managed by the IATI Technical Team. Non-Core Codelists contain codes that qualify data, not processes.
 
 These Codelists usually provide lookup information, e.g. Description Type, Geographic Location, Indicator Vocabularies. An addition or modification has a minor impact on the sense and use of the data.
 
