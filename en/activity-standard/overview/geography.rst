@@ -23,8 +23,6 @@ When using the **IATI activity standard** to describe *geography*, the following
 * It is possible to have multiple ``recipient-country`` in an ``iati-activity``.
 * It is possible to have multiple ``recipient-region`` in an ``iati-activity``.
 * When declaring multiple ``recipient-country`` or ``recipient-region`` then a ``@pecentage`` must be declared.  These must sum to 100% across both elements per region vocabulary.
-
-https://github.com/IATI/IATI-Extra-Documentation/pull/516.
 * If a ``recipient-country`` is known, then a ``recipient-region`` is not expected.
 * If a ``recipient-country`` is not known, then a ``recipient-region`` is expected.
 * The ``activity-scope`` element should only be used once.  It must use a relevant *ActivityScope* code.
