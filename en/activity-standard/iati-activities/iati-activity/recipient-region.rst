@@ -18,7 +18,7 @@ Example ``recipient-region`` of an ``iati-activity``.
 	<recipient-region code="489" vocabulary="1" percentage="50" />
 	<recipient-region code="389" vocabulary="1" percentage="50" />
 
-| When both the ``recipient-region`` and ``recipient-country``, then the ``@percentage`` values should sum to 100% per region vocabulary for the specific ``iati-activity``.
+| When both the ``recipient-region`` and ``recipient-country`` are declared, then the ``@percentage`` values should sum to 100% per region vocabulary for the specific ``iati-activity``.
 
 .. code-block:: xml
 
