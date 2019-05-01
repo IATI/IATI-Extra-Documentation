@@ -23,7 +23,7 @@ Codelist Mappings
 
 There exists a machine readable mapping from attributes to the codelist they should be on.
 This is available on GitHub as an XML file:
-https://github.com/IATI/IATI-Codelists/blob/version-2.01/mapping.xml
+https://github.com/IATI/IATI-Codelists/blob/version-2.02/mapping.xml
 
 It is also available as XML and JSON from the codelist API:
 

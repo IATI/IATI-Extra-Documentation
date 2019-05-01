@@ -1,8 +1,7 @@
 IATI Codelist Management
 ========================
 
-The IATI codelists are key to making IATI data from different publishers
-comparable. Codelists contain a list of values and each value is assigned a code, e.g. the country Uganda has the code 'UG'. All codes are alphanumeric. Codes help reduce the amount of human error when entering data and having set values helps with data analysis.
+The IATI codelists are key to making IATI data from different publishers comparable. Codelists contain a list of values and each value is assigned a code, e.g. the country Uganda has the code 'UG'. All codes are alphanumeric and case sensitive. Codes help reduce the amount of human error when entering data and having set values helps with data analysis.
 
 Over time, Codelists need to be updated when codes need to be added, removed, or changed. We use GitHub as a tool to manage our Codelists, and you are able to track the changes. By managing Codelists in GitHub, we have the ability to track very minor changes and to 'tag' major releases.
 
@@ -43,7 +42,7 @@ Examples of Core Codelists include: Transaction Type, Organisation Type.
 Non-Embedded Codelists - Non-Core
 ----------------------
 
-Non-Core Codelists contain conforming values for a particular **integer** version of the IATI Standard, the contents of which are managed by the IATI Technical Team. Non-Core Codelists contain Codes that qualify data, not processes.
+Non-Core Codelist values are not version specific. The contents of the codelist which are managed by the IATI Technical Team. Non-Core Codelists contain codes that qualify data, not processes.
 
 These Codelists usually provide lookup information, e.g. Description Type, Geographic Location, Indicator Vocabularies. An addition or modification has a minor impact on the sense and use of the data.
 
@@ -64,7 +63,7 @@ Examples of Non-Core Codelists include: Sector Vocabulary, Condition Type, Resul
 Non-Embedded Codelists - Replicated
 ----------------------
 
-Replicated Codelists contain values for the IATI Standard. The contents are generally managed by a third-party organisation, in exceptional circumstances an additional code can be added. The IATI Technical Team maintain a corresponding copy in a document that conforms to the Codelist Schema.
+Replicated Codelist values are not version specific. The contents are generally managed by a third-party organisation. In exceptional circumstances an additional code can be added. The IATI Technical Team maintains a corresponding copy in a document that conforms to the Codelist Schema.
 
 **Modification Schedule: Non-Embedded Codelists - Replicated**
 
@@ -80,36 +79,20 @@ Examples of Replicated Codelists include: DAC 5-Digit, Organisation Registration
 Non-Embedded Codelists - External
 ----------------------
 
-External Codelists are a collection of codes managed by a third-party organisation. The IATI Technical Team does not maintain a correspoding copy in a document that conforms to the Codelist Schema.
+External Codelists are a collection of codes managed by a third-party organisation. The IATI Technical Team does not maintain a corresponding copy in a document that conforms to the Codelist Schema. A URL to the codelist will be added to the relevant Non-Core codelist vocabulary e.g. the `Aid Type Vocabulary <http://reference.iatistandard.org/codelists/AidTypeVocabulary/>`__ codelist contains codes for and links to:
 
-**Modification Schedule: Non-Embedded Codelists - External**
+- `OECD DAC (aid type) <http://reference.iatistandard.org/codelists/AidType/>`__ which is a replicated codelist
+- `Earmarking Category <http://reference.iatistandard.org/codelists/EarmarkingCategory/>`__ which is a replicated codelist
+- Earmarking Modality which is an external codelist 
 
-Codes in External Codelists may be:
-
-- Added - at any point in time
-- Modified - at any point in time
-- Withdrawn - at any point in time
-- Removed - at any point in time
-
-Examples of Exteral Codelists include: Earmarking Modalities
+Please note that the managers of external codelists can update and remove codes according to their own processes.
 
 Changing Codelist Type
 ----------------------
 
-A Codelist may have its type changed. The points at which this may occur are defined by the following modification schedule:
+A Codelist may have its type changed. Any change either from or to Codelist Type Core or Non-Core requires a version upgrade and will be subject to consultation. 
 
-**Modification Schedule: Codelist Type**
-
-A Codelist may have its type changed through the applicable consultation process via the following steps:
-
-- External to Replicated - at a Minor or Major upgrade
-- Replicated to Non-Core - at a Minor or Major upgrade
-- Non-Core to Core - at a Minor or Major upgrade
-- Core to Non-core - at a Minor or Major upgrade
-- Non-Core to Replicated - at a Minor or Major upgrade
-- Replicated to External - at a Minor or Major upgrade
-
-Should a Codelist Type change require multiple steps, such as 'Non-Core to External' requireing 'TBC to Replicated' followed by 'Replicated to External', the restriction stated by the final step
+Proposals to change a codelist between External and Replicated should be posted in IATI Discuss under the `Third Party Codelist <https://discuss.iatistandard.org/c/standard-management/third-party-codelists>`__ category. A use case for the change is required, which should include either the need to add an additional code or how the change aligns with IATI's strategic plan. The change will be subject to consultation, with final decision held by the IATI Technical Team. 
 
  
 Code status, addition and withdrawal dates
