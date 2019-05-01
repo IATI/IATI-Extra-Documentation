@@ -113,7 +113,7 @@ So, for example, the version 1.05 codelists can be found at:
 
 - https://github.com/IATI/IATI-Codelists/tree/version-1.05/xml
 
-Non-Core and Replicated (Previously Non-Embedded Codelists)
+Non-Core and Replicated (Previously Non-Embedded) Codelists
 ----------------------
 These values on these lists can change independently of IATI versions. The latest versions are always on the 'master' branch.
 
