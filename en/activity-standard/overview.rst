@@ -29,6 +29,7 @@ Further guidance, examples and details can be found in the :doc:`reference </act
    overview/contact-info
    overview/humanitarian-reporting
    overview/self-defined-vocabularies
+   overview/sustainable-development-goals
    example-xml
  
    
