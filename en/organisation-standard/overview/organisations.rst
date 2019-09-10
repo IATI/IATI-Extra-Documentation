@@ -1,6 +1,15 @@
 Type of Organisations
 =====================
 
+The new activity participants guidance can be found here:
+
+- `Activity Participants <https://drive.google.com/open?id=1BOJTMbKxDZJldIBsw71mkomYPm_lkNJi>`__: explains how to refer to and find different organisations within the organisation file.
+
+This new page was created in 2019 and will be transferred onto the new IATI Standard website in the near future.
+
+Previous Organisations Guidance:
+~~~~~~~~~~~~~~~~~~~~~~~~
+
 Definition
 ----------
 Within the **IATI organisation standard** three types of *organisations* can be declared:

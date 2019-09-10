@@ -1,6 +1,17 @@
 Classifications
 ===============
 
+The new **activity thematic focus (sectors)** and **additional activity classifications** guidance can be found here:
+
+- `Activity Thematic Focus (Sectors) <https://drive.google.com/open?id=1GNnjeqDIyWwuuIkJ8pMjLhE99R_olSJP>`__: explains how to add and find the thematic focus (sectors) of an IATI activity.
+
+- `Additional Activity Classifications <https://drive.google.com/open?id=15JQzYc4rUNqwtP-nmtY7h9tHB2i_Isw7>`__: explains what other classifications can be added to IATI activity data.
+
+These new pages were created in 2019 and will be transferred onto the new IATI Standard website in the near future.
+
+Previous Classifications Guidance:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Definition
 ----------
 Within the **IATI activity standard** it is expected that *classifications* information is provided for any ``iati-activity``
