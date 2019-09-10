@@ -1,6 +1,15 @@
 Documents
 =========
 
+The new related documents guidance can be found here:
+
+- `Related Documents <https://drive.google.com/file/d/1TI9PU5dyyRE2IzervFPUZz_Xfue16xYC/view?usp=sharing>`__: explains how to publish and use related documents.
+
+This new page was created in 2019 and will be transferred onto the new IATI Standard website in the near future.
+
+Previous Documents Guidance:
+~~~~~~~~~~~~~~~~~~~~~~~~
+
 Definition
 ----------
 Within the **IATI organisation standard** any number of links to relevant *documents* can be declared using:
