@@ -7,7 +7,7 @@ The new **activity thematic focus (sectors)** and **additional activity classifi
 
 - `Additional Activity Classifications <https://drive.google.com/open?id=15JQzYc4rUNqwtP-nmtY7h9tHB2i_Isw7>`__: explains what other classifications can be added to IATI activity data.
 
-This new page was created in 2019 and will be transferred onto the new IATI Standard website in the near future.
+These new pages were created in 2019 and will be transferred onto the new IATI Standard website in the near future.
 
 Previous Classifications Guidance:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
