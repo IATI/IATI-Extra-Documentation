@@ -7,7 +7,7 @@ The new activity dates & status guidance can be found here:
 
 This new page was created in 2019 and will be transferred onto the new IATI Standard website in the near future.
 
-Previous Related Documents Guidance:
+Previous Activity Dates Guidance:
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 Definition
