@@ -9,7 +9,7 @@ The new **activity thematic focus (sectors)** and **additional activity classifi
 
 This new page was created in 2019 and will be transferred onto the new IATI Standard website in the near future.
 
-Previous Additional Activity Classifications Guidance:
+Previous Classifications Guidance:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Definition
