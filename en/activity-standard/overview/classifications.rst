@@ -3,7 +3,7 @@ Classifications
 
 The new additional activity classifications guidance can be found here:
 
-- `Additional Activity Classifications <https://drive.google.com/open?id=15JQzYc4rUNqwtP-nmtY7h9tHB2i_Isw7>`__: explains how to publish and use related documents.
+- `Additional Activity Classifications <https://drive.google.com/open?id=15JQzYc4rUNqwtP-nmtY7h9tHB2i_Isw7>`__: explains what classifications can be added to IATI data.
 
 This new page was created in 2019 and will be transferred onto the new IATI Standard website in the near future.
 
