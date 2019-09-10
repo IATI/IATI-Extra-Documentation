@@ -1,6 +1,15 @@
 Activity Dates
 ==============
 
+The new activity dates & status guidance can be found here:
+
+- `Activity Dates & Status <https://drive.google.com/open?id=1-R-xGMCrAKiadMBIHsNc4Xvl75CB0IV1>`__: explains what dates and status can be added to a published activity.
+
+This new page was created in 2019 and will be transferred onto the new IATI Standard website in the near future.
+
+Previous Activity Dates Guidance:
+~~~~~~~~~~~~~~~~~~~~~~~~
+
 Definition
 ----------
 Within the **IATI activity standard** several types of dates can be specified.
