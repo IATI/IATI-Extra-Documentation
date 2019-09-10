@@ -1,6 +1,19 @@
 Geography
 =========
 
+The new geography guidance can be found here:
+
+- `Activity Geography <https://drive.google.com/open?id=1E4zSqu4T2gGKVDzx6TvLE2p3dfF_K_DT>`__: explains what geographical details can be added to an IATI activity.
+
+- `Geography - Countries and Regions <https://drive.google.com/open?id=18P3vSUKK2iWCnXCrORDVAHR8K_EIg8Pp7>`__: detailed guidance on how to add and find countries and regions.
+
+- `Geography - Sub-national Locations <https://drive.google.com/open?id=1GYRE3FBhf2W4wkpTzbgKFtAWYSLG4Jw8>`__: detailed guidance on how to add and find sub-national location data.
+
+These new pages were created in 2019 and will be transferred onto the new IATI Standard website in the near future.
+
+Previous Geography Guidance:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Definition
 ----------
 Within the **IATI activity standard** there are three ways to describe the *geography* of an ``iati-activity``:
