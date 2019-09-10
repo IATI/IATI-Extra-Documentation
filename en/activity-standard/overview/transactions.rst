@@ -1,6 +1,15 @@
 Transaction
 ===========
 
+The new financial transactions guidance can be found here:
+
+- `Financial Transactions <https://drive.google.com/open?id=1E3hztk6gWTW5DypLELeSwW5X-Ahg0yjm>`__: explains how to publish and use IATI activity transaction data.
+
+This new page was created in 2019 and will be transferred onto the new IATI Standard website in the near future.
+
+Previous Transaction Guidance:
+~~~~~~~~~~~~~~~~~~~~~~~~
+
 Definition
 ----------
 The **IATI activity standard** enables ``transaction`` information to be published.
