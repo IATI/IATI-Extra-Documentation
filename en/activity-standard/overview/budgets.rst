@@ -1,6 +1,17 @@
 Budgets
 =======
 
+The new budget guidance can be found here:
+
+- `Budgets (Overview) <https://drive.google.com/open?id=1JhMfO-f3Mldrs15OMlHTAUF9KixTUq5G>`__: explains what budgets can be published in IATI.
+
+- `Activity Budgets <https://drive.google.com/open?id=1vB3vk7gbnADwG1S8A1bRDd8mK-nOfwCh>`__: explains how to publish and use activity budget data.
+
+These new pages were created in 2019 and will be transferred onto the new IATI Standard website in the near future.
+
+Previous Budget Guidance:
+~~~~~~~~~~~~~~~~~~~~~~~~
+
 Definition
 ----------
 The monetary *budgets* assigned to a specific ``iati-activity`` can be described in the **IATI activity standard** using the following:
