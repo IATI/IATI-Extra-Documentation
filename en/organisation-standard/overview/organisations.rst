@@ -1,7 +1,7 @@
 Type of Organisations
 =====================
 
-The new activity participants document guidance can be found here:
+The new activity participants guidance can be found here:
 
 - `Activity Participants <https://drive.google.com/file/d/1TI9PU5dyyRE2IzervFPUZz_Xfue16xYC/view?usp=sharing>`__: explains how to refer to and find different organisations within the organisation file.
 
