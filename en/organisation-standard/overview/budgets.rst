@@ -1,6 +1,17 @@
 Budgets
 =======
 
+The new budget guidance can be found here:
+
+- `Budgets (Overview) <https://drive.google.com/open?id=1JhMfO-f3Mldrs15OMlHTAUF9KixTUq5G>`__: explains what budgets can be published in IATI.
+
+- `Organisation Budgets & Spend <https://drive.google.com/open?id=1mv2Q666tKBOAoiy5JayslmZNetxDM1uu>`__: explains how to publish and use organisation budget and spend data.
+
+These new pages were created in 2019 and will be transferred onto the new IATI Standard website in the near future.
+
+Previous Budget Guidance:
+~~~~~~~~~~~~~~~~~~~~~~~~
+
 Definition
 ----------
 Within the **IATI organisation standard** three types of *budgets* can be declared.  
