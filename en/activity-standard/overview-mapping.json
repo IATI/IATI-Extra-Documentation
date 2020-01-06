@@ -9,7 +9,7 @@
     "transactions": [ "transaction" ],
     "result": [ "result" ],
     "related-data": [ "transaction/provider-org", "transaction/receiver-org" ],
-    "linked-documents": [ "document-link", "activity-website" ],
+    "linked-documents": [ "document-link" ],
     "crs-fss": [ "fss", "crs-add" ],
     "conditions": [ "conditions", "conditions/condition" ],
     "contact-info": [ "contact-info" ]
