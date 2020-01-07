@@ -7,7 +7,7 @@ The ``narrative`` child element can be used to declare freetext for the ``sector
 .. code-block:: xml
 	:emphasize-lines: 2
 	
-	<sector vocabulary="98" vocabulary-uri="http://example.com/vocab.html" code="A1" percentage="100">
+	<sector vocabulary="99" vocabulary-uri="http://example.com/vocab.html" code="A1" percentage="100">
 		<narrative>A description of the sector</narrative>
 	</sector>
 
