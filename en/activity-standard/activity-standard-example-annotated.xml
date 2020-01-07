@@ -123,7 +123,7 @@
   <sector vocabulary="2" code="111" percentage="50" />
   <sector vocabulary="2" code="112" percentage="50" />
   <sector vocabulary="99" code="A1" percentage="100">
-    <narrative>A description of the sector</narative>
+    <narrative>A description of the sector</narrative>
   </sector>
   <!--sector ends-->
   <!--country-budget-items starts-->
