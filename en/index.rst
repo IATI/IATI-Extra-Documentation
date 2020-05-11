@@ -3,9 +3,9 @@ Version 2.02
 
 Version 2.02 is an older version of the IATI Standard. It was released (add in link) in December 2015. Notable updates include:
 
-New elements and attributes for humanitarian reporting.
-Further elements to allow for traceability and linking between organisation’s data.
-The <total-expenditure> element. This enables organisations to report their total spend for the year.
+- new elements and attributes for humanitarian reporting
+- further elements to allow for traceability and linking between organisation’s data
+- the <total-expenditure> element, this enables organisations to report their total spend for the year
 
 A full list of the changes can be found here (add in link).
 
