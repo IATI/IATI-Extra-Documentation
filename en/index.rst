@@ -3,9 +3,9 @@ Version 2.03
 
 Version 2.03 is the latest version of the IATI Standard. It was released (http://reference.iatistandard.org/203/upgrades/decimal-upgrade-to-2-03/) in February 2018. Notable updates include:
 
-- The new <tag> element. This allows users to link their activities with SDG Goals and Targets.
-- Standardising how results are published in IATI
-- Allowing more codelists to be updated outside of a formal upgrade.
+- the new <tag> element. This allows users to link their activities with SDG Goals and Targets
+- standardising how results are published in IATI
+- allowing more codelists to be updated outside of a formal upgrade
 
 A full list of the changes can be found here (http://reference.iatistandard.org/203/upgrades/decimal-upgrade-to-2-03/2-03-changes/).
 
