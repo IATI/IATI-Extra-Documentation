@@ -13,7 +13,7 @@ There will be situations where reporting organisations want to publish additiona
 XML namespaces
 --------------
 
-The first approach allows reporting organisations to invent any required markup and add it to an IATI activity report.  IATI users who don’t recognise the extended markup are required simply to ignore it, without reporting an error.  Here is an example:
+The first approach allows reporting organisations to invent any required markup and add it to an IATI activity report.  IATI users who don’t recognise the extended markup are required simply to ignore it, without reporting an error. Here is an example:
 
 .. code-block:: xml
 
@@ -32,39 +32,39 @@ In this example, ACME has defined its own namespace using the URL ``http://examp
 
 Adding XML namespaces in versions 2.0x
 --------------
-Please note: elements must occur in the order they are specified in the Schema.  When adding XML namespaces in versions 2.0x of the IATI standard, they should be placed as the last element.  At the activity level, they must only be included at the end of the activity (before </iati-activity>).  If added as a subelement, the namespace element must be placed as the last subelement.  Example:
+Please note: elements must occur in the order they are specified in the Schema.  When adding XML namespaces in versions 2.0x of the IATI standard, they should be placed as the last element.  At the activity level, they must only be included at the end of the activity (before </iati-activity>).  If added as a subelement, the namespace element must be placed as the last subelement. Example:
 
 1) XML namespace at activity level
 
- .. code-block:: xml
+.. code-block:: xml
 
-     <iati-activity xmlns:acme="http://example.org/acme/ns#">
+  <iati-activity xmlns:acme="http://example.org/acme/ns#">
 
-     ...
+  ...
 
-       </fss>
-       <acme:risk-level>3</acme:risk-level>
+    </fss>
+    <acme:risk-level>3</acme:risk-level>
 
-     ...
+  ...
 
-     </iati-activity>
+  </iati-activity>
 
 2) XML namespace as a subelement within transaction
 
- .. code-block:: xml
+.. code-block:: xml
 
-     <iati-activity xmlns:acme="http://example.org/acme/ns#">
+  <iati-activity xmlns:acme="http://example.org/acme/ns#">
 
-     ...
+  ...
 
-       <transaction>
+    <transaction>
 
-     ...
+  ...
 
-         </value>
-         <acme:risk-level>3</acme:risk-level>
-       </transaction>
+      </value>
+      <acme:risk-level>3</acme:risk-level>
+    </transaction>
 
-     ...
+  ...
 
-     </iati-activity>
+  </iati-activity>
