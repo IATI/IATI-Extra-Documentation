@@ -16,12 +16,14 @@ Example Usage
 	:language: xml
 	:start-after: <!--recipient-region-budget starts-->
 	:end-before: <!--recipient-region-budget ends-->
-	:emphasize-lines: 1, 10
-	
-| The ``recipient-region-budget`` element can be repeated in any ``iati-organisation``. 
+
+| The ``recipient-region-budget`` element can be repeated in any ``iati-organisation``.
 
 Changelog
 ~~~~~~~~~
 2.02
 ^^^^
 The optional ``recipient-region-budget`` element was `added <http://support.iatistandard.org/entries/79323113-Org-Standard-recipient-region-budget>`__.
+
+.. meta::
+  :order: 5
