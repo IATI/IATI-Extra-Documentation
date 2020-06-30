@@ -10,3 +10,5 @@ Example ``period-end`` of ``recipient-country-budget`` for an ``iati-organisatio
 	:start-after: <!--recipient-country-budget starts-->
 	:end-before: <!--recipient-country-budget ends-->
 
+.. meta::
+  :order: 2

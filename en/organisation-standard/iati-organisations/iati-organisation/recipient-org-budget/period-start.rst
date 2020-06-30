@@ -10,3 +10,5 @@ Example ``period-start`` of ``recipient-org-budget`` for an ``iati-organisation`
 	:start-after: <!--recipient-org-budget starts-->
 	:end-before: <!--recipient-org-budget ends-->
 
+.. meta::
+	:order: 1

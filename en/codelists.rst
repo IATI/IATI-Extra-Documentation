@@ -31,3 +31,6 @@ All Codelists
    :titlesonly:
 
    codelists/*
+
+.. meta::
+  :order: 2

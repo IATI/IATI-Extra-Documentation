@@ -44,28 +44,31 @@ Please note: elements must occur in the order they are specified in the Schema. 
 
     </fss>
     <acme:risk-level>3</acme:risk-level>
-  
+
   ...
-  
+
   </iati-activity>
-  
+
 
 2) XML namespace as a subelement within transaction
 
 .. code-block:: xml
 
   <iati-activity xmlns:acme="http://example.org/acme/ns#">
-  
+
   ...
-    
+
     <transaction>
-  
+
   ...
-      
+
       </value>
       <acme:risk-level>3</acme:risk-level>
     </transaction>
   
   ...
-  
+
   </iati-activity>
+
+.. meta::
+  :order: 5

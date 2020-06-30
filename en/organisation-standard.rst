@@ -42,3 +42,6 @@ Contents
 
    organisation-standard/overview
    organisation-standard/elements
+
+.. meta::
+  :order: 1

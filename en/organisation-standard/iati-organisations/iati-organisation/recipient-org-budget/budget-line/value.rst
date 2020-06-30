@@ -20,3 +20,5 @@ Changelog
 ^^^^
 | The ``budget-line`` element was introduced in 2.01.
 
+.. meta::
+  :order: 0
