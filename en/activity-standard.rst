@@ -2,7 +2,7 @@ Activity Standard
 =================
 This section details the **IATI Activity standard**.  It contains the following main areas:
 
-* :doc:`Overview <activity-standard/overview>` -  an introduction to key aspects of the activity standard.
+* `Activity information <https://iatistandard.org/en/guidance/preparing-data/activity-information/>`__ -  an introduction to key aspects of the activity standard.
 * :doc:`Elements <activity-standard/elements>` - details on each and every element and attribute of the standard, including relevant code lists, rules and example usage.
 
 Additionally:
