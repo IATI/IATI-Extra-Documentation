@@ -1,7 +1,7 @@
 Elements
 ========
 
-This section contains detailed documentation for each XML element in the **IATI Organisation Standard**.
+This section contains detailed documentation for each XML element in the **IATI Activity Standard**.
 
 | For each element, the relevant attributes are listed, with subsequent child elements listed.
 
@@ -14,7 +14,7 @@ Further information
 -------------------
 | All code examples are derived from a single source: :doc:`example-xml`.
 
-| For an single page table of all elements see :doc:`/organisation-standard/summary-table`.
+| For an single page table of all elements see :doc:`/activity-standard/summary-table`.
 
 | For more general material see also the :doc:`overview` section.
 
@@ -24,7 +24,7 @@ Contents
 .. toctree::
    :titlesonly:
 
-   iati-organisations
+   iati-activities
 
 .. meta::
   :order: 1

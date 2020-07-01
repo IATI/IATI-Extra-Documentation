@@ -7,3 +7,6 @@ Example usage of ``recipient-country`` in context of ``recipient-country-budget`
 	:start-after: <!--recipient-country-budget starts-->
 	:end-before: <!--recipient-country-budget ends-->
 	:emphasize-lines: 2, 8, 14
+
+.. meta::
+  :order: 0

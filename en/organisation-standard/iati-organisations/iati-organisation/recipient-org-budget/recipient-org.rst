@@ -7,3 +7,6 @@ Example usage of ``recipient-org`` in context of ``recipient-org-budget`` elemen
 	:start-after: <!--recipient-org-budget starts-->
 	:end-before: <!--recipient-org-budget ends-->
 	:emphasize-lines: 2, 8, 14
+
+.. meta::
+  :order: 0
