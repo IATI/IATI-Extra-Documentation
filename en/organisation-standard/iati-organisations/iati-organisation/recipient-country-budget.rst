@@ -12,3 +12,6 @@ Example Usage
 	:start-after: <!--recipient-country-budget starts-->
 	:end-before: <!--recipient-country-budget ends-->
 	:emphasize-lines: 1, 6, 7, 12, 13, 18
+
+.. meta::
+  :order: 5

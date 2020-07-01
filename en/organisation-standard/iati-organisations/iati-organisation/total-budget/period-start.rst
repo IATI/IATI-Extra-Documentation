@@ -9,3 +9,6 @@ A date in ISO 8601 format (YYYY-MM-DD) for the ``period-start`` date of the repo
 	:start-after: <!--total-budget starts-->
 	:end-before: <!--total-budget ends-->
 	:emphasize-lines: 2, 7, 12
+
+.. meta::
+  :order: 0

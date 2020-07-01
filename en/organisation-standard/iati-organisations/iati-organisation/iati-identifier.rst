@@ -6,3 +6,6 @@ Example ``iati-identifier``, which relates to ``iati-organisation`` *AA-AAA-1234
 	:language: xml
 	:start-after: <!--iati-identifier starts-->
 	:end-before: <!--iati-identifier ends-->
+
+.. meta::
+  :order: 0
