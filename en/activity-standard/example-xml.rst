@@ -38,4 +38,4 @@ Further guidance
 * :doc:`IATI activity standard - reference pages </activity-standard/iati-activities/>`
 
 .. meta::
-  :order: 1
+  :order: 2

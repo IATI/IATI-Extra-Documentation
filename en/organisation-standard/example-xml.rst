@@ -39,4 +39,4 @@ Further guidance
 * :doc:`IATI organisation standard - reference pages </organisation-standard/iati-organisations/>`
 
 .. meta::
-  :order: 1
+  :order: 2

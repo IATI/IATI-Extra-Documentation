@@ -42,4 +42,4 @@ document-link/language/text() (0..1) - The ISO 639 code for the language
 of the document
 
 .. meta::
-  :order: 2
+  :order: 3
