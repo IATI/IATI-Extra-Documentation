@@ -15,17 +15,17 @@ Example Usage
 
 .. code-block:: xml
 	:emphasize-lines: 7, 8
-	
+
 	<document-link format="application/vnd.oasis.opendocument.text" url="http:www.example.org/docs/report.odt">
 		<title>
-			<narrative>Annual Report 2013</narrative>	   
+			<narrative>Annual Report 2013</narrative>
 			<narrative xml:lang="fr">Rapport annuel 2013</narrative>
 		</title>
 		<category code="B01" />
 		<language code="en" />
 		<language code="fr" />
 	</document-link>
-	
+
 Changelog
 ~~~~~~~~~
 
@@ -40,3 +40,6 @@ Freetext is `no longer allowed <http://iatistandard.org/upgrades/integer-upgrade
 Addition of a ``@language`` element as a child of the ``document-link`` element:
 document-link/language/text() (0..1) - The ISO 639 code for the language
 of the document
+
+.. meta::
+  :order: 2

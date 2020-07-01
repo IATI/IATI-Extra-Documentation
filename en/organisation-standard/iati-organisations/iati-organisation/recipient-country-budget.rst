@@ -17,7 +17,8 @@ Example Usage
 	:start-after: <!--recipient-country-budget starts-->
 	:end-before: <!--recipient-country-budget ends-->
 	:emphasize-lines: 1, 10
-	
-| The ``recipient-country-budget`` element can be repeated in any ``iati-organisation``. 
-		
 
+| The ``recipient-country-budget`` element can be repeated in any ``iati-organisation``.
+
+.. meta::
+  :order: 5

@@ -18,4 +18,7 @@ Example Usage
 	:end-before: <!--total-budget ends-->
 	:emphasize-lines: 1, 9
 
-| The ``total-budget`` element can be repeated in any ``iati-organisation``. 
+| The ``total-budget`` element can be repeated in any ``iati-organisation``.
+
+.. meta::
+  :order: 3
