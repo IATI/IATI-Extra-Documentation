@@ -11,3 +11,5 @@ Example ``period-end`` of ``recipient-country-budget`` for an ``iati-organisatio
 	:end-before: <!--recipient-country-budget ends-->
 	:emphasize-lines: 4
 
+.. meta::
+  :order: 2

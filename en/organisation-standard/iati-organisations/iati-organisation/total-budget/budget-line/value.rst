@@ -13,7 +13,7 @@ Example usage of ``value`` in context of ``budget-line`` element.
 	:start-after: <!--total-budget starts-->
 	:end-before: <!--total-budget ends-->
 	:emphasize-lines: 6
-			
+
 Changelog
 ~~~~~~~~~
 
@@ -21,3 +21,5 @@ Changelog
 ^^^^
 | The ``budget-line`` element was introduced in 2.01.
 
+.. meta::
+  :order: 0

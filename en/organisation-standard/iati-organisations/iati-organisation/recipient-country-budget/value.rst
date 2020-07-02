@@ -13,10 +13,13 @@ Example ``value`` of ``recipient-country-budget`` for an ``iati-organisation``.
 	:start-after: <!--recipient-country-budget starts-->
 	:end-before: <!--recipient-country-budget ends-->
 	:emphasize-lines: 5
-	
+
 Changelog
 ~~~~~~~~~
 
 1.03
 ^^^^
 Values are now allowed to be declared as decimals instead of integers.
+
+.. meta::
+  :order: 3

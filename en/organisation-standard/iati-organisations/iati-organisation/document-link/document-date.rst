@@ -14,7 +14,7 @@ Example Usage
 	:end-before: <!--document-link ends-->
 	:emphasize-lines: 7
 
-| The ``document-date`` element should only be used once for each ``document-link`` element.		
+| The ``document-date`` element should only be used once for each ``document-link`` element.
 
 Changelog
 ~~~~~~~~~
@@ -22,3 +22,6 @@ Changelog
 2.02
 ^^^^
 Added the optional ``document-date`` element was `added <http://support.iatistandard.org/entries/92707776-Document-Dates>`__.
+
+.. meta::
+  :order: 4

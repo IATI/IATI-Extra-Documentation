@@ -10,11 +10,14 @@ Example ``budget-line`` for ``recipient-region-budget`` of an ``iati-organisatio
 	:end-before: <!--recipient-region-budget ends-->
 	:emphasize-lines: 6, 9
 
-| The ``budget-line`` element can be repeated in any ``recipient-region-budget``. 
+| The ``budget-line`` element can be repeated in any ``recipient-region-budget``.
 
-		
+
 Changelog
 ~~~~~~~~~
 2.02
 ^^^^
 The optional ``recipient-region-budget`` element was `added <http://support.iatistandard.org/entries/79323113-Org-Standard-recipient-region-budget>`__.
+
+.. meta::
+  :order: 4

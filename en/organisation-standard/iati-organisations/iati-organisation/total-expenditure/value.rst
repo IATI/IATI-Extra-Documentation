@@ -13,9 +13,12 @@ Example ``value`` of ``total-expenditure`` for an ``iati-organisation``.
 	:start-after: <!--total-expenditure starts-->
 	:end-before: <!--total-expenditure ends-->
 	:emphasize-lines: 4
-			
+
 Changelog
 ~~~~~~~~~
 2.02
 ^^^^
 The optional ``total-expenditure`` element was `added <http://support.iatistandard.org/entries/83404469-Add-Total-Expenditure-Element-To-Organisation-File>`__.
+
+.. meta::
+  :order: 2

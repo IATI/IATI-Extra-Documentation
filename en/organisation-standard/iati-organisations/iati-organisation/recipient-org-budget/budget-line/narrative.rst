@@ -9,7 +9,7 @@ The ``narrative`` child element can be used to declare freetext for the ``budget
 	:emphasize-lines: 10
 
 | Note: The ``narrative`` element can be repeated for any language additional to the default language set in ``iati-organisation``, by using the ``@xml:lang`` attribute.  Example not shown.
-	
+
 Changelog
 ~~~~~~~~~
 
@@ -17,3 +17,6 @@ Changelog
 ^^^^
 
 | The ``budget-line`` element was introduced in 2.01.
+
+.. meta::
+  :order: 1

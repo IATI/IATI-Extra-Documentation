@@ -13,10 +13,13 @@ Example ``value`` of ``recipient-org-budget`` for an ``iati-organisation``.
 	:start-after: <!--recipient-org-budget starts-->
 	:end-before: <!--recipient-org-budget ends-->
 	:emphasize-lines: 7
-			
+
 Changelog
 ~~~~~~~~~
 
 1.03
 ^^^^
 Currency values are now allowed to be declared as decimals instead of integers.
+
+.. meta::
+  :order: 3

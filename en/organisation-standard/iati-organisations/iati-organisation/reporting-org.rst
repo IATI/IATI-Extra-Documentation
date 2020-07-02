@@ -10,9 +10,9 @@ Example ``reporting-org`` for an ``iati-organisation``.
 	:language: xml
 	:start-after: <!--reporting-org starts-->
 	:end-before: <!--reporting-org ends-->
-	:emphasize-lines: 1, 4	
-	
-		
+	:emphasize-lines: 1, 4
+
+
 Changelog
 ~~~~~~~~~
 
@@ -23,3 +23,6 @@ Freetext is no longer allowed with this element.  It should `now be declared <ht
 1.04
 ^^^^
 | The ``@secondary-publisher`` attribute was introduced in 1.04.
+
+.. meta::
+  :order: 2
