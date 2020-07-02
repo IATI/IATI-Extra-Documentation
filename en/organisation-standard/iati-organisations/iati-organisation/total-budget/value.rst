@@ -11,7 +11,7 @@ The ISO 4217 code for the ``currency`` in which the ``total-budget`` is denomina
 	:start-after: <!--total-budget starts-->
 	:end-before: <!--total-budget ends-->
 	:emphasize-lines: 3, 8, 13
-			
+
 Changelog
 ~~~~~~~~~
 
@@ -19,3 +19,6 @@ Changelog
 ^^^^
 
 Currency values are now allowed to be declared as decimals instead of integers.
+
+.. meta::
+  :order: 2

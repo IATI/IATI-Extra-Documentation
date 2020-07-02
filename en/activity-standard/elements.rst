@@ -1,7 +1,7 @@
 Elements
 ========
 
-This section contains detailed documentation for each XML element in the **IATI Activity Standard**. 
+This section contains detailed documentation for each XML element in the **IATI Activity Standard**.
 
 | For each element, the relevant attributes are listed, with subsequent child elements listed.
 
@@ -26,3 +26,5 @@ Contents
 
    iati-activities
 
+.. meta::
+  :order: 2

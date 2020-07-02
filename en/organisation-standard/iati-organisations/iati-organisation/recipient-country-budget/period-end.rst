@@ -10,3 +10,5 @@ A date in ISO 8601 format (YYYY-MM-DD) for the ``period-end`` date of the report
 	:end-before: <!--recipient-country-budget ends-->
 	:emphasize-lines: 4, 10, 16
 
+.. meta::
+  :order: 2

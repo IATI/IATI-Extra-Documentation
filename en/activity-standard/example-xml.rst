@@ -23,7 +23,7 @@ There are two *example usage XML* files:
 * *Example usage XML* file: `download <https://raw.githubusercontent.com/IATI/IATI-Extra-Documentation/version-1.05/en/activity-standard/activity-standard-example-annotated.xml>`__.
 * *Example usage XML* - with multiple values: `download <https://raw.githubusercontent.com/IATI/IATI-Extra-Documentation/version-1.05/en/activity-standard/activity-standard-example-annotated-multi.xml>`__.
 
-*Example usage XML* file: 
+*Example usage XML* file:
 
 .. literalinclude:: activity-standard-example-annotated.xml
 	:language: xml
@@ -36,8 +36,11 @@ There are two *example usage XML* files:
 	:language: xml
 	:start-after: <!--iati-activities starts-->
 	:end-before: <!--iati-activities ends-->
-	
+
 Further guidance
 ----------------
 
 * :doc:`IATI activity standard - reference pages </activity-standard/iati-activities/>`
+
+.. meta::
+  :order: 3

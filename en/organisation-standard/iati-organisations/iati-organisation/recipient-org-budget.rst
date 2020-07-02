@@ -6,9 +6,12 @@ Example Usage
 | The ``value`` example includes a ``currency`` of *USD* - which differs from that set as ``default-currency`` in ``iati-organisation``.
 | The ``value-date`` is reported in ISO 8601 format (YYYY-MM-DD).
 | Note: multiple budgets are expressed by repeating the ``recipient-org-budget`` element.
-		
+
 .. literalinclude:: ../../organisation-standard-example-annotated.xml
 	:language: xml
 	:start-after: <!--recipient-org-budget starts-->
 	:end-before: <!--recipient-org-budget ends-->
 	:emphasize-lines: 1, 6, 7, 12, 13, 18
+
+.. meta::
+  :order: 4
