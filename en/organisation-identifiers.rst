@@ -28,7 +28,7 @@ Two components of IATI Organisation Identifiers
 
 The two components of **IATI Organisation Identifiers**
 
-The **IATI Organisational Identifier** scheme is based on re-using existing known identifiers for an *organisation*. 
+The **IATI Organisational Identifier** scheme is based on re-using existing known identifiers for an *organisation*.
 
 Identifier strings consist of two components:
 
@@ -46,9 +46,9 @@ Worked example
 
 * `Companies House. <http://www.companieshouse.gov.uk/>`__.
 
-``06368740`` is the company number (base identifier) issued to Development Initiatives Poverty Research Limited. 
+``06368740`` is the company number (base identifier) issued to Development Initiatives Poverty Research Limited.
 
-* `Development Initiatives Poverty Research Limited record on Companies House. <http://data.companieshouse.gov.uk/doc/company/06368740>`__. 
+* `Development Initiatives Poverty Research Limited record on Companies House. <http://data.companieshouse.gov.uk/doc/company/06368740>`__.
 
 Combining these we get an **IATI Organisational Identifier** of: ``GB-COH-06368740``
 
@@ -67,8 +67,8 @@ An **IATI Organisation Identifier** should:
 * **Use an existing registration number/identifier** that has been given to an organisation by an official registry of organisations (for example, a national company registrar, or drawn from a government register of charities). Registries that provide machine readable access to the data about organisations are generally preferred over those that do not (subject to (3) below).
 
 * **Use a namespace/registry code from the existing IATI list of namespaces and registration agency codes**. This is currently available as :doc:`a codelist <codelists/OrganisationRegistrationAgency/>`. If no existing code is available then you should contact IATI Support with details of the registration agency you wish to re-use a code from in order to have a code set up.
- 
-* **Where an organisation has multiple registration numbers, prefer those identifiers which uniquely pick out the organisation itself, rather than properties of the organisation**. For example, a VAT/Tax registration number describes that an entity is registered for tax, but may not map directly onto a single legal entity – as – for example – groups of companies may share a VAT registration number. For this reason, an identifier such as ``GB-COH-123456`` would be preferred to ``GB-VAT-987765``. 
+
+* **Where an organisation has multiple registration numbers, prefer those identifiers which uniquely pick out the organisation itself, rather than properties of the organisation**. For example, a VAT/Tax registration number describes that an entity is registered for tax, but may not map directly onto a single legal entity – as – for example – groups of companies may share a VAT registration number. For this reason, an identifier such as ``GB-COH-123456`` would be preferred to ``GB-VAT-987765``.
 
 * **Where an organisation is not identified in an official national registry, but it is identified on the (deprecated since v1.04 of the standard) ``OrganisationIdentifier`` codelist, these codes should be used as given.**.
 
@@ -92,3 +92,6 @@ The string value name within any organisational identifier XML tag is provided f
 
 .. |image0| image:: Organisational-ID-Diagrams.png
    :target: Organisational-ID-Diagrams.png
+
+.. meta::
+  :order: 3

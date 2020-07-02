@@ -1,13 +1,13 @@
 Elements
 ========
 
-This section contains detailed documentation for each XML element in the **IATI Activity Standard**. 
+This section contains detailed documentation for each XML element in the **IATI Activity Standard**.
 
 | For each element, the relevant attributes are listed, with subsequent child elements listed.
 
 | For each element, any rules for usage are declared.
 
-| Additionally, XML examples are provided for each element, with the relavant markup highlighted.
+| Additionally, XML examples are provided for each element, with the relevant markup highlighted.
 
 
 Further information
@@ -26,3 +26,5 @@ Contents
 
    iati-activities
 
+.. meta::
+  :order: 2

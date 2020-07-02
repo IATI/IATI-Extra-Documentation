@@ -1,7 +1,7 @@
 Example Usage
 ~~~~~~~~~~~~~
 Example of ``iati-activities`` with ``generated-datetime`` of on 6th May 2014.
- 
+
 The ``version`` of *1.04* of the **IATI activity standard** is stated.
 
 The optional ``linked-data-default`` is also included
@@ -15,9 +15,9 @@ The ``iati-activities`` element acts as a container for other sub-elements.  It 
 
 .. literalinclude:: activity-standard-example-annotated.xml
 	:language: xml
-	:start-after: <!--iati-activity ends-->	
+	:start-after: <!--iati-activity ends-->
 	:end-before: <!--iati-activities ends-->
-	
+
 Changelog
 ~~~~~~~~~
 
@@ -33,3 +33,6 @@ See previous version on the IATI Standard
 `wiki <http://wiki.iatistandard.org/standard/documentation/1.0/iati-activities>`__
 and
 `website <http://iatistandard.org/101/activity-standard/container-elements/file-header/>`__
+
+.. meta::
+  :order: 0

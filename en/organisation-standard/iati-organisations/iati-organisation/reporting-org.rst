@@ -7,7 +7,7 @@ The optional ``secondary-publisher`` boolean is included, for illustration:
 	:language: xml
 	:start-after: <!--reporting-org starts-->
 	:end-before: <!--reporting-org ends-->
-		
+
 Changelog
 ~~~~~~~~~
 
@@ -15,3 +15,6 @@ Changelog
 ^^^^
 
 | The ``secondary-publisher`` attribute was introduced in 1.04.
+
+.. meta::
+  :order: 2

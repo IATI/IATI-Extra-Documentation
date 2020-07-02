@@ -18,7 +18,7 @@ Example Usage
 	:end-before: <!--document-link-language ends-->
 	:emphasize-lines: 3
 
-	
+
 Changelog
 ~~~~~~~~~
 
@@ -33,3 +33,6 @@ of the document
 ^^^^
 
 This element did not exist
+
+.. meta::
+  :order: 2

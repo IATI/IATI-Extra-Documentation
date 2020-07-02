@@ -16,7 +16,7 @@ Definition
 
 | It is designed to report *forward-looking aggregate budget* information for the reported organisations, and planned future budgets to recipient institutions or countries.
 
-| The **IATI organisational standard** is also used to report links to relevant public documents. 
+| The **IATI organisational standard** is also used to report links to relevant public documents.
 
 | Organisations publish this data in an :doc:`organisation file </organisation-standard/overview/organisation-file/>`.  It is expected that every organisation publishing IATI data should include one *organisation file*, which is updated at least annually.
 
@@ -43,3 +43,5 @@ Contents
    organisation-standard/overview
    organisation-standard/elements
 
+.. meta::
+  :order: 1
