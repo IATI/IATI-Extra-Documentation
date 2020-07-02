@@ -23,4 +23,4 @@ Reference
    rulesets
 
 .. meta::
-  :order: 7
+  :order: 6

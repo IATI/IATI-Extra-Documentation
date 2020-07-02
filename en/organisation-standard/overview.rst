@@ -17,4 +17,4 @@ Further guidance, examples and specific details can be found in the :doc:`refere
    example-xml
 
 .. meta::
-  :order: 2
+  :order: 1
