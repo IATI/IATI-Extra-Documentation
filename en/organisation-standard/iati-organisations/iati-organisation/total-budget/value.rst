@@ -19,3 +19,6 @@ Changelog
 1.03
 ^^^^
 Currency values are now allowed to be declared as decimals instead of integers.
+
+.. meta::
+  :order: 2

@@ -15,3 +15,6 @@ Changelog
 2.02
 ^^^^
 The optional ``recipient-region-budget`` element was `added <http://support.iatistandard.org/entries/79323113-Org-Standard-recipient-region-budget>`__.
+
+.. meta::
+  :order: 2

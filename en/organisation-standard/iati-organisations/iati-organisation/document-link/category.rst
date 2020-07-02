@@ -8,6 +8,7 @@ Example Usage
 	:language: xml
 	:start-after: <!--document-link starts-->
 	:end-before: <!--document-link ends-->
+	:emphasize-lines: 5
 
 | The ``category`` element can be repeated in any ``document-link``.
 | Example declaring multiple ``DocumentCategory`` codes for the same ``document-link``:
@@ -16,6 +17,7 @@ Example Usage
 	:language: xml
 	:start-after: <!--multi-cat-document-link starts-->
 	:end-before: <!--multi-cat-document-link ends-->
+	:emphasize-lines: 6, 7, 8
 
 Changelog
 ~~~~~~~~~
@@ -23,3 +25,6 @@ Changelog
 2.01
 ^^^^
 Freetext is `no longer allowed <http://iatistandard.org/upgrades/integer-upgrade-to-2-01/2-01-changes/#freetext-amended-elements>`__  within this element.
+
+.. meta::
+  :order: 3

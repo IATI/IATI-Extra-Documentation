@@ -1,12 +1,8 @@
 Organisation Standard
 =====================
-This section details the **IATI Organisation standard**.  It contains the following main areas:
+This section details the **IATI Organisation standard**. See `here <https://iatistandard.org/en/guidance/preparing-data/organisation-infromation/>`__ for an in introduction to the organisation standard.
 
-* :doc:`Overview <organisation-standard/overview>` -  an introduction to key aspects of the organisation standard.
-* :doc:`Elements <organisation-standard/elements>` - details on each and every element and attribute of the standard, including relevant code lists, rules and example usage.
-
-Additionally:
-
+* IATI organisation :doc:`elements <organisation-standard/iati-organisations>` - details on each and every element and attribute of the standard, including relevant code lists, rules and example usage.
 * A :doc:`summary table <organisation-standard/summary-table>` provides an overview of all aspects of the organisation standard.
 * An :doc:`example XML file <organisation-standard/example-xml>` is provided, which is also used throughout the documentation.
 
@@ -16,7 +12,7 @@ Definition
 
 | It is designed to report *forward-looking aggregate budget* information for the reported organisations, and planned future budgets to recipient institutions or countries.
 
-| The **IATI organisational standard** is also used to report links to relevant public documents. 
+| The **IATI organisational standard** is also used to report links to relevant public documents.
 
 | Organisations publish this data in an :doc:`organisation file </organisation-standard/overview/organisation-file/>`.  It is expected that every organisation publishing IATI data should include one *organisation file*, which is updated at least annually.
 
@@ -43,3 +39,5 @@ Contents
    organisation-standard/overview
    organisation-standard/elements
 
+.. meta::
+  :order: 1

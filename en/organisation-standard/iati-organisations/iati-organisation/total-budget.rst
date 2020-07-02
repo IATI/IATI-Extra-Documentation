@@ -25,3 +25,6 @@ Changelog
 2.02
 ^^^^
 The ``status`` attribute was `added <http://support.iatistandard.org/entries/21150501-Budgets-and-tentativeness>`__.
+
+.. meta::
+  :order: 3
