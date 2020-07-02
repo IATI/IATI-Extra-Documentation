@@ -10,3 +10,6 @@ Example ``period-start`` of ``recipient-country-budget`` for an ``iati-organisat
 	:start-after: <!--recipient-country-budget starts-->
 	:end-before: <!--recipient-country-budget ends-->
 	:emphasize-lines: 3
+
+.. meta::
+  :order: 1

@@ -10,3 +10,6 @@ Example ``period-start`` of ``total-budget`` for an ``iati-organisation``.
 	:start-after: <!--total-budget starts-->
 	:end-before: <!--total-budget ends-->
 	:emphasize-lines: 2
+
+.. meta::
+  :order: 0
