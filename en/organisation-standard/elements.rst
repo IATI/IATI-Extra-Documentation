@@ -27,4 +27,4 @@ Contents
    iati-organisations
 
 .. meta::
-  :order: 1
+  :order: 2

@@ -55,4 +55,4 @@ Previous schemas
    Standard <http://iatistandard.org/101/schema/>`__
 
 .. meta::
-  :order: 5
+  :order: 4

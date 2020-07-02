@@ -70,4 +70,4 @@ Please note: elements must occur in the order they are specified in the Schema. 
      </iati-activity>
 
 .. meta::
-  :order: 6
+  :order: 5

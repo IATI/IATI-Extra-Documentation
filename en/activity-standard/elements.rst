@@ -27,4 +27,4 @@ Contents
    iati-activities
 
 .. meta::
-  :order: 1
+  :order: 2

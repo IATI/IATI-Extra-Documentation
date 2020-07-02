@@ -29,4 +29,4 @@ More info
    rulesets/ruleset-development
 
 .. meta::
-  :order: 4
+  :order: 7
