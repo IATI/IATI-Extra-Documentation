@@ -30,16 +30,5 @@ Considerations
 * What are the organisation’s planned future :doc:`budgets </organisation-standard/overview/budgets/>` for aid given to recipient organisations?
 * Where are the organisation’s official public :doc:`documents </organisation-standard/overview/documents/>`?
 
-
-Contents
---------
-
-.. toctree::
-   :titlesonly:
-   :maxdepth: 1
-
-   organisation-standard/overview
-   organisation-standard/elements
-
 .. meta::
   :order: 1
