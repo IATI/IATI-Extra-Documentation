@@ -36,16 +36,5 @@ When declaring information using the **IATI activity standard** the following sh
 * Can any Creditor Reporting System and/or Forward Survey Spending :doc:`data be included </activity-standard/overview/crs-fss/>`?
 * What are the designated :doc:`contact details </activity-standard/overview/contact-info/>` for the activity?
 
-
-Contents
---------
-
-.. toctree::
-   :titlesonly:
-   :maxdepth: 1
-
-   activity-standard/overview
-   activity-standard/elements
-
 .. meta::
   :order: 0
