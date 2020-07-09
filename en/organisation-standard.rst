@@ -1,8 +1,8 @@
 Organisation Standard
 =====================
-This section details the **IATI Organisation standard**.  See `here <https://iatistandard.org/en/guidance/preparing-data/organisation-infromation/>`__ for an in introduction to the organisation standard.
+This section details the **IATI Organisation standard**.  See `here <https://iatistandard.org/en/guidance/preparing-data/organisation-infromation/>`__ for an introduction to the organisation standard.
 
-* IATI organisation :doc:`elements <organisation-standard/iati-organisations>` - details on each and every element and attribute of the standard, including relevant code lists, rules and example usage.
+* IATI organisation :doc:`elements <organisation-standard/iati-organisations>` details on each and every element and attribute of the standard, including relevant code lists, rules and example usage.
 * A :doc:`summary table <organisation-standard/summary-table>` provides an overview of all aspects of the organisation standard.
 * An :doc:`example XML file <organisation-standard/example-xml>` is provided, which is also used throughout the documentation.
 
