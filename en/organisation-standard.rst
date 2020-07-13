@@ -14,19 +14,19 @@ Definition
 
 | The **IATI organisational standard** is also used to report links to relevant public documents.
 
-| Organisations publish this data in an :doc:`organisation file </organisation-standard/overview/organisation-file/>`.  It is expected that every organisation publishing IATI data should include one *organisation file*, which is updated at least annually.
+| Organisations publish this data in an `organisation file <https://iatistandard.org/en/guidance/standard-overview/preparing-your-data/organisation-infromation/>`__.  It is expected that every organisation publishing IATI data should include one *organisation file*, which is updated at least annually.
 
 
 Considerations
 --------------
 | When declaring information using the **IATI organisation standard** the following should be considered:
 
-* Who are the :doc:`Organisations </organisation-standard/overview/iati-organisation/>` involved?
-* How are the :doc:`Organisations </organisation-standard/overview/organisations/>` unquiely identified?
-* What are the organisation’s planned future annual total :doc:`budgets </organisation-standard/overview/budgets/>`?
-* What are the organisation’s planned future :doc:`budgets </organisation-standard/overview/budgets/>` for aid given to recipient countries?
-* What are the organisation’s planned future :doc:`budgets </organisation-standard/overview/budgets/>` for aid given to recipient organisations?
-* Where are the organisation’s official public :doc:`documents </organisation-standard/overview/documents/>`?
+* Who are the `Organisations <https://iatistandard.org/en/guidance/standard-guidance/activity-participants/>`__ involved?
+* How are the `Organisations <https://iatistandard.org/en/guidance/standard-guidance/activity-participants/>` unquiely identified?
+* What are the organisation’s planned future annual total `budgets <https://iatistandard.org/en/guidance/standard-guidance/organisation-budgets-spend/>`__?
+* What are the organisation’s planned future `budgets <https://iatistandard.org/en/guidance/standard-guidance/organisation-budgets-spend/>`__ for aid given to recipient countries?
+* What are the organisation’s planned future `budgets <https://iatistandard.org/en/guidance/standard-guidance/organisation-budgets-spend/>`__ for aid given to recipient organisations?
+* Where are the organisation’s official public `documents <https://iatistandard.org/en/guidance/standard-guidance/related-documents/>`__?
 
 .. meta::
   :order: 1
