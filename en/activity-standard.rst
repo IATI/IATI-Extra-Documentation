@@ -23,18 +23,17 @@ Considerations
 --------------
 When declaring information using the **IATI activity standard** the following should be considered:
 
-* What is the :doc:`name and description </activity-standard/overview/iati-activity/>` of the activity?
-* What is the `unique identifier </activity-standard/overview/iati-identifier/>` of the activity?
-* What :doc:`dates </activity-standard/overview/dates/>` help describe the timeframe of the activity?
-* Which :doc:`organisations </activity-standard/overview/organisations/>` are involved, and what is their role?
-* Where is the activity :doc:`geographically </activity-standard/overview/geography/>`?
-* How is the activity :doc:`classified </activity-standard/overview/classifications/>`?
-* What are the activity’s financial details, including :doc:`budgets </activity-standard/overview/budgets/>` and :doc:`transactions </activity-standard/overview/transactions/>` over time?
-* What are the expected and actual :doc:`results </activity-standard/overview/result/>`?
-* How is the activity :doc:`linked </activity-standard/overview/related-data/>` to other activities?
-* What public :doc:`documents </activity-standard/overview/linked-documents/>` help us find out more?
-* Can any Creditor Reporting System and/or Forward Survey Spending :doc:`data be included </activity-standard/overview/crs-fss/>`?
-* What are the designated :doc:`contact details </activity-standard/overview/contact-info/>` for the activity?
-
+* What is the `name and description <https://iatistandard.org/en/guidance/standard-overview/preparing-your-data/activity-information/activity-defined/>`__ of the activity?
+* What is the `unique identifier <https://iatistandard.org/en/guidance/standard-overview/preparing-your-data/activity-information/creating-iati-identifiers/>`__ of the activity?
+* What `dates <https://iatistandard.org/en/guidance/standard-guidance/activity-dates-status/>`__ help describe the timeframe of the activity?
+* Which `organisations <https://iatistandard.org/en/guidance/standard-guidance/activity-participants/>`__ are involved, and what is their role?
+* Where is the activity `geographically <https://iatistandard.org/en/guidance/standard-guidance/countries-regions/>`__?
+* How is the activity `classified <https://iatistandard.org/en/guidance/standard-guidance/activity-thematic-focus/>`__?
+* What are the activity’s financial details, including `budgets <https://iatistandard.org/en/guidance/standard-guidance/activity-budgets/>`__ and `transactions <https://iatistandard.org/en/guidance/standard-guidance/financial-transactions/>`__ over time?
+* What are the expected and actual `results <https://iatistandard.org/en/guidance/standard-guidance/results/>`__?
+* How is the activity `linked <https://iatistandard.org/en/guidance/standard-guidance/related-data/>`__ to other activities?
+* What public `documents <https://iatistandard.org/en/guidance/standard-guidance/related-documents/>`__ help us find out more?
+* Can any Creditor Reporting System and/or Forward Survey Spending `data be included <https://iatistandard.org/en/guidance/standard-guidance/crs-fss/>`__?
+* Can any `Sustainable Development Goals <https://iatistandard.org/en/guidance/standard-guidance/sdg-guidance/>`__ be assigned to the activity?
 .. meta::
  :order: 0
