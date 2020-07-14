@@ -44,4 +44,4 @@ recipient-country and recipient-region
 Machine Readable Rules
 ^^^^^^^^^^^^^^^^^^^^^^
 
-These rules are defined in a `JSON file <https://github.com/IATI/IATI-Rulesets/blob/version-2.01/rulesets/standard.json>` as part of our :doc:`Single Source of Truth </developer/ssot/>` that can be consumed programatically. The list below has been generated from that source.
+These rules are defined in a `JSON file <https://github.com/IATI/IATI-Rulesets/blob/version-2.01/rulesets/standard.json>` as part of our `Single Source of Truth <https://github.com/IATI/IATI-Standard-SSOT>__` that can be consumed programatically. The list below has been generated from that source.
