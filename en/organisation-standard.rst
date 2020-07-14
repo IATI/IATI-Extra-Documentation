@@ -22,7 +22,7 @@ Considerations
 | When declaring information using the **IATI organisation standard** the following should be considered:
 
 * Who are the `Organisations <https://iatistandard.org/en/guidance/standard-guidance/activity-participants/>`__ involved?
-* How are the `Organisations <https://iatistandard.org/en/guidance/standard-guidance/activity-participants/>`__ unquiely identified?
+* How are the `Organisations <https://iatistandard.org/en/guidance/standard-guidance/activity-participants/>`__ uniquely identified?
 * What are the organisation’s planned future annual total `budgets <https://iatistandard.org/en/guidance/standard-guidance/organisation-budgets-spend/>`__?
 * What are the organisation’s planned future `budgets <https://iatistandard.org/en/guidance/standard-guidance/organisation-budgets-spend/>`__ for aid given to recipient countries?
 * What are the organisation’s planned future `budgets <https://iatistandard.org/en/guidance/standard-guidance/organisation-budgets-spend/>`__ for aid given to recipient organisations?
