@@ -1,4 +1,8 @@
-This is the repository contains additional documentation about the IATI Standard, and is part of IATI Standard Single Source of Truth (SSOT). For more detailed information about the SSOT, please see https://github.com/IATI/IATI-Standard-SSOT/blob/master/meta-docs/index.rst 
+
+.. image:: https://github.com/IATI/IATI-Extra-Documentation/workflows/CI_version-2.03/badge.svg
+    :target: https://github.com/IATI/IATI-Extra-Documentation/actions
+
+This is the repsitory contains additional documentation about the IATI Standard, and is part of IATI Standard Single Source of Truth (SSOT). For more detailed information about the SSOT, please see https://github.com/IATI/IATI-Standard-SSOT/blob/master/meta-docs/index.rst 
 
 Whilst this is the single source for the documentation, it is probably easier to read it integrated into the website, e.g. at http://iatistandard.org/activity-standard/
 
