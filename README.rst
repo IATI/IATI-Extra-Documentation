@@ -1,5 +1,5 @@
-.. image:: https://github.com/IATI/IATI-Rulesets/workflows/CI_version-2.02/badge.svg
-    :target: https://github.com/IATI/IATI-Rulesets/actions
+.. image:: https://github.com/IATI/IATI-Extra-Documentation/workflows/CI_version-2.02/badge.svg
+    :target: https://github.com/IATI/IATI-Extra-Documentation/actions
 
 This is the repository contains additional documentation about the IATI Standard, and is part of IATI Standard Single Source of Truth (SSOT). For more detailed information about the SSOT, please see https://github.com/IATI/IATI-Standard-SSOT/blob/master/meta-docs/index.rst 
 

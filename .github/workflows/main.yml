@@ -23,7 +23,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: IATI/IATI-Schemas
-          ref: version-2.03
+          ref: version-2.02
           path: IATI-Schemas
 
       - name: Run schema validation with xmllint
