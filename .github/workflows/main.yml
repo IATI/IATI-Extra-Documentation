@@ -28,6 +28,5 @@ jobs:
 
       - name: Run schema validation with xmllint
         run: |
-          ls -lh
-          cd ../
-          ls -lh
+          xmllint --schema IATI-Schemas/iati-activities-schema.xsd --noout IATI-Extra-Documentation/en/activity-standard/*.xml
+          xmllint --schema IATI-Schemas/iati-organisations-schema.xsd --noout IATI-Extra-Documentation/en/organisation-standard/*.xml
