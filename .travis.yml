@@ -1,6 +1,0 @@
-before_install:
-    - sudo apt-get update -qq
-    - sudo apt-get install -qq libxml2-utils
-script:
-    - wget "https://raw.githubusercontent.com/IATI/IATI-Schemas/version-2.03/iati-activities-schema.xsd"; wget "https://raw.githubusercontent.com/IATI/IATI-Schemas/version-2.03/iati-common.xsd"; wget "https://raw.githubusercontent.com/IATI/IATI-Schemas/version-2.03/iati-common.xsd"; wget "https://raw.githubusercontent.com/IATI/IATI-Schemas/version-2.03/xml.xsd"; xmllint --schema iati-activities-schema.xsd --noout en/activity-standard/*.xml
-    - wget "https://raw.githubusercontent.com/IATI/IATI-Schemas/version-2.03/iati-organisations-schema.xsd"; wget "https://raw.githubusercontent.com/IATI/IATI-Schemas/version-2.03/iati-common.xsd"; wget "https://raw.githubusercontent.com/IATI/IATI-Schemas/version-2.03/iati-common.xsd"; wget "https://raw.githubusercontent.com/IATI/IATI-Schemas/version-2.03/xml.xsd"; xmllint --schema iati-organisations-schema.xsd --noout en/organisation-standard/*.xml
