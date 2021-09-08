@@ -4,7 +4,7 @@ The Standard Ruleset is a collection of rules that cover most of the requirement
 
 We have created a generic framework that allows us to express many of these rules in a way that machines can understand and humans can interpret by reading a simple error message.
 
-We have written some code to interpret these rules, and hope that they will be useful, for example, for someone that wanted to build a web application that tested people's data against these rules. They should be easy to implement.
+The IATI Validator V2 uses these rules to programmatically validate IATI documents. The code used to interpret these rules and validate an IATI document are part of the validator GitHub repository. `IATI/js-validator-api <https://github.com/IATI/js-validator-api>`_
 
 There are some things given in definitions of elements that really only a human can interpret, such as "Is a title meaningful?". The Standard Ruleset does not even try to deal with cases such as this. 
 
