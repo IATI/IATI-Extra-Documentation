@@ -95,10 +95,15 @@
   <title>
    <narrative>Annual Report 2013</narrative>
   </title>
+  <description>
+    <narrative>Description of the annual report.</narrative>
+  </description>
   <category code="B01" />
   <language code="en" />
   <document-date iso-date="2014-02-05" />
-  <recipient-country code="AF" />
+  <recipient-country code="AF">
+    <narrative>Afghanistan</narrative>
+   </recipient-country>
  </document-link>
  <!--document-link ends-->
 
@@ -108,12 +113,35 @@
     <narrative>Annual Report 2013</narrative>
     <narrative xml:lang="fr">Rapport annuel 2013</narrative>
    </title>
+   <description>
+    <narrative>Description of the annual report.</narrative>
+  </description>
    <category code="B01" />
    <language code="en" />
    <document-date iso-date="2014-02-05" />
-   <recipient-country code="AF" />
+   <recipient-country code="AF">
+    <narrative>Afghanistan</narrative>
+   </recipient-country>
   </document-link>
   <!--document-link-title ends-->
+
+   <!--document-link-description starts-->
+ <document-link format="application/vnd.oasis.opendocument.text" url="http://www.example.org/docs/report_en.odt">
+  <title>
+    <narrative>Annual Report 2013</narrative>
+   </title>
+   <description>
+    <narrative>Description of the annual report.</narrative>
+    <narrative xml:lang="fr">Description du rapport annuel.</narrative>
+  </description>
+   <category code="B01" />
+   <language code="en" />
+   <document-date iso-date="2014-02-05" />
+   <recipient-country code="AF">
+    <narrative>Afghanistan</narrative>
+   </recipient-country>
+  </document-link>
+  <!--document-link-description ends-->
 
   <!--document-link-lang starts-->
   <document-link format="application/vnd.oasis.opendocument.text" url="http://www.example.org/docs/report_fr.odt">
@@ -124,7 +152,9 @@
    <category code="B01" />
    <language code="fr" />
    <document-date iso-date="2014-02-05" />
-   <recipient-country code="AF" />
+   <recipient-country code="AF">
+    <narrative>Afghanistan</narrative>
+   </recipient-country>
   </document-link>
   <!--document-link-lang ends-->
 
@@ -142,7 +172,9 @@
    <category code="B03" />
    <language code="en" />
    <document-date iso-date="2014-02-05" />
-   <recipient-country code="AF" />
+   <recipient-country code="AF">
+    <narrative>Afghanistan</narrative>
+   </recipient-country>
   </document-link>
   <!--multi-cat-document-link ends-->
 
@@ -158,7 +190,9 @@
    <category code="B01" />
    <language code="en" />
    <document-date iso-date="2014-02-05" />
-   <recipient-country code="AF" />
+   <recipient-country code="AF">
+    <narrative>Afghanistan</narrative>
+   </recipient-country>
    <recipient-country code="AX" />
    <recipient-country code="AL" />
   </document-link>
