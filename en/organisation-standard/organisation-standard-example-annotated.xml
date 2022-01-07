@@ -63,7 +63,9 @@
    </title>
    <category code="B01" />
    <language code="en" />
-   <recipient-country code="AF" />  
+   <recipient-country code="AF">
+    <narrative>Afghanistan</narrative>
+   </recipient-country>
   </document-link>
   <!--document-link ends-->
   <!--document-link-title starts-->
@@ -74,7 +76,9 @@
    </title>
    <category code="B01" />
    <language code="en" />
-   <recipient-country code="AF" />  
+   <recipient-country code="AF">
+    <narrative>Afghanistan</narrative>
+   </recipient-country>
   </document-link>
   <!--document-link-title ends-->  
   <!--document-link-lang starts-->
@@ -85,7 +89,9 @@
    </title>
    <category code="B01" />
    <language code="fr" />
-   <recipient-country code="AF" />   
+   <recipient-country code="AF">
+    <narrative>Afghanistan</narrative>
+   </recipient-country>
   </document-link>
   <!--document-link-lang ends-->
   <!--multi-cat-document-link starts-->
@@ -98,7 +104,9 @@
    <category code="B02" />
    <category code="B03" />
    <language code="en" />
-   <recipient-country code="AF" />
+   <recipient-country code="AF">
+    <narrative>Afghanistan</narrative>
+   </recipient-country>
   </document-link>
   <!--multi-cat-document-link ends-->
   <!--multi-country-document-link starts-->
@@ -109,7 +117,9 @@
    </title>
    <category code="B01" />
    <language code="en" />
-   <recipient-country code="AF" />
+   <recipient-country code="AF">
+    <narrative>Afghanistan</narrative>
+   </recipient-country>
    <recipient-country code="AX" />
    <recipient-country code="AL" />
   </document-link>
