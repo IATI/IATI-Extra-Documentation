@@ -2,7 +2,7 @@ Example Usage
 ~~~~~~~~~~~~~
 | Example usage of ``description`` of a ``document-link`` in an ``iati-organisation``.
 
-.. literalinclude:: ../../../../organisation-standard-example-annotated.xml
+.. literalinclude:: ../../../organisation-standard-example-annotated.xml
     :language: xml
     :start-after: <!--document-link-description starts-->
     :end-before: <!--document-link-description ends-->
