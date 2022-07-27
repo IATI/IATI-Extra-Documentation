@@ -3,3 +3,6 @@ en/_build
 *~
 */html
 .DS_Store
+fr/_build
+**/__pycache__
+.pytest_cache
