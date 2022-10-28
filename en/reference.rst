@@ -1,26 +1,7 @@
 Reference
 =========
-| These reference materials provide detailed documentation on the core facets of the **IATI Standard**:
-| 
-| These are:
 
-* **Organisation Standard**
-* **Activity Standard**
-* **Namespaces & Extensions**
-* **Codelists**
-* **Schema**
-* **Rulesets**
-
-.. toctree::
-   :titlesonly:
-
-   organisation-identifiers
-   activity-standard
-   organisation-standard
-   namespaces-extensions
-   codelists
-   schema
-   rulesets
+This extra documentation of the IATI Standard utilizes Requirement Level definitions from [RFC2119](https://www.ietf.org/rfc/rfc2119.txt).
 
 .. meta::
   :order: 6
