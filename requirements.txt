@@ -1,2 +1,2 @@
-Sphinx==7.2.4
+Sphinx==7.2.5
 pytest==7.4.0
