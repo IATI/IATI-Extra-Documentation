@@ -388,6 +388,12 @@
        <narrative>Baseline comment text</narrative>
       </comment>
      </baseline>
+     <baseline year="2012" iso-date="2012-01-01" value="5">
+      <location ref="AF-KAN" />
+      <location ref="KH-PNH" />
+      <dimension name="sex" value="male" />
+      <dimension name="age" value="adult" />
+     </baseline>
      <!--result-baseline ends-->
      <!--result-period starts-->
      <period>
@@ -413,6 +419,12 @@
         <document-date iso-date="2014-02-05" />
        </document-link>
       </target>
+      <target value="5">
+       <location ref="AF-KAN" />
+       <location ref="KH-PNH" />
+       <dimension name="sex" value="male" />
+       <dimension name="age" value="adult" />
+      </target>
       <actual value="11">
        <location ref="AF-KAN" />
        <location ref="KH-PNH" />
@@ -432,6 +444,12 @@
         <language code="en" />
         <document-date iso-date="2014-02-05" />
        </document-link>
+      </actual>
+      <actual value="6">
+       <location ref="AF-KAN" />
+       <location ref="KH-PNH" />
+       <dimension name="sex" value="male" />
+       <dimension name="age" value="adult" />
       </actual>
      </period>
      <!--result-period ends-->
